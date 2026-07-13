@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-medmaps1",
+    "version": "20260713-ryczywol-zusfix1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -1602,17 +1602,17 @@
         },
         {
           "label": {
-            "pl": "Otwórz aplikację",
-            "en": "Open app",
-            "ua": "Відкрити додаток",
-            "ru": "Открыть приложение",
-            "az": "Tətbiqi aç",
-            "es": "Abrir app",
-            "fil": "Buksan ang app",
-            "id": "Buka aplikasi",
-            "ne": "एप खोल्नुहोस्"
+            "pl": "eZUS / PUE",
+            "en": "eZUS / PUE",
+            "ua": "eZUS / PUE",
+            "ru": "eZUS / PUE",
+            "az": "eZUS / PUE",
+            "es": "eZUS / PUE",
+            "fil": "eZUS / PUE",
+            "id": "eZUS / PUE",
+            "ne": "eZUS / PUE"
           },
-          "url": "https://www.zus.pl/ezus",
+          "url": "https://www.zus.pl/pue1",
           "tone": "yellow"
         }
       ],
