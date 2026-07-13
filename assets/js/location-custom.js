@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-data2",
+    "version": "20260713-ryczywol-data3",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -683,7 +683,6 @@
       {
         "name": "Volodymyr Skochelias",
         "phone": "+48571209693",
-        "email": "volodymyr.skochelias@polskiepomidory.com",
         "role": {
           "pl": "Magazyn - lider obszaru",
           "en": "Warehouse - area leader",
@@ -732,7 +731,6 @@
         {
           "name": "Małgorzata Sitnik",
           "phone": "+48571209696",
-          "email": "malgorzata.sitnik@polskiepomidory.com",
           "role": {
             "pl": "Produkcja - brygadzistka szklarni",
             "en": "Production - greenhouse team leader",
