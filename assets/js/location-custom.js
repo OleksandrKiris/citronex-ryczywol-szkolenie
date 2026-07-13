@@ -3,7 +3,8 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-contacts1-ryczywol",
+    "version": "20260713-version1-ryczywol",
+    "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
     "repo": "citronex-ryczywol-szkolenie",
