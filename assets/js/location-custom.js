@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-accommodation1-ryczywol",
+    "version": "20260713-priority-contacts1-ryczywol",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -675,6 +675,38 @@
     }
   ],
   "contacts": {
+    "priority": [
+      {
+        "name": "Maksym Saliuk",
+        "role": {
+          "pl": "Ryczywół - rekrutacja i koordynacja",
+          "en": "Ryczywół - recruitment and coordination",
+          "ua": "Ryczywół - рекрутація і координація",
+          "ru": "Ryczywół - рекрутация и координация",
+          "az": "Ryczywół - işə qəbul və koordinasiya",
+          "es": "Ryczywół - reclutamiento y coordinación",
+          "fil": "Ryczywół - recruitment at coordination",
+          "id": "Ryczywół - rekrutmen dan koordinasi",
+          "ne": "Ryczywół - भर्ती र समन्वय"
+        },
+        "phone": "+48 506 845 637"
+      },
+      {
+        "name": "Liudmyla / Людмила",
+        "phone": "+48536110591",
+        "role": {
+          "pl": "Zakwaterowanie - Ryczywół",
+          "en": "Accommodation - Ryczywół",
+          "ua": "Житло - Ryczywół",
+          "ru": "Жильё - Ryczywół",
+          "az": "Yaşayış yeri - Ryczywół",
+          "es": "Alojamiento - Ryczywół",
+          "fil": "Tirahan - Ryczywół",
+          "id": "Akomodasi - Ryczywół",
+          "ne": "बसोबास - Ryczywół"
+        }
+      }
+    ],
     "coordinators": [
       {
         "name": "Julia Kornienko",
