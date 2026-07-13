@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-lekarz3",
+    "version": "20260713-ryczywol-miasto-urzad1",
     "location": "Ryczywół",
     "appTitle": "Polskie Pomidory Ryczywół",
     "repo": "citronex-ryczywol-szkolenie",
@@ -159,25 +159,25 @@
     "miasto": {
       "title": {
         "pl": "Miasto, urząd i banki",
-        "en": "City, office and banks",
-        "ua": "Місто, установа і банки",
-        "ru": "Город, учреждение и банки",
-        "az": "Şəhər, idarə və banklar",
-        "es": "Ciudad, oficina y bancos",
-        "fil": "Lungsod, opisina at bangko",
+        "en": "City, offices and banks",
+        "ua": "Місто, установи і банки",
+        "ru": "Город, учреждения и банки",
+        "az": "Şəhər, idarələr və banklar",
+        "es": "Ciudad, oficinas y bancos",
+        "fil": "City, opisina at bangko",
         "id": "Kota, kantor dan bank",
         "ne": "शहर, कार्यालय र बैंक"
       },
       "lead": {
-        "pl": "Najważniejsze miejsca dla pracownika: Urząd Gminy Ryczywół, urząd wojewódzki do karty pobytu, banki, transport i aplikacje.",
-        "en": "Key places for a worker: Ryczywół Commune Office, voivodeship office for residence card, banks, transport and apps.",
-        "ua": "Найважливіші місця для працівника: Гміна Ryczywół, воєводське управління для карти побиту, банки, транспорт і додатки.",
-        "ru": "Самые важные места для работника: гмина Ryczywół, воеводское управление для карты побыту, банки, транспорт и приложения.",
-        "az": "İşçi üçün əsas yerlər: Ryczywół bələdiyyə idarəsi, yaşayış kartı üçün voyevodalıq idarəsi, banklar, nəqliyyat və tətbiqlər.",
-        "es": "Lugares clave para el trabajador: oficina municipal de Ryczywół, oficina regional para tarjeta de residencia, bancos, transporte y apps.",
-        "fil": "Mahahalagang lugar para sa worker: Ryczywół Commune Office, voivodeship office para sa residence card, bangko, transport at apps.",
-        "id": "Tempat penting untuk pekerja: Kantor Gmina Ryczywół, kantor provinsi untuk kartu tinggal, bank, transportasi dan aplikasi.",
-        "ne": "कामदारका लागि मुख्य ठाउँहरू: Ryczywół ग्मिना कार्यालय, बसोबास कार्डका लागि प्रान्तीय कार्यालय, बैंक, यातायात र एपहरू।"
+        "pl": "Najważniejsze miejsca dla pracownika w Ryczywole: urząd gminy, karta pobytu w Poznaniu, banki, poczta, transport i aplikacje.",
+        "en": "Key places for a worker in Ryczywół: commune office, residence card office in Poznań, banks, post office, transport and apps.",
+        "ua": "Найважливіші місця для працівника в Ryczywole: гміна, карта побиту в Poznaniu, банки, пошта, транспорт і додатки.",
+        "ru": "Самые важные места для работника в Ryczywole: гмина, карта побыту в Poznaniu, банки, почта, транспорт и приложения.",
+        "az": "Ryczywół-da işçi üçün əsas yerlər: bələdiyyə, Poznań-da yaşayış kartı idarəsi, banklar, poçt, nəqliyyat və tətbiqlər.",
+        "es": "Lugares clave para el trabajador en Ryczywół: oficina municipal, residencia en Poznań, bancos, correo, transporte y apps.",
+        "fil": "Mahahalagang lugar sa Ryczywół: commune office, residence card sa Poznań, bangko, post office, transport at apps.",
+        "id": "Tempat penting di Ryczywół: kantor gmina, kartu tinggal di Poznań, bank, kantor pos, transportasi dan aplikasi.",
+        "ne": "Ryczywół मा कामदारका लागि मुख्य ठाउँहरू: ग्मिना कार्यालय, Poznań मा बसोबास कार्ड कार्यालय, बैंक, हुलाक, यातायात र एपहरू।"
       }
     },
     "grupy": {
@@ -1478,6 +1478,7 @@
   ],
   "city": [
     {
+      "id": "urzad-ryczywol",
       "icon": "city",
       "tone": "blue",
       "title": {
@@ -1491,30 +1492,53 @@
         "id": "Kantor Gmina Ryczywół",
         "ne": "Ryczywół ग्मिना कार्यालय"
       },
-      "body": {
-        "pl": "Tu załatwia się lokalne sprawy urzędowe w Ryczywole.",
-        "en": "This is where local office matters in Ryczywół are handled.",
-        "ua": "Тут вирішують місцеві адміністративні справи в Ryczywole.",
-        "ru": "Здесь решают местные административные вопросы в Ryczywole.",
-        "az": "Ryczywół-da yerli rəsmi işlər burada həll olunur.",
-        "es": "Aquí se gestionan asuntos municipales locales en Ryczywół.",
-        "fil": "Dito inaasikaso ang local office matters sa Ryczywół.",
-        "id": "Di sini mengurus urusan kantor lokal di Ryczywół.",
-        "ne": "Ryczywół का स्थानीय सरकारी काम यहाँ गरिन्छ।"
-      },
       "address": {
-        "pl": "Adres: ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
-        "en": "Address: ul. Mickiewicza 10, 64-630 Ryczywół. Phone: 67 283 70 02.",
-        "ua": "Адреса: вул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
-        "ru": "Адрес: ул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
-        "az": "Ünvan: ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
-        "es": "Dirección: ul. Mickiewicza 10, 64-630 Ryczywół. Teléfono: 67 283 70 02.",
-        "fil": "Address: ul. Mickiewicza 10, 64-630 Ryczywół. Telepono: 67 283 70 02.",
-        "id": "Alamat: ul. Mickiewicza 10, 64-630 Ryczywół. Telepon: 67 283 70 02.",
-        "ne": "ठेगाना: ul. Mickiewicza 10, 64-630 Ryczywół। फोन: 67 283 70 02।"
+        "pl": "ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
+        "en": "ul. Mickiewicza 10, 64-630 Ryczywół. Phone: 67 283 70 02.",
+        "ua": "вул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
+        "ru": "ул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
+        "az": "ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
+        "es": "ul. Mickiewicza 10, 64-630 Ryczywół. Teléfono: 67 283 70 02.",
+        "fil": "ul. Mickiewicza 10, 64-630 Ryczywół. Telepono: 67 283 70 02.",
+        "id": "ul. Mickiewicza 10, 64-630 Ryczywół. Telepon: 67 283 70 02.",
+        "ne": "ul. Mickiewicza 10, 64-630 Ryczywół। फोन: 67 283 70 02।"
       },
-      "list": [],
-      "buttons": [
+      "note": {
+        "pl": "Do lokalnych spraw: meldunek, pytania urzędowe, dokumenty gminne. Zabierz paszport/dokument i telefon.",
+        "en": "For local matters: registration address, office questions, commune documents. Take passport/ID and phone.",
+        "ua": "Для місцевих справ: прописка, питання в установі, документи гміни. Візьми паспорт/документ і телефон.",
+        "ru": "Для местных дел: регистрация адреса, вопросы в учреждении, документы гмины. Возьми паспорт/документ и телефон.",
+        "az": "Yerli işlər üçün: qeydiyyat ünvanı, idarə sualları, bələdiyyə sənədləri. Pasport/ID və telefon götür.",
+        "es": "Para asuntos locales: empadronamiento, preguntas de oficina, documentos. Lleva pasaporte/ID y teléfono.",
+        "fil": "Para sa local matters: address registration, office questions, commune documents. Dalhin passport/ID at phone.",
+        "id": "Untuk urusan lokal: alamat terdaftar, pertanyaan kantor, dokumen gmina. Bawa paspor/ID dan telepon.",
+        "ne": "स्थानीय कामका लागि: ठेगाना दर्ता, कार्यालयका प्रश्न, ग्मिना कागजात। पासपोर्ट/ID र फोन लैजानुहोस्।"
+      },
+      "list": [
+        {
+          "pl": "Godziny z urzędu: poniedziałek-piątek zwykle 7:30-15:30.",
+          "en": "Office hours: usually Monday-Friday 7:30-15:30.",
+          "ua": "Години: зазвичай понеділок-п’ятниця 7:30-15:30.",
+          "ru": "Часы: обычно понедельник-пятница 7:30-15:30.",
+          "az": "İş saatları: adətən bazar ertəsi-cümə 7:30-15:30.",
+          "es": "Horario: normalmente lunes-viernes 7:30-15:30.",
+          "fil": "Oras: karaniwang Lunes-Biyernes 7:30-15:30.",
+          "id": "Jam: biasanya Senin-Jumat 7:30-15:30.",
+          "ne": "समय: सामान्यतया सोमबार-शुक्रबार 7:30-15:30।"
+        },
+        {
+          "pl": "Najpierw sprawdź w mapie albo zadzwoń, jeśli jedziesz specjalnie.",
+          "en": "Check the map or call first if you go specially.",
+          "ua": "Якщо їдеш спеціально, спочатку перевір карту або подзвони.",
+          "ru": "Если едешь специально, сначала проверь карту или позвони.",
+          "az": "Xüsusi gedirsinizsə, əvvəl xəritəni yoxlayın və ya zəng edin.",
+          "es": "Si vas especialmente, revisa el mapa o llama primero.",
+          "fil": "Kung sadya kang pupunta, tingnan muna ang mapa o tumawag.",
+          "id": "Jika pergi khusus, cek peta atau telepon dulu.",
+          "ne": "विशेष रूपमा जाँदै हुनुहुन्छ भने पहिले नक्सा हेर्नुहोस् वा फोन गर्नुहोस्।"
+        }
+      ],
+      "links": [
         {
           "label": {
             "pl": "Otwórz mapę",
@@ -1527,12 +1551,30 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Gminy%20Ryczyw%C3%B3%C5%82%20Mickiewicza%2010"
+          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Gminy%20Ryczyw%C3%B3%C5%82%20Mickiewicza%2010",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Otwórz stronę",
+            "en": "Open website",
+            "ua": "Відкрити сторінку",
+            "ru": "Открыть сайт",
+            "az": "Saytı aç",
+            "es": "Abrir web",
+            "fil": "Buksan ang website",
+            "id": "Buka situs",
+            "ne": "वेबसाइट खोल्नुहोस्"
+          },
+          "url": "https://ryczywol.pl/kontakt.html",
+          "tone": "blue"
         }
-      ]
+      ],
+      "phone": "+48672837002"
     },
     {
-      "icon": "document",
+      "id": "wuw-poznan",
+      "icon": "city",
       "tone": "blue",
       "title": {
         "pl": "WUW Poznań / karta pobytu",
@@ -1545,30 +1587,42 @@
         "id": "WUW Poznań / kartu tinggal",
         "ne": "WUW Poznań / बसोबास कार्ड"
       },
-      "body": {
-        "pl": "Sprawy karty pobytu dla Wielkopolski prowadzi Wielkopolski Urząd Wojewódzki w Poznaniu, Wydział Spraw Cudzoziemców.",
-        "en": "Residence card matters for Wielkopolska are handled by the Wielkopolska Voivodeship Office in Poznań, Foreigners Affairs Department.",
-        "ua": "Питання карти побиту у Великопольському воєводстві веде Wielkopolski Urząd Wojewódzki w Poznaniu, відділ справ іноземців.",
-        "ru": "Вопросы карты побыту в Великопольском воеводстве ведёт Wielkopolski Urząd Wojewódzki w Poznaniu, отдел по делам иностранцев.",
-        "az": "Wielkopolska bölgəsində yaşayış kartı işlərinə Poznań Wielkopolska voyevodalıq idarəsinin əcnəbilər şöbəsi baxır.",
-        "es": "Los asuntos de tarjeta de residencia en Wielkopolska los lleva la oficina regional de Poznań, departamento de extranjeros.",
-        "fil": "Ang residence card matters para sa Wielkopolska ay nasa Wielkopolska Voivodeship Office sa Poznań, Foreigners Affairs Department.",
-        "id": "Urusan kartu tinggal untuk Wielkopolska ditangani Kantor Provinsi Wielkopolska di Poznań, bagian orang asing.",
-        "ne": "Wielkopolska को बसोबास कार्डको काम Poznań को प्रान्तीय कार्यालय, विदेशी विभागले हेर्छ।"
-      },
       "address": {
-        "pl": "Adres: pl. Wolności 17, 61-739 Poznań. Infolinia dla cudzoziemców WUW: 61 850 87 77.",
-        "en": "Address: pl. Wolności 17, 61-739 Poznań. WUW foreigners helpline: 61 850 87 77.",
-        "ua": "Адреса: pl. Wolności 17, 61-739 Poznań. Інфолінія WUW для іноземців: 61 850 87 77.",
-        "ru": "Адрес: pl. Wolności 17, 61-739 Poznań. Инфолиния WUW для иностранцев: 61 850 87 77.",
-        "az": "Ünvan: pl. Wolności 17, 61-739 Poznań. WUW əcnəbilər xətti: 61 850 87 77.",
-        "es": "Dirección: pl. Wolności 17, 61-739 Poznań. Línea WUW para extranjeros: 61 850 87 77.",
-        "fil": "Address: pl. Wolności 17, 61-739 Poznań. WUW foreigners helpline: 61 850 87 77.",
-        "id": "Alamat: pl. Wolności 17, 61-739 Poznań. Hotline WUW untuk orang asing: 61 850 87 77.",
-        "ne": "ठेगाना: pl. Wolności 17, 61-739 Poznań। विदेशीका लागि WUW फोन: 61 850 87 77।"
+        "pl": "Wydział Spraw Cudzoziemców: pl. Wolności 17, 61-739 Poznań. Infolinia: 61 850 87 77.",
+        "en": "Foreigners Affairs Department: pl. Wolności 17, 61-739 Poznań. Helpline: 61 850 87 77.",
+        "ua": "Відділ справ іноземців: pl. Wolności 17, 61-739 Poznań. Інфолінія: 61 850 87 77.",
+        "ru": "Отдел по делам иностранцев: pl. Wolności 17, 61-739 Poznań. Инфолиния: 61 850 87 77.",
+        "az": "Əcnəbilər şöbəsi: pl. Wolności 17, 61-739 Poznań. Məlumat xətti: 61 850 87 77.",
+        "es": "Departamento de extranjeros: pl. Wolności 17, 61-739 Poznań. Línea: 61 850 87 77.",
+        "fil": "Foreigners Affairs Department: pl. Wolności 17, 61-739 Poznań. Helpline: 61 850 87 77.",
+        "id": "Bagian orang asing: pl. Wolności 17, 61-739 Poznań. Hotline: 61 850 87 77.",
+        "ne": "विदेशी विभाग: pl. Wolności 17, 61-739 Poznań। फोन: 61 850 87 77।"
       },
-      "list": [],
-      "buttons": [
+      "note": {
+        "pl": "Do spraw karty pobytu i legalizacji pobytu. Nie jedź bez potrzeby - najpierw sprawdź instrukcję, termin albo zapytaj koordynatora.",
+        "en": "For residence card and stay legalisation. Do not go without need - first check instructions, appointment or ask the coordinator.",
+        "ua": "Для карти побиту і легалізації. Не їдь без потреби - спочатку перевір інструкцію, термін або запитай координатора.",
+        "ru": "Для карты побыту и легализации. Не езжай без необходимости - сначала проверь инструкцию, запись или спроси координатора.",
+        "az": "Yaşayış kartı və leqallaşma üçün. Lazım olmadan getmə - əvvəl təlimatı, vaxtı yoxla və ya koordinatora soruş.",
+        "es": "Para tarjeta de residencia y legalización. No vayas sin necesidad: revisa instrucciones, cita o pregunta al coordinador.",
+        "fil": "Para sa residence card at legalisation. Huwag pumunta kung hindi kailangan - tingnan muna instructions/cita o magtanong sa coordinator.",
+        "id": "Untuk kartu tinggal dan legalisasi. Jangan pergi tanpa perlu - cek instruksi, janji atau tanya koordinator dulu.",
+        "ne": "बसोबास कार्ड र वैधानिक बसाइका लागि। आवश्यक नभई नजानुहोस् - पहिले निर्देशन, अपोइन्टमेन्ट वा कोर्डिनेटरलाई सोध्नुहोस्।"
+      },
+      "list": [
+        {
+          "pl": "Obsługa w Poznaniu: poniedziałek 9:30-18:00, wtorek-piątek 8:15-15:15.",
+          "en": "Service in Poznań: Monday 9:30-18:00, Tuesday-Friday 8:15-15:15.",
+          "ua": "Обслуговування в Познані: понеділок 9:30-18:00, вівторок-п’ятниця 8:15-15:15.",
+          "ru": "Обслуживание в Познани: понедельник 9:30-18:00, вторник-пятница 8:15-15:15.",
+          "az": "Poznań-da xidmət: bazar ertəsi 9:30-18:00, çərşənbə axşamı-cümə 8:15-15:15.",
+          "es": "Atención en Poznań: lunes 9:30-18:00, martes-viernes 8:15-15:15.",
+          "fil": "Service sa Poznań: Lunes 9:30-18:00, Martes-Biyernes 8:15-15:15.",
+          "id": "Layanan di Poznań: Senin 9:30-18:00, Selasa-Jumat 8:15-15:15.",
+          "ne": "Poznań मा सेवा: सोमबार 9:30-18:00, मंगलबार-शुक्रबार 8:15-15:15।"
+        }
+      ],
+      "links": [
         {
           "label": {
             "pl": "Otwórz mapę",
@@ -1581,264 +1635,137 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Wielkopolski%20Urz%C4%85d%20Wojew%C3%B3dzki%20Wydzia%C5%82%20Spraw%20Cudzoziemc%C3%B3w%20pl.%20Wolno%C5%9Bci%2017%20Pozna%C5%84"
-        }
-      ]
-    },
-    {
-      "icon": "bank",
-      "tone": "yellow",
-      "title": {
-        "pl": "Banki i bankomaty",
-        "en": "Banks and ATMs",
-        "ua": "Банки і банкомати",
-        "ru": "Банки и банкоматы",
-        "az": "Banklar və bankomatlar",
-        "es": "Bancos y cajeros",
-        "fil": "Bangko at ATM",
-        "id": "Bank dan ATM",
-        "ne": "बैंक र ATM"
-      },
-      "body": {
-        "pl": "Ogólna mapa banków i bankomatów.",
-        "en": "General map of banks and ATMs.",
-        "ua": "Загальна карта банків і банкоматів.",
-        "ru": "Общая карта банков и банкоматов.",
-        "az": "Bank və bankomatların ümumi xəritəsi.",
-        "es": "Mapa general de bancos y cajeros.",
-        "fil": "General map ng bangko at ATM.",
-        "id": "Peta umum bank dan ATM.",
-        "ne": "बैंक र ATM को सामान्य नक्सा।"
-      },
-      "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
-      },
-      "list": [],
-      "buttons": [
+          "url": "https://www.google.com/maps/search/?api=1&query=Wielkopolski%20Urz%C4%85d%20Wojew%C3%B3dzki%20Wydzia%C5%82%20Spraw%20Cudzoziemc%C3%B3w%20pl.%20Wolno%C5%9Bci%2017%20Pozna%C5%84",
+          "tone": "blue"
+        },
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Otwórz stronę",
+            "en": "Open website",
+            "ua": "Відкрити сторінку",
+            "ru": "Открыть сайт",
+            "az": "Saytı aç",
+            "es": "Abrir web",
+            "fil": "Buksan ang website",
+            "id": "Buka situs",
+            "ne": "वेबसाइट खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Ryczyw%C3%B3%C5%82"
+          "url": "https://migrant.poznan.uw.gov.pl/pl/dane-kontaktowe",
+          "tone": "blue"
         }
-      ]
+      ],
+      "phone": "+48618508777"
     },
     {
-      "icon": "bank",
-      "tone": "yellow",
-      "title": {
-        "pl": "Bank 1 - do uzupełnienia",
-        "en": "Bank 1 - to be added",
-        "ua": "Банк 1 - потрібно додати",
-        "ru": "Банк 1 - нужно добавить",
-        "az": "Bank 1 - əlavə ediləcək",
-        "es": "Banco 1 - por añadir",
-        "fil": "Bank 1 - idaragdag",
-        "id": "Bank 1 - akan ditambahkan",
-        "ne": "बैंक 1 - थप्नु पर्ने"
-      },
-      "body": {
-        "pl": "Miejsce na konkretny bank z mapą.",
-        "en": "Place for a specific bank with map.",
-        "ua": "Місце для конкретного банку з картою.",
-        "ru": "Место для конкретного банка с картой.",
-        "az": "Xəritəli konkret bank üçün yer.",
-        "es": "Lugar para banco concreto con mapa.",
-        "fil": "Lugar para specific bank na may mapa.",
-        "id": "Tempat untuk bank tertentu dengan peta.",
-        "ne": "नक्सासहित खास बैंकको ठाउँ।"
-      },
-      "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
-      },
-      "list": [],
-      "buttons": [
-        {
-          "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
-          },
-          "url": "https://www.google.com/maps/search/?api=1&query=bank%20Ryczyw%C3%B3%C5%82"
-        }
-      ]
-    },
-    {
-      "icon": "bank",
-      "tone": "yellow",
-      "title": {
-        "pl": "Bank 2 - do uzupełnienia",
-        "en": "Bank 2 - to be added",
-        "ua": "Банк 2 - потрібно додати",
-        "ru": "Банк 2 - нужно добавить",
-        "az": "Bank 2 - əlavə ediləcək",
-        "es": "Banco 2 - por añadir",
-        "fil": "Bank 2 - idaragdag",
-        "id": "Bank 2 - akan ditambahkan",
-        "ne": "बैंक 2 - थप्नु पर्ने"
-      },
-      "body": {
-        "pl": "Drugie miejsce na bank albo bankomat.",
-        "en": "Second place for a bank or ATM.",
-        "ua": "Друге місце для банку або банкомату.",
-        "ru": "Второе место для банка или банкомата.",
-        "az": "İkinci bank və ya bankomat yeri.",
-        "es": "Segundo lugar para banco o cajero.",
-        "fil": "Ikalawang lugar para bank o ATM.",
-        "id": "Tempat kedua untuk bank atau ATM.",
-        "ne": "दोस्रो बैंक वा ATM को ठाउँ।"
-      },
-      "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
-      },
-      "list": [],
-      "buttons": [
-        {
-          "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
-          },
-          "url": "https://www.google.com/maps/search/?api=1&query=bankomat%20Ryczyw%C3%B3%C5%82"
-        }
-      ]
-    },
-    {
+      "id": "mos-profil",
       "icon": "document",
       "tone": "blue",
       "title": {
-        "pl": "Profil Zaufany / mObywatel",
-        "en": "Trusted Profile / mObywatel",
-        "ua": "Profil Zaufany / mObywatel",
-        "ru": "Profil Zaufany / mObywatel",
-        "az": "Profil Zaufany / mObywatel",
-        "es": "Perfil de confianza / mObywatel",
-        "fil": "Trusted Profile / mObywatel",
-        "id": "Profil Zaufany / mObywatel",
-        "ne": "Profil Zaufany / mObywatel"
-      },
-      "body": {
-        "pl": "Kafelka na podstawowe sprawy urzędowe w Polsce.",
-        "en": "Tile for basic official matters in Poland.",
-        "ua": "Кафель для основних офіційних справ у Польщі.",
-        "ru": "Плитка для основных официальных дел в Польше.",
-        "az": "Polşada əsas rəsmi işlər üçün kafel.",
-        "es": "Kafel para asuntos oficiales básicos en Polonia.",
-        "fil": "Tile para sa basic official matters sa Poland.",
-        "id": "Tile untuk urusan resmi dasar di Polandia.",
-        "ne": "पोल्याण्डका आधारभूत सरकारी कामका लागि टाइल।"
+        "pl": "MOS i Profil Zaufany",
+        "en": "MOS and Trusted Profile",
+        "ua": "MOS і Profil Zaufany",
+        "ru": "MOS и Profil Zaufany",
+        "az": "MOS və Etibarlı profil",
+        "es": "MOS y Perfil de confianza",
+        "fil": "MOS at Trusted Profile",
+        "id": "MOS dan Profil Tepercaya",
+        "ne": "MOS र विश्वसनीय प्रोफाइल"
       },
       "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
+        "pl": "Do wniosków online potrzebujesz telefonu, e-maila i często Profilu Zaufanego.",
+        "en": "For online applications you need a phone, e-mail and often Trusted Profile.",
+        "ua": "Для онлайн-заяв потрібні телефон, e-mail і часто Profil Zaufany.",
+        "ru": "Для онлайн-заявлений нужны телефон, e-mail и часто Profil Zaufany.",
+        "az": "Onlayn ərizələr üçün telefon, e-mail və çox vaxt etibarlı profil lazımdır.",
+        "es": "Para solicitudes online necesitas teléfono, e-mail y a menudo Perfil de confianza.",
+        "fil": "Para sa online applications kailangan phone, e-mail at madalas Trusted Profile.",
+        "id": "Untuk pengajuan online perlu telepon, e-mail dan sering Profil Tepercaya.",
+        "ne": "अनलाइन आवेदनका लागि फोन, इमेल र प्रायः विश्वसनीय प्रोफाइल चाहिन्छ।"
+      },
+      "note": {
+        "pl": "To nie jest mapa, tylko linki do systemów urzędowych.",
+        "en": "This is not a map, but links to official systems.",
+        "ua": "Це не карта, а посилання до державних систем.",
+        "ru": "Это не карта, а ссылки на государственные системы.",
+        "az": "Bu xəritə deyil, rəsmi sistem linkləridir.",
+        "es": "No es mapa, son enlaces a sistemas oficiales.",
+        "fil": "Hindi ito mapa, links ito sa official systems.",
+        "id": "Ini bukan peta, tetapi tautan sistem resmi.",
+        "ne": "यो नक्सा होइन, सरकारी प्रणालीका लिंकहरू हुन्।"
       },
       "list": [],
-      "buttons": [
+      "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "MOS - wniosek online",
+            "en": "MOS - online application",
+            "ua": "MOS - заява онлайн",
+            "ru": "MOS - заявление онлайн",
+            "az": "MOS - onlayn ərizə",
+            "es": "MOS - solicitud online",
+            "fil": "MOS - online application",
+            "id": "MOS - pengajuan online",
+            "ne": "MOS - अनलाइन आवेदन"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Profil%20Zaufany%20mObywatel"
+          "url": "https://mos.cudzoziemcy.gov.pl/",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Profil Zaufany",
+            "en": "Trusted Profile",
+            "ua": "Profil Zaufany",
+            "ru": "Profil Zaufany",
+            "az": "Etibarlı profil",
+            "es": "Perfil de confianza",
+            "fil": "Trusted Profile",
+            "id": "Profil Tepercaya",
+            "ne": "विश्वसनीय प्रोफाइल"
+          },
+          "url": "https://www.gov.pl/web/profilzaufany",
+          "tone": "blue"
         }
       ]
     },
     {
-      "icon": "map",
-      "tone": "blue",
+      "id": "bank-ryczywol",
+      "icon": "bank",
+      "tone": "yellow",
       "title": {
-        "pl": "Transport / przystanek",
-        "en": "Transport / stop",
-        "ua": "Транспорт / зупинка",
-        "ru": "Транспорт / остановка",
-        "az": "Nəqliyyat / dayanacaq",
-        "es": "Transporte / parada",
-        "fil": "Transport / hintuan",
-        "id": "Transportasi / halte",
-        "ne": "यातायात / स्टप"
-      },
-      "body": {
-        "pl": "Miejsce na transport lokalny i dojazd.",
-        "en": "Place for local transport and route.",
-        "ua": "Місце для місцевого транспорту і дороги.",
-        "ru": "Место для местного транспорта и дороги.",
-        "az": "Yerli nəqliyyat və yol üçün yer.",
-        "es": "Lugar para transporte local y ruta.",
-        "fil": "Lugar para local transport at ruta.",
-        "id": "Tempat untuk transport lokal dan rute.",
-        "ne": "स्थानीय यातायात र बाटोको ठाउँ।"
+        "pl": "Banki i bankomaty Ryczywół",
+        "en": "Banks and ATMs Ryczywół",
+        "ua": "Банки і банкомати Ryczywół",
+        "ru": "Банки и банкоматы Ryczywół",
+        "az": "Ryczywół banklar və bankomatlar",
+        "es": "Bancos y cajeros Ryczywół",
+        "fil": "Bangko at ATM Ryczywół",
+        "id": "Bank dan ATM Ryczywół",
+        "ne": "Ryczywół बैंक र ATM"
       },
       "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
+        "pl": "Mapa pokazuje najbliższe banki i bankomaty.",
+        "en": "The map shows nearby banks and ATMs.",
+        "ua": "Карта показує найближчі банки і банкомати.",
+        "ru": "Карта показывает ближайшие банки и банкоматы.",
+        "az": "Xəritə yaxın bankları və bankomatları göstərir.",
+        "es": "El mapa muestra bancos y cajeros cercanos.",
+        "fil": "Makikita sa mapa ang malapit na banko at ATM.",
+        "id": "Peta menampilkan bank dan ATM terdekat.",
+        "ne": "नक्सामा नजिकका बैंक र ATM देखिन्छन्।"
+      },
+      "note": {
+        "pl": "Do wypłaty gotówki, konta bankowego i spraw z kartą.",
+        "en": "For cash withdrawal, bank account and card matters.",
+        "ua": "Для зняття готівки, рахунку і банківської картки.",
+        "ru": "Для снятия наличных, счёта и банковской карты.",
+        "az": "Nağd pul, bank hesabı və kart işləri üçün.",
+        "es": "Para efectivo, cuenta bancaria y tarjeta.",
+        "fil": "Para sa cash, bank account at card.",
+        "id": "Untuk uang tunai, rekening bank dan kartu.",
+        "ne": "नगद, बैंक खाता र कार्डका लागि।"
       },
       "list": [],
-      "buttons": [
+      "links": [
         {
           "label": {
             "pl": "Otwórz mapę",
@@ -1851,48 +1778,50 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20przystanek"
+          "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Ryczyw%C3%B3%C5%82",
+          "tone": "yellow"
         }
       ]
     },
     {
-      "icon": "map",
-      "tone": "blue",
+      "id": "poczta-ryczywol",
+      "icon": "document",
+      "tone": "yellow",
       "title": {
-        "pl": "Aplikacje i najbliższe punkty",
-        "en": "Apps and nearest points",
-        "ua": "Додатки і найближчі точки",
-        "ru": "Приложения и ближайшие точки",
-        "az": "Tətbiqlər və yaxın nöqtələr",
-        "es": "Apps y puntos cercanos",
-        "fil": "Apps at malapit na lugar",
-        "id": "Aplikasi dan titik terdekat",
-        "ne": "एप र नजिकका ठाउँ"
-      },
-      "body": {
-        "pl": "Tu dodamy Jakdojade/Koleo lub inne aplikacje, jeśli będą potrzebne.",
-        "en": "Here we will add Jakdojade/Koleo or other apps if needed.",
-        "ua": "Тут додамо Jakdojade/Koleo або інші додатки, якщо потрібно.",
-        "ru": "Здесь добавим Jakdojade/Koleo или другие приложения, если нужно.",
-        "az": "Lazım olsa Jakdojade/Koleo və ya başqa tətbiqlər əlavə olunacaq.",
-        "es": "Aquí añadiremos Jakdojade/Koleo u otras apps si hacen falta.",
-        "fil": "Dito idadagdag ang Jakdojade/Koleo o ibang apps kung kailangan.",
-        "id": "Di sini ditambah Jakdojade/Koleo atau aplikasi lain jika perlu.",
-        "ne": "आवश्यक भए Jakdojade/Koleo वा अरू एप थपिनेछ।"
+        "pl": "Poczta Ryczywół",
+        "en": "Post office Ryczywół",
+        "ua": "Пошта Ryczywół",
+        "ru": "Почта Ryczywół",
+        "az": "Ryczywół poçtu",
+        "es": "Correo Ryczywół",
+        "fil": "Post office Ryczywół",
+        "id": "Kantor pos Ryczywół",
+        "ne": "Ryczywół हुलाक"
       },
       "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
+        "pl": "Poczta do listów poleconych, dokumentów i odbioru przesyłek.",
+        "en": "Post office for registered letters, documents and parcel pickup.",
+        "ua": "Пошта для рекомендованих листів, документів і посилок.",
+        "ru": "Почта для заказных писем, документов и посылок.",
+        "az": "Sifarişli məktub, sənəd və bağlama üçün poçt.",
+        "es": "Correo para cartas certificadas, documentos y paquetes.",
+        "fil": "Post office para registered letters, documents at parcels.",
+        "id": "Kantor pos untuk surat tercatat, dokumen dan paket.",
+        "ne": "रेजिस्टर्ड पत्र, कागजात र पार्सलका लागि हुलाक।"
+      },
+      "note": {
+        "pl": "Przy dokumentach urzędowych często potrzebny jest list polecony.",
+        "en": "Official documents often need a registered letter.",
+        "ua": "Для документів часто потрібен рекомендований лист.",
+        "ru": "Для документов часто нужно заказное письмо.",
+        "az": "Rəsmi sənədlər üçün çox vaxt sifarişli məktub lazımdır.",
+        "es": "Para documentos oficiales a menudo se necesita carta certificada.",
+        "fil": "Sa official documents madalas kailangan registered letter.",
+        "id": "Dokumen resmi sering perlu surat tercatat.",
+        "ne": "सरकारी कागजातमा प्रायः रेजिस्टर्ड पत्र चाहिन्छ।"
       },
       "list": [],
-      "buttons": [
+      "links": [
         {
           "label": {
             "pl": "Otwórz mapę",
@@ -1905,8 +1834,244 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Jakdojade%20Koleo%20Ryczyw%C3%B3%C5%82"
+          "url": "https://www.google.com/maps/search/?api=1&query=Poczta%20Polska%20Ryczyw%C3%B3%C5%82",
+          "tone": "yellow"
         }
+      ]
+    },
+    {
+      "id": "transport-ryczywol",
+      "icon": "map",
+      "tone": "blue",
+      "title": {
+        "pl": "Transport Ryczywół",
+        "en": "Transport Ryczywół",
+        "ua": "Транспорт Ryczywół",
+        "ru": "Транспорт Ryczywół",
+        "az": "Ryczywół nəqliyyat",
+        "es": "Transporte Ryczywół",
+        "fil": "Transport Ryczywół",
+        "id": "Transportasi Ryczywół",
+        "ne": "Ryczywół यातायात"
+      },
+      "address": {
+        "pl": "Przystanki, trasy i aplikacje do dojazdu.",
+        "en": "Stops, routes and travel apps.",
+        "ua": "Зупинки, маршрути і додатки для доїзду.",
+        "ru": "Остановки, маршруты и приложения для дороги.",
+        "az": "Dayanacaqlar, marşrutlar və yol tətbiqləri.",
+        "es": "Paradas, rutas y apps de viaje.",
+        "fil": "Sakayan, ruta at travel apps.",
+        "id": "Halte, rute dan aplikasi perjalanan.",
+        "ne": "स्टप, रुट र यात्रा एपहरू।"
+      },
+      "note": {
+        "pl": "Na małych miejscowościach najpewniejsze są Google Maps i e-podróżnik; pociągi sprawdzaj w Koleo.",
+        "en": "In small towns, Google Maps and e-podroznik are usually best; check trains in Koleo.",
+        "ua": "У малих місцевостях найкраще Google Maps і e-podróżnik; поїзди перевіряй у Koleo.",
+        "ru": "В малых городах лучше Google Maps и e-podróżnik; поезда проверяй в Koleo.",
+        "az": "Kiçik yerlərdə Google Maps və e-podróżnik daha faydalıdır; qatarları Koleo-da yoxla.",
+        "es": "En pueblos pequeños usa Google Maps y e-podróżnik; trenes en Koleo.",
+        "fil": "Sa maliliit na lugar, Google Maps at e-podróżnik ang praktikal; tren sa Koleo.",
+        "id": "Di kota kecil, Google Maps dan e-podróżnik biasanya paling berguna; kereta di Koleo.",
+        "ne": "साना ठाउँमा Google Maps र e-podróżnik राम्रो हुन्छ; रेल Koleo मा हेर्नुहोस्।"
+      },
+      "list": [],
+      "links": [
+        {
+          "label": {
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20przystanek%20autobusowy",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "e-podróżnik",
+            "en": "e-podroznik",
+            "ua": "e-podróżnik",
+            "ru": "e-podróżnik",
+            "az": "e-podróżnik",
+            "es": "e-podróżnik",
+            "fil": "e-podróżnik",
+            "id": "e-podróżnik",
+            "ne": "e-podróżnik"
+          },
+          "url": "https://www.e-podroznik.pl/",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Koleo",
+            "en": "Koleo",
+            "ua": "Koleo",
+            "ru": "Koleo",
+            "az": "Koleo",
+            "es": "Koleo",
+            "fil": "Koleo",
+            "id": "Koleo",
+            "ne": "Koleo"
+          },
+          "url": "https://koleo.pl/",
+          "tone": "blue"
+        }
+      ]
+    },
+    {
+      "id": "najblizsze-ryczywol",
+      "icon": "map",
+      "tone": "blue",
+      "title": {
+        "pl": "Sklep i najbliższe punkty",
+        "en": "Shop and nearby points",
+        "ua": "Магазин і найближчі місця",
+        "ru": "Магазин и ближайшие места",
+        "az": "Mağaza və yaxın yerlər",
+        "es": "Tienda y puntos cercanos",
+        "fil": "Tindahan at malapit na lugar",
+        "id": "Toko dan tempat terdekat",
+        "ne": "पसल र नजिकका ठाउँहरू"
+      },
+      "address": {
+        "pl": "Mapa do podstawowych miejsc w pobliżu.",
+        "en": "Map to basic nearby places.",
+        "ua": "Карта до основних місць поруч.",
+        "ru": "Карта к основным местам рядом.",
+        "az": "Yaxın əsas yerlərə xəritə.",
+        "es": "Mapa a lugares básicos cercanos.",
+        "fil": "Mapa sa basic nearby places.",
+        "id": "Peta ke tempat dasar terdekat.",
+        "ne": "नजिकका आधारभूत ठाउँहरूको नक्सा।"
+      },
+      "note": {
+        "pl": "Użyj, jeśli jesteś nowy i nie wiesz, gdzie kupić podstawowe rzeczy.",
+        "en": "Use it if you are new and do not know where to buy basic things.",
+        "ua": "Використай, якщо ти новий і не знаєш, де купити основні речі.",
+        "ru": "Используй, если ты новый и не знаешь, где купить основные вещи.",
+        "az": "Yenisinizsə və əsas şeyləri haradan almağı bilmirsinizsə istifadə edin.",
+        "es": "Úsalo si eres nuevo y no sabes dónde comprar cosas básicas.",
+        "fil": "Gamitin kung bago ka at hindi alam saan bumili ng basic things.",
+        "id": "Gunakan jika baru dan tidak tahu tempat membeli kebutuhan dasar.",
+        "ne": "नयाँ हुनुहुन्छ र आधारभूत सामान कहाँ किन्ने थाहा छैन भने प्रयोग गर्नुहोस्।"
+      },
+      "list": [],
+      "links": [
+        {
+          "label": {
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82",
+          "tone": "blue"
+        }
+      ]
+    }
+  ],
+  "citySections": [
+    {
+      "tone": "blue",
+      "icon": "document",
+      "title": {
+        "pl": "Urzędy i dokumenty",
+        "en": "Offices and documents",
+        "ua": "Установи і документи",
+        "ru": "Учреждения и документы",
+        "az": "İdarələr və sənədlər",
+        "es": "Oficinas y documentos",
+        "fil": "Opisina at dokumento",
+        "id": "Kantor dan dokumen",
+        "ne": "कार्यालय र कागजात"
+      },
+      "lead": {
+        "pl": "Adresy urzędów, karta pobytu, PESEL i sprawy dokumentów.",
+        "en": "Office addresses, residence card, PESEL and document matters.",
+        "ua": "Адреси установ, карта побиту, PESEL і документи.",
+        "ru": "Адреса учреждений, карта побыту, PESEL и документы.",
+        "az": "İdarə ünvanları, yaşayış kartı, PESEL və sənəd işləri.",
+        "es": "Direcciones, tarjeta de residencia, PESEL y documentos.",
+        "fil": "Mga address, residence card, PESEL at dokumento.",
+        "id": "Alamat kantor, kartu tinggal, PESEL dan dokumen.",
+        "ne": "कार्यालय ठेगाना, बसोबास कार्ड, PESEL र कागजात।"
+      },
+      "items": [
+        "urzad-ryczywol",
+        "wuw-poznan",
+        "mos-profil"
+      ]
+    },
+    {
+      "tone": "yellow",
+      "icon": "bank",
+      "title": {
+        "pl": "Banki, poczta i bankomaty",
+        "en": "Banks, post office and ATMs",
+        "ua": "Банки, пошта і банкомати",
+        "ru": "Банки, почта и банкоматы",
+        "az": "Banklar, poçt və bankomatlar",
+        "es": "Bancos, correo y cajeros",
+        "fil": "Bangko, post office at ATM",
+        "id": "Bank, kantor pos dan ATM",
+        "ne": "बैंक, हुलाक र ATM"
+      },
+      "lead": {
+        "pl": "Najpierw sprawdź godzinę otwarcia w mapie albo zadzwoń.",
+        "en": "First check opening hours in the map or call.",
+        "ua": "Спочатку перевір години роботи на карті або подзвони.",
+        "ru": "Сначала проверь часы работы на карте или позвони.",
+        "az": "Əvvəl xəritədə iş saatlarını yoxla və ya zəng et.",
+        "es": "Primero revisa el horario en el mapa o llama.",
+        "fil": "Tingnan muna ang oras sa mapa o tumawag.",
+        "id": "Cek dulu jam buka di peta atau telepon.",
+        "ne": "पहिले नक्सामा खुल्ने समय हेर्नुहोस् वा फोन गर्नुहोस्।"
+      },
+      "items": [
+        "bank-ryczywol",
+        "poczta-ryczywol"
+      ]
+    },
+    {
+      "tone": "blue",
+      "icon": "map",
+      "title": {
+        "pl": "Transport i aplikacje",
+        "en": "Transport and apps",
+        "ua": "Транспорт і додатки",
+        "ru": "Транспорт и приложения",
+        "az": "Nəqliyyat və tətbiqlər",
+        "es": "Transporte y apps",
+        "fil": "Transport at apps",
+        "id": "Transportasi dan aplikasi",
+        "ne": "यातायात र एपहरू"
+      },
+      "lead": {
+        "pl": "Mapy, przystanki i aplikacje do dojazdu.",
+        "en": "Maps, stops and travel apps.",
+        "ua": "Карти, зупинки і додатки для доїзду.",
+        "ru": "Карты, остановки и приложения для дороги.",
+        "az": "Xəritələr, dayanacaqlar və yol tətbiqləri.",
+        "es": "Mapas, paradas y apps de viaje.",
+        "fil": "Mapa, sakayan at travel apps.",
+        "id": "Peta, halte dan aplikasi perjalanan.",
+        "ne": "नक्सा, स्टप र यात्रा एपहरू।"
+      },
+      "items": [
+        "transport-ryczywol",
+        "najblizsze-ryczywol"
       ]
     }
   ]
@@ -1923,5 +2088,6 @@
   D.groups = T.groups;
   D.medical = T.medical;
   D.city = T.city;
+  D.citySections = T.citySections || [];
   D.cityExtras = [];
 })();
