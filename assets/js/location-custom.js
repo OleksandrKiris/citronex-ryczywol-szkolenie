@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-greenhouse3d1",
+    "version": "20260713-ryczywol-clean1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -25,15 +25,15 @@
       "ne": "सूचना र तालिम प्रणाली"
     },
     "subtitle": {
-      "pl": "Ryczywół - makieta. Wybierz, czego potrzebujesz.",
-      "en": "Ryczywół - mockup. Choose what you need.",
-      "ua": "Ryczywół - макет. Оберіть, що вам потрібно.",
-      "ru": "Ryczywół - макет. Выберите, что вам нужно.",
-      "az": "Ryczywół - maket. Lazım olanı seçin.",
-      "es": "Ryczywół - maqueta. Elige lo que necesitas.",
-      "fil": "Ryczywół - mockup. Piliin ang kailangan mo.",
-      "id": "Ryczywół - mockup. Pilih yang Anda butuhkan.",
-      "ne": "Ryczywół - नमुना। तपाईंलाई चाहिएको कुरा छान्नुहोस्।"
+      "pl": "Ryczywół - wybierz, czego potrzebujesz.",
+      "en": "Ryczywół - choose what you need.",
+      "ua": "Ryczywół - оберіть, що вам потрібно.",
+      "ru": "Ryczywół - выберите, что вам нужно.",
+      "az": "Ryczywół - lazım olanı seçin.",
+      "es": "Ryczywół - elige lo que necesitas.",
+      "fil": "Ryczywół - piliin ang kailangan mo.",
+      "id": "Ryczywół - pilih yang Anda butuhkan.",
+      "ne": "Ryczywół - तपाईंलाई चाहिएको कुरा छान्नुहोस्।"
     }
   },
   "pages": {
@@ -50,15 +50,15 @@
         "ne": "Ryczywół - मोड्युल छान्नुहोस्"
       },
       "lead": {
-        "pl": "To jest makieta. Przyciski są przygotowane, a konkretne dane będziemy uzupełniać po kolei.",
-        "en": "This is a mockup. Buttons are prepared and the real data will be added step by step.",
-        "ua": "Це макет. Кнопки підготовлені, а точні дані будемо додавати по черзі.",
-        "ru": "Это макет. Кнопки подготовлены, точные данные будем добавлять по очереди.",
-        "az": "Bu maketdir. Düymələr hazırdır, real məlumatı mərhələlərlə əlavə edəcəyik.",
-        "es": "Es una maqueta. Los botones están listos y los datos reales se añadirán paso a paso.",
-        "fil": "Mockup ito. Handa na ang mga button at idadagdag ang tunay na data nang paisa-isa.",
-        "id": "Ini mockup. Tombol sudah siap dan data asli akan ditambahkan bertahap.",
-        "ne": "यो नमुना हो। बटन तयार छन्, वास्तविक डेटा क्रमैसँग थपिनेछ।"
+        "pl": "Wybierz moduł. Najważniejsze mapy, kontakty i instrukcje są ułożone krok po kroku.",
+        "en": "Choose a module. Key maps, contacts and instructions are arranged step by step.",
+        "ua": "Оберіть модуль. Основні карти, контакти та інструкції розкладені крок за кроком.",
+        "ru": "Выберите модуль. Основные карты, контакты и инструкции разложены пошагово.",
+        "az": "Modulu seçin. Əsas xəritələr, kontaktlar və təlimatlar addım-addım düzülüb.",
+        "es": "Elige un módulo. Mapas, contactos e instrucciones principales están ordenados paso a paso.",
+        "fil": "Pumili ng module. Nakaayos ang mahahalagang mapa, contact at instruction nang step by step.",
+        "id": "Pilih modul. Peta, kontak, dan instruksi penting sudah disusun langkah demi langkah.",
+        "ne": "मोड्युल छान्नुहोस्। मुख्य नक्सा, सम्पर्क र निर्देशनहरू चरणबद्ध रूपमा राखिएका छन्।"
       }
     },
     "mapa": {
@@ -135,15 +135,15 @@
     },
     "kontakty": {
       "title": {
-        "pl": "Kontakty - do uzupełnienia",
-        "en": "Contacts - to be added",
-        "ua": "Контакти - потрібно додати",
-        "ru": "Контакты - нужно добавить",
-        "az": "Kontaktlar - əlavə ediləcək",
-        "es": "Contactos - por añadir",
-        "fil": "Mga contact - idaragdag",
-        "id": "Kontak - akan ditambahkan",
-        "ne": "सम्पर्क - थप्नु पर्ने"
+        "pl": "Kontakty",
+        "en": "Contacts",
+        "ua": "Контакти",
+        "ru": "Контакты",
+        "az": "Kontaktlar",
+        "es": "Contactos",
+        "fil": "Mga contact",
+        "id": "Kontak",
+        "ne": "सम्पर्क"
       },
       "lead": {
         "pl": "Tu przygotowane są miejsca na koordynatorów, brygadzistów szklarni i brygadzistów magazynu.",
@@ -267,15 +267,15 @@
           "ne": "Google Maps खोल्नुहोस्"
         },
         "note": {
-          "pl": "Przycisk pokaże trasę albo wyszuka lokalizację do uzupełnienia.",
-          "en": "The button will show a route or search a location to be added.",
-          "ua": "Кнопка покаже маршрут або знайде місце, яке треба додати.",
-          "ru": "Кнопка покажет маршрут или найдет место, которое нужно добавить.",
-          "az": "Düymə marşrutu göstərəcək və ya əlavə ediləcək yeri axtaracaq.",
-          "es": "El botón mostrará la ruta o buscará una ubicación por añadir.",
-          "fil": "Ipakikita ng button ang ruta o hahanapin ang lugar na idaragdag.",
-          "id": "Tombol akan menunjukkan rute atau mencari lokasi yang akan ditambahkan.",
-          "ne": "बटनले बाटो देखाउँछ वा थपिने स्थान खोज्छ।"
+          "pl": "Przycisk otworzy właściwą trasę w Google Maps.",
+          "en": "The button opens the correct route in Google Maps.",
+          "ua": "Кнопка відкриє правильний маршрут у Google Maps.",
+          "ru": "Кнопка откроет правильный маршрут в Google Maps.",
+          "az": "Düymə Google Maps-də düzgün marşrutu açacaq.",
+          "es": "El botón abre la ruta correcta en Google Maps.",
+          "fil": "Bubuksan ng button ang tamang ruta sa Google Maps.",
+          "id": "Tombol membuka rute yang benar di Google Maps.",
+          "ne": "बटनले Google Maps मा सही बाटो खोल्छ।"
         }
       },
       {
@@ -875,7 +875,7 @@
         {
           "pl": "Przychodnia podaje pracę od poniedziałku do piątku w godzinach 8:00-18:00.",
           "en": "The clinic states it works Monday-Friday 8:00-18:00.",
-          "ua": "Поліклініка вказує роботу з понеділка до п’ятниці 8:00-18:00.",
+          "ua": "Поліклініка вказує роботу з понеділка до п'ятниці 8:00-18:00.",
           "ru": "Поликлиника указывает работу с понедельника по пятницу 8:00-18:00.",
           "az": "Poliklinika bazar ertəsi-cümə 8:00-18:00 işlədiyini göstərir.",
           "es": "La clínica indica lunes-viernes 8:00-18:00.",
@@ -1426,7 +1426,7 @@
         {
           "pl": "Godziny: poniedziałek 8:00-17:00, wtorek-czwartek 7:30-15:30, piątek 7:30-14:30.",
           "en": "Hours: Monday 8:00-17:00, Tuesday-Thursday 7:30-15:30, Friday 7:30-14:30.",
-          "ua": "Години: понеділок 8:00-17:00, вівторок-четвер 7:30-15:30, пʼятниця 7:30-14:30.",
+          "ua": "Години: понеділок 8:00-17:00, вівторок-четвер 7:30-15:30, п'ятниця 7:30-14:30.",
           "ru": "Часы: понедельник 8:00-17:00, вторник-четверг 7:30-15:30, пятница 7:30-14:30.",
           "az": "Saatlar: bazar ertəsi 8:00-17:00, çərşənbə axşamı-cümə axşamı 7:30-15:30, cümə 7:30-14:30.",
           "es": "Horario: lunes 8:00-17:00, martes-jueves 7:30-15:30, viernes 7:30-14:30.",
