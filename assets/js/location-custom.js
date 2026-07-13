@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-kozienice1",
+    "version": "20260713-city-office-full1-ryczywol",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
     "repo": "citronex-ryczywol-szkolenie",
@@ -169,15 +169,15 @@
         "ne": "शहर, कार्यालय र बैंक"
       },
       "lead": {
-        "pl": "Ryczywół jest w gminie Kozienice. Najważniejsze miejsca: Urząd Miejski w Kozienicach, Mazowiecki Urząd Wojewódzki, banki, poczta, transport i aplikacje.",
-        "en": "Ryczywół is in Kozienice commune. Key places: Kozienice Town Office, Mazowieckie Voivodeship Office, banks, post office, transport and apps.",
-        "ua": "Ryczywół знаходиться в гміні Kozienice. Головні місця: Urząd Miejski w Kozienicach, Mazowiecki Urząd Wojewódzki, банки, пошта, транспорт і додатки.",
-        "ru": "Ryczywół находится в гмине Kozienice. Главные места: Urząd Miejski w Kozienicach, Mazowiecki Urząd Wojewódzki, банки, почта, транспорт и приложения.",
-        "az": "Ryczywół Kozienice bələdiyyəsindədir. Əsas yerlər: Kozienice şəhər idarəsi, Mazowieckie voyevodalıq idarəsi, banklar, poçt, nəqliyyat və tətbiqlər.",
-        "es": "Ryczywół está en la comuna de Kozienice. Lugares clave: Ayuntamiento de Kozienice, oficina regional de Mazowieckie, bancos, correo, transporte y apps.",
-        "fil": "Ang Ryczywół ay nasa Kozienice commune. Mahahalagang lugar: Kozienice Town Office, Mazowieckie Voivodeship Office, bangko, post office, transport at apps.",
-        "id": "Ryczywół berada di gmina Kozienice. Tempat penting: Kantor Kota Kozienice, kantor provinsi Mazowieckie, bank, kantor pos, transportasi dan aplikasi.",
-        "ne": "Ryczywół Kozienice ग्मिनामा छ। मुख्य ठाउँहरू: Kozienice नगर कार्यालय, Mazowieckie प्रान्तीय कार्यालय, बैंक, हुलाक, यातायात र एपहरू।"
+        "pl": "Ryczywół jest w gminie Kozienice. Tu masz najważniejsze urzędy, kartę pobytu, podatki, ZUS, urząd pracy, banki, pocztę, transport i codzienne miejsca.",
+        "en": "Ryczywół is in Kozienice commune. Here are key offices, residence card, taxes, ZUS, labour office, banks, post, transport and everyday places.",
+        "ua": "Ryczywół знаходиться в гміні Kozienice. Тут головні установи, карта побиту, податки, ZUS, центр зайнятості, банки, пошта, транспорт і щоденні місця.",
+        "ru": "Ryczywół находится в гмине Kozienice. Здесь главные учреждения, карта побыту, налоги, ZUS, центр занятости, банки, почта, транспорт и ежедневные места.",
+        "az": "Ryczywół Kozienice bələdiyyəsindədir. Burada əsas idarələr, yaşayış kartı, vergilər, ZUS, əmək idarəsi, banklar, poçt, nəqliyyat və gündəlik yerlər var.",
+        "es": "Ryczywół está en la comuna de Kozienice. Aquí están oficinas, residencia, impuestos, ZUS, empleo, bancos, correo, transporte y lugares diarios.",
+        "fil": "Ang Ryczywół ay nasa Kozienice commune. Narito ang offices, residence card, taxes, ZUS, labour office, banks, post, transport at daily places.",
+        "id": "Ryczywół berada di gmina Kozienice. Di sini ada kantor penting, kartu tinggal, pajak, ZUS, tenaga kerja, bank, pos, transportasi dan tempat harian.",
+        "ne": "Ryczywół Kozienice ग्मिनामा छ। यहाँ मुख्य कार्यालय, बसोबास कार्ड, कर, ZUS, रोजगार कार्यालय, बैंक, हुलाक, यातायात र दैनिक ठाउँहरू छन्।"
       }
     },
     "grupy": {
@@ -1433,41 +1433,18 @@
         "id": "Kantor Kota Kozienice",
         "ne": "Kozienice नगर कार्यालय"
       },
-      "address": {
-        "pl": "ul. Parkowa 5, 26-900 Kozienice. Telefon: 48 611 71 00.",
-        "en": "ul. Parkowa 5, 26-900 Kozienice. Phone: 48 611 71 00.",
-        "ua": "вул. Parkowa 5, 26-900 Kozienice. Телефон: 48 611 71 00.",
-        "ru": "ул. Parkowa 5, 26-900 Kozienice. Телефон: 48 611 71 00.",
-        "az": "ul. Parkowa 5, 26-900 Kozienice. Telefon: 48 611 71 00.",
-        "es": "ul. Parkowa 5, 26-900 Kozienice. Teléfono: 48 611 71 00.",
-        "fil": "ul. Parkowa 5, 26-900 Kozienice. Telepono: 48 611 71 00.",
-        "id": "ul. Parkowa 5, 26-900 Kozienice. Telepon: 48 611 71 00.",
-        "ne": "ul. Parkowa 5, 26-900 Kozienice। फोन: 48 611 71 00।"
-      },
+      "address": "ul. Parkowa 5, 26-900 Kozienice",
       "note": {
-        "pl": "To właściwy urząd dla Ryczywołu koło Kozienic. Tu załatwia się lokalne sprawy gminy Kozienice.",
-        "en": "This is the correct office for Ryczywół near Kozienice. Local Kozienice commune matters are handled here.",
-        "ua": "Це правильна установа для Ryczywołu біля Kozienic. Тут вирішують місцеві справи гміни Kozienice.",
-        "ru": "Это правильное учреждение для Ryczywołu возле Kozienic. Здесь решают местные дела гмины Kozienice.",
-        "az": "Kozienice yaxınlığında Ryczywół üçün düzgün idarə budur. Kozienice bələdiyyəsinin yerli işləri burada həll olunur.",
-        "es": "Es la oficina correcta para Ryczywół cerca de Kozienice. Aquí se gestionan asuntos locales de la comuna.",
-        "fil": "Ito ang tamang office para sa Ryczywół near Kozienice. Dito inaasikaso ang local matters ng Kozienice commune.",
-        "id": "Ini kantor yang benar untuk Ryczywół dekat Kozienice. Urusan lokal gmina Kozienice ditangani di sini.",
-        "ne": "Kozienice नजिक Ryczywół का लागि सही कार्यालय यही हो। Kozienice ग्मिनाका स्थानीय काम यहाँ हुन्छ।"
+        "pl": "Właściwy urząd dla Ryczywołu koło Kozienic. Tu załatwia się sprawy gminy: PESEL, meldunek, lokalne dokumenty i podstawowe sprawy mieszkańca.",
+        "en": "Correct local office for Ryczywół near Kozienice. For PESEL, registration address, local documents and resident matters.",
+        "ua": "Правильна установа для Ryczywołu біля Kozienic. Тут вирішують PESEL, прописку, місцеві документи та справи мешканця.",
+        "ru": "Правильное учреждение для Ryczywołu возле Kozienic. Здесь решают PESEL, прописку, местные документы и дела жителя.",
+        "az": "Kozienice yaxınlığında Ryczywół üçün düzgün yerli idarə. PESEL, qeydiyyat, yerli sənədlər və sakin işləri üçün.",
+        "es": "Oficina local correcta para Ryczywół cerca de Kozienice. Para PESEL, empadronamiento, documentos locales y asuntos de residente.",
+        "fil": "Tamang local office para sa Ryczywół near Kozienice. Para sa PESEL, address registration, local documents at resident matters.",
+        "id": "Kantor lokal yang benar untuk Ryczywół dekat Kozienice. Untuk PESEL, alamat tinggal, dokumen lokal dan urusan warga.",
+        "ne": "Kozienice नजिक Ryczywół का लागि सही स्थानीय कार्यालय। PESEL, ठेगाना दर्ता, स्थानीय कागजात र बासिन्दा कामका लागि।"
       },
-      "list": [
-        {
-          "pl": "Godziny z urzędu: poniedziałek 8:00-17:00, wtorek-czwartek 7:30-15:30, piątek 7:30-14:30.",
-          "en": "Office hours: Monday 8:00-17:00, Tuesday-Thursday 7:30-15:30, Friday 7:30-14:30.",
-          "ua": "Години: понеділок 8:00-17:00, вівторок-четвер 7:30-15:30, п’ятниця 7:30-14:30.",
-          "ru": "Часы: понедельник 8:00-17:00, вторник-четверг 7:30-15:30, пятница 7:30-14:30.",
-          "az": "İş saatları: bazar ertəsi 8:00-17:00, çərşənbə axşamı-cümə axşamı 7:30-15:30, cümə 7:30-14:30.",
-          "es": "Horario: lunes 8:00-17:00, martes-jueves 7:30-15:30, viernes 7:30-14:30.",
-          "fil": "Oras: Lunes 8:00-17:00, Martes-Huwebes 7:30-15:30, Biyernes 7:30-14:30.",
-          "id": "Jam: Senin 8:00-17:00, Selasa-Kamis 7:30-15:30, Jumat 7:30-14:30.",
-          "ne": "समय: सोमबार 8:00-17:00, मंगलबार-बिहीबार 7:30-15:30, शुक्रबार 7:30-14:30।"
-        }
-      ],
       "links": [
         {
           "label": {
@@ -1488,7 +1465,7 @@
           "label": {
             "pl": "Otwórz stronę",
             "en": "Open website",
-            "ua": "Відкрити сторінку",
+            "ua": "Відкрити сайт",
             "ru": "Открыть сайт",
             "az": "Saytı aç",
             "es": "Abrir web",
@@ -1498,14 +1475,346 @@
           },
           "url": "https://kozienice.pl/kontakt.html",
           "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "BIP / godziny pracy",
+            "en": "BIP / opening hours",
+            "ua": "BIP / години роботи",
+            "ru": "BIP / часы работы",
+            "az": "BIP / iş saatları",
+            "es": "BIP / horario",
+            "fil": "BIP / oras",
+            "id": "BIP / jam buka",
+            "ne": "BIP / खुल्ने समय"
+          },
+          "url": "https://bip.kozienice.pl/artykul/9/5/godziny-pracy",
+          "tone": "blue"
         }
       ],
-      "phone": "+48486117100"
+      "phone": "+48486117100",
+      "list": [
+        {
+          "pl": "Godziny: poniedziałek 8:00-17:00, wtorek-czwartek 7:30-15:30, piątek 7:30-14:30.",
+          "en": "Hours: Monday 8:00-17:00, Tuesday-Thursday 7:30-15:30, Friday 7:30-14:30.",
+          "ua": "Години: понеділок 8:00-17:00, вівторок-четвер 7:30-15:30, пʼятниця 7:30-14:30.",
+          "ru": "Часы: понедельник 8:00-17:00, вторник-четверг 7:30-15:30, пятница 7:30-14:30.",
+          "az": "Saatlar: bazar ertəsi 8:00-17:00, çərşənbə axşamı-cümə axşamı 7:30-15:30, cümə 7:30-14:30.",
+          "es": "Horario: lunes 8:00-17:00, martes-jueves 7:30-15:30, viernes 7:30-14:30.",
+          "fil": "Oras: Lunes 8:00-17:00, Martes-Huwebes 7:30-15:30, Biyernes 7:30-14:30.",
+          "id": "Jam: Senin 8:00-17:00, Selasa-Kamis 7:30-15:30, Jumat 7:30-14:30.",
+          "ne": "समय: सोमबार 8:00-17:00, मंगलबार-बिहीबार 7:30-15:30, शुक्रबार 7:30-14:30।"
+        },
+        {
+          "pl": "Weź paszport, telefon i dokumenty, które dotyczą sprawy.",
+          "en": "Take passport, phone and documents related to your case.",
+          "ua": "Візьми паспорт, телефон і документи до твоєї справи.",
+          "ru": "Возьми паспорт, телефон и документы по твоему делу.",
+          "az": "Pasport, telefon və işinə aid sənədləri götür.",
+          "es": "Lleva pasaporte, teléfono y documentos del asunto.",
+          "fil": "Dalhin ang passport, phone at documents para sa iyong case.",
+          "id": "Bawa paspor, telepon dan dokumen sesuai urusan.",
+          "ne": "पासपोर्ट, फोन र आफ्नो कामसँग सम्बन्धित कागजात लैजानुहोस्।"
+        }
+      ]
+    },
+    {
+      "id": "us-kozienice",
+      "icon": "document",
+      "tone": "yellow",
+      "title": {
+        "pl": "Urząd Skarbowy w Kozienicach",
+        "en": "Tax Office in Kozienice",
+        "ua": "Податкова в Kozienicach",
+        "ru": "Налоговая в Kozienicach",
+        "az": "Kozienice vergi idarəsi",
+        "es": "Oficina de impuestos en Kozienice",
+        "fil": "Tax office sa Kozienice",
+        "id": "Kantor pajak Kozienice",
+        "ne": "Kozienice कर कार्यालय"
+      },
+      "address": "ul. Parkowa 5, 26-900 Kozienice",
+      "note": {
+        "pl": "Tu są sprawy podatkowe: PIT, podatki, zaświadczenia podatkowe. Najpierw najlepiej sprawdzić stronę albo zadzwonić na infolinię KAS.",
+        "en": "For tax matters: PIT, taxes, tax certificates. First check the website or call the KAS hotline.",
+        "ua": "Тут податкові справи: PIT, податки, податкові довідки. Спочатку перевір сайт або подзвони на інфолінію KAS.",
+        "ru": "Здесь налоговые дела: PIT, налоги, налоговые справки. Сначала проверь сайт или позвони на инфолинию KAS.",
+        "az": "Vergi işləri: PIT, vergilər, vergi arayışları. Əvvəl saytı yoxla və ya KAS xəttinə zəng et.",
+        "es": "Para impuestos: PIT, impuestos, certificados fiscales. Primero revisa la web o llama a KAS.",
+        "fil": "Para sa tax matters: PIT, taxes, tax certificates. Tingnan muna ang website o tumawag sa KAS hotline.",
+        "id": "Untuk pajak: PIT, pajak, surat pajak. Cek situs atau hubungi hotline KAS dulu.",
+        "ne": "कर सम्बन्धी काम: PIT, कर, कर प्रमाणपत्र। पहिले वेबसाइट हेर्नुहोस् वा KAS मा फोन गर्नुहोस्।"
+      },
+      "links": [
+        {
+          "label": {
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Skarbowy%20w%20Kozienicach%20Parkowa%205",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Otwórz stronę",
+            "en": "Open website",
+            "ua": "Відкрити сайт",
+            "ru": "Открыть сайт",
+            "az": "Saytı aç",
+            "es": "Abrir web",
+            "fil": "Buksan ang website",
+            "id": "Buka situs",
+            "ne": "वेबसाइट खोल्नुहोस्"
+          },
+          "url": "https://www.mazowieckie.kas.gov.pl/urzad-skarbowy-w-kozienicach",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Twój e-PIT",
+            "en": "Your e-PIT",
+            "ua": "Твій e-PIT",
+            "ru": "Твой e-PIT",
+            "az": "Sənin e-PIT",
+            "es": "Tu e-PIT",
+            "fil": "Iyong e-PIT",
+            "id": "e-PIT Anda",
+            "ne": "तपाईंको e-PIT"
+          },
+          "url": "https://www.podatki.gov.pl/pit/twoj-e-pit/",
+          "tone": "yellow"
+        }
+      ],
+      "phone": "+48223300330",
+      "list": []
+    },
+    {
+      "id": "zus-kozienice",
+      "icon": "document",
+      "tone": "yellow",
+      "title": {
+        "pl": "ZUS Kozienice",
+        "en": "ZUS Kozienice",
+        "ua": "ZUS Kozienice",
+        "ru": "ZUS Kozienice",
+        "az": "ZUS Kozienice",
+        "es": "ZUS Kozienice",
+        "fil": "ZUS Kozienice",
+        "id": "ZUS Kozienice",
+        "ne": "ZUS Kozienice"
+      },
+      "address": "ul. Radomska 43, 26-900 Kozienice",
+      "note": {
+        "pl": "ZUS dotyczy ubezpieczenia, zwolnienia lekarskiego, świadczeń i konta PUE/eZUS. Jeśli nie wiesz, sprawdź przez wyszukiwarkę ZUS albo zadzwoń.",
+        "en": "ZUS is for insurance, sick leave, benefits and PUE/eZUS account. If unsure, use the ZUS locator or call.",
+        "ua": "ZUS стосується страхування, лікарняного, виплат і акаунта PUE/eZUS. Якщо не знаєш, скористайся пошуком ZUS або подзвони.",
+        "ru": "ZUS касается страховки, больничного, выплат и аккаунта PUE/eZUS. Если не знаешь, используй поиск ZUS или позвони.",
+        "az": "ZUS sığorta, xəstəlik vərəqəsi, ödənişlər və PUE/eZUS hesabı üçündür. Bilmirsənsə, ZUS axtarışından istifadə et və ya zəng et.",
+        "es": "ZUS es para seguro, baja médica, prestaciones y cuenta PUE/eZUS. Si no sabes, usa el buscador ZUS o llama.",
+        "fil": "ZUS ay para sa insurance, sick leave, benefits at PUE/eZUS account. Kung hindi sigurado, gamitin ang ZUS locator o tumawag.",
+        "id": "ZUS untuk asuransi, surat sakit, tunjangan dan akun PUE/eZUS. Jika ragu, pakai pencari ZUS atau telepon.",
+        "ne": "ZUS बीमा, बिरामी बिदा, सुविधा र PUE/eZUS खाताका लागि हो। थाहा नभए ZUS खोजी प्रयोग गर्नुहोस् वा फोन गर्नुहोस्।"
+      },
+      "links": [
+        {
+          "label": {
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=ZUS%20Kozienice%20Radomska%2043",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Otwórz stronę",
+            "en": "Open website",
+            "ua": "Відкрити сайт",
+            "ru": "Открыть сайт",
+            "az": "Saytı aç",
+            "es": "Abrir web",
+            "fil": "Buksan ang website",
+            "id": "Buka situs",
+            "ne": "वेबसाइट खोल्नुहोस्"
+          },
+          "url": "https://www.zus.pl/o-zus/kontakt/oddzialy-inspektoraty-biura-terenowe",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Otwórz aplikację",
+            "en": "Open app",
+            "ua": "Відкрити додаток",
+            "ru": "Открыть приложение",
+            "az": "Tətbiqi aç",
+            "es": "Abrir app",
+            "fil": "Buksan ang app",
+            "id": "Buka aplikasi",
+            "ne": "एप खोल्नुहोस्"
+          },
+          "url": "https://www.zus.pl/ezus",
+          "tone": "yellow"
+        }
+      ],
+      "phone": "+48225601600",
+      "list": []
+    },
+    {
+      "id": "starostwo-kozienice",
+      "icon": "city",
+      "tone": "blue",
+      "title": {
+        "pl": "Starostwo Powiatowe w Kozienicach",
+        "en": "Kozienice County Office",
+        "ua": "Староство повіту Kozienice",
+        "ru": "Староство повята Kozienice",
+        "az": "Kozienice rayon idarəsi",
+        "es": "Oficina del condado Kozienice",
+        "fil": "County office sa Kozienice",
+        "id": "Kantor powiat Kozienice",
+        "ne": "Kozienice जिल्ला कार्यालय"
+      },
+      "address": "ul. Kochanowskiego 28, 26-900 Kozienice",
+      "note": {
+        "pl": "Przydatne przy sprawach powiatowych: prawo jazdy, komunikacja, pojazdy i część dokumentów powiatowych.",
+        "en": "Useful for county matters: driving licence, transport department, vehicles and some county documents.",
+        "ua": "Корисно для повітових справ: водійське посвідчення, транспортний відділ, авто і частина документів.",
+        "ru": "Полезно для повятовых дел: водительские права, отдел коммуникации, авто и часть документов.",
+        "az": "Rayon işləri üçün: sürücülük vəsiqəsi, nəqliyyat şöbəsi, avtomobillər və bəzi sənədlər.",
+        "es": "Para asuntos del condado: carnet de conducir, vehículos y algunos documentos.",
+        "fil": "Para sa county matters: driving licence, vehicles at ilang documents.",
+        "id": "Untuk urusan powiat: SIM, kendaraan dan beberapa dokumen.",
+        "ne": "जिल्ला कामका लागि: ड्राइभिङ लाइसेन्स, सवारी र केही कागजात।"
+      },
+      "links": [
+        {
+          "label": {
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Starostwo%20Powiatowe%20w%20Kozienicach%20Kochanowskiego%2028",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Otwórz stronę",
+            "en": "Open website",
+            "ua": "Відкрити сайт",
+            "ru": "Открыть сайт",
+            "az": "Saytı aç",
+            "es": "Abrir web",
+            "fil": "Buksan ang website",
+            "id": "Buka situs",
+            "ne": "वेबसाइट खोल्नुहोस्"
+          },
+          "url": "https://kozienicepowiat.pl/kontakt.html",
+          "tone": "blue"
+        }
+      ],
+      "phone": "+48486117300",
+      "list": []
+    },
+    {
+      "id": "pup-kozienice",
+      "icon": "document",
+      "tone": "blue",
+      "title": {
+        "pl": "Powiatowy Urząd Pracy w Kozienicach",
+        "en": "Labour Office in Kozienice",
+        "ua": "Центр зайнятості в Kozienicach",
+        "ru": "Центр занятости в Kozienicach",
+        "az": "Kozienice əmək idarəsi",
+        "es": "Oficina de empleo en Kozienice",
+        "fil": "Labour office sa Kozienice",
+        "id": "Kantor tenaga kerja Kozienice",
+        "ne": "Kozienice रोजगार कार्यालय"
+      },
+      "address": "ul. Zdziczów 1, 26-900 Kozienice",
+      "note": {
+        "pl": "Przydatne przy sprawach pracy, rejestracji, zaświadczeniach i ofertach pracy. To urząd pracy dla powiatu kozienickiego.",
+        "en": "Useful for work matters, registration, certificates and job offers. Labour office for Kozienice county.",
+        "ua": "Корисно для роботи, реєстрації, довідок і вакансій. Це центр зайнятості для повіту Kozienice.",
+        "ru": "Полезно для работы, регистрации, справок и вакансий. Это центр занятости повята Kozienice.",
+        "az": "İş, qeydiyyat, arayışlar və vakansiyalar üçün. Kozienice rayonu əmək idarəsi.",
+        "es": "Útil para trabajo, registro, certificados y ofertas. Oficina de empleo del condado Kozienice.",
+        "fil": "Para sa work matters, registration, certificates at job offers. Labour office ng Kozienice county.",
+        "id": "Untuk urusan kerja, pendaftaran, surat dan lowongan. Kantor tenaga kerja powiat Kozienice.",
+        "ne": "काम, दर्ता, प्रमाणपत्र र जागिर सूचनाका लागि। Kozienice जिल्लाको रोजगार कार्यालय।"
+      },
+      "links": [
+        {
+          "label": {
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Powiatowy%20Urz%C4%85d%20Pracy%20w%20Kozienicach%20Zdzicz%C3%B3w%201",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Otwórz stronę",
+            "en": "Open website",
+            "ua": "Відкрити сайт",
+            "ru": "Открыть сайт",
+            "az": "Saytı aç",
+            "es": "Abrir web",
+            "fil": "Buksan ang website",
+            "id": "Buka situs",
+            "ne": "वेबसाइट खोल्नुहोस्"
+          },
+          "url": "https://kozienice.praca.gov.pl/urzad/dane-kontaktowe",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Oferty pracy",
+            "en": "Job offers",
+            "ua": "Вакансії",
+            "ru": "Вакансии",
+            "az": "İş elanları",
+            "es": "Ofertas de trabajo",
+            "fil": "Job offers",
+            "id": "Lowongan kerja",
+            "ne": "जागिर सूचना"
+          },
+          "url": "https://kozienice.praca.gov.pl/oferty-pracy",
+          "tone": "blue"
+        }
+      ],
+      "phone": "+48486146699",
+      "list": []
     },
     {
       "id": "muw-warszawa",
       "icon": "document",
-      "tone": "blue",
+      "tone": "red",
       "title": {
         "pl": "Mazowiecki UW / karta pobytu",
         "en": "Mazowieckie Office / residence card",
@@ -1517,41 +1826,18 @@
         "id": "Kantor Mazowieckie / kartu tinggal",
         "ne": "Mazowieckie कार्यालय / बसोबास कार्ड"
       },
-      "address": {
-        "pl": "Wydział Spraw Cudzoziemców: ul. Marszałkowska 3/5, 00-624 Warszawa. Telefon: 22 695 65 65.",
-        "en": "Foreigners Affairs Department: ul. Marszałkowska 3/5, 00-624 Warsaw. Phone: 22 695 65 65.",
-        "ua": "Відділ справ іноземців: вул. Marszałkowska 3/5, 00-624 Warszawa. Телефон: 22 695 65 65.",
-        "ru": "Отдел по делам иностранцев: ул. Marszałkowska 3/5, 00-624 Warszawa. Телефон: 22 695 65 65.",
-        "az": "Əcnəbilər şöbəsi: ul. Marszałkowska 3/5, 00-624 Warszawa. Telefon: 22 695 65 65.",
-        "es": "Departamento de extranjeros: ul. Marszałkowska 3/5, 00-624 Warszawa. Teléfono: 22 695 65 65.",
-        "fil": "Foreigners Affairs Department: ul. Marszałkowska 3/5, 00-624 Warszawa. Telepono: 22 695 65 65.",
-        "id": "Bagian orang asing: ul. Marszałkowska 3/5, 00-624 Warszawa. Telepon: 22 695 65 65.",
-        "ne": "विदेशी विभाग: ul. Marszałkowska 3/5, 00-624 Warszawa। फोन: 22 695 65 65।"
-      },
+      "address": "ul. Marszałkowska 3/5, 00-624 Warszawa",
       "note": {
-        "pl": "Do spraw karty pobytu i legalizacji pobytu w województwie mazowieckim. Najpierw sprawdź instrukcję i termin.",
-        "en": "For residence card and stay legalisation in Mazowieckie. First check instructions and appointment.",
-        "ua": "Для карти побиту і легалізації в Мазовецькому воєводстві. Спочатку перевір інструкцію і термін.",
-        "ru": "Для карты побыту и легализации в Мазовецком воеводстве. Сначала проверь инструкцию и запись.",
-        "az": "Mazowieckie-də yaşayış kartı və leqallaşma üçün. Əvvəl təlimatı və vaxtı yoxla.",
-        "es": "Para residencia y legalización en Mazowieckie. Primero revisa instrucciones y cita.",
-        "fil": "Para sa residence card at legalisation sa Mazowieckie. Tingnan muna instructions at appointment.",
-        "id": "Untuk kartu tinggal dan legalisasi di Mazowieckie. Cek instruksi dan janji dulu.",
-        "ne": "Mazowieckie मा बसोबास कार्ड र वैधानिक बसाइका लागि। पहिले निर्देशन र अपोइन्टमेन्ट हेर्नुहोस्।"
+        "pl": "Główne miejsce dla spraw pobytowych w województwie mazowieckim. Przed wyjazdem sprawdź rezerwację, dokumenty i status sprawy.",
+        "en": "Main place for residence matters in Mazowieckie. Before travel check appointment, documents and case status.",
+        "ua": "Головне місце для справ побиту в Mazowieckie. Перед поїздкою перевір запис, документи і статус справи.",
+        "ru": "Главное место для дел по побыту в Mazowieckie. Перед поездкой проверь запись, документы и статус дела.",
+        "az": "Mazowieckie-də yaşayış işləri üçün əsas yer. Getməzdən əvvəl görüş, sənədlər və statusu yoxla.",
+        "es": "Lugar principal para residencia en Mazowieckie. Antes de ir revisa cita, documentos y estado.",
+        "fil": "Main place for residence matters sa Mazowieckie. Bago pumunta, tingnan appointment, documents at status.",
+        "id": "Tempat utama urusan izin tinggal di Mazowieckie. Sebelum pergi cek janji, dokumen dan status.",
+        "ne": "Mazowieckie मा बसोबास कामका लागि मुख्य ठाउँ। जानुअघि अपोइन्टमेन्ट, कागजात र स्थिति जाँच्नुहोस्।"
       },
-      "list": [
-        {
-          "pl": "Obsługa klientów: poniedziałek 10:00-17:30, wtorek-piątek 8:00-15:00.",
-          "en": "Customer service: Monday 10:00-17:30, Tuesday-Friday 8:00-15:00.",
-          "ua": "Обслуговування: понеділок 10:00-17:30, вівторок-п’ятниця 8:00-15:00.",
-          "ru": "Обслуживание: понедельник 10:00-17:30, вторник-пятница 8:00-15:00.",
-          "az": "Xidmət: bazar ertəsi 10:00-17:30, çərşənbə axşamı-cümə 8:00-15:00.",
-          "es": "Atención: lunes 10:00-17:30, martes-viernes 8:00-15:00.",
-          "fil": "Service: Lunes 10:00-17:30, Martes-Biyernes 8:00-15:00.",
-          "id": "Layanan: Senin 10:00-17:30, Selasa-Jumat 8:00-15:00.",
-          "ne": "सेवा: सोमबार 10:00-17:30, मंगलबार-शुक्रबार 8:00-15:00।"
-        }
-      ],
       "links": [
         {
           "label": {
@@ -1566,13 +1852,13 @@
             "ne": "नक्सा खोल्नुहोस्"
           },
           "url": "https://www.google.com/maps/search/?api=1&query=Mazowiecki%20Urz%C4%85d%20Wojew%C3%B3dzki%20Wydzia%C5%82%20Spraw%20Cudzoziemc%C3%B3w%20Marsza%C5%82kowska%203%2F5%20Warszawa",
-          "tone": "blue"
+          "tone": "red"
         },
         {
           "label": {
             "pl": "Otwórz stronę",
             "en": "Open website",
-            "ua": "Відкрити сторінку",
+            "ua": "Відкрити сайт",
             "ru": "Открыть сайт",
             "az": "Saytı aç",
             "es": "Abrir web",
@@ -1581,64 +1867,69 @@
             "ne": "वेबसाइट खोल्नुहोस्"
           },
           "url": "https://www.gov.pl/web/uw-mazowiecki/wydzial-spraw-cudzoziemcow",
-          "tone": "blue"
+          "tone": "red"
+        },
+        {
+          "label": {
+            "pl": "Otwórz aplikację",
+            "en": "Open app",
+            "ua": "Відкрити додаток",
+            "ru": "Открыть приложение",
+            "az": "Tətbiqi aç",
+            "es": "Abrir app",
+            "fil": "Buksan ang app",
+            "id": "Buka aplikasi",
+            "ne": "एप खोल्नुहोस्"
+          },
+          "url": "https://mos.cudzoziemcy.gov.pl/",
+          "tone": "red"
         },
         {
           "label": {
             "pl": "Umów wizytę",
-            "en": "Book a visit",
+            "en": "Book appointment",
             "ua": "Записатися на візит",
             "ru": "Записаться на визит",
             "az": "Görüş təyin et",
             "es": "Reservar cita",
             "fil": "Mag-book ng appointment",
             "id": "Buat janji",
-            "ne": "भेटघाट बुक गर्नुहोस्"
+            "ne": "अपोइन्टमेन्ट लिनुहोस्"
           },
           "url": "https://www.e-uslugi.mazowieckie.pl/umow-wizyte",
-          "tone": "blue"
+          "tone": "red"
         }
       ],
-      "phone": "+48226956565"
+      "phone": "+48226956565",
+      "list": []
     },
     {
       "id": "muw-radom",
       "icon": "document",
-      "tone": "blue",
+      "tone": "yellow",
       "title": {
         "pl": "MUW Delegatura Radom",
-        "en": "MUW branch Radom",
-        "ua": "MUW делегатура Radom",
-        "ru": "MUW делегатура Radom",
+        "en": "Mazowieckie Office - Radom branch",
+        "ua": "MUW Делегатура Radom",
+        "ru": "MUW Делегатура Radom",
         "az": "MUW Radom filialı",
-        "es": "MUW delegación Radom",
-        "fil": "MUW branch Radom",
+        "es": "Delegación MUW Radom",
+        "fil": "MUW Radom branch",
         "id": "Cabang MUW Radom",
         "ne": "MUW Radom शाखा"
       },
-      "address": {
-        "pl": "Radom, ul. Żeromskiego 53. Telefon: 48 362 08 70.",
-        "en": "Radom, ul. Żeromskiego 53. Phone: 48 362 08 70.",
-        "ua": "Radom, вул. Żeromskiego 53. Телефон: 48 362 08 70.",
-        "ru": "Radom, ул. Żeromskiego 53. Телефон: 48 362 08 70.",
-        "az": "Radom, ul. Żeromskiego 53. Telefon: 48 362 08 70.",
-        "es": "Radom, ul. Żeromskiego 53. Teléfono: 48 362 08 70.",
-        "fil": "Radom, ul. Żeromskiego 53. Telepono: 48 362 08 70.",
-        "id": "Radom, ul. Żeromskiego 53. Telepon: 48 362 08 70.",
-        "ne": "Radom, ul. Żeromskiego 53। फोन: 48 362 08 70।"
-      },
+      "address": "ul. Żeromskiego 53, 26-600 Radom",
       "note": {
-        "pl": "Radom jest bliżej niż Warszawa, ale przed wyjazdem zapytaj, czy twoją sprawę cudzoziemca można załatwić w delegaturze.",
-        "en": "Radom is closer than Warsaw, but before going ask if your foreigner matter can be handled in the branch.",
-        "ua": "Radom ближче ніж Warszawa, але перед поїздкою запитай, чи твою справу іноземця можна вирішити в делегатурі.",
-        "ru": "Radom ближе, чем Warszawa, но перед поездкой спроси, можно ли решить твоё дело иностранца в делегатуре.",
-        "az": "Radom Varşavadan yaxındır, amma getməzdən əvvəl əcnəbi işinin filialda həll olub-olmadığını soruş.",
-        "es": "Radom está más cerca que Varsovia, pero antes de ir pregunta si tu asunto se puede resolver en la delegación.",
-        "fil": "Mas malapit ang Radom kaysa Warsaw, pero tumawag muna kung puwede doon ang iyong foreigner matter.",
-        "id": "Radom lebih dekat dari Warsawa, tetapi tanya dulu apakah urusan orang asing bisa di cabang.",
-        "ne": "Radom Warsaw भन्दा नजिक छ, तर जानुअघि विदेशीसम्बन्धी काम शाखामा हुन्छ कि हुँदैन सोध्नुहोस्।"
+        "pl": "Radom jest bliżej Ryczywołu, ale sprawy cudzoziemców trzeba najpierw potwierdzić telefonicznie albo na stronie urzędu.",
+        "en": "Radom is closer to Ryczywół, but foreigners' matters must be confirmed by phone or on the office website first.",
+        "ua": "Radom ближче до Ryczywołu, але справи іноземців треба спочатку підтвердити телефоном або на сайті.",
+        "ru": "Radom ближе к Ryczywołu, но дела иностранцев сначала нужно подтвердить по телефону или на сайте.",
+        "az": "Radom Ryczywół-a daha yaxındır, amma əcnəbi işlərini əvvəl telefonla və ya saytda təsdiqlə.",
+        "es": "Radom está más cerca, pero asuntos de extranjeros hay que confirmarlos antes por teléfono o web.",
+        "fil": "Mas malapit ang Radom, pero foreigners' matters dapat i-confirm muna by phone o website.",
+        "id": "Radom lebih dekat, tapi urusan orang asing harus dikonfirmasi dulu lewat telepon atau situs.",
+        "ne": "Radom नजिक छ, तर विदेशी सम्बन्धी काम पहिले फोन वा वेबसाइटबाट पुष्टि गर्नुहोस्।"
       },
-      "list": [],
       "links": [
         {
           "label": {
@@ -1653,81 +1944,102 @@
             "ne": "नक्सा खोल्नुहोस्"
           },
           "url": "https://www.google.com/maps/search/?api=1&query=Mazowiecki%20Urz%C4%85d%20Wojew%C3%B3dzki%20Delegatura%20Radom%20%C5%BBeromskiego%2053",
-          "tone": "blue"
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Otwórz stronę",
+            "en": "Open website",
+            "ua": "Відкрити сайт",
+            "ru": "Открыть сайт",
+            "az": "Saytı aç",
+            "es": "Abrir web",
+            "fil": "Buksan ang website",
+            "id": "Buka situs",
+            "ne": "वेबसाइट खोल्नुहोस्"
+          },
+          "url": "https://www.gov.pl/web/uw-mazowiecki/wydzial-spraw-cudzoziemcow",
+          "tone": "yellow"
         }
       ],
-      "phone": "+48483620870"
+      "phone": "+48483620870",
+      "list": []
     },
     {
       "id": "mos-profil",
       "icon": "document",
       "tone": "blue",
       "title": {
-        "pl": "MOS i Profil Zaufany",
-        "en": "MOS and Trusted Profile",
-        "ua": "MOS і Profil Zaufany",
-        "ru": "MOS и Profil Zaufany",
-        "az": "MOS və Etibarlı profil",
-        "es": "MOS y Perfil de confianza",
-        "fil": "MOS at Trusted Profile",
-        "id": "MOS dan Profil Tepercaya",
-        "ne": "MOS र विश्वसनीय प्रोफाइल"
+        "pl": "MOS, Profil Zaufany i mObywatel",
+        "en": "MOS, Trusted Profile and mObywatel",
+        "ua": "MOS, Profil Zaufany і mObywatel",
+        "ru": "MOS, Profil Zaufany и mObywatel",
+        "az": "MOS, Profil Zaufany və mObywatel",
+        "es": "MOS, Perfil de confianza y mObywatel",
+        "fil": "MOS, Trusted Profile at mObywatel",
+        "id": "MOS, Profil Zaufany dan mObywatel",
+        "ne": "MOS, Profil Zaufany र mObywatel"
       },
-      "address": {
-        "pl": "Do wniosków online potrzebujesz telefonu, e-maila i często Profilu Zaufanego.",
-        "en": "For online applications you need a phone, e-mail and often Trusted Profile.",
-        "ua": "Для онлайн-заяв потрібні телефон, e-mail і часто Profil Zaufany.",
-        "ru": "Для онлайн-заявлений нужны телефон, e-mail и часто Profil Zaufany.",
-        "az": "Onlayn ərizələr üçün telefon, e-mail və çox vaxt etibarlı profil lazımdır.",
-        "es": "Para solicitudes online necesitas teléfono, e-mail y a menudo Perfil de confianza.",
-        "fil": "Para sa online applications kailangan phone, e-mail at madalas Trusted Profile.",
-        "id": "Untuk pengajuan online perlu telepon, e-mail dan sering Profil Tepercaya.",
-        "ne": "अनलाइन आवेदनका लागि फोन, इमेल र प्रायः विश्वसनीय प्रोफाइल चाहिन्छ।"
-      },
+      "address": "",
       "note": {
-        "pl": "To linki do systemów urzędowych, nie mapa.",
-        "en": "These are links to official systems, not a map.",
-        "ua": "Це посилання до державних систем, не карта.",
-        "ru": "Это ссылки на государственные системы, не карта.",
-        "az": "Bunlar rəsmi sistem linkləridir, xəritə deyil.",
-        "es": "Son enlaces a sistemas oficiales, no mapa.",
-        "fil": "Links ito sa official systems, hindi mapa.",
-        "id": "Ini tautan sistem resmi, bukan peta.",
-        "ne": "यी सरकारी प्रणालीका लिंकहरू हुन्, नक्सा होइन।"
+        "pl": "Praktyczne aplikacje do spraw urzędowych: wniosek pobytowy, logowanie do urzędów, dokumenty w telefonie.",
+        "en": "Useful apps for official matters: residence application, login to offices, documents on the phone.",
+        "ua": "Практичні додатки для установ: заява на побит, вхід до урядів, документи в телефоні.",
+        "ru": "Практичные приложения для учреждений: заявление на побыт, вход в учреждения, документы в телефоне.",
+        "az": "Rəsmi işlər üçün tətbiqlər: yaşayış ərizəsi, idarələrə giriş, telefonda sənədlər.",
+        "es": "Apps útiles para trámites: residencia, acceso a oficinas, documentos en el teléfono.",
+        "fil": "Useful apps para sa official matters: residence application, login, documents sa phone.",
+        "id": "Aplikasi penting untuk urusan resmi: izin tinggal, login kantor, dokumen di telepon.",
+        "ne": "सरकारी कामका एप: बसोबास आवेदन, कार्यालय लगइन, फोनमा कागजात।"
       },
-      "list": [],
       "links": [
         {
           "label": {
-            "pl": "MOS - wniosek online",
-            "en": "MOS - online application",
-            "ua": "MOS - заява онлайн",
-            "ru": "MOS - заявление онлайн",
-            "az": "MOS - onlayn ərizə",
-            "es": "MOS - solicitud online",
-            "fil": "MOS - online application",
-            "id": "MOS - pengajuan online",
-            "ne": "MOS - अनलाइन आवेदन"
+            "pl": "Otwórz aplikację",
+            "en": "Open app",
+            "ua": "Відкрити додаток",
+            "ru": "Открыть приложение",
+            "az": "Tətbiqi aç",
+            "es": "Abrir app",
+            "fil": "Buksan ang app",
+            "id": "Buka aplikasi",
+            "ne": "एप खोल्नुहोस्"
           },
           "url": "https://mos.cudzoziemcy.gov.pl/",
           "tone": "blue"
         },
         {
           "label": {
-            "pl": "Profil Zaufany",
-            "en": "Trusted Profile",
-            "ua": "Profil Zaufany",
-            "ru": "Profil Zaufany",
-            "az": "Etibarlı profil",
-            "es": "Perfil de confianza",
-            "fil": "Trusted Profile",
-            "id": "Profil Tepercaya",
-            "ne": "विश्वसनीय प्रोफाइल"
+            "pl": "Otwórz aplikację",
+            "en": "Open app",
+            "ua": "Відкрити додаток",
+            "ru": "Открыть приложение",
+            "az": "Tətbiqi aç",
+            "es": "Abrir app",
+            "fil": "Buksan ang app",
+            "id": "Buka aplikasi",
+            "ne": "एप खोल्नुहोस्"
           },
           "url": "https://www.gov.pl/web/profilzaufany",
           "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Otwórz aplikację",
+            "en": "Open app",
+            "ua": "Відкрити додаток",
+            "ru": "Открыть приложение",
+            "az": "Tətbiqi aç",
+            "es": "Abrir app",
+            "fil": "Buksan ang app",
+            "id": "Buka aplikasi",
+            "ne": "एप खोल्नुहोस्"
+          },
+          "url": "https://www.gov.pl/web/mobywatel",
+          "tone": "blue"
         }
-      ]
+      ],
+      "list": []
     },
     {
       "id": "bank-kozienice",
@@ -1744,46 +2056,66 @@
         "id": "Bank dan ATM Kozienice",
         "ne": "Kozienice बैंक र ATM"
       },
-      "address": {
-        "pl": "Mapa pokazuje banki i bankomaty w Kozienicach.",
-        "en": "The map shows banks and ATMs in Kozienice.",
-        "ua": "Карта показує банки і банкомати в Kozienicach.",
-        "ru": "Карта показывает банки и банкоматы в Kozienicach.",
-        "az": "Xəritə Kozienice-də bank və bankomatları göstərir.",
-        "es": "El mapa muestra bancos y cajeros en Kozienice.",
-        "fil": "Makikita sa mapa ang bangko at ATM sa Kozienice.",
-        "id": "Peta menampilkan bank dan ATM di Kozienice.",
-        "ne": "नक्सामा Kozienice का बैंक र ATM देखिन्छन्।"
-      },
+      "address": "Kozienice",
       "note": {
-        "pl": "Najpierw sprawdź godziny i czy bankomat działa.",
-        "en": "First check opening hours and whether the ATM works.",
-        "ua": "Спочатку перевір години і чи працює банкомат.",
-        "ru": "Сначала проверь часы и работает ли банкомат.",
-        "az": "Əvvəl iş saatlarını və bankomatın işləyib-işləmədiyini yoxla.",
-        "es": "Primero revisa horario y si el cajero funciona.",
-        "fil": "Tingnan muna ang oras at kung gumagana ang ATM.",
-        "id": "Cek dulu jam buka dan apakah ATM berfungsi.",
-        "ne": "पहिले समय र ATM चल्छ कि चल्दैन जाँच्नुहोस्।"
+        "pl": "Dla wypłaty gotówki, karty, konta i przelewów. Zawsze sprawdź godziny w Google Maps.",
+        "en": "For cash, card, account and transfers. Always check hours in Google Maps.",
+        "ua": "Для готівки, картки, рахунку і переказів. Завжди перевіряй години в Google Maps.",
+        "ru": "Для наличных, карты, счета и переводов. Всегда проверяй часы в Google Maps.",
+        "az": "Nağd pul, kart, hesab və köçürmələr üçün. Saatları Google Maps-də yoxla.",
+        "es": "Para efectivo, tarjeta, cuenta y transferencias. Revisa horario en Google Maps.",
+        "fil": "Para sa cash, card, account at transfers. Laging tingnan oras sa Google Maps.",
+        "id": "Untuk uang tunai, kartu, rekening dan transfer. Selalu cek jam di Google Maps.",
+        "ne": "नगद, कार्ड, खाता र ट्रान्सफरका लागि। Google Maps मा समय हेर्नुहोस्।"
       },
-      "list": [],
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Banki i bankomaty",
+            "en": "Banks and ATMs",
+            "ua": "Банки і банкомати",
+            "ru": "Банки и банкоматы",
+            "az": "Banklar və bankomatlar",
+            "es": "Bancos y cajeros",
+            "fil": "Bangko at ATM",
+            "id": "Bank dan ATM",
+            "ne": "बैंक र ATM"
           },
           "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Kozienice",
           "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "PKO BP Kozienice",
+            "en": "PKO BP Kozienice",
+            "ua": "PKO BP Kozienice",
+            "ru": "PKO BP Kozienice",
+            "az": "PKO BP Kozienice",
+            "es": "PKO BP Kozienice",
+            "fil": "PKO BP Kozienice",
+            "id": "PKO BP Kozienice",
+            "ne": "PKO BP Kozienice"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=PKO%20BP%20Kozienice%20Kochanowskiego%2028",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Kantor / wymiana walut",
+            "en": "Currency exchange",
+            "ua": "Обмін валют",
+            "ru": "Обмен валют",
+            "az": "Valyuta mübadiləsi",
+            "es": "Cambio de moneda",
+            "fil": "Palitan ng pera",
+            "id": "Penukaran uang",
+            "ne": "मुद्रा सटही"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=kantor%20wymiany%20walut%20Kozienice",
+          "tone": "yellow"
         }
-      ]
+      ],
+      "list": []
     },
     {
       "id": "poczta-kozienice",
@@ -1800,29 +2132,18 @@
         "id": "Kantor pos Kozienice",
         "ne": "Kozienice हुलाक"
       },
-      "address": {
-        "pl": "Poczta do listów poleconych, dokumentów i odbioru przesyłek.",
-        "en": "Post office for registered letters, documents and parcel pickup.",
-        "ua": "Пошта для рекомендованих листів, документів і посилок.",
-        "ru": "Почта для заказных писем, документов и посылок.",
-        "az": "Sifarişli məktub, sənəd və bağlama üçün poçt.",
-        "es": "Correo para cartas certificadas, documentos y paquetes.",
-        "fil": "Post office para registered letters, documents at parcels.",
-        "id": "Kantor pos untuk surat tercatat, dokumen dan paket.",
-        "ne": "रेजिस्टर्ड पत्र, कागजात र पार्सलका लागि हुलाक।"
-      },
+      "address": "Kozienice",
       "note": {
-        "pl": "Przy dokumentach urzędowych często potrzebny jest list polecony.",
-        "en": "Official documents often need a registered letter.",
-        "ua": "Для документів часто потрібен рекомендований лист.",
-        "ru": "Для документов часто нужно заказное письмо.",
-        "az": "Rəsmi sənədlər üçün çox vaxt sifarişli məktub lazımdır.",
-        "es": "Para documentos oficiales a menudo se necesita carta certificada.",
-        "fil": "Sa official documents madalas kailangan registered letter.",
-        "id": "Dokumen resmi sering perlu surat tercatat.",
-        "ne": "सरकारी कागजातमा प्रायः रेजिस्टर्ड पत्र चाहिन्छ।"
+        "pl": "Do listów, przesyłek, awizo i odbioru paczek. Sprawdź najbliższą placówkę w mapie.",
+        "en": "For letters, parcels, pickup notice and package pickup. Check nearest office on map.",
+        "ua": "Для листів, посилок, авізо і отримання пакунків. Перевір найближче відділення на карті.",
+        "ru": "Для писем, посылок, извещений и получения посылок. Проверь ближайшее отделение на карте.",
+        "az": "Məktub, bağlama və götürmə üçün. Ən yaxın poçtu xəritədə yoxla.",
+        "es": "Para cartas, paquetes y recogida. Mira la oficina más cercana en el mapa.",
+        "fil": "Para sa letters, parcels at pickup. Tingnan ang pinakamalapit sa mapa.",
+        "id": "Untuk surat, paket dan pengambilan. Cek kantor terdekat di peta.",
+        "ne": "पत्र, पार्सल र लिनका लागि। नजिकको कार्यालय नक्सामा हेर्नुहोस्।"
       },
-      "list": [],
       "links": [
         {
           "label": {
@@ -1838,8 +2159,24 @@
           },
           "url": "https://www.google.com/maps/search/?api=1&query=Poczta%20Polska%20Kozienice",
           "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Poczta / paczki",
+            "en": "Post / parcels",
+            "ua": "Пошта / посилки",
+            "ru": "Почта / посылки",
+            "az": "Poçt / bağlamalar",
+            "es": "Correo / paquetes",
+            "fil": "Post office / parcel",
+            "id": "Pos / paket",
+            "ne": "हुलाक / पार्सल"
+          },
+          "url": "https://emonitoring.poczta-polska.pl/",
+          "tone": "yellow"
         }
-      ]
+      ],
+      "list": []
     },
     {
       "id": "transport-kozienice",
@@ -1856,132 +2193,142 @@
         "id": "Transportasi Ryczywół / Kozienice",
         "ne": "Ryczywół / Kozienice यातायात"
       },
-      "address": {
-        "pl": "Przystanki, trasy i aplikacje do dojazdu.",
-        "en": "Stops, routes and travel apps.",
-        "ua": "Зупинки, маршрути і додатки для доїзду.",
-        "ru": "Остановки, маршруты и приложения для дороги.",
-        "az": "Dayanacaqlar, marşrutlar və yol tətbiqləri.",
-        "es": "Paradas, rutas y apps de viaje.",
-        "fil": "Sakayan, ruta at travel apps.",
-        "id": "Halte, rute dan aplikasi perjalanan.",
-        "ne": "स्टप, रुट र यात्रा एपहरू।"
-      },
+      "address": "",
       "note": {
-        "pl": "Do planowania drogi używaj Google Maps, e-podróżnika i Koleo.",
-        "en": "For route planning use Google Maps, e-podroznik and Koleo.",
-        "ua": "Для планування дороги використовуй Google Maps, e-podróżnik і Koleo.",
-        "ru": "Для планирования дороги используй Google Maps, e-podróżnik и Koleo.",
-        "az": "Yolu planlamaq üçün Google Maps, e-podróżnik və Koleo istifadə edin.",
-        "es": "Para planear ruta usa Google Maps, e-podróżnik y Koleo.",
-        "fil": "Para sa route, gamitin Google Maps, e-podróżnik at Koleo.",
-        "id": "Untuk rute gunakan Google Maps, e-podróżnik dan Koleo.",
-        "ne": "रुट बनाउन Google Maps, e-podróżnik र Koleo प्रयोग गर्नुहोस्।"
+        "pl": "Do sprawdzenia trasy używaj Google Maps, e-podróżnik i Koleo. Przed pierwszym dniem sprawdź trasę wcześniej.",
+        "en": "Use Google Maps, e-podróżnik and Koleo for routes. Before the first day check route earlier.",
+        "ua": "Для маршруту використовуй Google Maps, e-podróżnik і Koleo. Перед першим днем перевір дорогу раніше.",
+        "ru": "Для маршрута используй Google Maps, e-podróżnik и Koleo. Перед первым днем проверь дорогу заранее.",
+        "az": "Yol üçün Google Maps, e-podróżnik və Koleo istifadə et. İlk gündən əvvəl yolu öncədən yoxla.",
+        "es": "Usa Google Maps, e-podróżnik y Koleo. Antes del primer día revisa la ruta antes.",
+        "fil": "Gamitin Google Maps, e-podróżnik at Koleo. Bago first day, i-check ang biyahe.",
+        "id": "Gunakan Google Maps, e-podróżnik dan Koleo. Sebelum hari pertama cek rute lebih awal.",
+        "ne": "बाटोका लागि Google Maps, e-podróżnik र Koleo प्रयोग गर्नुहोस्। पहिलो दिनअघि बाटो पहिल्यै जाँच्नुहोस्।"
       },
-      "list": [],
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Sprawdź dojazd",
+            "en": "Check route",
+            "ua": "Перевірити доїзд",
+            "ru": "Проверить дорогу",
+            "az": "Yolu yoxla",
+            "es": "Ver ruta",
+            "fil": "Tingnan ang biyahe",
+            "id": "Cek rute",
+            "ne": "यात्रा जाँच्नुहोस्"
           },
           "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20przystanek",
           "tone": "blue"
         },
         {
           "label": {
-            "pl": "e-podróżnik",
-            "en": "e-podroznik",
-            "ua": "e-podróżnik",
-            "ru": "e-podróżnik",
-            "az": "e-podróżnik",
-            "es": "e-podróżnik",
-            "fil": "e-podróżnik",
-            "id": "e-podróżnik",
-            "ne": "e-podróżnik"
+            "pl": "Otwórz aplikację",
+            "en": "Open app",
+            "ua": "Відкрити додаток",
+            "ru": "Открыть приложение",
+            "az": "Tətbiqi aç",
+            "es": "Abrir app",
+            "fil": "Buksan ang app",
+            "id": "Buka aplikasi",
+            "ne": "एप खोल्नुहोस्"
           },
           "url": "https://www.e-podroznik.pl/",
           "tone": "blue"
         },
         {
           "label": {
-            "pl": "Koleo",
-            "en": "Koleo",
-            "ua": "Koleo",
-            "ru": "Koleo",
-            "az": "Koleo",
-            "es": "Koleo",
-            "fil": "Koleo",
-            "id": "Koleo",
-            "ne": "Koleo"
+            "pl": "Otwórz aplikację",
+            "en": "Open app",
+            "ua": "Відкрити додаток",
+            "ru": "Открыть приложение",
+            "az": "Tətbiqi aç",
+            "es": "Abrir app",
+            "fil": "Buksan ang app",
+            "id": "Buka aplikasi",
+            "ne": "एप खोल्नुहोस्"
           },
           "url": "https://koleo.pl/",
           "tone": "blue"
         }
-      ]
+      ],
+      "list": []
     },
     {
       "id": "najblizsze-kozienice",
       "icon": "map",
       "tone": "blue",
       "title": {
-        "pl": "Sklep, apteka, najbliższe punkty",
-        "en": "Shop, pharmacy, nearby points",
-        "ua": "Магазин, аптека, найближчі місця",
-        "ru": "Магазин, аптека, ближайшие места",
-        "az": "Mağaza, aptek, yaxın yerlər",
-        "es": "Tienda, farmacia, puntos cercanos",
-        "fil": "Tindahan, botika, malapit na lugar",
-        "id": "Toko, apotek, tempat terdekat",
-        "ne": "पसल, फार्मेसी, नजिकका ठाउँहरू"
+        "pl": "Najbliższe punkty: sklep, apteka, telefon",
+        "en": "Nearby: shop, pharmacy, phone",
+        "ua": "Поруч: магазин, аптека, телефон",
+        "ru": "Рядом: магазин, аптека, телефон",
+        "az": "Yaxında: mağaza, aptek, telefon",
+        "es": "Cerca: tienda, farmacia, teléfono",
+        "fil": "Malapit: tindahan, botika, telepono",
+        "id": "Terdekat: toko, apotek, telepon",
+        "ne": "नजिक: पसल, फार्मेसी, फोन"
       },
-      "address": {
-        "pl": "Mapa do podstawowych miejsc w Ryczywole i Kozienicach.",
-        "en": "Map to basic places in Ryczywół and Kozienice.",
-        "ua": "Карта до основних місць у Ryczywole і Kozienicach.",
-        "ru": "Карта к основным местам в Ryczywole и Kozienicach.",
-        "az": "Ryczywół və Kozienice-də əsas yerlərə xəritə.",
-        "es": "Mapa a lugares básicos en Ryczywół y Kozienice.",
-        "fil": "Mapa sa basic places sa Ryczywół at Kozienice.",
-        "id": "Peta ke tempat dasar di Ryczywół dan Kozienice.",
-        "ne": "Ryczywół र Kozienice का आधारभूत ठाउँहरूको नक्सा।"
-      },
+      "address": "Ryczywół / Kozienice",
       "note": {
-        "pl": "Użyj, jeśli jesteś nowy i nie wiesz, gdzie kupić podstawowe rzeczy.",
-        "en": "Use it if you are new and do not know where to buy basic things.",
-        "ua": "Використай, якщо ти новий і не знаєш, де купити основні речі.",
-        "ru": "Используй, если ты новый и не знаешь, где купить основные вещи.",
-        "az": "Yenisinizsə və əsas şeyləri haradan almağı bilmirsinizsə istifadə edin.",
-        "es": "Úsalo si eres nuevo y no sabes dónde comprar cosas básicas.",
-        "fil": "Gamitin kung bago ka at hindi alam saan bumili ng basic things.",
-        "id": "Gunakan jika baru dan tidak tahu tempat membeli kebutuhan dasar.",
-        "ne": "नयाँ हुनुहुन्छ र आधारभूत सामान कहाँ किन्ने थाहा छैन भने प्रयोग गर्नुहोस्।"
+        "pl": "Szybkie mapy do codziennych miejsc. Przydatne, gdy jesteś nowy i nie wiesz, gdzie iść.",
+        "en": "Quick maps to everyday places. Useful when you are new and do not know where to go.",
+        "ua": "Швидкі карти до щоденних місць. Корисно, коли ти новий і не знаєш, куди йти.",
+        "ru": "Быстрые карты к ежедневным местам. Полезно, когда ты новый и не знаешь, куда идти.",
+        "az": "Gündəlik yerlər üçün sürətli xəritələr. Yeni olanda və hara getməyi bilməyəndə faydalıdır.",
+        "es": "Mapas rápidos a lugares diarios. Útil si eres nuevo.",
+        "fil": "Quick maps sa everyday places. Useful kung bago ka.",
+        "id": "Peta cepat ke tempat harian. Berguna jika baru datang.",
+        "ne": "दैनिक ठाउँका छिटो नक्सा। नयाँ हुँदा उपयोगी।"
       },
-      "list": [],
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Sklep",
+            "en": "Shop",
+            "ua": "Магазин",
+            "ru": "Магазин",
+            "az": "Mağaza",
+            "es": "Tienda",
+            "fil": "Tindahan",
+            "id": "Toko",
+            "ne": "पसल"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82%20Kozienice",
+          "url": "https://www.google.com/maps/search/?api=1&query=sklep%20Ryczyw%C3%B3%C5%82%20Kozienice",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Apteka",
+            "en": "Pharmacy",
+            "ua": "Аптека",
+            "ru": "Аптека",
+            "az": "Aptek",
+            "es": "Farmacia",
+            "fil": "Botika",
+            "id": "Apotek",
+            "ne": "फार्मेसी"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=apteka%20Ryczyw%C3%B3%C5%82%20Kozienice",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Punkt telefoniczny / SIM",
+            "en": "Phone / SIM point",
+            "ua": "Телефон / SIM",
+            "ru": "Телефон / SIM",
+            "az": "Telefon / SIM",
+            "es": "Teléfono / SIM",
+            "fil": "Phone / SIM",
+            "id": "Telepon / SIM",
+            "ne": "फोन / SIM"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=telefon%20kom%C3%B3rkowy%20SIM%20Kozienice",
           "tone": "blue"
         }
-      ]
+      ],
+      "list": []
     }
   ],
   "citySections": [
@@ -2000,81 +2347,113 @@
         "ne": "कार्यालय र कागजात"
       },
       "lead": {
-        "pl": "Adresy urzędów, karta pobytu, PESEL i sprawy dokumentów.",
-        "en": "Office addresses, residence card, PESEL and document matters.",
-        "ua": "Адреси установ, карта побиту, PESEL і документи.",
-        "ru": "Адреса учреждений, карта побыту, PESEL и документы.",
-        "az": "İdarə ünvanları, yaşayış kartı, PESEL və sənəd işləri.",
-        "es": "Direcciones, tarjeta de residencia, PESEL y documentos.",
-        "fil": "Mga address, residence card, PESEL at dokumento.",
-        "id": "Alamat kantor, kartu tinggal, PESEL dan dokumen.",
-        "ne": "कार्यालय ठेगाना, बसोबास कार्ड, PESEL र कागजात।"
+        "pl": "Gmina, powiat, urząd pracy i sprawy dokumentów.",
+        "en": "Commune, county, labour office and documents.",
+        "ua": "Гміна, повіт, центр зайнятості і документи.",
+        "ru": "Гмина, повят, центр занятости и документы.",
+        "az": "Bələdiyyə, rayon, əmək idarəsi və sənədlər.",
+        "es": "Comuna, condado, empleo y documentos.",
+        "fil": "Commune, county, labour office at documents.",
+        "id": "Gmina, powiat, kantor tenaga kerja dan dokumen.",
+        "ne": "ग्मिना, जिल्ला, रोजगार कार्यालय र कागजात।"
       },
       "items": [
         "urzad-kozienice",
+        "starostwo-kozienice",
+        "pup-kozienice"
+      ]
+    },
+    {
+      "tone": "red",
+      "icon": "document",
+      "title": {
+        "pl": "Pobyt i urzędy państwowe",
+        "en": "Residence and state offices",
+        "ua": "Побит і державні установи",
+        "ru": "Побыт и государственные учреждения",
+        "az": "Yaşayış və dövlət idarələri",
+        "es": "Residencia y oficinas estatales",
+        "fil": "Residence at state offices",
+        "id": "Izin tinggal dan kantor negara",
+        "ne": "बसोबास र सरकारी कार्यालय"
+      },
+      "lead": {
+        "pl": "Karta pobytu, MOS, Profil Zaufany, podatki i ZUS.",
+        "en": "Residence card, MOS, Trusted Profile, taxes and ZUS.",
+        "ua": "Карта побиту, MOS, Profil Zaufany, податки і ZUS.",
+        "ru": "Карта побыту, MOS, Profil Zaufany, налоги и ZUS.",
+        "az": "Yaşayış kartı, MOS, Profil Zaufany, vergilər və ZUS.",
+        "es": "Residencia, MOS, Perfil de confianza, impuestos y ZUS.",
+        "fil": "Residence card, MOS, Trusted Profile, taxes at ZUS.",
+        "id": "Kartu tinggal, MOS, Profil Zaufany, pajak dan ZUS.",
+        "ne": "बसोबास कार्ड, MOS, Profil Zaufany, कर र ZUS।"
+      },
+      "items": [
         "muw-warszawa",
         "muw-radom",
-        "mos-profil"
+        "mos-profil",
+        "us-kozienice",
+        "zus-kozienice"
       ]
     },
     {
       "tone": "yellow",
       "icon": "bank",
       "title": {
-        "pl": "Banki, poczta i bankomaty",
-        "en": "Banks, post office and ATMs",
-        "ua": "Банки, пошта і банкомати",
-        "ru": "Банки, почта и банкоматы",
-        "az": "Banklar, poçt və bankomatlar",
-        "es": "Bancos, correo y cajeros",
-        "fil": "Bangko, post office at ATM",
-        "id": "Bank, kantor pos dan ATM",
-        "ne": "बैंक, हुलाक र ATM"
+        "pl": "Bank, poczta i codzienne sprawy",
+        "en": "Bank, post and daily matters",
+        "ua": "Банк, пошта і щоденні справи",
+        "ru": "Банк, почта и ежедневные дела",
+        "az": "Bank, poçt və gündəlik işlər",
+        "es": "Banco, correo y asuntos diarios",
+        "fil": "Bank, post at daily matters",
+        "id": "Bank, pos dan urusan harian",
+        "ne": "बैंक, हुलाक र दैनिक काम"
       },
       "lead": {
-        "pl": "Najpierw sprawdź godzinę otwarcia w mapie albo zadzwoń.",
-        "en": "First check opening hours in the map or call.",
-        "ua": "Спочатку перевір години роботи на карті або подзвони.",
-        "ru": "Сначала проверь часы работы на карте или позвони.",
-        "az": "Əvvəl xəritədə iş saatlarını yoxla və ya zəng et.",
-        "es": "Primero revisa el horario en el mapa o llama.",
-        "fil": "Tingnan muna ang oras sa mapa o tumawag.",
-        "id": "Cek dulu jam buka di peta atau telepon.",
-        "ne": "पहिले नक्सामा खुल्ने समय हेर्नुहोस् वा फोन गर्नुहोस्।"
+        "pl": "Gotówka, konto, przesyłki, sklep, apteka i SIM.",
+        "en": "Cash, account, parcels, shop, pharmacy and SIM.",
+        "ua": "Готівка, рахунок, посилки, магазин, аптека і SIM.",
+        "ru": "Наличные, счет, посылки, магазин, аптека и SIM.",
+        "az": "Nağd pul, hesab, bağlama, mağaza, aptek və SIM.",
+        "es": "Efectivo, cuenta, paquetes, tienda, farmacia y SIM.",
+        "fil": "Cash, account, parcel, shop, botika at SIM.",
+        "id": "Uang tunai, rekening, paket, toko, apotek dan SIM.",
+        "ne": "नगद, खाता, पार्सल, पसल, फार्मेसी र SIM।"
       },
       "items": [
         "bank-kozienice",
-        "poczta-kozienice"
+        "poczta-kozienice",
+        "najblizsze-kozienice"
       ]
     },
     {
       "tone": "blue",
       "icon": "map",
       "title": {
-        "pl": "Transport i aplikacje",
-        "en": "Transport and apps",
-        "ua": "Транспорт і додатки",
-        "ru": "Транспорт и приложения",
-        "az": "Nəqliyyat və tətbiqlər",
-        "es": "Transporte y apps",
-        "fil": "Transport at apps",
-        "id": "Transportasi dan aplikasi",
-        "ne": "यातायात र एपहरू"
+        "pl": "Transport",
+        "en": "Transport",
+        "ua": "Транспорт",
+        "ru": "Транспорт",
+        "az": "Nəqliyyat",
+        "es": "Transporte",
+        "fil": "Transport",
+        "id": "Transportasi",
+        "ne": "यातायात"
       },
       "lead": {
-        "pl": "Mapy, przystanki i aplikacje do dojazdu.",
-        "en": "Maps, stops and travel apps.",
-        "ua": "Карти, зупинки і додатки для доїзду.",
-        "ru": "Карты, остановки и приложения для дороги.",
-        "az": "Xəritələr, dayanacaqlar və yol tətbiqləri.",
-        "es": "Mapas, paradas y apps de viaje.",
-        "fil": "Mapa, sakayan at travel apps.",
-        "id": "Peta, halte dan aplikasi perjalanan.",
-        "ne": "नक्सा, स्टप र यात्रा एपहरू।"
+        "pl": "Dojazd, przystanki i aplikacje podróżne.",
+        "en": "Route, stops and travel apps.",
+        "ua": "Доїзд, зупинки і додатки.",
+        "ru": "Дорога, остановки и приложения.",
+        "az": "Yol, dayanacaqlar və tətbiqlər.",
+        "es": "Ruta, paradas y apps.",
+        "fil": "Biyahe, stops at apps.",
+        "id": "Rute, halte dan aplikasi.",
+        "ne": "बाटो, स्टप र एपहरू।"
       },
       "items": [
-        "transport-kozienice",
-        "najblizsze-kozienice"
+        "transport-kozienice"
       ]
     }
   ]
