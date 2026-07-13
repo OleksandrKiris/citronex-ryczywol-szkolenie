@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-citylinks1",
+    "version": "20260713-ryczywol-dentistfix1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -928,14 +928,14 @@
         {
           "label": {
             "pl": "Rejestracja",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
+            "en": "Rejestracja",
+            "ua": "Rejestracja",
+            "ru": "Rejestracja",
+            "az": "Rejestracja",
+            "es": "Rejestracja",
+            "fil": "Rejestracja",
+            "id": "Rejestracja",
+            "ne": "Rejestracja"
           },
           "phone": "+48 48 614 75 18"
         }
@@ -1012,42 +1012,14 @@
         {
           "label": {
             "pl": "Rejestracja",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
-          },
-          "phone": "+48 48 614 30 54"
-        },
-        {
-          "label": {
-            "pl": "Rejestracja",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
-          },
-          "phone": "+48 48 614 30 56"
-        },
-        {
-          "label": {
-            "pl": "Komórkowy",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
+            "en": "Rejestracja",
+            "ua": "Rejestracja",
+            "ru": "Rejestracja",
+            "az": "Rejestracja",
+            "es": "Rejestracja",
+            "fil": "Rejestracja",
+            "id": "Rejestracja",
+            "ne": "Rejestracja"
           },
           "phone": "+48 509 006 633"
         }
@@ -1123,45 +1095,17 @@
       "phones": [
         {
           "label": {
-            "pl": "SOR",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
+            "pl": "SOR / nagły przypadek",
+            "en": "SOR / nagły przypadek",
+            "ua": "SOR / nagły przypadek",
+            "ru": "SOR / nagły przypadek",
+            "az": "SOR / nagły przypadek",
+            "es": "SOR / nagły przypadek",
+            "fil": "SOR / nagły przypadek",
+            "id": "SOR / nagły przypadek",
+            "ne": "SOR / nagły przypadek"
           },
           "phone": "+48 48 614 82 34"
-        },
-        {
-          "label": {
-            "pl": "Centrala szpitala",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
-          },
-          "phone": "+48 48 679 71 00"
-        },
-        {
-          "label": {
-            "pl": "Telefon szpitala",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
-          },
-          "phone": "+48 509 212 226"
         }
       ],
       "address": {
@@ -1236,30 +1180,16 @@
         {
           "label": {
             "pl": "Nocna opieka",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
+            "en": "Nocna opieka",
+            "ua": "Nocna opieka",
+            "ru": "Nocna opieka",
+            "az": "Nocna opieka",
+            "es": "Nocna opieka",
+            "fil": "Nocna opieka",
+            "id": "Nocna opieka",
+            "ne": "Nocna opieka"
           },
           "phone": "+48 48 679 59 32"
-        },
-        {
-          "label": {
-            "pl": "Telefon szpitala",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
-          },
-          "phone": "+48 509 212 226"
         }
       ],
       "address": {
@@ -1277,17 +1207,28 @@
     {
       "tone": "yellow",
       "title": {
-        "pl": "Dentysta / ból zęba - Kozienice",
-        "en": "Dentist / toothache - Kozienice",
-        "ua": "Стоматолог / біль зуба - Kozienice",
-        "ru": "Стоматолог / зубная боль - Kozienice",
-        "az": "Diş həkimi / diş ağrısı - Kozienice",
-        "es": "Dentista / dolor de muelas - Kozienice",
-        "fil": "Dentista / sakit ng ngipin - Kozienice",
-        "id": "Dokter gigi / sakit gigi - Kozienice",
-        "ne": "दन्त चिकित्सक / दाँत दुखाइ - Kozienice"
+        "pl": "Stomatologiczna pomoc doraźna NFZ - Kozienice",
+        "en": "Emergency dental care NFZ - Kozienice",
+        "ua": "Невідкладна стоматологічна допомога NFZ - Kozienice",
+        "ru": "Неотложная стоматологическая помощь NFZ - Kozienice",
+        "az": "Təcili stomatoloji yardım NFZ - Kozienice",
+        "es": "Ayuda dental urgente NFZ - Kozienice",
+        "fil": "Emergency dental care NFZ - Kozienice",
+        "id": "Layanan gigi darurat NFZ - Kozienice",
+        "ne": "आपतकालीन दन्त सेवा NFZ - Kozienice"
       },
       "body": [
+        {
+          "pl": "Według wykazu NFZ obowiązującego od 1 lipca 2025 jest to doraźna pomoc stomatologiczna dla powiatu kozienickiego.",
+          "en": "According to the NFZ list valid from 1 July 2025, this is emergency dental care for Kozienice county.",
+          "ua": "За списком NFZ, чинним від 1 липня 2025, це невідкладна стоматологічна допомога для повіту Kozienice.",
+          "ru": "По списку NFZ, действующему с 1 июля 2025, это неотложная стоматологическая помощь для повята Kozienice.",
+          "az": "1 iyul 2025-dən qüvvədə olan NFZ siyahısına görə bu Kozienice rayonu üçün təcili stomatoloji yardımdır.",
+          "es": "Según la lista NFZ válida desde el 1 de julio de 2025, es ayuda dental urgente para el distrito de Kozienice.",
+          "fil": "Ayon sa NFZ list na valid mula 1 July 2025, ito ang emergency dental care para sa Kozienice county.",
+          "id": "Menurut daftar NFZ yang berlaku sejak 1 Juli 2025, ini layanan gigi darurat untuk wilayah Kozienice.",
+          "ne": "NFZ को १ जुलाई २०२५ देखि लागू सूची अनुसार यो Kozienice जिल्लाको आपतकालीन दन्त सेवा हो।"
+        },
         {
           "pl": "Najpierw zadzwoń i potwierdź przyjęcie.",
           "en": "Call first and confirm they can receive you.",
@@ -1303,29 +1244,29 @@
       "maps": [
         {
           "label": {
-            "pl": "Mapa: ul. Sienkiewicza 28, 26-900 Kozienice",
-            "en": "Map: Sienkiewicza 28, 26-900 Kozienice",
-            "ua": "Карта: NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice",
-            "ru": "Карта: NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice",
-            "az": "Xəritə: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-            "es": "Mapa: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-            "fil": "Mapa: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-            "id": "Peta: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-            "ne": "नक्सा: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice"
+            "pl": "Mapa: ul. Sienkiewicza 28",
+            "en": "Map: Sienkiewicza 28",
+            "ua": "Карта: вул. Sienkiewicza 28",
+            "ru": "Карта: ул. Sienkiewicza 28",
+            "az": "Xəritə: Sienkiewicza 28",
+            "es": "Mapa: Sienkiewicza 28",
+            "fil": "Mapa: Sienkiewicza 28",
+            "id": "Peta: Sienkiewicza 28",
+            "ne": "नक्सा: Sienkiewicza 28"
           },
           "url": "https://maps.google.com/?q=51.5864205,21.5473368"
         },
         {
           "label": {
-            "pl": "Trasa do adresu",
-            "en": "Route to address",
-            "ua": "Маршрут до адреси",
-            "ru": "Маршрут до адреса",
-            "az": "Ünvana marşrut",
-            "es": "Ruta a la dirección",
-            "fil": "Ruta papunta sa address",
-            "id": "Rute ke alamat",
-            "ne": "ठेगानासम्म बाटो"
+            "pl": "Trasa do dentysty",
+            "en": "Route to dentist",
+            "ua": "Маршрут до стоматолога",
+            "ru": "Маршрут к стоматологу",
+            "az": "Diş həkiminə marşrut",
+            "es": "Ruta al dentista",
+            "fil": "Ruta papunta sa dentista",
+            "id": "Rute ke dokter gigi",
+            "ne": "दन्त चिकित्सकसम्म बाटो"
           },
           "url": "https://www.google.com/maps/dir/?api=1&destination=51.5864205,21.5473368&travelmode=driving"
         }
@@ -1333,29 +1274,29 @@
       "phones": [
         {
           "label": {
-            "pl": "Rejestracja",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
+            "pl": "Dyżur stomatologiczny",
+            "en": "Dental emergency",
+            "ua": "Dyżur stomatologiczny",
+            "ru": "Dyżur stomatologiczny",
+            "az": "Dyżur stomatologiczny",
+            "es": "Dyżur stomatologiczny",
+            "fil": "Dyżur stomatologiczny",
+            "id": "Dyżur stomatologiczny",
+            "ne": "Dyżur stomatologiczny"
           },
-          "phone": "+48 48 614 43 00"
+          "phone": "+48 725 618 384"
         }
       ],
       "address": {
-        "pl": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice",
-        "en": "NZOZ Dentistry, Sienkiewicza 28, 26-900 Kozienice",
-        "ua": "NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice",
-        "ru": "NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice",
-        "az": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-        "es": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-        "fil": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-        "id": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
-        "ne": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice"
+        "pl": "NZOZ SAL-MEDICO, ul. Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "en": "NZOZ SAL-MEDICO, Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "ua": "NZOZ SAL-MEDICO, вул. Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "ru": "NZOZ SAL-MEDICO, ул. Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "az": "NZOZ SAL-MEDICO, Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "es": "NZOZ SAL-MEDICO, Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "fil": "NZOZ SAL-MEDICO, Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "id": "NZOZ SAL-MEDICO, Henryka Sienkiewicza 28, 26-900 Kozienice",
+        "ne": "NZOZ SAL-MEDICO, Henryka Sienkiewicza 28, 26-900 Kozienice"
       }
     },
     {
@@ -1418,14 +1359,14 @@
         {
           "label": {
             "pl": "Apteka",
-            "en": "Phone",
-            "ua": "Телефон",
-            "ru": "Телефон",
-            "az": "Telefon",
-            "es": "Teléfono",
-            "fil": "Telepono",
-            "id": "Telepon",
-            "ne": "फोन"
+            "en": "Apteka",
+            "ua": "Apteka",
+            "ru": "Apteka",
+            "az": "Apteka",
+            "es": "Apteka",
+            "fil": "Apteka",
+            "id": "Apteka",
+            "ne": "Apteka"
           },
           "phone": "+48 48 360 42 96"
         }
