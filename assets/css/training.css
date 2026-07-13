@@ -1945,6 +1945,21 @@ details.ban-section .ban-section-head {
   font-weight: 800;
 }
 
+.person-email {
+  display: inline-flex;
+  margin-top: 6px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 850;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.person-email:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
 .mini-tag {
   padding: 5px 8px;
   border-radius: 999px;

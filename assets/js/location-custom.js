@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-priority-contacts1-ryczywol",
+    "version": "20260713-ryczywol-data1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -74,15 +74,15 @@
         "ne": "नक्सा र बाटो - Ryczywół"
       },
       "lead": {
-        "pl": "Tu będą wszystkie potrzebne mapy: punkt spotkania, wejścia, magazyn, parking, urząd, banki i transport.",
-        "en": "Here will be all needed maps: meeting point, entrances, warehouse, parking, office, banks and transport.",
-        "ua": "Тут будуть усі потрібні карти: місце зустрічі, входи, склад, парковка, установа, банки і транспорт.",
-        "ru": "Здесь будут все нужные карты: место встречи, входы, склад, парковка, учреждение, банки и транспорт.",
-        "az": "Burada bütün lazımi xəritələr olacaq: görüş yeri, girişlər, anbar, dayanacaq, idarə, banklar və nəqliyyat.",
-        "es": "Aquí estarán todos los mapas: punto de encuentro, entradas, almacén, parking, oficina, bancos y transporte.",
-        "fil": "Narito ang lahat ng mapa: meeting point, pasukan, bodega, parking, opisina, bangko at transportasyon.",
-        "id": "Di sini semua peta: titik kumpul, pintu masuk, gudang, parkir, kantor, bank dan transportasi.",
-        "ne": "यहाँ सबै नक्सा हुनेछ: भेट्ने ठाउँ, प्रवेश, गोदाम, पार्किङ, कार्यालय, बैंक र यातायात।"
+        "pl": "Tu są najważniejsze mapy: hotel, szklarnia, magazyn, parking, biuro, przystanek i sprawy miejskie.",
+        "en": "Here are key maps: hotel, greenhouse, warehouse, parking, office, stop and city matters.",
+        "ua": "Тут головні карти: готель, теплиця, склад, парковка, офіс, зупинка і міські справи.",
+        "ru": "Здесь главные карты: отель, теплица, склад, парковка, офис, остановка и городские дела.",
+        "az": "Burada əsas xəritələr var: hotel, istixana, anbar, park, ofis, dayanacaq və şəhər işləri.",
+        "es": "Aquí están los mapas principales: hotel, invernadero, almacén, parking, oficina, parada y ciudad.",
+        "fil": "Narito ang mahahalagang mapa: hotel, greenhouse, warehouse, parking, opisina, stop at city matters.",
+        "id": "Di sini peta utama: hotel, greenhouse, gudang, parkir, kantor, halte dan urusan kota.",
+        "ne": "यहाँ मुख्य नक्साहरू छन्: होटल, ग्रीनहाउस, गोदाम, पार्किङ, कार्यालय, स्टप र शहरका काम।"
       }
     },
     "magazyn": {
@@ -333,28 +333,28 @@
       "key": "spotkanie",
       "tone": "blue",
       "title": {
-        "pl": "Punkt spotkania - Ryczywół k. Kozienic",
-        "en": "Meeting point - Ryczywół near Kozienice",
-        "ua": "Пункт зустрічі - Ryczywół біля Kozienic",
-        "ru": "Пункт встречи - Ryczywół возле Kozienic",
-        "az": "Görüş nöqtəsi - Kozienice yaxınlığında Ryczywół",
-        "es": "Punto de encuentro - Ryczywół cerca de Kozienice",
-        "fil": "Meeting point - Ryczywół near Kozienice",
-        "id": "Titik temu - Ryczywół dekat Kozienice",
-        "ne": "भेट्ने ठाउँ - Kozienice नजिक Ryczywół"
+        "pl": "Hotel / punkt spotkania - Ryczywół",
+        "en": "Hotel / meeting point - Ryczywół",
+        "ua": "Готель / пункт зустрічі - Ryczywół",
+        "ru": "Отель / пункт встречи - Ryczywół",
+        "az": "Hotel / görüş nöqtəsi - Ryczywół",
+        "es": "Hotel / punto de encuentro - Ryczywół",
+        "fil": "Hotel / meeting point - Ryczywół",
+        "id": "Hotel / titik temu - Ryczywół",
+        "ne": "होटल / भेट्ने ठाउँ - Ryczywół"
       },
       "note": {
-        "pl": "Główne miejsce, gdzie pracownik ma przyjść pierwszego dnia.",
-        "en": "Main place where the worker should come on the first day.",
-        "ua": "Головне місце, куди працівник має прийти в перший день.",
-        "ru": "Главное место, куда работник должен прийти в первый день.",
-        "az": "İşçinin ilk gün gəlməli olduğu əsas yer.",
-        "es": "Lugar principal donde debe venir el trabajador el primer día.",
-        "fil": "Pangunahing lugar kung saan pupunta ang worker sa unang araw.",
-        "id": "Tempat utama karyawan datang pada hari pertama.",
-        "ne": "पहिलो दिन कामदार आउने मुख्य ठाउँ।"
+        "pl": "Hotel i punkt spotkania / wysiadki dla pracownika.",
+        "en": "Hotel and meeting / drop-off point for the worker.",
+        "ua": "Готель і місце зустрічі / висадки для працівника.",
+        "ru": "Отель и место встречи / высадки для работника.",
+        "az": "İşçi üçün hotel və görüş / düşmə nöqtəsi.",
+        "es": "Hotel y punto de encuentro / bajada para el trabajador.",
+        "fil": "Hotel at meeting / drop-off point para sa worker.",
+        "id": "Hotel dan titik temu / turun untuk pekerja.",
+        "ne": "कामदारका लागि होटल र भेट्ने / ओर्लने ठाउँ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20punkt%20spotkania%20Polskie%20Pomidory"
+      "url": "https://maps.app.goo.gl/tf8716DeyKfwsJsc6"
     },
     {
       "key": "workplace",
@@ -371,17 +371,17 @@
         "ne": "काम गर्ने ठाउँ / ग्रीनहाउस - Ryczywół"
       },
       "note": {
-        "pl": "Przycisk roboczy. Prawdziwy link do mapy dodamy po otrzymaniu danych.",
-        "en": "Working button. The real map link will be added after receiving data.",
-        "ua": "Робоча кнопка. Справжнє посилання додамо після отримання даних.",
-        "ru": "Рабочая кнопка. Настоящую ссылку добавим после получения данных.",
-        "az": "İşçi düymədir. Real xəritə linki məlumatdan sonra əlavə olunacaq.",
-        "es": "Botón provisional. El enlace real se añadirá al recibir datos.",
-        "fil": "Provisional button. Idadagdag ang tunay na link kapag may data.",
-        "id": "Tombol sementara. Link asli ditambah setelah data diterima.",
-        "ne": "अस्थायी बटन। डेटा पाएपछि वास्तविक लिंक थपिनेछ।"
+        "pl": "Lokalizacja szklarni / miejsca pracy w Ryczywole.",
+        "en": "Greenhouse / workplace location in Ryczywół.",
+        "ua": "Локація теплиці / місця роботи в Ryczywole.",
+        "ru": "Локация теплицы / места работы в Ryczywole.",
+        "az": "Ryczywół-da istixana / iş yeri lokasiyası.",
+        "es": "Ubicación del invernadero / lugar de trabajo en Ryczywół.",
+        "fil": "Lokasyon ng greenhouse / workplace sa Ryczywół.",
+        "id": "Lokasi greenhouse / tempat kerja di Ryczywół.",
+        "ne": "Ryczywół मा ग्रीनहाउस / काम गर्ने ठाउँ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20szklarnia%20Polskie%20Pomidory"
+      "url": "https://maps.app.goo.gl/Gn1wZw7Zkf36qXt3A"
     },
     {
       "key": "warehouse",
@@ -408,7 +408,7 @@
         "id": "Lokasi gudang terpisah. Tidak menampilkan reader di sini.",
         "ne": "गोदामको अलग स्थान। यहाँ reader देखाउँदैनौं।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20magazyn%20Polskie%20Pomidory"
+      "url": "https://maps.app.goo.gl/9rjeF4db2RHh3opj6"
     },
     {
       "key": "oldWarehouse",
@@ -489,7 +489,7 @@
         "id": "Tempat datang atau turun dari mobil.",
         "ne": "आउन वा गाडीबाट झर्न सकिने ठाउँ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20parking%20Polskie%20Pomidory"
+      "url": "https://maps.app.goo.gl/tf8716DeyKfwsJsc6"
     },
     {
       "key": "office",
@@ -516,7 +516,7 @@
         "id": "Kantor jika pekerja harus datang ke sana.",
         "ne": "कामदार जानुपर्ने भए कार्यालयको ठाउँ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20biuro%20Polskie%20Pomidory"
+      "url": "https://maps.app.goo.gl/ABHNgLziERQf7eEs8"
     },
     {
       "key": "busStop",
@@ -533,17 +533,17 @@
         "ne": "स्टप / यात्रा - Ryczywół"
       },
       "note": {
-        "pl": "Tu dodamy najbliższy przystanek albo dworzec.",
-        "en": "Here we will add the nearest stop or station.",
-        "ua": "Тут додамо найближчу зупинку або станцію.",
-        "ru": "Здесь добавим ближайшую остановку или станцию.",
-        "az": "Burada ən yaxın dayanacaq və ya stansiya əlavə olunacaq.",
-        "es": "Aquí añadiremos la parada o estación más cercana.",
-        "fil": "Idadagdag dito ang pinakamalapit na hintuan.",
-        "id": "Di sini ditambah halte atau stasiun terdekat.",
-        "ne": "यहाँ नजिकको स्टप वा स्टेशन थपिनेछ।"
+        "pl": "Przystanek / punkt komunikacyjny dla dojazdu.",
+        "en": "Stop / transport point for arrival.",
+        "ua": "Зупинка / транспортний пункт для доїзду.",
+        "ru": "Остановка / транспортный пункт для доезда.",
+        "az": "Gəliş üçün dayanacaq / nəqliyyat nöqtəsi.",
+        "es": "Parada / punto de transporte para llegar.",
+        "fil": "Stop / transport point para sa pagdating.",
+        "id": "Halte / titik transportasi untuk datang.",
+        "ne": "आउनका लागि स्टप / यातायात बिन्दु।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20przystanek"
+      "url": "https://maps.app.goo.gl/VCB2sWNeCbuZKUE28"
     },
     {
       "key": "localOffice",
@@ -624,7 +624,7 @@
         "id": "Berguna untuk orang baru. Titik tepat akan ditentukan.",
         "ne": "नयाँ मान्छेका लागि उपयोगी ठाउँ। सही ठाउँ तय गर्न बाँकी।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82%20Kozienice"
+      "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20%C5%9Awier%C5%BCe%20G%C3%B3rne%2055%20Lok.%202"
     }
   ],
   "mapPhotos": [],
@@ -663,15 +663,15 @@
       "ne": "ट्याबलेट ग्रीनहाउस र गोदाम दुवैका लागि साझा विषय हो।"
     },
     {
-      "pl": "Dane magazynu i telefony dodamy po otrzymaniu tabeli.",
-      "en": "Warehouse data and phones will be added after receiving the table.",
-      "ua": "Дані складу і телефони додамо після отримання таблиці.",
-      "ru": "Данные склада и телефоны добавим после получения таблицы.",
-      "az": "Anbar məlumatı və telefonlar cədvəldən sonra əlavə olunacaq.",
-      "es": "Datos y teléfonos del almacén se añadirán al recibir la tabla.",
-      "fil": "Data at telepono ng bodega idadagdag kapag may table.",
-      "id": "Data dan telepon gudang ditambah setelah menerima tabel.",
-      "ne": "तालिका पाएपछि गोदाम डेटा र फोन थपिनेछ।"
+      "pl": "Kontakty magazynu są w module Kontakty. Wybierz zakładkę Magazyn.",
+      "en": "Warehouse contacts are in the Contacts module. Choose the Warehouse tab.",
+      "ua": "Контакти складу є в модулі Контакти. Оберіть вкладку Склад.",
+      "ru": "Контакты склада есть в модуле Контакты. Выберите вкладку Склад.",
+      "az": "Anbar kontaktları Kontaktlar modulundadır. Anbar bölməsini seçin.",
+      "es": "Los contactos del almacén están en Contactos. Elige la pestaña Almacén.",
+      "fil": "Ang contacts ng warehouse ay nasa Contacts module. Piliin ang Warehouse tab.",
+      "id": "Kontak gudang ada di modul Kontak. Pilih tab Gudang.",
+      "ne": "गोदामका सम्पर्कहरू सम्पर्क मोड्युलमा छन्। गोदाम ट्याब छान्नुहोस्।"
     }
   ],
   "contacts": {
@@ -801,41 +801,102 @@
     ],
     "warehouse": [
       {
-        "name": "Brygadzista magazynu 1",
-        "role": "Magazyn - do uzupełnienia"
+        "name": "Andrii Voroshylov",
+        "phone": "+48452095214",
+        "role": {
+          "pl": "Magazyn - brygadzista",
+          "en": "Warehouse - team leader",
+          "ua": "Склад - бригадир",
+          "ru": "Склад - бригадир",
+          "az": "Anbar - briqadir",
+          "es": "Almacén - encargado",
+          "fil": "Warehouse - team leader",
+          "id": "Gudang - pemimpin tim",
+          "ne": "गोदाम - टोली नेता"
+        }
       },
       {
-        "name": "Brygadzista magazynu 2",
-        "role": "Magazyn - do uzupełnienia"
+        "name": "Volodymyr Skochelias",
+        "phone": "+48571209693",
+        "email": "volodymyr.skochelias@polskiepomidory.com",
+        "role": {
+          "pl": "Magazyn - lider obszaru",
+          "en": "Warehouse - area leader",
+          "ua": "Склад - лідер зони",
+          "ru": "Склад - лидер зоны",
+          "az": "Anbar - sahə lideri",
+          "es": "Almacén - líder de área",
+          "fil": "Warehouse - area leader",
+          "id": "Gudang - pemimpin area",
+          "ne": "गोदाम - क्षेत्र नेता"
+        }
       },
       {
-        "name": "Brygadzista magazynu 3",
-        "role": "Magazyn - do uzupełnienia"
+        "name": "Iwona Raczyńska",
+        "phone": "+48571209695",
+        "role": {
+          "pl": "Magazyn - brygadzistka",
+          "en": "Warehouse - team leader",
+          "ua": "Склад - бригадирка",
+          "ru": "Склад - бригадир",
+          "az": "Anbar - briqadir",
+          "es": "Almacén - encargada",
+          "fil": "Warehouse - team leader",
+          "id": "Gudang - pemimpin tim",
+          "ne": "गोदाम - टोली नेता"
+        }
+      },
+      {
+        "name": "Mariia Parfeniuk",
+        "phone": "+48452095212",
+        "role": {
+          "pl": "Magazyn - lider obszaru",
+          "en": "Warehouse - area leader",
+          "ua": "Склад - лідер зони",
+          "ru": "Склад - лидер зоны",
+          "az": "Anbar - sahə lideri",
+          "es": "Almacén - líder de área",
+          "fil": "Warehouse - area leader",
+          "id": "Gudang - pemimpin area",
+          "ne": "गोदाम - क्षेत्र नेता"
+        }
       }
     ],
     "greenhouse": {
       "Szklarnia": [
         {
-          "name": "Brygadzista szklarni 1",
-          "role": "Szklarnia - do uzupełnienia"
+          "name": "Małgorzata Sitnik",
+          "phone": "+48571209696",
+          "email": "malgorzata.sitnik@polskiepomidory.com",
+          "role": {
+            "pl": "Produkcja - brygadzistka szklarni",
+            "en": "Production - greenhouse team leader",
+            "ua": "Виробництво - бригадирка теплиці",
+            "ru": "Производство - бригадир теплицы",
+            "az": "İstehsalat - istixana briqadiri",
+            "es": "Producción - encargada de invernadero",
+            "fil": "Production - greenhouse team leader",
+            "id": "Produksi - pemimpin tim greenhouse",
+            "ne": "उत्पादन - ग्रीनहाउस टोली नेता"
+          }
         },
         {
-          "name": "Brygadzista szklarni 2",
-          "role": "Szklarnia - do uzupełnienia"
-        },
-        {
-          "name": "Brygadzista szklarni 3",
-          "role": "Szklarnia - do uzupełnienia"
-        }
-      ],
-      "Transport": [
-        {
-          "name": "Kontakt transportowy 1",
-          "role": "Transport - do uzupełnienia"
-        },
-        {
-          "name": "Kontakt transportowy 2",
-          "role": "Transport - do uzupełnienia"
+          "name": "Tetiana Vasylenko",
+          "phones": [
+            "+48506452125",
+            "+48791049537"
+          ],
+          "role": {
+            "pl": "Produkcja - kontakt szklarni",
+            "en": "Production - greenhouse contact",
+            "ua": "Виробництво - контакт теплиці",
+            "ru": "Производство - контакт теплицы",
+            "az": "İstehsalat - istixana əlaqəsi",
+            "es": "Producción - contacto de invernadero",
+            "fil": "Production - greenhouse contact",
+            "id": "Produksi - kontak greenhouse",
+            "ne": "उत्पादन - ग्रीनहाउस सम्पर्क"
+          }
         }
       ],
       "Zakwaterowanie": [
@@ -1381,15 +1442,15 @@
       },
       "body": [
         {
-          "pl": "Mapa pokazuje apteki w pobliżu Ryczywołu i Kozienic.",
-          "en": "The map shows pharmacies near Ryczywół and Kozienice.",
-          "ua": "Карта показує аптеки біля Ryczywołu і Kozienic.",
-          "ru": "Карта показывает аптеки рядом с Ryczywołem и Kozienicami.",
-          "az": "Xəritə Ryczywół və Kozienice yaxınlığında aptekləri göstərir.",
-          "es": "El mapa muestra farmacias cerca de Ryczywół y Kozienice.",
-          "fil": "Ipinapakita ng mapa ang botika near Ryczywół at Kozienice.",
-          "id": "Peta menampilkan apotek dekat Ryczywół dan Kozienice.",
-          "ne": "नक्सामा Ryczywół र Kozienice नजिकका फार्मेसी देखिन्छन्।"
+          "pl": "Najbliższy punkt apteczny dla Ryczywołu k. Kozienic: Świerże Górne 55 lok. 2.",
+          "en": "Nearest pharmacy point for Ryczywół near Kozienice: Świerże Górne 55 unit 2.",
+          "ua": "Найближчий аптечний пункт для Ryczywołu біля Kozienic: Świerże Górne 55 lok. 2.",
+          "ru": "Ближайший аптечный пункт для Ryczywołu возле Kozienic: Świerże Górne 55 lok. 2.",
+          "az": "Kozienice yaxınlığında Ryczywół üçün ən yaxın aptek məntəqəsi: Świerże Górne 55 lok. 2.",
+          "es": "Punto de farmacia más cercano a Ryczywół cerca de Kozienice: Świerże Górne 55 lok. 2.",
+          "fil": "Pinakamalapit na pharmacy point para sa Ryczywół near Kozienice: Świerże Górne 55 lok. 2.",
+          "id": "Titik apotek terdekat untuk Ryczywół dekat Kozienice: Świerże Górne 55 lok. 2.",
+          "ne": "Kozienice नजिक Ryczywół का लागि नजिकको फार्मेसी बिन्दु: Świerże Górne 55 lok. 2।"
         },
         {
           "pl": "Godziny mogą się zmieniać, dlatego sprawdź w Google Maps albo zadzwoń przed wyjściem.",
@@ -1406,20 +1467,35 @@
       "maps": [
         {
           "label": {
-            "pl": "Apteki Ryczywół / Kozienice",
-            "en": "Pharmacies Ryczywół / Kozienice",
-            "ua": "Аптеки Ryczywół / Kozienice",
-            "ru": "Аптеки Ryczywół / Kozienice",
-            "az": "Apteklər Ryczywół / Kozienice",
-            "es": "Farmacias Ryczywół / Kozienice",
-            "fil": "Botika Ryczywół / Kozienice",
-            "id": "Apotek Ryczywół / Kozienice",
-            "ne": "फार्मेसी Ryczywół / Kozienice"
+            "pl": "Punkt Apteczny - Świerże Górne",
+            "en": "Pharmacy point - Świerże Górne",
+            "ua": "Аптечний пункт - Świerże Górne",
+            "ru": "Аптечный пункт - Świerże Górne",
+            "az": "Aptek məntəqəsi - Świerże Górne",
+            "es": "Punto de farmacia - Świerże Górne",
+            "fil": "Pharmacy point - Świerże Górne",
+            "id": "Titik apotek - Świerże Górne",
+            "ne": "फार्मेसी बिन्दु - Świerże Górne"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=apteka%20Ryczyw%C3%B3%C5%82%20Kozienice"
+          "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20%C5%9Awier%C5%BCe%20G%C3%B3rne%2055%20Lok.%202"
         }
       ],
-      "phones": []
+      "phones": [
+        {
+          "label": {
+            "pl": "Punkt Apteczny Świerże Górne",
+            "en": "Pharmacy point Świerże Górne",
+            "ua": "Аптечний пункт Świerże Górne",
+            "ru": "Аптечный пункт Świerże Górne",
+            "az": "Świerże Górne aptek məntəqəsi",
+            "es": "Punto de farmacia Świerże Górne",
+            "fil": "Pharmacy point Świerże Górne",
+            "id": "Titik apotek Świerże Górne",
+            "ne": "Świerże Górne फार्मेसी बिन्दु"
+          },
+          "phone": "+48483604296"
+        }
+      ]
     }
   ],
   "city": [
@@ -2314,7 +2390,7 @@
             "id": "Apotek",
             "ne": "फार्मेसी"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=apteka%20Ryczyw%C3%B3%C5%82%20Kozienice",
+          "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20%C5%9Awier%C5%BCe%20G%C3%B3rne%2055%20Lok.%202",
           "tone": "blue"
         },
         {

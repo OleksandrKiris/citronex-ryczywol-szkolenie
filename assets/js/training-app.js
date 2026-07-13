@@ -638,16 +638,22 @@
       const name = text(person.name);
       const role = person.role ? text(person.role) : groupLabel;
       const message = `${role ? role + " " : ""}${name}`;
+      const phones = Array.isArray(person.phones) ? person.phones : (person.phone ? [person.phone] : []);
+      const contactActions = phones.length
+        ? phones.map((phone) => phoneActions(phone, `${ui("whatsapp")} ${esc(message)}`)).join("")
+        : `<p class="empty-note">${esc(text(tx("Kontakt zostanie uzupełniony.", "Contact will be added.", "Контакт буде доданий.", "Контакт будет добавлен.", "Kontakt əlavə ediləcək.", "El contacto será añadido.", "Idaragdag ang contact.", "Kontak akan ditambahkan.", "सम्पर्क थपिनेछ।")))}</p>`;
+      const email = person.email ? `<a class="person-email" href="mailto:${esc(person.email)}">${esc(person.email)}</a>` : "";
       return `
         <article class="person">
           <div class="person-head">
             <div>
               <div class="person-name">${esc(name)}</div>
               <div class="person-role">${esc(role)}</div>
+              ${email}
             </div>
             ${groupLabel && !person.role ? `<span class="mini-tag">${esc(groupLabel)}</span>` : ""}
           </div>
-          ${person.phone ? phoneActions(person.phone, `${ui("whatsapp")} ${esc(message)}`) : `<p class="empty-note">${esc(text(tx("Kontakt zostanie uzupełniony.", "Contact will be added.", "Контакт буде доданий.", "Контакт будет добавлен.", "Kontakt əlavə ediləcək.", "El contacto será añadido.", "Idaragdag ang contact.", "Kontak akan ditambahkan.", "सम्पर्क थपिनेछ।")))}</p>`}
+          ${contactActions}
         </article>
       `;
     }
