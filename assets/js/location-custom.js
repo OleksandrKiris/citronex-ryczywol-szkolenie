@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-version1-ryczywol",
+    "version": "20260713-accommodation1-ryczywol",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -808,12 +808,19 @@
       ],
       "Zakwaterowanie": [
         {
-          "name": "Kontakt zakwaterowania 1",
-          "role": "Zakwaterowanie - do uzupełnienia"
-        },
-        {
-          "name": "Kontakt zakwaterowania 2",
-          "role": "Zakwaterowanie - do uzupełnienia"
+          "name": "Liudmyla / Людмила",
+          "phone": "+48536110591",
+          "role": {
+            "pl": "Zakwaterowanie - Ryczywół",
+            "en": "Accommodation - Ryczywół",
+            "ua": "Житло - Ryczywół",
+            "ru": "Жильё - Ryczywół",
+            "az": "Yaşayış yeri - Ryczywół",
+            "es": "Alojamiento - Ryczywół",
+            "fil": "Tirahan - Ryczywół",
+            "id": "Akomodasi - Ryczywół",
+            "ne": "बसोबास - Ryczywół"
+          }
         }
       ]
     }

@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "citronex-ryczywol-";
-const CACHE_NAME = CACHE_PREFIX + "20260713-version1-ryczywol";
+const CACHE_NAME = CACHE_PREFIX + "20260713-accommodation1-ryczywol";
 
 const CORE_ASSETS = [
   "./",
@@ -20,7 +20,7 @@ const CORE_ASSETS = [
   "./manifest.webmanifest",
   "./assets/css/training.css?v=20260713-version1-ryczywol",
   "./assets/js/training-data.js?v=20260713-ryczywol-lekarz1",
-  "./assets/js/location-custom.js?v=20260713-version1-ryczywol",
+  "./assets/js/location-custom.js?v=20260713-accommodation1-ryczywol",
   "./assets/js/training-app.js?v=20260713-version1-ryczywol",
   "./assets/brand/polskie-pomidory-logo.png",
   "./assets/brand/polskie-pomidory-icon.png",
