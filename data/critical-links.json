@@ -2,58 +2,58 @@
   "links": [
     {
       "id": "spotkanie",
-      "label": "Punkt spotkania - do uzupełnienia",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20punkt%20spotkania%20Polskie%20Pomidory"
+      "label": "Punkt spotkania - Ryczywol k. Kozienic",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20punkt%20spotkania%20Polskie%20Pomidory"
     },
     {
       "id": "workplace",
-      "label": "Miejsce pracy / szklarnia",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20szklarnia%20Polskie%20Pomidory"
+      "label": "Miejsce pracy / szklarnia - Ryczywol",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20szklarnia%20Polskie%20Pomidory"
     },
     {
       "id": "warehouse",
-      "label": "Magazyn - do uzupełnienia",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20magazyn%20Polskie%20Pomidory"
+      "label": "Magazyn - Ryczywol / Kozienice",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20magazyn%20Polskie%20Pomidory"
     },
     {
       "id": "oldWarehouse",
-      "label": "Stary magazyn - jeśli dotyczy",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20stary%20magazyn"
+      "label": "Stary magazyn - jesli dotyczy",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20stary%20magazyn"
     },
     {
       "id": "staffEntrance",
-      "label": "Wejście dla personelu",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20wej%C5%9Bcie%20dla%20personelu"
+      "label": "Wejscie dla personelu - Ryczywol",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20wej%C5%9Bcie%20dla%20personelu"
     },
     {
       "id": "parking",
-      "label": "Parking / wysiadka",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20parking%20Polskie%20Pomidory"
+      "label": "Parking / wysiadka - Ryczywol",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20parking%20Polskie%20Pomidory"
     },
     {
       "id": "office",
-      "label": "Biuro / administracja",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20biuro%20Polskie%20Pomidory"
+      "label": "Biuro / administracja - Ryczywol",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20biuro%20Polskie%20Pomidory"
     },
     {
       "id": "busStop",
-      "label": "Przystanek / dojazd publiczny",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20przystanek%20autobusowy"
+      "label": "Przystanek / dojazd - Ryczywol",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20przystanek"
     },
     {
       "id": "localOffice",
-      "label": "Urząd lokalny",
-      "url": "https://www.google.com/maps/search/?api=1&query=urz%C4%85d%20Ryczyw%C3%B3%C5%82"
+      "label": "Urzad Miejski w Kozienicach",
+      "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Miejski%20w%20Kozienicach%20Parkowa%205"
     },
     {
       "id": "banks",
-      "label": "Banki i bankomaty",
-      "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Ryczyw%C3%B3%C5%82"
+      "label": "Banki i bankomaty - Kozienice",
+      "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Kozienice"
     },
     {
       "id": "shopPharmacy",
-      "label": "Sklep / apteka",
-      "url": "https://www.google.com/maps/search/?api=1&query=apteka%20sklep%20Ryczyw%C3%B3%C5%82"
+      "label": "Sklep / apteka - Ryczywol / Kozienice",
+      "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82%20Kozienice"
     }
   ]
 }

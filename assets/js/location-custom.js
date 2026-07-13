@@ -3,9 +3,9 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-miasto-urzad1",
-    "location": "Ryczywół",
-    "appTitle": "Polskie Pomidory Ryczywół",
+    "version": "20260713-ryczywol-kozienice1",
+    "location": "Ryczywół k. Kozienic",
+    "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
     "repo": "citronex-ryczywol-szkolenie",
     "publicUrl": "https://oleksandrkiris.github.io/citronex-ryczywol-szkolenie/",
     "logo": "assets/brand/polskie-pomidory-logo.png",
@@ -110,15 +110,15 @@
     },
     "lekarz": {
       "title": {
-        "pl": "Lekarz - Ryczywół",
-        "en": "Doctor - Ryczywół",
-        "ua": "Лікар - Ryczywół",
-        "ru": "Врач - Ryczywół",
-        "az": "Həkim - Ryczywół",
-        "es": "Médico - Ryczywół",
-        "fil": "Doktor - Ryczywół",
-        "id": "Dokter - Ryczywół",
-        "ne": "डाक्टर - Ryczywół"
+        "pl": "Lekarz - Ryczywół k. Kozienic",
+        "en": "Doctor - Ryczywół near Kozienice",
+        "ua": "Лікар - Ryczywół біля Kozienic",
+        "ru": "Врач - Ryczywół возле Kozienic",
+        "az": "Həkim - Kozienice yaxınlığında Ryczywół",
+        "es": "Médico - Ryczywół cerca de Kozienice",
+        "fil": "Doktor - Ryczywół near Kozienice",
+        "id": "Dokter - Ryczywół dekat Kozienice",
+        "ne": "डाक्टर - Kozienice नजिक Ryczywół"
       },
       "lead": {
         "pl": "Najpierw wybierz sytuację. W nagłym zagrożeniu życia dzwoń 112.",
@@ -169,15 +169,15 @@
         "ne": "शहर, कार्यालय र बैंक"
       },
       "lead": {
-        "pl": "Najważniejsze miejsca dla pracownika w Ryczywole: urząd gminy, karta pobytu w Poznaniu, banki, poczta, transport i aplikacje.",
-        "en": "Key places for a worker in Ryczywół: commune office, residence card office in Poznań, banks, post office, transport and apps.",
-        "ua": "Найважливіші місця для працівника в Ryczywole: гміна, карта побиту в Poznaniu, банки, пошта, транспорт і додатки.",
-        "ru": "Самые важные места для работника в Ryczywole: гмина, карта побыту в Poznaniu, банки, почта, транспорт и приложения.",
-        "az": "Ryczywół-da işçi üçün əsas yerlər: bələdiyyə, Poznań-da yaşayış kartı idarəsi, banklar, poçt, nəqliyyat və tətbiqlər.",
-        "es": "Lugares clave para el trabajador en Ryczywół: oficina municipal, residencia en Poznań, bancos, correo, transporte y apps.",
-        "fil": "Mahahalagang lugar sa Ryczywół: commune office, residence card sa Poznań, bangko, post office, transport at apps.",
-        "id": "Tempat penting di Ryczywół: kantor gmina, kartu tinggal di Poznań, bank, kantor pos, transportasi dan aplikasi.",
-        "ne": "Ryczywół मा कामदारका लागि मुख्य ठाउँहरू: ग्मिना कार्यालय, Poznań मा बसोबास कार्ड कार्यालय, बैंक, हुलाक, यातायात र एपहरू।"
+        "pl": "Ryczywół jest w gminie Kozienice. Najważniejsze miejsca: Urząd Miejski w Kozienicach, Mazowiecki Urząd Wojewódzki, banki, poczta, transport i aplikacje.",
+        "en": "Ryczywół is in Kozienice commune. Key places: Kozienice Town Office, Mazowieckie Voivodeship Office, banks, post office, transport and apps.",
+        "ua": "Ryczywół знаходиться в гміні Kozienice. Головні місця: Urząd Miejski w Kozienicach, Mazowiecki Urząd Wojewódzki, банки, пошта, транспорт і додатки.",
+        "ru": "Ryczywół находится в гмине Kozienice. Главные места: Urząd Miejski w Kozienicach, Mazowiecki Urząd Wojewódzki, банки, почта, транспорт и приложения.",
+        "az": "Ryczywół Kozienice bələdiyyəsindədir. Əsas yerlər: Kozienice şəhər idarəsi, Mazowieckie voyevodalıq idarəsi, banklar, poçt, nəqliyyat və tətbiqlər.",
+        "es": "Ryczywół está en la comuna de Kozienice. Lugares clave: Ayuntamiento de Kozienice, oficina regional de Mazowieckie, bancos, correo, transporte y apps.",
+        "fil": "Ang Ryczywół ay nasa Kozienice commune. Mahahalagang lugar: Kozienice Town Office, Mazowieckie Voivodeship Office, bangko, post office, transport at apps.",
+        "id": "Ryczywół berada di gmina Kozienice. Tempat penting: Kantor Kota Kozienice, kantor provinsi Mazowieckie, bank, kantor pos, transportasi dan aplikasi.",
+        "ne": "Ryczywół Kozienice ग्मिनामा छ। मुख्य ठाउँहरू: Kozienice नगर कार्यालय, Mazowieckie प्रान्तीय कार्यालय, बैंक, हुलाक, यातायात र एपहरू।"
       }
     },
     "grupy": {
@@ -207,26 +207,26 @@
   },
   "firstDay": {
     "title": {
-      "pl": "Pierwszy dzień - Ryczywół",
-      "en": "First day - Ryczywół",
-      "ua": "Перший день - Ryczywół",
-      "ru": "Первый день - Ryczywół",
-      "az": "İlk gün - Ryczywół",
-      "es": "Primer día - Ryczywół",
-      "fil": "Unang araw - Ryczywół",
-      "id": "Hari pertama - Ryczywół",
-      "ne": "पहिलो दिन - Ryczywół"
+      "pl": "Pierwszy dzień - Ryczywół k. Kozienic",
+      "en": "First day - Ryczywół near Kozienice",
+      "ua": "Перший день - Ryczywół біля Kozienic",
+      "ru": "Первый день - Ryczywół возле Kozienic",
+      "az": "İlk gün - Kozienice yaxınlığında Ryczywół",
+      "es": "Primer día - Ryczywół cerca de Kozienice",
+      "fil": "First day - Ryczywół near Kozienice",
+      "id": "Hari pertama - Ryczywół dekat Kozienice",
+      "ne": "पहिलो दिन - Kozienice नजिक Ryczywół"
     },
     "lead": {
-      "pl": "Makieta kolejności: otwórz mapę, porównaj wejście ze zdjęciem, idź do punktu spotkania i czekaj na osobę prowadzącą.",
-      "en": "Mockup order: open map, compare entrance with photo, go to meeting point and wait for the responsible person.",
-      "ua": "Порядок макета: відкрийте карту, порівняйте вхід із фото, ідіть до місця зустрічі і чекайте відповідальну особу.",
-      "ru": "Порядок макета: откройте карту, сравните вход с фото, идите к месту встречи и ждите ответственного.",
-      "az": "Maket sırası: xəritəni açın, girişi şəkillə müqayisə edin, görüş yerinə gedin və məsul şəxsi gözləyin.",
-      "es": "Orden de maqueta: abre el mapa, compara la entrada con la foto, ve al punto de encuentro y espera a la persona responsable.",
-      "fil": "Order sa mockup: buksan ang mapa, ihambing ang pasukan sa larawan, pumunta sa meeting point at maghintay.",
-      "id": "Urutan mockup: buka peta, cocokkan pintu masuk dengan foto, pergi ke titik kumpul dan tunggu petugas.",
-      "ne": "नमुना क्रम: नक्सा खोल्नुहोस्, फोटोसँग प्रवेश मिलाउनुहोस्, भेट्ने ठाउँमा जानुहोस् र जिम्मेवार व्यक्तिलाई पर्खनुहोस्।"
+      "pl": "To jest projekt dla lokalizacji Ryczywół koło Kozienic. Wybierz miejsce i otwórz mapę.",
+      "en": "This project is for Ryczywół near Kozienice. Choose a place and open the map.",
+      "ua": "Цей проєкт для локації Ryczywół біля Kozienic. Обери місце і відкрий карту.",
+      "ru": "Этот проект для локации Ryczywół возле Kozienic. Выбери место и открой карту.",
+      "az": "Bu layihə Kozienice yaxınlığında Ryczywół üçündür. Yeri seç və xəritəni aç.",
+      "es": "Este proyecto es para Ryczywół cerca de Kozienice. Elige lugar y abre mapa.",
+      "fil": "Ito ay para sa Ryczywół near Kozienice. Piliin ang lugar at buksan ang mapa.",
+      "id": "Ini untuk Ryczywół dekat Kozienice. Pilih tempat dan buka peta.",
+      "ne": "यो Kozienice नजिक Ryczywół का लागि हो। ठाउँ छानेर नक्सा खोल्नुहोस्।"
     },
     "steps": [
       {
@@ -332,15 +332,15 @@
       "key": "spotkanie",
       "tone": "blue",
       "title": {
-        "pl": "Punkt spotkania - do uzupełnienia",
-        "en": "Meeting point - to be added",
-        "ua": "Місце зустрічі - потрібно додати",
-        "ru": "Место встречи - нужно добавить",
-        "az": "Görüş yeri - əlavə ediləcək",
-        "es": "Punto de encuentro - por añadir",
-        "fil": "Meeting point - idaragdag",
-        "id": "Titik kumpul - akan ditambahkan",
-        "ne": "भेट्ने ठाउँ - थप्नु पर्ने"
+        "pl": "Punkt spotkania - Ryczywół k. Kozienic",
+        "en": "Meeting point - Ryczywół near Kozienice",
+        "ua": "Пункт зустрічі - Ryczywół біля Kozienic",
+        "ru": "Пункт встречи - Ryczywół возле Kozienic",
+        "az": "Görüş nöqtəsi - Kozienice yaxınlığında Ryczywół",
+        "es": "Punto de encuentro - Ryczywół cerca de Kozienice",
+        "fil": "Meeting point - Ryczywół near Kozienice",
+        "id": "Titik temu - Ryczywół dekat Kozienice",
+        "ne": "भेट्ने ठाउँ - Kozienice नजिक Ryczywół"
       },
       "note": {
         "pl": "Główne miejsce, gdzie pracownik ma przyjść pierwszego dnia.",
@@ -353,21 +353,21 @@
         "id": "Tempat utama karyawan datang pada hari pertama.",
         "ne": "पहिलो दिन कामदार आउने मुख्य ठाउँ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20punkt%20spotkania%20Polskie%20Pomidory"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20punkt%20spotkania%20Polskie%20Pomidory"
     },
     {
       "key": "workplace",
       "tone": "green",
       "title": {
-        "pl": "Miejsce pracy / szklarnia",
-        "en": "Workplace / greenhouse",
-        "ua": "Місце роботи / теплиця",
-        "ru": "Место работы / теплица",
-        "az": "İş yeri / istixana",
-        "es": "Lugar de trabajo / invernadero",
-        "fil": "Trabaho / greenhouse",
-        "id": "Tempat kerja / greenhouse",
-        "ne": "काम गर्ने ठाउँ / ग्रीनहाउस"
+        "pl": "Miejsce pracy / szklarnia - Ryczywół",
+        "en": "Workplace / greenhouse - Ryczywół",
+        "ua": "Місце роботи / теплиця - Ryczywół",
+        "ru": "Место работы / теплица - Ryczywół",
+        "az": "İş yeri / istixana - Ryczywół",
+        "es": "Lugar de trabajo / invernadero - Ryczywół",
+        "fil": "Workplace / greenhouse - Ryczywół",
+        "id": "Tempat kerja / greenhouse - Ryczywół",
+        "ne": "काम गर्ने ठाउँ / ग्रीनहाउस - Ryczywół"
       },
       "note": {
         "pl": "Przycisk roboczy. Prawdziwy link do mapy dodamy po otrzymaniu danych.",
@@ -380,21 +380,21 @@
         "id": "Tombol sementara. Link asli ditambah setelah data diterima.",
         "ne": "अस्थायी बटन। डेटा पाएपछि वास्तविक लिंक थपिनेछ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20szklarnia%20Polskie%20Pomidory"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20szklarnia%20Polskie%20Pomidory"
     },
     {
       "key": "warehouse",
       "tone": "yellow",
       "title": {
-        "pl": "Magazyn - do uzupełnienia",
-        "en": "Warehouse - to be added",
-        "ua": "Склад - потрібно додати",
-        "ru": "Склад - нужно добавить",
-        "az": "Anbar - əlavə ediləcək",
-        "es": "Almacén - por añadir",
-        "fil": "Bodega - idaragdag",
-        "id": "Gudang - akan ditambahkan",
-        "ne": "गोदाम - थप्नु पर्ने"
+        "pl": "Magazyn - Ryczywół / Kozienice",
+        "en": "Warehouse - Ryczywół / Kozienice",
+        "ua": "Склад - Ryczywół / Kozienice",
+        "ru": "Склад - Ryczywół / Kozienice",
+        "az": "Anbar - Ryczywół / Kozienice",
+        "es": "Almacén - Ryczywół / Kozienice",
+        "fil": "Warehouse - Ryczywół / Kozienice",
+        "id": "Gudang - Ryczywół / Kozienice",
+        "ne": "गोदाम - Ryczywół / Kozienice"
       },
       "note": {
         "pl": "Osobna lokalizacja magazynu. Tu nie pokazujemy readera.",
@@ -407,21 +407,21 @@
         "id": "Lokasi gudang terpisah. Tidak menampilkan reader di sini.",
         "ne": "गोदामको अलग स्थान। यहाँ reader देखाउँदैनौं।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20magazyn%20Polskie%20Pomidory"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20magazyn%20Polskie%20Pomidory"
     },
     {
       "key": "oldWarehouse",
       "tone": "yellow",
       "title": {
         "pl": "Stary magazyn - jeśli dotyczy",
-        "en": "Old warehouse - if needed",
-        "ua": "Старий склад - якщо потрібно",
-        "ru": "Старый склад - если нужно",
-        "az": "Köhnə anbar - lazım olsa",
-        "es": "Almacén antiguo - si aplica",
-        "fil": "Lumang bodega - kung kailangan",
-        "id": "Gudang lama - jika perlu",
-        "ne": "पुरानो गोदाम - आवश्यक भए"
+        "en": "Old warehouse - if applicable",
+        "ua": "Старий склад - якщо стосується",
+        "ru": "Старый склад - если относится",
+        "az": "Köhnə anbar - aid olarsa",
+        "es": "Almacén viejo - si aplica",
+        "fil": "Old warehouse - if applicable",
+        "id": "Gudang lama - jika berlaku",
+        "ne": "पुरानो गोदाम - यदि लागू हुन्छ"
       },
       "note": {
         "pl": "Zostawione jako miejsce na drugi magazyn lub punkt zapasowy.",
@@ -434,21 +434,21 @@
         "id": "Untuk gudang kedua atau titik cadangan.",
         "ne": "दोस्रो गोदाम वा वैकल्पिक बिन्दुको लागि राखिएको।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20stary%20magazyn"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20stary%20magazyn"
     },
     {
       "key": "staffEntrance",
       "tone": "blue",
       "title": {
-        "pl": "Wejście dla personelu",
-        "en": "Staff entrance",
-        "ua": "Вхід для персоналу",
-        "ru": "Вход для персонала",
-        "az": "Personal girişi",
-        "es": "Entrada de personal",
-        "fil": "Pasukan ng staff",
-        "id": "Pintu masuk staf",
-        "ne": "कर्मचारी प्रवेश"
+        "pl": "Wejście dla personelu - Ryczywół",
+        "en": "Staff entrance - Ryczywół",
+        "ua": "Вхід для персоналу - Ryczywół",
+        "ru": "Вход для персонала - Ryczywół",
+        "az": "Personal girişi - Ryczywół",
+        "es": "Entrada de personal - Ryczywół",
+        "fil": "Staff entrance - Ryczywół",
+        "id": "Pintu masuk staf - Ryczywół",
+        "ne": "कर्मचारी प्रवेश - Ryczywół"
       },
       "note": {
         "pl": "Tu dodamy dokładne wejście i zdjęcie drzwi.",
@@ -461,21 +461,21 @@
         "id": "Di sini akan ditambah pintu masuk tepat dan foto.",
         "ne": "यहाँ सही प्रवेश र ढोकाको फोटो थपिनेछ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20wej%C5%9Bcie%20dla%20personelu"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20wej%C5%9Bcie%20dla%20personelu"
     },
     {
       "key": "parking",
       "tone": "blue",
       "title": {
-        "pl": "Parking / wysiadka",
-        "en": "Parking / drop-off",
-        "ua": "Парковка / висадка",
-        "ru": "Парковка / высадка",
-        "az": "Dayanacaq / düşmə yeri",
-        "es": "Parking / bajada",
-        "fil": "Parking / babaan",
-        "id": "Parkir / turun",
-        "ne": "पार्किङ / झर्ने ठाउँ"
+        "pl": "Parking / wysiadka - Ryczywół",
+        "en": "Parking / drop-off - Ryczywół",
+        "ua": "Паркінг / висадка - Ryczywół",
+        "ru": "Парковка / высадка - Ryczywół",
+        "az": "Parkinq / düşmə - Ryczywół",
+        "es": "Parking / bajada - Ryczywół",
+        "fil": "Parking / drop-off - Ryczywół",
+        "id": "Parkir / turun - Ryczywół",
+        "ne": "पार्किङ / ओर्लने ठाउँ - Ryczywół"
       },
       "note": {
         "pl": "Miejsce, gdzie można przyjechać albo wysiąść z auta.",
@@ -488,21 +488,21 @@
         "id": "Tempat datang atau turun dari mobil.",
         "ne": "आउन वा गाडीबाट झर्न सकिने ठाउँ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20parking%20Polskie%20Pomidory"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20parking%20Polskie%20Pomidory"
     },
     {
       "key": "office",
       "tone": "blue",
       "title": {
-        "pl": "Biuro / administracja",
-        "en": "Office / administration",
-        "ua": "Офіс / адміністрація",
-        "ru": "Офис / администрация",
-        "az": "Ofis / administrasiya",
-        "es": "Oficina / administración",
-        "fil": "Opisina / administrasyon",
-        "id": "Kantor / administrasi",
-        "ne": "कार्यालय / प्रशासन"
+        "pl": "Biuro / administracja - Ryczywół",
+        "en": "Office / administration - Ryczywół",
+        "ua": "Офіс / адміністрація - Ryczywół",
+        "ru": "Офис / администрация - Ryczywół",
+        "az": "Ofis / administrasiya - Ryczywół",
+        "es": "Oficina / administración - Ryczywół",
+        "fil": "Office / administration - Ryczywół",
+        "id": "Kantor / administrasi - Ryczywół",
+        "ne": "कार्यालय / प्रशासन - Ryczywół"
       },
       "note": {
         "pl": "Miejsce na biuro, jeśli pracownik ma tam przyjść.",
@@ -515,21 +515,21 @@
         "id": "Kantor jika pekerja harus datang ke sana.",
         "ne": "कामदार जानुपर्ने भए कार्यालयको ठाउँ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20biuro%20Polskie%20Pomidory"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20biuro%20Polskie%20Pomidory"
     },
     {
       "key": "busStop",
       "tone": "blue",
       "title": {
-        "pl": "Przystanek / dojazd publiczny",
-        "en": "Bus stop / public transport",
-        "ua": "Зупинка / громадський транспорт",
-        "ru": "Остановка / общественный транспорт",
-        "az": "Dayanacaq / ictimai nəqliyyat",
-        "es": "Parada / transporte público",
-        "fil": "Bus stop / public transport",
-        "id": "Halte / transport umum",
-        "ne": "बस स्टप / सार्वजनिक यातायात"
+        "pl": "Przystanek / dojazd - Ryczywół",
+        "en": "Stop / travel - Ryczywół",
+        "ua": "Зупинка / доїзд - Ryczywół",
+        "ru": "Остановка / доезд - Ryczywół",
+        "az": "Dayanacaq / yol - Ryczywół",
+        "es": "Parada / transporte - Ryczywół",
+        "fil": "Stop / travel - Ryczywół",
+        "id": "Halte / perjalanan - Ryczywół",
+        "ne": "स्टप / यात्रा - Ryczywół"
       },
       "note": {
         "pl": "Tu dodamy najbliższy przystanek albo dworzec.",
@@ -542,21 +542,21 @@
         "id": "Di sini ditambah halte atau stasiun terdekat.",
         "ne": "यहाँ नजिकको स्टप वा स्टेशन थपिनेछ।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20przystanek%20autobusowy"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20przystanek"
     },
     {
       "key": "localOffice",
       "tone": "blue",
       "title": {
-        "pl": "Urząd lokalny",
-        "en": "Local office",
-        "ua": "Місцева установа",
-        "ru": "Местное учреждение",
-        "az": "Yerli idarə",
-        "es": "Oficina local",
-        "fil": "Lokal na opisina",
-        "id": "Kantor lokal",
-        "ne": "स्थानीय कार्यालय"
+        "pl": "Urząd Miejski w Kozienicach",
+        "en": "Kozienice Town Office",
+        "ua": "Міська рада Kozienice",
+        "ru": "Городская администрация Kozienice",
+        "az": "Kozienice şəhər idarəsi",
+        "es": "Ayuntamiento de Kozienice",
+        "fil": "Kozienice Town Office",
+        "id": "Kantor Kota Kozienice",
+        "ne": "Kozienice नगर कार्यालय"
       },
       "note": {
         "pl": "Przycisk do urzędu w okolicy. Dokładny link do uzupełnienia.",
@@ -569,21 +569,21 @@
         "id": "Tombol ke kantor lokal. Link tepat akan ditambah.",
         "ne": "स्थानीय कार्यालयको बटन। सही लिंक थप्नु पर्ने।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=urz%C4%85d%20Ryczyw%C3%B3%C5%82"
+      "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Miejski%20w%20Kozienicach%20Parkowa%205"
     },
     {
       "key": "banks",
       "tone": "yellow",
       "title": {
-        "pl": "Banki i bankomaty",
-        "en": "Banks and ATMs",
-        "ua": "Банки і банкомати",
-        "ru": "Банки и банкоматы",
-        "az": "Banklar və bankomatlar",
-        "es": "Bancos y cajeros",
-        "fil": "Bangko at ATM",
-        "id": "Bank dan ATM",
-        "ne": "बैंक र ATM"
+        "pl": "Banki i bankomaty - Kozienice",
+        "en": "Banks and ATMs - Kozienice",
+        "ua": "Банки і банкомати - Kozienice",
+        "ru": "Банки и банкоматы - Kozienice",
+        "az": "Banklar və bankomatlar - Kozienice",
+        "es": "Bancos y cajeros - Kozienice",
+        "fil": "Bangko at ATM - Kozienice",
+        "id": "Bank dan ATM - Kozienice",
+        "ne": "बैंक र ATM - Kozienice"
       },
       "note": {
         "pl": "Przycisk do najbliższych banków i bankomatów.",
@@ -596,21 +596,21 @@
         "id": "Tombol ke bank dan ATM terdekat.",
         "ne": "नजिकका बैंक र ATM को बटन।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Ryczyw%C3%B3%C5%82"
+      "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Kozienice"
     },
     {
       "key": "shopPharmacy",
       "tone": "blue",
       "title": {
-        "pl": "Sklep / apteka",
-        "en": "Shop / pharmacy",
-        "ua": "Магазин / аптека",
-        "ru": "Магазин / аптека",
-        "az": "Mağaza / aptek",
-        "es": "Tienda / farmacia",
-        "fil": "Tindahan / botika",
-        "id": "Toko / apotek",
-        "ne": "पसल / फार्मेसी"
+        "pl": "Sklep / apteka - Ryczywół / Kozienice",
+        "en": "Shop / pharmacy - Ryczywół / Kozienice",
+        "ua": "Магазин / аптека - Ryczywół / Kozienice",
+        "ru": "Магазин / аптека - Ryczywół / Kozienice",
+        "az": "Mağaza / aptek - Ryczywół / Kozienice",
+        "es": "Tienda / farmacia - Ryczywół / Kozienice",
+        "fil": "Tindahan / botika - Ryczywół / Kozienice",
+        "id": "Toko / apotek - Ryczywół / Kozienice",
+        "ne": "पसल / फार्मेसी - Ryczywół / Kozienice"
       },
       "note": {
         "pl": "Przydatne miejsce dla nowych osób. Dokładne punkty do ustalenia.",
@@ -623,7 +623,7 @@
         "id": "Berguna untuk orang baru. Titik tepat akan ditentukan.",
         "ne": "नयाँ मान्छेका लागि उपयोगी ठाउँ। सही ठाउँ तय गर्न बाँकी।"
       },
-      "url": "https://www.google.com/maps/search/?api=1&query=apteka%20sklep%20Ryczyw%C3%B3%C5%82"
+      "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82%20Kozienice"
     }
   ],
   "mapPhotos": [
@@ -936,76 +936,65 @@
     {
       "tone": "blue",
       "title": {
-        "pl": "Ryczywół - lekarz rodzinny (POZ)",
-        "en": "Ryczywół - family doctor (POZ)",
-        "ua": "Ryczywół - сімейний лікар (POZ)",
-        "ru": "Ryczywół - семейный врач (POZ)",
-        "az": "Ryczywół - ailə həkimi (POZ)",
-        "es": "Ryczywół - médico de familia (POZ)",
-        "fil": "Ryczywół - family doctor (POZ)",
-        "id": "Ryczywół - dokter keluarga (POZ)",
-        "ne": "Ryczywół - परिवार डाक्टर (POZ)"
+        "pl": "Kozienice - lekarz rodzinny (POZ)",
+        "en": "Kozienice - family doctor (POZ)",
+        "ua": "Kozienice - сімейний лікар (POZ)",
+        "ru": "Kozienice - семейный врач (POZ)",
+        "az": "Kozienice - ailə həkimi (POZ)",
+        "es": "Kozienice - médico de familia (POZ)",
+        "fil": "Kozienice - family doctor (POZ)",
+        "id": "Kozienice - dokter keluarga (POZ)",
+        "ne": "Kozienice - परिवार डाक्टर (POZ)"
       },
       "body": [
         {
-          "pl": "Adres: ul. Nowa 1, 64-630 Ryczywół.",
-          "en": "Address: ul. Nowa 1, 64-630 Ryczywół.",
-          "ua": "Адреса: вул. Nowa 1, 64-630 Ryczywół.",
-          "ru": "Адрес: ул. Nowa 1, 64-630 Ryczywół.",
-          "az": "Ünvan: ul. Nowa 1, 64-630 Ryczywół.",
-          "es": "Dirección: ul. Nowa 1, 64-630 Ryczywół.",
-          "fil": "Address: ul. Nowa 1, 64-630 Ryczywół.",
-          "id": "Alamat: ul. Nowa 1, 64-630 Ryczywół.",
-          "ne": "ठेगाना: ul. Nowa 1, 64-630 Ryczywół।"
+          "pl": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "en": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "ua": "SPZOZ Przychodnie Kozienickie, вул. Sienkiewicza 28, 26-900 Kozienice.",
+          "ru": "SPZOZ Przychodnie Kozienickie, ул. Sienkiewicza 28, 26-900 Kozienice.",
+          "az": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "es": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "fil": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "id": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "ne": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice।"
         },
         {
-          "pl": "Przychodnia POZ: zwykle poniedziałek-piątek 8:00-18:00. Przed wyjściem zadzwoń do rejestracji.",
-          "en": "POZ clinic: usually Monday-Friday 8:00-18:00. Call registration before leaving.",
-          "ua": "Поліклініка POZ: зазвичай понеділок-п'ятниця 8:00-18:00. Перед виходом зателефонуйте до реєстрації.",
-          "ru": "Поликлиника POZ: обычно понедельник-пятница 8:00-18:00. Перед выходом позвоните в регистрацию.",
-          "az": "POZ poliklinikası: adətən bazar ertəsi-cümə 8:00-18:00. Çıxmazdan əvvəl qeydiyyata zəng edin.",
-          "es": "Clínica POZ: normalmente lunes-viernes 8:00-18:00. Antes de salir llama a registro.",
-          "fil": "POZ clinic: karaniwang Lunes-Biyernes 8:00-18:00. Tumawag muna sa registration.",
-          "id": "Klinik POZ: biasanya Senin-Jumat 8:00-18:00. Telepon pendaftaran sebelum berangkat.",
-          "ne": "POZ क्लिनिक: सामान्यतया सोमबार-शुक्रबार 8:00-18:00। निस्कनुअघि दर्तामा फोन गर्नुहोस्।"
+          "pl": "Przychodnia podaje pracę od poniedziałku do piątku w godzinach 8:00-18:00.",
+          "en": "The clinic states it works Monday-Friday 8:00-18:00.",
+          "ua": "Поліклініка вказує роботу з понеділка до п’ятниці 8:00-18:00.",
+          "ru": "Поликлиника указывает работу с понедельника по пятницу 8:00-18:00.",
+          "az": "Poliklinika bazar ertəsi-cümə 8:00-18:00 işlədiyini göstərir.",
+          "es": "La clínica indica lunes-viernes 8:00-18:00.",
+          "fil": "Clinic hours: Lunes-Biyernes 8:00-18:00.",
+          "id": "Klinik menyatakan Senin-Jumat 8:00-18:00.",
+          "ne": "क्लिनिक सोमबार-शुक्रबार 8:00-18:00 खुल्ने बताउँछ।"
         },
         {
           "pl": "POZ: zwykła choroba, recepta, kontrola, skierowanie. W zagrożeniu życia dzwoń 112.",
           "en": "POZ: ordinary illness, prescription, check-up, referral. In life danger call 112.",
-          "ua": "POZ: звичайна хвороба, рецепт, контроль, направлення. При загрозі життю телефонуйте 112.",
-          "ru": "POZ: обычная болезнь, рецепт, контроль, направление. При угрозе жизни звоните 112.",
+          "ua": "POZ: звичайна хвороба, рецепт, контроль, направлення. При загрозі життю телефонуй 112.",
+          "ru": "POZ: обычная болезнь, рецепт, контроль, направление. При угрозе жизни звони 112.",
           "az": "POZ: adi xəstəlik, resept, yoxlama, yönləndirmə. Həyat təhlükəsində 112-yə zəng edin.",
           "es": "POZ: enfermedad normal, receta, control, derivación. En peligro de vida llama 112.",
           "fil": "POZ: karaniwang sakit, reseta, check-up, referral. Kung delikado ang buhay tumawag 112.",
           "id": "POZ: sakit biasa, resep, kontrol, rujukan. Jika mengancam nyawa hubungi 112.",
-          "ne": "POZ: साधारण बिरामी, औषधि, जाँच, रेफरल। जीवन जोखिममा 112 मा फोन गर्नुहोस्।"
-        },
-        {
-          "pl": "Weź: PESEL, paszport/dokument tożsamości i telefon.",
-          "en": "Take: PESEL, passport/ID document and phone.",
-          "ua": "Візьміть: PESEL, паспорт/документ і телефон.",
-          "ru": "Возьмите: PESEL, паспорт/документ и телефон.",
-          "az": "Götürün: PESEL, pasport/şəxsiyyət sənədi və telefon.",
-          "es": "Lleva: PESEL, pasaporte/documento y teléfono.",
-          "fil": "Dalhin: PESEL, passport/ID at telepono.",
-          "id": "Bawa: PESEL, paspor/ID dan telepon.",
-          "ne": "लैजानुहोस्: PESEL, पासपोर्ट/ID र फोन।"
+          "ne": "POZ: सामान्य बिरामी, औषधि, जाँच, रेफरल। जीवन जोखिममा 112 मा फोन गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "POZ Ryczywół",
-            "en": "POZ Ryczywół",
-            "ua": "POZ Ryczywół",
-            "ru": "POZ Ryczywół",
-            "az": "POZ Ryczywół",
-            "es": "POZ Ryczywół",
-            "fil": "POZ Ryczywół",
-            "id": "POZ Ryczywół",
-            "ne": "POZ Ryczywół"
+            "pl": "Przychodnie Kozienickie - Sienkiewicza 28",
+            "en": "Kozienice clinics - Sienkiewicza 28",
+            "ua": "Przychodnie Kozienickie - Sienkiewicza 28",
+            "ru": "Przychodnie Kozienickie - Sienkiewicza 28",
+            "az": "Kozienice poliklinikası - Sienkiewicza 28",
+            "es": "Clínicas Kozienice - Sienkiewicza 28",
+            "fil": "Kozienice clinics - Sienkiewicza 28",
+            "id": "Klinik Kozienice - Sienkiewicza 28",
+            "ne": "Kozienice क्लिनिक - Sienkiewicza 28"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Przychodnia%20Zespo%C5%82u%20Lekarza%20Rodzinnego%20Nowa%201%20Ryczyw%C3%B3%C5%82"
+          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Przychodnie%20Kozienickie%20Sienkiewicza%2028"
         }
       ],
       "phones": [
@@ -1021,83 +1010,89 @@
             "id": "Pendaftaran",
             "ne": "दर्ता"
           },
-          "phone": "+48 67 343 11 75"
+          "phone": "+48 48 614 30 54"
+        },
+        {
+          "label": {
+            "pl": "Rejestracja",
+            "en": "Registration",
+            "ua": "Реєстрація",
+            "ru": "Регистрация",
+            "az": "Qeydiyyat",
+            "es": "Registro",
+            "fil": "Registration",
+            "id": "Pendaftaran",
+            "ne": "दर्ता"
+          },
+          "phone": "+48 48 614 30 56"
+        },
+        {
+          "label": {
+            "pl": "Komórkowy",
+            "en": "Mobile",
+            "ua": "Мобільний",
+            "ru": "Мобильный",
+            "az": "Mobil",
+            "es": "Móvil",
+            "fil": "Mobile",
+            "id": "Seluler",
+            "ne": "मोबाइल"
+          },
+          "phone": "+48 509 006 633"
         }
       ]
     },
     {
       "tone": "blue",
       "title": {
-        "pl": "Ludomy - LEXMED lekarz rodzinny",
-        "en": "Ludomy - LEXMED family doctor",
-        "ua": "Ludomy - LEXMED сімейний лікар",
-        "ru": "Ludomy - LEXMED семейный врач",
-        "az": "Ludomy - LEXMED ailə həkimi",
-        "es": "Ludomy - LEXMED médico de familia",
-        "fil": "Ludomy - LEXMED family doctor",
-        "id": "Ludomy - LEXMED dokter keluarga",
-        "ne": "Ludomy - LEXMED परिवार डाक्टर"
+        "pl": "Kozienice - przychodnia Warszawska 55",
+        "en": "Kozienice - clinic Warszawska 55",
+        "ua": "Kozienice - поліклініка Warszawska 55",
+        "ru": "Kozienice - поликлиника Warszawska 55",
+        "az": "Kozienice - Warszawska 55 poliklinika",
+        "es": "Kozienice - clínica Warszawska 55",
+        "fil": "Kozienice - clinic Warszawska 55",
+        "id": "Kozienice - klinik Warszawska 55",
+        "ne": "Kozienice - Warszawska 55 क्लिनिक"
       },
       "body": [
         {
-          "pl": "Adres: Ludomy 1c, 64-603 Ludomy.",
-          "en": "Address: Ludomy 1c, 64-603 Ludomy.",
-          "ua": "Адреса: Ludomy 1c, 64-603 Ludomy.",
-          "ru": "Адрес: Ludomy 1c, 64-603 Ludomy.",
-          "az": "Ünvan: Ludomy 1c, 64-603 Ludomy.",
-          "es": "Dirección: Ludomy 1c, 64-603 Ludomy.",
-          "fil": "Address: Ludomy 1c, 64-603 Ludomy.",
-          "id": "Alamat: Ludomy 1c, 64-603 Ludomy.",
-          "ne": "ठेगाना: Ludomy 1c, 64-603 Ludomy।"
+          "pl": "Druga lokalizacja Przychodni Kozienickich: ul. Warszawska 55, 26-900 Kozienice.",
+          "en": "Second Kozienice clinic location: ul. Warszawska 55, 26-900 Kozienice.",
+          "ua": "Друга локація Przychodni Kozienickich: вул. Warszawska 55, 26-900 Kozienice.",
+          "ru": "Вторая локация Przychodni Kozienickich: ул. Warszawska 55, 26-900 Kozienice.",
+          "az": "Kozienice poliklinikasının ikinci yeri: ul. Warszawska 55, 26-900 Kozienice.",
+          "es": "Segunda ubicación: ul. Warszawska 55, 26-900 Kozienice.",
+          "fil": "Second location: ul. Warszawska 55, 26-900 Kozienice.",
+          "id": "Lokasi kedua: ul. Warszawska 55, 26-900 Kozienice.",
+          "ne": "दोस्रो स्थान: ul. Warszawska 55, 26-900 Kozienice।"
         },
         {
-          "pl": "Drugi punkt POZ z listy gminy. Użyj, jeśli koordynator lub firma wskaże tę przychodnię.",
-          "en": "Second POZ point from the commune list. Use it if the coordinator or company indicates this clinic.",
-          "ua": "Другий пункт POZ зі списку гміни. Використовуйте, якщо координатор або фірма вкаже цю поліклініку.",
-          "ru": "Второй пункт POZ из списка гмины. Используйте, если координатор или фирма укажет эту поликлинику.",
-          "az": "Bələdiyyə siyahısından ikinci POZ nöqtəsi. Koordinator və ya şirkət bu poliklinikanı göstərsə istifadə edin.",
-          "es": "Segundo punto POZ de la lista municipal. Úsalo si el coordinador o la empresa indica esta clínica.",
-          "fil": "Ikalawang POZ mula sa listahan ng gmina. Gamitin kung sinabi ng coordinator o kumpanya.",
-          "id": "Titik POZ kedua dari daftar gmina. Gunakan jika koordinator atau perusahaan menunjuk klinik ini.",
-          "ne": "ग्मिना सूचीको दोस्रो POZ। कोर्डिनेटर वा कम्पनीले भने प्रयोग गर्नुहोस्।"
-        },
-        {
-          "pl": "Najpierw zadzwoń i zapytaj, czy można przyjść oraz jakie dokumenty zabrać.",
-          "en": "Call first and ask if you can come and which documents to take.",
-          "ua": "Спочатку зателефонуйте і запитайте, чи можна прийти та які документи взяти.",
-          "ru": "Сначала позвоните и спросите, можно ли прийти и какие документы взять.",
-          "az": "Əvvəl zəng edin və gəlib-gəlməmək, hansı sənədləri götürmək lazım olduğunu soruşun.",
-          "es": "Primero llama y pregunta si puedes ir y qué documentos llevar.",
-          "fil": "Tumawag muna at itanong kung puwedeng pumunta at anong dokumento ang dalhin.",
-          "id": "Telepon dulu dan tanyakan apakah bisa datang dan dokumen apa yang dibawa.",
-          "ne": "पहिले फोन गरेर आउन मिल्छ कि र कुन कागज लैजाने सोध्नुहोस्।"
-        },
-        {
-          "pl": "Weź: PESEL, paszport/dokument tożsamości i telefon.",
-          "en": "Take: PESEL, passport/ID document and phone.",
-          "ua": "Візьміть: PESEL, паспорт/документ і телефон.",
-          "ru": "Возьмите: PESEL, паспорт/документ и телефон.",
-          "az": "Götürün: PESEL, pasport/şəxsiyyət sənədi və telefon.",
-          "es": "Lleva: PESEL, pasaporte/documento y teléfono.",
-          "fil": "Dalhin: PESEL, passport/ID at telepono.",
-          "id": "Bawa: PESEL, paspor/ID dan telepon.",
-          "ne": "लैजानुहोस्: PESEL, पासपोर्ट/ID र फोन।"
+          "pl": "Użyj, jeśli rejestracja lub koordynator wskaże tę przychodnię.",
+          "en": "Use it if registration or coordinator points to this clinic.",
+          "ua": "Використай, якщо реєстрація або координатор вкаже цю поліклініку.",
+          "ru": "Используй, если регистрация или координатор укажет эту поликлинику.",
+          "az": "Qeydiyyat və ya koordinator bu poliklinikanı göstərsə istifadə edin.",
+          "es": "Úsala si registro o coordinador indica esta clínica.",
+          "fil": "Gamitin kung registration o coordinator ang nagsabi.",
+          "id": "Gunakan jika pendaftaran atau koordinator menunjuk klinik ini.",
+          "ne": "दर्ता वा कोर्डिनेटरले यो क्लिनिक भनेमा प्रयोग गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "LEXMED Ludomy",
-            "en": "LEXMED Ludomy",
-            "ua": "LEXMED Ludomy",
-            "ru": "LEXMED Ludomy",
-            "az": "LEXMED Ludomy",
-            "es": "LEXMED Ludomy",
-            "fil": "LEXMED Ludomy",
-            "id": "LEXMED Ludomy",
-            "ne": "LEXMED Ludomy"
+            "pl": "Przychodnie Kozienickie - Warszawska 55",
+            "en": "Kozienice clinics - Warszawska 55",
+            "ua": "Przychodnie Kozienickie - Warszawska 55",
+            "ru": "Przychodnie Kozienickie - Warszawska 55",
+            "az": "Kozienice poliklinikası - Warszawska 55",
+            "es": "Clínicas Kozienice - Warszawska 55",
+            "fil": "Kozienice clinics - Warszawska 55",
+            "id": "Klinik Kozienice - Warszawska 55",
+            "ne": "Kozienice क्लिनिक - Warszawska 55"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=LEXMED%20Ludomy%201c"
+          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Przychodnie%20Kozienickie%20Warszawska%2055"
         }
       ],
       "phones": [
@@ -1113,429 +1108,364 @@
             "id": "Pendaftaran",
             "ne": "दर्ता"
           },
-          "phone": "+48 67 348 83 09"
+          "phone": "+48 509 006 644"
+        },
+        {
+          "label": {
+            "pl": "Rejestracja",
+            "en": "Registration",
+            "ua": "Реєстрація",
+            "ru": "Регистрация",
+            "az": "Qeydiyyat",
+            "es": "Registro",
+            "fil": "Registration",
+            "id": "Pendaftaran",
+            "ne": "दर्ता"
+          },
+          "phone": "+48 505 238 522"
         }
       ]
     },
     {
       "tone": "red",
       "title": {
-        "pl": "Oborniki - szpital / nagły przypadek",
-        "en": "Oborniki - hospital / emergency",
-        "ua": "Oborniki - лікарня / невідкладний випадок",
-        "ru": "Oborniki - больница / срочный случай",
-        "az": "Oborniki - xəstəxana / təcili hal",
-        "es": "Oborniki - hospital / urgencia",
-        "fil": "Oborniki - hospital / emergency",
-        "id": "Oborniki - rumah sakit / darurat",
-        "ne": "Oborniki - अस्पताल / आपतकालीन"
+        "pl": "Szpital Kozienice / nagły przypadek",
+        "en": "Kozienice hospital / emergency",
+        "ua": "Лікарня Kozienice / невідкладний випадок",
+        "ru": "Больница Kozienice / срочный случай",
+        "az": "Kozienice xəstəxanası / təcili hal",
+        "es": "Hospital Kozienice / urgencia",
+        "fil": "Kozienice hospital / emergency",
+        "id": "Rumah sakit Kozienice / darurat",
+        "ne": "Kozienice अस्पताल / आपतकालीन"
       },
       "body": [
         {
-          "pl": "Adres: ul. Szpitalna 2, 64-600 Oborniki.",
-          "en": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
-          "ua": "Адреса: вул. Szpitalna 2, 64-600 Oborniki.",
-          "ru": "Адрес: ул. Szpitalna 2, 64-600 Oborniki.",
-          "az": "Ünvan: ul. Szpitalna 2, 64-600 Oborniki.",
-          "es": "Dirección: ul. Szpitalna 2, 64-600 Oborniki.",
-          "fil": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
-          "id": "Alamat: ul. Szpitalna 2, 64-600 Oborniki.",
-          "ne": "ठेगाना: ul. Szpitalna 2, 64-600 Oborniki।"
+          "pl": "SP ZZOZ w Kozienicach: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "en": "SP ZZOZ in Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ua": "SP ZZOZ у Kozienicach: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ru": "SP ZZOZ в Kozienicach: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "az": "Kozienice SP ZZOZ: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "es": "SP ZZOZ en Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "fil": "SP ZZOZ in Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "id": "SP ZZOZ Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ne": "SP ZZOZ Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice।"
         },
         {
           "pl": "Jedź do szpitala albo dzwoń 112 przy urazie, silnym bólu, problemach z oddychaniem, omdleniu lub poważnym pogorszeniu stanu zdrowia.",
           "en": "Go to hospital or call 112 for injury, strong pain, breathing problems, fainting or serious health deterioration.",
-          "ua": "Їдьте до лікарні або телефонуйте 112 при травмі, сильному болю, проблемах з диханням, втраті свідомості або серйозному погіршенні стану.",
-          "ru": "Езжайте в больницу или звоните 112 при травме, сильной боли, проблемах с дыханием, обмороке или серьёзном ухудшении состояния.",
+          "ua": "Їдь до лікарні або телефонуй 112 при травмі, сильному болю, проблемах з диханням, втраті свідомості або сильному погіршенні стану.",
+          "ru": "Езжай в больницу или звони 112 при травме, сильной боли, проблемах с дыханием, обмороке или серьёзном ухудшении.",
           "az": "Zədə, güclü ağrı, nəfəs problemi, huş itirmə və ya ciddi pisləşmədə xəstəxanaya gedin və ya 112-yə zəng edin.",
           "es": "Ve al hospital o llama 112 por lesión, dolor fuerte, problemas para respirar, desmayo o empeoramiento grave.",
           "fil": "Pumunta sa hospital o tumawag 112 kapag may injury, matinding sakit, hirap huminga, nahimatay o seryosong paglala.",
           "id": "Pergi ke rumah sakit atau hubungi 112 untuk cedera, nyeri kuat, sulit bernapas, pingsan atau kondisi memburuk serius.",
-          "ne": "चोट, धेरै दुखाइ, सास फेर्न समस्या, बेहोस वा स्वास्थ्य धेरै बिग्रिए अस्पताल जानुहोस् वा 112 मा फोन गर्नुहोस्।"
-        },
-        {
-          "pl": "Najpierw zadzwoń i zapytaj, czy można przyjść oraz jakie dokumenty zabrać.",
-          "en": "Call first and ask if you can come and which documents to take.",
-          "ua": "Спочатку зателефонуйте і запитайте, чи можна прийти та які документи взяти.",
-          "ru": "Сначала позвоните и спросите, можно ли прийти и какие документы взять.",
-          "az": "Əvvəl zəng edin və gəlib-gəlməmək, hansı sənədləri götürmək lazım olduğunu soruşun.",
-          "es": "Primero llama y pregunta si puedes ir y qué documentos llevar.",
-          "fil": "Tumawag muna at itanong kung puwedeng pumunta at anong dokumento ang dalhin.",
-          "id": "Telepon dulu dan tanyakan apakah bisa datang dan dokumen apa yang dibawa.",
-          "ne": "पहिले फोन गरेर आउन मिल्छ कि र कुन कागज लैजाने सोध्नुहोस्।"
+          "ne": "चोट, धेरै दुखाइ, सास फेर्न समस्या, बेहोस वा अवस्था धेरै बिग्रिएमा अस्पताल जानुहोस् वा 112 मा फोन गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Szpital Oborniki",
-            "en": "Hospital Oborniki",
-            "ua": "Лікарня Oborniki",
-            "ru": "Больница Oborniki",
-            "az": "Oborniki xəstəxanası",
-            "es": "Hospital Oborniki",
-            "fil": "Hospital Oborniki",
-            "id": "Rumah sakit Oborniki",
-            "ne": "Oborniki अस्पताल"
+            "pl": "Szpital Kozienice",
+            "en": "Kozienice hospital",
+            "ua": "Лікарня Kozienice",
+            "ru": "Больница Kozienice",
+            "az": "Kozienice xəstəxanası",
+            "es": "Hospital Kozienice",
+            "fil": "Kozienice hospital",
+            "id": "Rumah sakit Kozienice",
+            "ne": "Kozienice अस्पताल"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Oborniki%20Szpitalna%202"
+          "url": "https://www.google.com/maps/search/?api=1&query=Szpital%20Powiatowy%20Kozienice%20Al.%20W%C5%82adys%C5%82awa%20Sikorskiego%2010"
         }
       ],
       "phones": [
         {
           "label": {
-            "pl": "Centrala / informacja",
-            "en": "Main line / information",
-            "ua": "Централа / інформація",
-            "ru": "Центральный номер / информация",
-            "az": "Mərkəz / məlumat",
-            "es": "Central / información",
-            "fil": "Main line / impormasyon",
-            "id": "Pusat / informasi",
-            "ne": "मुख्य लाइन / जानकारी"
+            "pl": "Centrala szpitala",
+            "en": "Hospital main line",
+            "ua": "Центральний номер лікарні",
+            "ru": "Центральный номер больницы",
+            "az": "Xəstəxana mərkəzi xətti",
+            "es": "Central del hospital",
+            "fil": "Hospital main line",
+            "id": "Pusat rumah sakit",
+            "ne": "अस्पताल मुख्य फोन"
           },
-          "phone": "+48 61 297 36 00"
+          "phone": "+48 48 679 71 00"
         }
       ]
     },
     {
       "tone": "red",
       "title": {
-        "pl": "Oborniki - nocna i świąteczna opieka",
-        "en": "Oborniki - night and holiday care",
-        "ua": "Oborniki - нічна і святкова допомога",
-        "ru": "Oborniki - ночная и праздничная помощь",
-        "az": "Oborniki - gecə və bayram yardımı",
-        "es": "Oborniki - atención nocturna y festiva",
-        "fil": "Oborniki - night and holiday care",
-        "id": "Oborniki - layanan malam dan libur",
-        "ne": "Oborniki - रात र बिदाको सेवा"
+        "pl": "Nocna i świąteczna opieka - Kozienice",
+        "en": "Night and holiday care - Kozienice",
+        "ua": "Нічна і святкова допомога - Kozienice",
+        "ru": "Ночная и праздничная помощь - Kozienice",
+        "az": "Gecə və bayram yardımı - Kozienice",
+        "es": "Atención nocturna y festiva - Kozienice",
+        "fil": "Night and holiday care - Kozienice",
+        "id": "Layanan malam dan libur - Kozienice",
+        "ne": "रात र बिदाको सेवा - Kozienice"
       },
       "body": [
         {
-          "pl": "Nocna i świąteczna opieka: gdy przychodnia jest zamknięta, ale to nie jest zagrożenie życia.",
-          "en": "Night and holiday care: when the clinic is closed, but it is not life-threatening.",
-          "ua": "Нічна і святкова допомога: коли поліклініка закрита, але немає загрози життю.",
-          "ru": "Ночная и праздничная помощь: когда поликлиника закрыта, но нет угрозы жизни.",
-          "az": "Gecə və bayram yardımı: poliklinika bağlıdırsa, amma həyat təhlükəsi yoxdursa.",
-          "es": "Atención nocturna y festiva: cuando la clínica está cerrada, pero no hay peligro de vida.",
-          "fil": "Night/holiday care: kapag sarado ang clinic pero hindi life-threatening.",
-          "id": "Layanan malam/libur: saat klinik tutup tetapi tidak mengancam nyawa.",
-          "ne": "रात/बिदाको सेवा: क्लिनिक बन्द हुँदा, तर जीवन जोखिम नभए।"
+          "pl": "Adres: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "en": "Address: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ua": "Адреса: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ru": "Адрес: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "az": "Ünvan: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "es": "Dirección: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "fil": "Address: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "id": "Alamat: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ne": "ठेगाना: Al. Władysława Sikorskiego 10, 26-900 Kozienice।"
         },
         {
-          "pl": "Według wykazu NFZ: SPZOZ Oborniki, ul. Szpitalna 2. Telefon lekarza POZ: 662 290 702, pielęgniarki POZ: 734 409 318.",
-          "en": "According to the NFZ list: SPZOZ Oborniki, ul. Szpitalna 2. POZ doctor phone: 662 290 702, POZ nurse: 734 409 318.",
-          "ua": "За списком NFZ: SPZOZ Oborniki, вул. Szpitalna 2. Телефон лікаря POZ: 662 290 702, медсестри POZ: 734 409 318.",
-          "ru": "По списку NFZ: SPZOZ Oborniki, ул. Szpitalna 2. Телефон врача POZ: 662 290 702, медсестры POZ: 734 409 318.",
-          "az": "NFZ siyahısına görə: SPZOZ Oborniki, ul. Szpitalna 2. POZ həkimi: 662 290 702, POZ tibb bacısı: 734 409 318.",
-          "es": "Según la lista NFZ: SPZOZ Oborniki, ul. Szpitalna 2. Médico POZ: 662 290 702, enfermera POZ: 734 409 318.",
-          "fil": "Ayon sa NFZ list: SPZOZ Oborniki, ul. Szpitalna 2. POZ doctor: 662 290 702, POZ nurse: 734 409 318.",
-          "id": "Menurut daftar NFZ: SPZOZ Oborniki, ul. Szpitalna 2. Dokter POZ: 662 290 702, perawat POZ: 734 409 318.",
-          "ne": "NFZ सूची अनुसार: SPZOZ Oborniki, ul. Szpitalna 2। POZ डाक्टर: 662 290 702, POZ नर्स: 734 409 318।"
+          "pl": "Gdy przychodnia jest zamknięta, ale nie ma bezpośredniego zagrożenia życia.",
+          "en": "When the clinic is closed, but there is no direct life threat.",
+          "ua": "Коли поліклініка закрита, але немає прямої загрози життю.",
+          "ru": "Когда поликлиника закрыта, но нет прямой угрозы жизни.",
+          "az": "Poliklinika bağlıdırsa, amma birbaşa həyat təhlükəsi yoxdursa.",
+          "es": "Cuando la clínica está cerrada, pero no hay peligro directo de vida.",
+          "fil": "Kapag sarado ang clinic pero walang direct life threat.",
+          "id": "Saat klinik tutup tetapi tidak mengancam nyawa langsung.",
+          "ne": "क्लिनिक बन्द छ तर सीधा जीवन जोखिम छैन भने।"
         },
         {
-          "pl": "Adres: ul. Szpitalna 2, 64-600 Oborniki.",
-          "en": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
-          "ua": "Адреса: вул. Szpitalna 2, 64-600 Oborniki.",
-          "ru": "Адрес: ул. Szpitalna 2, 64-600 Oborniki.",
-          "az": "Ünvan: ul. Szpitalna 2, 64-600 Oborniki.",
-          "es": "Dirección: ul. Szpitalna 2, 64-600 Oborniki.",
-          "fil": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
-          "id": "Alamat: ul. Szpitalna 2, 64-600 Oborniki.",
-          "ne": "ठेगाना: ul. Szpitalna 2, 64-600 Oborniki।"
+          "pl": "Nocna opieka działa zwykle po 18:00 oraz w weekendy i święta.",
+          "en": "Night care usually works after 18:00 and on weekends/holidays.",
+          "ua": "Нічна допомога зазвичай працює після 18:00, у вихідні і свята.",
+          "ru": "Ночная помощь обычно работает после 18:00, в выходные и праздники.",
+          "az": "Gecə yardımı adətən 18:00-dan sonra və həftəsonu/bayramlarda işləyir.",
+          "es": "Atención nocturna normalmente después de 18:00 y fines/festivos.",
+          "fil": "Night care karaniwang after 18:00 at weekends/holidays.",
+          "id": "Layanan malam biasanya setelah 18:00 dan akhir pekan/libur.",
+          "ne": "रातको सेवा सामान्यतया 18:00 पछि र सप्ताहन्त/बिदामा हुन्छ।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Nocna pomoc Oborniki",
-            "en": "Night care Oborniki",
-            "ua": "Нічна допомога Oborniki",
-            "ru": "Ночная помощь Oborniki",
-            "az": "Gecə yardımı Oborniki",
-            "es": "Atención nocturna Oborniki",
-            "fil": "Night care Oborniki",
-            "id": "Layanan malam Oborniki",
-            "ne": "रातको सेवा Oborniki"
+            "pl": "Nocna opieka Kozienice",
+            "en": "Night care Kozienice",
+            "ua": "Нічна допомога Kozienice",
+            "ru": "Ночная помощь Kozienice",
+            "az": "Gecə yardımı Kozienice",
+            "es": "Atención nocturna Kozienice",
+            "fil": "Night care Kozienice",
+            "id": "Layanan malam Kozienice",
+            "ne": "रातको सेवा Kozienice"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Oborniki%20Szpitalna%202%20nocna%20%C5%9Bwi%C4%85teczna%20opieka"
+          "url": "https://www.google.com/maps/search/?api=1&query=Nocna%20i%20%C5%9Bwi%C4%85teczna%20opieka%20zdrowotna%20Kozienice%20Sikorskiego%2010"
         }
       ],
       "phones": [
         {
           "label": {
-            "pl": "Lekarz nocnej pomocy",
-            "en": "Night care doctor",
-            "ua": "Лікар нічної допомоги",
-            "ru": "Врач ночной помощи",
-            "az": "Gecə yardımı həkimi",
-            "es": "Médico de atención nocturna",
-            "fil": "Night care doctor",
-            "id": "Dokter layanan malam",
-            "ne": "रातको सेवाको डाक्टर"
+            "pl": "Nocna opieka",
+            "en": "Night care",
+            "ua": "Нічна допомога",
+            "ru": "Ночная помощь",
+            "az": "Gecə yardımı",
+            "es": "Atención nocturna",
+            "fil": "Night care",
+            "id": "Layanan malam",
+            "ne": "रातको सेवा"
           },
-          "phone": "+48 662 290 702"
+          "phone": "+48 48 679 59 32"
         },
         {
           "label": {
-            "pl": "Pielęgniarka nocnej pomocy",
-            "en": "Night care nurse",
-            "ua": "Медсестра нічної допомоги",
-            "ru": "Медсестра ночной помощи",
-            "az": "Gecə yardımı tibb bacısı",
-            "es": "Enfermera de atención nocturna",
-            "fil": "Night care nurse",
-            "id": "Perawat layanan malam",
-            "ne": "रातको सेवाको नर्स"
+            "pl": "Nocna opieka",
+            "en": "Night care",
+            "ua": "Нічна допомога",
+            "ru": "Ночная помощь",
+            "az": "Gecə yardımı",
+            "es": "Atención nocturna",
+            "fil": "Night care",
+            "id": "Layanan malam",
+            "ne": "रातको सेवा"
           },
-          "phone": "+48 734 409 318"
+          "phone": "+48 509 212 226"
         }
       ]
     },
     {
       "tone": "yellow",
       "title": {
-        "pl": "Ryczywół - dentysta i ból zęba",
-        "en": "Ryczywół - dentist and toothache",
-        "ua": "Ryczywół - стоматолог і зубний біль",
-        "ru": "Ryczywół - стоматолог и зубная боль",
-        "az": "Ryczywół - diş həkimi və diş ağrısı",
-        "es": "Ryczywół - dentista y dolor de muela",
-        "fil": "Ryczywół - dentista at sakit ng ngipin",
-        "id": "Ryczywół - dokter gigi dan sakit gigi",
-        "ne": "Ryczywół - दन्त चिकित्सक र दाँत दुखाइ"
+        "pl": "Dentysta / ból zęba - Kozienice",
+        "en": "Dentist / toothache - Kozienice",
+        "ua": "Стоматолог / зубний біль - Kozienice",
+        "ru": "Стоматолог / зубная боль - Kozienice",
+        "az": "Diş həkimi / diş ağrısı - Kozienice",
+        "es": "Dentista / dolor de muela - Kozienice",
+        "fil": "Dentista / sakit ng ngipin - Kozienice",
+        "id": "Dokter gigi / sakit gigi - Kozienice",
+        "ne": "दन्त चिकित्सक / दाँत दुखाइ - Kozienice"
       },
       "body": [
         {
-          "pl": "Adres: ul. Nowa 1, Ryczywół. Rejestracja telefoniczna zwykle 10:00-14:00.",
-          "en": "Address: ul. Nowa 1, Ryczywół. Phone registration usually 10:00-14:00.",
-          "ua": "Адреса: вул. Nowa 1, Ryczywół. Реєстрація телефоном зазвичай 10:00-14:00.",
-          "ru": "Адрес: ул. Nowa 1, Ryczywół. Регистрация по телефону обычно 10:00-14:00.",
-          "az": "Ünvan: ul. Nowa 1, Ryczywół. Telefon qeydiyyatı adətən 10:00-14:00.",
-          "es": "Dirección: ul. Nowa 1, Ryczywół. Registro telefónico normalmente 10:00-14:00.",
-          "fil": "Address: ul. Nowa 1, Ryczywół. Phone registration karaniwang 10:00-14:00.",
-          "id": "Alamat: ul. Nowa 1, Ryczywół. Pendaftaran telepon biasanya 10:00-14:00.",
-          "ne": "ठेगाना: ul. Nowa 1, Ryczywół। फोन दर्ता सामान्यतया 10:00-14:00।"
+          "pl": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "en": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "ua": "NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice.",
+          "ru": "NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice.",
+          "az": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "es": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "fil": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "id": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "ne": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice।"
         },
         {
-          "pl": "Doraźna pomoc stomatologiczna NFZ zwykle działa w dni robocze 19:00-7:00, a w weekendy i święta całodobowo. Najpierw zadzwoń lub sprawdź pacjent.gov.pl.",
-          "en": "NFZ emergency dental care usually works on weekdays 19:00-7:00 and on weekends/holidays 24h. Call first or check pacjent.gov.pl.",
-          "ua": "Невідкладна стоматологічна допомога NFZ зазвичай працює в робочі дні 19:00-7:00, а у вихідні і свята цілодобово. Спочатку дзвоніть або перевірте pacjent.gov.pl.",
-          "ru": "Срочная стоматологическая помощь NFZ обычно работает в рабочие дни 19:00-7:00, а в выходные и праздники круглосуточно. Сначала звоните или проверьте pacjent.gov.pl.",
-          "az": "NFZ təcili diş yardımı adətən iş günləri 19:00-7:00, həftəsonu/bayram 24 saat işləyir. Əvvəl zəng edin və ya pacjent.gov.pl yoxlayın.",
-          "es": "La ayuda dental urgente NFZ suele funcionar laborables 19:00-7:00 y fines/festivos 24h. Primero llama o revisa pacjent.gov.pl.",
-          "fil": "NFZ emergency dental care karaniwang weekdays 19:00-7:00, weekends/holidays 24h. Tumawag muna o tingnan pacjent.gov.pl.",
-          "id": "Layanan gigi darurat NFZ biasanya hari kerja 19:00-7:00, akhir pekan/libur 24 jam. Telepon dulu atau cek pacjent.gov.pl.",
-          "ne": "NFZ आपतकालीन दन्त सेवा सामान्यतया कामका दिन 19:00-7:00, सप्ताहन्त/बिदा 24 घण्टा। पहिले फोन गर्नुहोस् वा pacjent.gov.pl हेर्नुहोस्।"
-        },
-        {
-          "pl": "Najpierw zadzwoń i zapytaj, czy można przyjść oraz jakie dokumenty zabrać.",
-          "en": "Call first and ask if you can come and which documents to take.",
-          "ua": "Спочатку зателефонуйте і запитайте, чи можна прийти та які документи взяти.",
-          "ru": "Сначала позвоните и спросите, можно ли прийти и какие документы взять.",
-          "az": "Əvvəl zəng edin və gəlib-gəlməmək, hansı sənədləri götürmək lazım olduğunu soruşun.",
-          "es": "Primero llama y pregunta si puedes ir y qué documentos llevar.",
-          "fil": "Tumawag muna at itanong kung puwedeng pumunta at anong dokumento ang dalhin.",
-          "id": "Telepon dulu dan tanyakan apakah bisa datang dan dokumen apa yang dibawa.",
-          "ne": "पहिले फोन गरेर आउन मिल्छ कि र कुन कागज लैजाने सोध्नुहोस्।"
+          "pl": "Doraźna pomoc stomatologiczna NFZ działa zwykle w dni robocze 19:00-7:00, a w weekendy i święta całodobowo. Najpierw zadzwoń.",
+          "en": "NFZ emergency dental care usually works on weekdays 19:00-7:00 and weekends/holidays 24h. Call first.",
+          "ua": "Невідкладна стоматологічна допомога NFZ зазвичай працює в робочі дні 19:00-7:00, а у вихідні і свята цілодобово. Спочатку подзвони.",
+          "ru": "Срочная стоматологическая помощь NFZ обычно работает в рабочие дни 19:00-7:00, а в выходные и праздники круглосуточно. Сначала позвони.",
+          "az": "NFZ təcili diş yardımı adətən iş günləri 19:00-7:00, həftəsonu/bayram 24 saat işləyir. Əvvəl zəng edin.",
+          "es": "La ayuda dental urgente NFZ suele funcionar laborables 19:00-7:00 y fines/festivos 24h. Primero llama.",
+          "fil": "NFZ emergency dental care karaniwang weekdays 19:00-7:00, weekends/holidays 24h. Tumawag muna.",
+          "id": "Layanan gigi darurat NFZ biasanya hari kerja 19:00-7:00, akhir pekan/libur 24 jam. Telepon dulu.",
+          "ne": "NFZ आपतकालीन दन्त सेवा सामान्यतया कामका दिन 19:00-7:00, सप्ताहन्त/बिदामा 24 घण्टा हुन्छ। पहिले फोन गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Dentysta Ryczywół",
-            "en": "Dentist Ryczywół",
-            "ua": "Стоматолог Ryczywół",
-            "ru": "Стоматолог Ryczywół",
-            "az": "Diş həkimi Ryczywół",
-            "es": "Dentista Ryczywół",
-            "fil": "Dentista Ryczywół",
-            "id": "Dokter gigi Ryczywół",
-            "ne": "दन्त चिकित्सक Ryczywół"
+            "pl": "Dentysta Kozienice",
+            "en": "Dentist Kozienice",
+            "ua": "Стоматолог Kozienice",
+            "ru": "Стоматолог Kozienice",
+            "az": "Diş həkimi Kozienice",
+            "es": "Dentista Kozienice",
+            "fil": "Dentista Kozienice",
+            "id": "Dokter gigi Kozienice",
+            "ne": "दन्त चिकित्सक Kozienice"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Dentysta%20Nowa%201%20Ryczyw%C3%B3%C5%82"
+          "url": "https://www.google.com/maps/search/?api=1&query=NZOZ%20Stomatologia%20Sienkiewicza%2028%20Kozienice"
         }
       ],
       "phones": [
         {
           "label": {
-            "pl": "Rejestracja dentysty",
-            "en": "Dentist registration",
-            "ua": "Реєстрація стоматолога",
-            "ru": "Регистрация стоматолога",
-            "az": "Diş həkimi qeydiyyatı",
-            "es": "Registro dentista",
-            "fil": "Dentist registration",
-            "id": "Pendaftaran dokter gigi",
-            "ne": "दन्त चिकित्सक दर्ता"
+            "pl": "Stomatologia",
+            "en": "Dentistry",
+            "ua": "Стоматологія",
+            "ru": "Стоматология",
+            "az": "Stomatologiya",
+            "es": "Odontología",
+            "fil": "Dentistry",
+            "id": "Dokter gigi",
+            "ne": "दन्त सेवा"
           },
-          "phone": "+48 663 938 080"
-        },
-        {
-          "label": {
-            "pl": "Telefoniczna Informacja Pacjenta NFZ",
-            "en": "NFZ Patient Phone Information",
-            "ua": "Телефонна інформація пацієнта NFZ",
-            "ru": "Телефонная информация пациента NFZ",
-            "az": "NFZ pasiyent məlumat xətti",
-            "es": "Información telefónica NFZ",
-            "fil": "NFZ Patient Info",
-            "id": "Informasi Pasien NFZ",
-            "ne": "NFZ बिरामी सूचना फोन"
-          },
-          "phone": "800 190 590"
+          "phone": "+48 48 614 43 00"
         }
       ]
     },
     {
       "tone": "blue",
       "title": {
-        "pl": "Ryczywół - apteki",
-        "en": "Ryczywół - pharmacies",
-        "ua": "Ryczywół - аптеки",
-        "ru": "Ryczywół - аптеки",
-        "az": "Ryczywół - apteklər",
-        "es": "Ryczywół - farmacias",
-        "fil": "Ryczywół - botika",
-        "id": "Ryczywół - apotek",
-        "ne": "Ryczywół - फार्मेसी"
+        "pl": "Apteki - Ryczywół / Kozienice",
+        "en": "Pharmacies - Ryczywół / Kozienice",
+        "ua": "Аптеки - Ryczywół / Kozienice",
+        "ru": "Аптеки - Ryczywół / Kozienice",
+        "az": "Apteklər - Ryczywół / Kozienice",
+        "es": "Farmacias - Ryczywół / Kozienice",
+        "fil": "Botika - Ryczywół / Kozienice",
+        "id": "Apotek - Ryczywół / Kozienice",
+        "ne": "फार्मेसी - Ryczywół / Kozienice"
       },
       "body": [
         {
-          "pl": "Mapa pokazuje apteki w Ryczywole. Godziny mogą się zmieniać, dlatego sprawdź w Google Maps lub zadzwoń przed wyjściem.",
-          "en": "The map shows pharmacies in Ryczywół. Hours may change, so check Google Maps or call before leaving.",
-          "ua": "Карта показує аптеки в Ryczywole. Години можуть змінюватися, тому перевірте Google Maps або зателефонуйте перед виходом.",
-          "ru": "Карта показывает аптеки в Ryczywole. Часы могут меняться, поэтому проверьте Google Maps или позвоните перед выходом.",
-          "az": "Xəritə Ryczywół apteklərini göstərir. Saatlar dəyişə bilər, çıxmazdan əvvəl Google Maps-də yoxlayın və ya zəng edin.",
-          "es": "El mapa muestra farmacias en Ryczywół. Los horarios pueden cambiar, revisa Google Maps o llama antes de salir.",
-          "fil": "Ipinapakita ng mapa ang botika sa Ryczywół. Maaaring magbago ang oras, tingnan sa Google Maps o tumawag bago umalis.",
-          "id": "Peta menampilkan apotek di Ryczywół. Jam bisa berubah, cek Google Maps atau telepon sebelum berangkat.",
-          "ne": "नक्साले Ryczywół का फार्मेसी देखाउँछ। समय बदलिन सक्छ, निस्कनुअघि Google Maps जाँच गर्नुहोस् वा फोन गर्नुहोस्।"
+          "pl": "Mapa pokazuje apteki w pobliżu Ryczywołu i Kozienic.",
+          "en": "The map shows pharmacies near Ryczywół and Kozienice.",
+          "ua": "Карта показує аптеки біля Ryczywołu і Kozienic.",
+          "ru": "Карта показывает аптеки рядом с Ryczywołem и Kozienicami.",
+          "az": "Xəritə Ryczywół və Kozienice yaxınlığında aptekləri göstərir.",
+          "es": "El mapa muestra farmacias cerca de Ryczywół y Kozienice.",
+          "fil": "Ipinapakita ng mapa ang botika near Ryczywół at Kozienice.",
+          "id": "Peta menampilkan apotek dekat Ryczywół dan Kozienice.",
+          "ne": "नक्सामा Ryczywół र Kozienice नजिकका फार्मेसी देखिन्छन्।"
+        },
+        {
+          "pl": "Godziny mogą się zmieniać, dlatego sprawdź w Google Maps albo zadzwoń przed wyjściem.",
+          "en": "Hours may change, so check Google Maps or call before leaving.",
+          "ua": "Години можуть змінюватися, тому перевір Google Maps або подзвони перед виходом.",
+          "ru": "Часы могут меняться, поэтому проверь Google Maps или позвони перед выходом.",
+          "az": "Saatlar dəyişə bilər, çıxmazdan əvvəl Google Maps-də yoxlayın və ya zəng edin.",
+          "es": "Los horarios pueden cambiar; revisa Google Maps o llama antes de salir.",
+          "fil": "Maaaring magbago ang oras; tingnan Google Maps o tumawag bago umalis.",
+          "id": "Jam bisa berubah; cek Google Maps atau telepon sebelum berangkat.",
+          "ne": "समय बदलिन सक्छ, निस्कनुअघि Google Maps हेर्नुहोस् वा फोन गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Apteka Nowa",
-            "en": "Apteka Nowa",
-            "ua": "Apteka Nowa",
-            "ru": "Apteka Nowa",
-            "az": "Apteka Nowa",
-            "es": "Apteka Nowa",
-            "fil": "Apteka Nowa",
-            "id": "Apteka Nowa",
-            "ne": "Apteka Nowa"
+            "pl": "Apteki Ryczywół / Kozienice",
+            "en": "Pharmacies Ryczywół / Kozienice",
+            "ua": "Аптеки Ryczywół / Kozienice",
+            "ru": "Аптеки Ryczywół / Kozienice",
+            "az": "Apteklər Ryczywół / Kozienice",
+            "es": "Farmacias Ryczywół / Kozienice",
+            "fil": "Botika Ryczywół / Kozienice",
+            "id": "Apotek Ryczywół / Kozienice",
+            "ne": "फार्मेसी Ryczywół / Kozienice"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Apteka%20Nowa%20Kolejowa%208a%20Ryczyw%C3%B3%C5%82"
-        },
-        {
-          "label": {
-            "pl": "Punkt Apteczny Sanitas",
-            "en": "Sanitas pharmacy point",
-            "ua": "Аптечний пункт Sanitas",
-            "ru": "Аптечный пункт Sanitas",
-            "az": "Sanitas aptek məntəqəsi",
-            "es": "Punto farmacéutico Sanitas",
-            "fil": "Sanitas pharmacy point",
-            "id": "Punkt apotek Sanitas",
-            "ne": "Sanitas फार्मेसी पोइन्ट"
-          },
-          "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20Sanitas%20Kolejowa%2011%20Ryczyw%C3%B3%C5%82"
+          "url": "https://www.google.com/maps/search/?api=1&query=apteka%20Ryczyw%C3%B3%C5%82%20Kozienice"
         }
       ],
-      "phones": [
-        {
-          "label": {
-            "pl": "Apteka Nowa",
-            "en": "Apteka Nowa",
-            "ua": "Apteka Nowa",
-            "ru": "Apteka Nowa",
-            "az": "Apteka Nowa",
-            "es": "Apteka Nowa",
-            "fil": "Apteka Nowa",
-            "id": "Apteka Nowa",
-            "ne": "Apteka Nowa"
-          },
-          "phone": "+48 67 215 24 98"
-        },
-        {
-          "label": {
-            "pl": "Punkt Apteczny Sanitas",
-            "en": "Sanitas pharmacy point",
-            "ua": "Аптечний пункт Sanitas",
-            "ru": "Аптечный пункт Sanitas",
-            "az": "Sanitas aptek məntəqəsi",
-            "es": "Punto farmacéutico Sanitas",
-            "fil": "Sanitas pharmacy point",
-            "id": "Punkt apotek Sanitas",
-            "ne": "Sanitas फार्मेसी पोइन्ट"
-          },
-          "phone": "+48 604 221 413"
-        }
-      ]
+      "phones": []
     }
   ],
   "city": [
     {
-      "id": "urzad-ryczywol",
+      "id": "urzad-kozienice",
       "icon": "city",
       "tone": "blue",
       "title": {
-        "pl": "Urząd Gminy Ryczywół",
-        "en": "Ryczywół Commune Office",
-        "ua": "Гміна Ryczywół",
-        "ru": "Гмина Ryczywół",
-        "az": "Ryczywół bələdiyyə idarəsi",
-        "es": "Oficina municipal de Ryczywół",
-        "fil": "Ryczywół Commune Office",
-        "id": "Kantor Gmina Ryczywół",
-        "ne": "Ryczywół ग्मिना कार्यालय"
+        "pl": "Urząd Miejski w Kozienicach",
+        "en": "Kozienice Town Office",
+        "ua": "Міська рада Kozienice",
+        "ru": "Городская администрация Kozienice",
+        "az": "Kozienice şəhər idarəsi",
+        "es": "Ayuntamiento de Kozienice",
+        "fil": "Kozienice Town Office",
+        "id": "Kantor Kota Kozienice",
+        "ne": "Kozienice नगर कार्यालय"
       },
       "address": {
-        "pl": "ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
-        "en": "ul. Mickiewicza 10, 64-630 Ryczywół. Phone: 67 283 70 02.",
-        "ua": "вул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
-        "ru": "ул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
-        "az": "ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
-        "es": "ul. Mickiewicza 10, 64-630 Ryczywół. Teléfono: 67 283 70 02.",
-        "fil": "ul. Mickiewicza 10, 64-630 Ryczywół. Telepono: 67 283 70 02.",
-        "id": "ul. Mickiewicza 10, 64-630 Ryczywół. Telepon: 67 283 70 02.",
-        "ne": "ul. Mickiewicza 10, 64-630 Ryczywół। फोन: 67 283 70 02।"
+        "pl": "ul. Parkowa 5, 26-900 Kozienice. Telefon: 48 611 71 00.",
+        "en": "ul. Parkowa 5, 26-900 Kozienice. Phone: 48 611 71 00.",
+        "ua": "вул. Parkowa 5, 26-900 Kozienice. Телефон: 48 611 71 00.",
+        "ru": "ул. Parkowa 5, 26-900 Kozienice. Телефон: 48 611 71 00.",
+        "az": "ul. Parkowa 5, 26-900 Kozienice. Telefon: 48 611 71 00.",
+        "es": "ul. Parkowa 5, 26-900 Kozienice. Teléfono: 48 611 71 00.",
+        "fil": "ul. Parkowa 5, 26-900 Kozienice. Telepono: 48 611 71 00.",
+        "id": "ul. Parkowa 5, 26-900 Kozienice. Telepon: 48 611 71 00.",
+        "ne": "ul. Parkowa 5, 26-900 Kozienice। फोन: 48 611 71 00।"
       },
       "note": {
-        "pl": "Do lokalnych spraw: meldunek, pytania urzędowe, dokumenty gminne. Zabierz paszport/dokument i telefon.",
-        "en": "For local matters: registration address, office questions, commune documents. Take passport/ID and phone.",
-        "ua": "Для місцевих справ: прописка, питання в установі, документи гміни. Візьми паспорт/документ і телефон.",
-        "ru": "Для местных дел: регистрация адреса, вопросы в учреждении, документы гмины. Возьми паспорт/документ и телефон.",
-        "az": "Yerli işlər üçün: qeydiyyat ünvanı, idarə sualları, bələdiyyə sənədləri. Pasport/ID və telefon götür.",
-        "es": "Para asuntos locales: empadronamiento, preguntas de oficina, documentos. Lleva pasaporte/ID y teléfono.",
-        "fil": "Para sa local matters: address registration, office questions, commune documents. Dalhin passport/ID at phone.",
-        "id": "Untuk urusan lokal: alamat terdaftar, pertanyaan kantor, dokumen gmina. Bawa paspor/ID dan telepon.",
-        "ne": "स्थानीय कामका लागि: ठेगाना दर्ता, कार्यालयका प्रश्न, ग्मिना कागजात। पासपोर्ट/ID र फोन लैजानुहोस्।"
+        "pl": "To właściwy urząd dla Ryczywołu koło Kozienic. Tu załatwia się lokalne sprawy gminy Kozienice.",
+        "en": "This is the correct office for Ryczywół near Kozienice. Local Kozienice commune matters are handled here.",
+        "ua": "Це правильна установа для Ryczywołu біля Kozienic. Тут вирішують місцеві справи гміни Kozienice.",
+        "ru": "Это правильное учреждение для Ryczywołu возле Kozienic. Здесь решают местные дела гмины Kozienice.",
+        "az": "Kozienice yaxınlığında Ryczywół üçün düzgün idarə budur. Kozienice bələdiyyəsinin yerli işləri burada həll olunur.",
+        "es": "Es la oficina correcta para Ryczywół cerca de Kozienice. Aquí se gestionan asuntos locales de la comuna.",
+        "fil": "Ito ang tamang office para sa Ryczywół near Kozienice. Dito inaasikaso ang local matters ng Kozienice commune.",
+        "id": "Ini kantor yang benar untuk Ryczywół dekat Kozienice. Urusan lokal gmina Kozienice ditangani di sini.",
+        "ne": "Kozienice नजिक Ryczywół का लागि सही कार्यालय यही हो। Kozienice ग्मिनाका स्थानीय काम यहाँ हुन्छ।"
       },
       "list": [
         {
-          "pl": "Godziny z urzędu: poniedziałek-piątek zwykle 7:30-15:30.",
-          "en": "Office hours: usually Monday-Friday 7:30-15:30.",
-          "ua": "Години: зазвичай понеділок-п’ятниця 7:30-15:30.",
-          "ru": "Часы: обычно понедельник-пятница 7:30-15:30.",
-          "az": "İş saatları: adətən bazar ertəsi-cümə 7:30-15:30.",
-          "es": "Horario: normalmente lunes-viernes 7:30-15:30.",
-          "fil": "Oras: karaniwang Lunes-Biyernes 7:30-15:30.",
-          "id": "Jam: biasanya Senin-Jumat 7:30-15:30.",
-          "ne": "समय: सामान्यतया सोमबार-शुक्रबार 7:30-15:30।"
-        },
-        {
-          "pl": "Najpierw sprawdź w mapie albo zadzwoń, jeśli jedziesz specjalnie.",
-          "en": "Check the map or call first if you go specially.",
-          "ua": "Якщо їдеш спеціально, спочатку перевір карту або подзвони.",
-          "ru": "Если едешь специально, сначала проверь карту или позвони.",
-          "az": "Xüsusi gedirsinizsə, əvvəl xəritəni yoxlayın və ya zəng edin.",
-          "es": "Si vas especialmente, revisa el mapa o llama primero.",
-          "fil": "Kung sadya kang pupunta, tingnan muna ang mapa o tumawag.",
-          "id": "Jika pergi khusus, cek peta atau telepon dulu.",
-          "ne": "विशेष रूपमा जाँदै हुनुहुन्छ भने पहिले नक्सा हेर्नुहोस् वा फोन गर्नुहोस्।"
+          "pl": "Godziny z urzędu: poniedziałek 8:00-17:00, wtorek-czwartek 7:30-15:30, piątek 7:30-14:30.",
+          "en": "Office hours: Monday 8:00-17:00, Tuesday-Thursday 7:30-15:30, Friday 7:30-14:30.",
+          "ua": "Години: понеділок 8:00-17:00, вівторок-четвер 7:30-15:30, п’ятниця 7:30-14:30.",
+          "ru": "Часы: понедельник 8:00-17:00, вторник-четверг 7:30-15:30, пятница 7:30-14:30.",
+          "az": "İş saatları: bazar ertəsi 8:00-17:00, çərşənbə axşamı-cümə axşamı 7:30-15:30, cümə 7:30-14:30.",
+          "es": "Horario: lunes 8:00-17:00, martes-jueves 7:30-15:30, viernes 7:30-14:30.",
+          "fil": "Oras: Lunes 8:00-17:00, Martes-Huwebes 7:30-15:30, Biyernes 7:30-14:30.",
+          "id": "Jam: Senin 8:00-17:00, Selasa-Kamis 7:30-15:30, Jumat 7:30-14:30.",
+          "ne": "समय: सोमबार 8:00-17:00, मंगलबार-बिहीबार 7:30-15:30, शुक्रबार 7:30-14:30।"
         }
       ],
       "links": [
@@ -1551,7 +1481,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Gminy%20Ryczyw%C3%B3%C5%82%20Mickiewicza%2010",
+          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Miejski%20w%20Kozienicach%20Parkowa%205",
           "tone": "blue"
         },
         {
@@ -1566,60 +1496,60 @@
             "id": "Buka situs",
             "ne": "वेबसाइट खोल्नुहोस्"
           },
-          "url": "https://ryczywol.pl/kontakt.html",
+          "url": "https://kozienice.pl/kontakt.html",
           "tone": "blue"
         }
       ],
-      "phone": "+48672837002"
+      "phone": "+48486117100"
     },
     {
-      "id": "wuw-poznan",
-      "icon": "city",
+      "id": "muw-warszawa",
+      "icon": "document",
       "tone": "blue",
       "title": {
-        "pl": "WUW Poznań / karta pobytu",
-        "en": "WUW Poznań / residence card",
-        "ua": "WUW Познань / карта побиту",
-        "ru": "WUW Познань / карта побыту",
-        "az": "WUW Poznań / yaşayış kartı",
-        "es": "WUW Poznań / tarjeta de residencia",
-        "fil": "WUW Poznań / residence card",
-        "id": "WUW Poznań / kartu tinggal",
-        "ne": "WUW Poznań / बसोबास कार्ड"
+        "pl": "Mazowiecki UW / karta pobytu",
+        "en": "Mazowieckie Office / residence card",
+        "ua": "Mazowiecki UW / карта побиту",
+        "ru": "Mazowiecki UW / карта побыту",
+        "az": "Mazowiecki UW / yaşayış kartı",
+        "es": "Oficina Mazowieckie / residencia",
+        "fil": "Mazowieckie Office / residence card",
+        "id": "Kantor Mazowieckie / kartu tinggal",
+        "ne": "Mazowieckie कार्यालय / बसोबास कार्ड"
       },
       "address": {
-        "pl": "Wydział Spraw Cudzoziemców: pl. Wolności 17, 61-739 Poznań. Infolinia: 61 850 87 77.",
-        "en": "Foreigners Affairs Department: pl. Wolności 17, 61-739 Poznań. Helpline: 61 850 87 77.",
-        "ua": "Відділ справ іноземців: pl. Wolności 17, 61-739 Poznań. Інфолінія: 61 850 87 77.",
-        "ru": "Отдел по делам иностранцев: pl. Wolności 17, 61-739 Poznań. Инфолиния: 61 850 87 77.",
-        "az": "Əcnəbilər şöbəsi: pl. Wolności 17, 61-739 Poznań. Məlumat xətti: 61 850 87 77.",
-        "es": "Departamento de extranjeros: pl. Wolności 17, 61-739 Poznań. Línea: 61 850 87 77.",
-        "fil": "Foreigners Affairs Department: pl. Wolności 17, 61-739 Poznań. Helpline: 61 850 87 77.",
-        "id": "Bagian orang asing: pl. Wolności 17, 61-739 Poznań. Hotline: 61 850 87 77.",
-        "ne": "विदेशी विभाग: pl. Wolności 17, 61-739 Poznań। फोन: 61 850 87 77।"
+        "pl": "Wydział Spraw Cudzoziemców: ul. Marszałkowska 3/5, 00-624 Warszawa. Telefon: 22 695 65 65.",
+        "en": "Foreigners Affairs Department: ul. Marszałkowska 3/5, 00-624 Warsaw. Phone: 22 695 65 65.",
+        "ua": "Відділ справ іноземців: вул. Marszałkowska 3/5, 00-624 Warszawa. Телефон: 22 695 65 65.",
+        "ru": "Отдел по делам иностранцев: ул. Marszałkowska 3/5, 00-624 Warszawa. Телефон: 22 695 65 65.",
+        "az": "Əcnəbilər şöbəsi: ul. Marszałkowska 3/5, 00-624 Warszawa. Telefon: 22 695 65 65.",
+        "es": "Departamento de extranjeros: ul. Marszałkowska 3/5, 00-624 Warszawa. Teléfono: 22 695 65 65.",
+        "fil": "Foreigners Affairs Department: ul. Marszałkowska 3/5, 00-624 Warszawa. Telepono: 22 695 65 65.",
+        "id": "Bagian orang asing: ul. Marszałkowska 3/5, 00-624 Warszawa. Telepon: 22 695 65 65.",
+        "ne": "विदेशी विभाग: ul. Marszałkowska 3/5, 00-624 Warszawa। फोन: 22 695 65 65।"
       },
       "note": {
-        "pl": "Do spraw karty pobytu i legalizacji pobytu. Nie jedź bez potrzeby - najpierw sprawdź instrukcję, termin albo zapytaj koordynatora.",
-        "en": "For residence card and stay legalisation. Do not go without need - first check instructions, appointment or ask the coordinator.",
-        "ua": "Для карти побиту і легалізації. Не їдь без потреби - спочатку перевір інструкцію, термін або запитай координатора.",
-        "ru": "Для карты побыту и легализации. Не езжай без необходимости - сначала проверь инструкцию, запись или спроси координатора.",
-        "az": "Yaşayış kartı və leqallaşma üçün. Lazım olmadan getmə - əvvəl təlimatı, vaxtı yoxla və ya koordinatora soruş.",
-        "es": "Para tarjeta de residencia y legalización. No vayas sin necesidad: revisa instrucciones, cita o pregunta al coordinador.",
-        "fil": "Para sa residence card at legalisation. Huwag pumunta kung hindi kailangan - tingnan muna instructions/cita o magtanong sa coordinator.",
-        "id": "Untuk kartu tinggal dan legalisasi. Jangan pergi tanpa perlu - cek instruksi, janji atau tanya koordinator dulu.",
-        "ne": "बसोबास कार्ड र वैधानिक बसाइका लागि। आवश्यक नभई नजानुहोस् - पहिले निर्देशन, अपोइन्टमेन्ट वा कोर्डिनेटरलाई सोध्नुहोस्।"
+        "pl": "Do spraw karty pobytu i legalizacji pobytu w województwie mazowieckim. Najpierw sprawdź instrukcję i termin.",
+        "en": "For residence card and stay legalisation in Mazowieckie. First check instructions and appointment.",
+        "ua": "Для карти побиту і легалізації в Мазовецькому воєводстві. Спочатку перевір інструкцію і термін.",
+        "ru": "Для карты побыту и легализации в Мазовецком воеводстве. Сначала проверь инструкцию и запись.",
+        "az": "Mazowieckie-də yaşayış kartı və leqallaşma üçün. Əvvəl təlimatı və vaxtı yoxla.",
+        "es": "Para residencia y legalización en Mazowieckie. Primero revisa instrucciones y cita.",
+        "fil": "Para sa residence card at legalisation sa Mazowieckie. Tingnan muna instructions at appointment.",
+        "id": "Untuk kartu tinggal dan legalisasi di Mazowieckie. Cek instruksi dan janji dulu.",
+        "ne": "Mazowieckie मा बसोबास कार्ड र वैधानिक बसाइका लागि। पहिले निर्देशन र अपोइन्टमेन्ट हेर्नुहोस्।"
       },
       "list": [
         {
-          "pl": "Obsługa w Poznaniu: poniedziałek 9:30-18:00, wtorek-piątek 8:15-15:15.",
-          "en": "Service in Poznań: Monday 9:30-18:00, Tuesday-Friday 8:15-15:15.",
-          "ua": "Обслуговування в Познані: понеділок 9:30-18:00, вівторок-п’ятниця 8:15-15:15.",
-          "ru": "Обслуживание в Познани: понедельник 9:30-18:00, вторник-пятница 8:15-15:15.",
-          "az": "Poznań-da xidmət: bazar ertəsi 9:30-18:00, çərşənbə axşamı-cümə 8:15-15:15.",
-          "es": "Atención en Poznań: lunes 9:30-18:00, martes-viernes 8:15-15:15.",
-          "fil": "Service sa Poznań: Lunes 9:30-18:00, Martes-Biyernes 8:15-15:15.",
-          "id": "Layanan di Poznań: Senin 9:30-18:00, Selasa-Jumat 8:15-15:15.",
-          "ne": "Poznań मा सेवा: सोमबार 9:30-18:00, मंगलबार-शुक्रबार 8:15-15:15।"
+          "pl": "Obsługa klientów: poniedziałek 10:00-17:30, wtorek-piątek 8:00-15:00.",
+          "en": "Customer service: Monday 10:00-17:30, Tuesday-Friday 8:00-15:00.",
+          "ua": "Обслуговування: понеділок 10:00-17:30, вівторок-п’ятниця 8:00-15:00.",
+          "ru": "Обслуживание: понедельник 10:00-17:30, вторник-пятница 8:00-15:00.",
+          "az": "Xidmət: bazar ertəsi 10:00-17:30, çərşənbə axşamı-cümə 8:00-15:00.",
+          "es": "Atención: lunes 10:00-17:30, martes-viernes 8:00-15:00.",
+          "fil": "Service: Lunes 10:00-17:30, Martes-Biyernes 8:00-15:00.",
+          "id": "Layanan: Senin 10:00-17:30, Selasa-Jumat 8:00-15:00.",
+          "ne": "सेवा: सोमबार 10:00-17:30, मंगलबार-शुक्रबार 8:00-15:00।"
         }
       ],
       "links": [
@@ -1635,7 +1565,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Wielkopolski%20Urz%C4%85d%20Wojew%C3%B3dzki%20Wydzia%C5%82%20Spraw%20Cudzoziemc%C3%B3w%20pl.%20Wolno%C5%9Bci%2017%20Pozna%C5%84",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mazowiecki%20Urz%C4%85d%20Wojew%C3%B3dzki%20Wydzia%C5%82%20Spraw%20Cudzoziemc%C3%B3w%20Marsza%C5%82kowska%203%2F5%20Warszawa",
           "tone": "blue"
         },
         {
@@ -1650,11 +1580,83 @@
             "id": "Buka situs",
             "ne": "वेबसाइट खोल्नुहोस्"
           },
-          "url": "https://migrant.poznan.uw.gov.pl/pl/dane-kontaktowe",
+          "url": "https://www.gov.pl/web/uw-mazowiecki/wydzial-spraw-cudzoziemcow",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Umów wizytę",
+            "en": "Book a visit",
+            "ua": "Записатися на візит",
+            "ru": "Записаться на визит",
+            "az": "Görüş təyin et",
+            "es": "Reservar cita",
+            "fil": "Mag-book ng appointment",
+            "id": "Buat janji",
+            "ne": "भेटघाट बुक गर्नुहोस्"
+          },
+          "url": "https://www.e-uslugi.mazowieckie.pl/umow-wizyte",
           "tone": "blue"
         }
       ],
-      "phone": "+48618508777"
+      "phone": "+48226956565"
+    },
+    {
+      "id": "muw-radom",
+      "icon": "document",
+      "tone": "blue",
+      "title": {
+        "pl": "MUW Delegatura Radom",
+        "en": "MUW branch Radom",
+        "ua": "MUW делегатура Radom",
+        "ru": "MUW делегатура Radom",
+        "az": "MUW Radom filialı",
+        "es": "MUW delegación Radom",
+        "fil": "MUW branch Radom",
+        "id": "Cabang MUW Radom",
+        "ne": "MUW Radom शाखा"
+      },
+      "address": {
+        "pl": "Radom, ul. Żeromskiego 53. Telefon: 48 362 08 70.",
+        "en": "Radom, ul. Żeromskiego 53. Phone: 48 362 08 70.",
+        "ua": "Radom, вул. Żeromskiego 53. Телефон: 48 362 08 70.",
+        "ru": "Radom, ул. Żeromskiego 53. Телефон: 48 362 08 70.",
+        "az": "Radom, ul. Żeromskiego 53. Telefon: 48 362 08 70.",
+        "es": "Radom, ul. Żeromskiego 53. Teléfono: 48 362 08 70.",
+        "fil": "Radom, ul. Żeromskiego 53. Telepono: 48 362 08 70.",
+        "id": "Radom, ul. Żeromskiego 53. Telepon: 48 362 08 70.",
+        "ne": "Radom, ul. Żeromskiego 53। फोन: 48 362 08 70।"
+      },
+      "note": {
+        "pl": "Radom jest bliżej niż Warszawa, ale przed wyjazdem zapytaj, czy twoją sprawę cudzoziemca można załatwić w delegaturze.",
+        "en": "Radom is closer than Warsaw, but before going ask if your foreigner matter can be handled in the branch.",
+        "ua": "Radom ближче ніж Warszawa, але перед поїздкою запитай, чи твою справу іноземця можна вирішити в делегатурі.",
+        "ru": "Radom ближе, чем Warszawa, но перед поездкой спроси, можно ли решить твоё дело иностранца в делегатуре.",
+        "az": "Radom Varşavadan yaxındır, amma getməzdən əvvəl əcnəbi işinin filialda həll olub-olmadığını soruş.",
+        "es": "Radom está más cerca que Varsovia, pero antes de ir pregunta si tu asunto se puede resolver en la delegación.",
+        "fil": "Mas malapit ang Radom kaysa Warsaw, pero tumawag muna kung puwede doon ang iyong foreigner matter.",
+        "id": "Radom lebih dekat dari Warsawa, tetapi tanya dulu apakah urusan orang asing bisa di cabang.",
+        "ne": "Radom Warsaw भन्दा नजिक छ, तर जानुअघि विदेशीसम्बन्धी काम शाखामा हुन्छ कि हुँदैन सोध्नुहोस्।"
+      },
+      "list": [],
+      "links": [
+        {
+          "label": {
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Mazowiecki%20Urz%C4%85d%20Wojew%C3%B3dzki%20Delegatura%20Radom%20%C5%BBeromskiego%2053",
+          "tone": "blue"
+        }
+      ],
+      "phone": "+48483620870"
     },
     {
       "id": "mos-profil",
@@ -1683,15 +1685,15 @@
         "ne": "अनलाइन आवेदनका लागि फोन, इमेल र प्रायः विश्वसनीय प्रोफाइल चाहिन्छ।"
       },
       "note": {
-        "pl": "To nie jest mapa, tylko linki do systemów urzędowych.",
-        "en": "This is not a map, but links to official systems.",
-        "ua": "Це не карта, а посилання до державних систем.",
-        "ru": "Это не карта, а ссылки на государственные системы.",
-        "az": "Bu xəritə deyil, rəsmi sistem linkləridir.",
-        "es": "No es mapa, son enlaces a sistemas oficiales.",
-        "fil": "Hindi ito mapa, links ito sa official systems.",
-        "id": "Ini bukan peta, tetapi tautan sistem resmi.",
-        "ne": "यो नक्सा होइन, सरकारी प्रणालीका लिंकहरू हुन्।"
+        "pl": "To linki do systemów urzędowych, nie mapa.",
+        "en": "These are links to official systems, not a map.",
+        "ua": "Це посилання до державних систем, не карта.",
+        "ru": "Это ссылки на государственные системы, не карта.",
+        "az": "Bunlar rəsmi sistem linkləridir, xəritə deyil.",
+        "es": "Son enlaces a sistemas oficiales, no mapa.",
+        "fil": "Links ito sa official systems, hindi mapa.",
+        "id": "Ini tautan sistem resmi, bukan peta.",
+        "ne": "यी सरकारी प्रणालीका लिंकहरू हुन्, नक्सा होइन।"
       },
       "list": [],
       "links": [
@@ -1728,41 +1730,41 @@
       ]
     },
     {
-      "id": "bank-ryczywol",
+      "id": "bank-kozienice",
       "icon": "bank",
       "tone": "yellow",
       "title": {
-        "pl": "Banki i bankomaty Ryczywół",
-        "en": "Banks and ATMs Ryczywół",
-        "ua": "Банки і банкомати Ryczywół",
-        "ru": "Банки и банкоматы Ryczywół",
-        "az": "Ryczywół banklar və bankomatlar",
-        "es": "Bancos y cajeros Ryczywół",
-        "fil": "Bangko at ATM Ryczywół",
-        "id": "Bank dan ATM Ryczywół",
-        "ne": "Ryczywół बैंक र ATM"
+        "pl": "Banki i bankomaty Kozienice",
+        "en": "Banks and ATMs Kozienice",
+        "ua": "Банки і банкомати Kozienice",
+        "ru": "Банки и банкоматы Kozienice",
+        "az": "Kozienice banklar və bankomatlar",
+        "es": "Bancos y cajeros Kozienice",
+        "fil": "Bangko at ATM Kozienice",
+        "id": "Bank dan ATM Kozienice",
+        "ne": "Kozienice बैंक र ATM"
       },
       "address": {
-        "pl": "Mapa pokazuje najbliższe banki i bankomaty.",
-        "en": "The map shows nearby banks and ATMs.",
-        "ua": "Карта показує найближчі банки і банкомати.",
-        "ru": "Карта показывает ближайшие банки и банкоматы.",
-        "az": "Xəritə yaxın bankları və bankomatları göstərir.",
-        "es": "El mapa muestra bancos y cajeros cercanos.",
-        "fil": "Makikita sa mapa ang malapit na banko at ATM.",
-        "id": "Peta menampilkan bank dan ATM terdekat.",
-        "ne": "नक्सामा नजिकका बैंक र ATM देखिन्छन्।"
+        "pl": "Mapa pokazuje banki i bankomaty w Kozienicach.",
+        "en": "The map shows banks and ATMs in Kozienice.",
+        "ua": "Карта показує банки і банкомати в Kozienicach.",
+        "ru": "Карта показывает банки и банкоматы в Kozienicach.",
+        "az": "Xəritə Kozienice-də bank və bankomatları göstərir.",
+        "es": "El mapa muestra bancos y cajeros en Kozienice.",
+        "fil": "Makikita sa mapa ang bangko at ATM sa Kozienice.",
+        "id": "Peta menampilkan bank dan ATM di Kozienice.",
+        "ne": "नक्सामा Kozienice का बैंक र ATM देखिन्छन्।"
       },
       "note": {
-        "pl": "Do wypłaty gotówki, konta bankowego i spraw z kartą.",
-        "en": "For cash withdrawal, bank account and card matters.",
-        "ua": "Для зняття готівки, рахунку і банківської картки.",
-        "ru": "Для снятия наличных, счёта и банковской карты.",
-        "az": "Nağd pul, bank hesabı və kart işləri üçün.",
-        "es": "Para efectivo, cuenta bancaria y tarjeta.",
-        "fil": "Para sa cash, bank account at card.",
-        "id": "Untuk uang tunai, rekening bank dan kartu.",
-        "ne": "नगद, बैंक खाता र कार्डका लागि।"
+        "pl": "Najpierw sprawdź godziny i czy bankomat działa.",
+        "en": "First check opening hours and whether the ATM works.",
+        "ua": "Спочатку перевір години і чи працює банкомат.",
+        "ru": "Сначала проверь часы и работает ли банкомат.",
+        "az": "Əvvəl iş saatlarını və bankomatın işləyib-işləmədiyini yoxla.",
+        "es": "Primero revisa horario y si el cajero funciona.",
+        "fil": "Tingnan muna ang oras at kung gumagana ang ATM.",
+        "id": "Cek dulu jam buka dan apakah ATM berfungsi.",
+        "ne": "पहिले समय र ATM चल्छ कि चल्दैन जाँच्नुहोस्।"
       },
       "list": [],
       "links": [
@@ -1778,25 +1780,25 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Ryczyw%C3%B3%C5%82",
+          "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Kozienice",
           "tone": "yellow"
         }
       ]
     },
     {
-      "id": "poczta-ryczywol",
+      "id": "poczta-kozienice",
       "icon": "document",
       "tone": "yellow",
       "title": {
-        "pl": "Poczta Ryczywół",
-        "en": "Post office Ryczywół",
-        "ua": "Пошта Ryczywół",
-        "ru": "Почта Ryczywół",
-        "az": "Ryczywół poçtu",
-        "es": "Correo Ryczywół",
-        "fil": "Post office Ryczywół",
-        "id": "Kantor pos Ryczywół",
-        "ne": "Ryczywół हुलाक"
+        "pl": "Poczta Kozienice",
+        "en": "Post office Kozienice",
+        "ua": "Пошта Kozienice",
+        "ru": "Почта Kozienice",
+        "az": "Kozienice poçtu",
+        "es": "Correo Kozienice",
+        "fil": "Post office Kozienice",
+        "id": "Kantor pos Kozienice",
+        "ne": "Kozienice हुलाक"
       },
       "address": {
         "pl": "Poczta do listów poleconych, dokumentów i odbioru przesyłek.",
@@ -1834,25 +1836,25 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Poczta%20Polska%20Ryczyw%C3%B3%C5%82",
+          "url": "https://www.google.com/maps/search/?api=1&query=Poczta%20Polska%20Kozienice",
           "tone": "yellow"
         }
       ]
     },
     {
-      "id": "transport-ryczywol",
+      "id": "transport-kozienice",
       "icon": "map",
       "tone": "blue",
       "title": {
-        "pl": "Transport Ryczywół",
-        "en": "Transport Ryczywół",
-        "ua": "Транспорт Ryczywół",
-        "ru": "Транспорт Ryczywół",
-        "az": "Ryczywół nəqliyyat",
-        "es": "Transporte Ryczywół",
-        "fil": "Transport Ryczywół",
-        "id": "Transportasi Ryczywół",
-        "ne": "Ryczywół यातायात"
+        "pl": "Transport Ryczywół / Kozienice",
+        "en": "Transport Ryczywół / Kozienice",
+        "ua": "Транспорт Ryczywół / Kozienice",
+        "ru": "Транспорт Ryczywół / Kozienice",
+        "az": "Ryczywół / Kozienice nəqliyyat",
+        "es": "Transporte Ryczywół / Kozienice",
+        "fil": "Transport Ryczywół / Kozienice",
+        "id": "Transportasi Ryczywół / Kozienice",
+        "ne": "Ryczywół / Kozienice यातायात"
       },
       "address": {
         "pl": "Przystanki, trasy i aplikacje do dojazdu.",
@@ -1866,15 +1868,15 @@
         "ne": "स्टप, रुट र यात्रा एपहरू।"
       },
       "note": {
-        "pl": "Na małych miejscowościach najpewniejsze są Google Maps i e-podróżnik; pociągi sprawdzaj w Koleo.",
-        "en": "In small towns, Google Maps and e-podroznik are usually best; check trains in Koleo.",
-        "ua": "У малих місцевостях найкраще Google Maps і e-podróżnik; поїзди перевіряй у Koleo.",
-        "ru": "В малых городах лучше Google Maps и e-podróżnik; поезда проверяй в Koleo.",
-        "az": "Kiçik yerlərdə Google Maps və e-podróżnik daha faydalıdır; qatarları Koleo-da yoxla.",
-        "es": "En pueblos pequeños usa Google Maps y e-podróżnik; trenes en Koleo.",
-        "fil": "Sa maliliit na lugar, Google Maps at e-podróżnik ang praktikal; tren sa Koleo.",
-        "id": "Di kota kecil, Google Maps dan e-podróżnik biasanya paling berguna; kereta di Koleo.",
-        "ne": "साना ठाउँमा Google Maps र e-podróżnik राम्रो हुन्छ; रेल Koleo मा हेर्नुहोस्।"
+        "pl": "Do planowania drogi używaj Google Maps, e-podróżnika i Koleo.",
+        "en": "For route planning use Google Maps, e-podroznik and Koleo.",
+        "ua": "Для планування дороги використовуй Google Maps, e-podróżnik і Koleo.",
+        "ru": "Для планирования дороги используй Google Maps, e-podróżnik и Koleo.",
+        "az": "Yolu planlamaq üçün Google Maps, e-podróżnik və Koleo istifadə edin.",
+        "es": "Para planear ruta usa Google Maps, e-podróżnik y Koleo.",
+        "fil": "Para sa route, gamitin Google Maps, e-podróżnik at Koleo.",
+        "id": "Untuk rute gunakan Google Maps, e-podróżnik dan Koleo.",
+        "ne": "रुट बनाउन Google Maps, e-podróżnik र Koleo प्रयोग गर्नुहोस्।"
       },
       "list": [],
       "links": [
@@ -1890,7 +1892,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20przystanek%20autobusowy",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20przystanek",
           "tone": "blue"
         },
         {
@@ -1926,30 +1928,30 @@
       ]
     },
     {
-      "id": "najblizsze-ryczywol",
+      "id": "najblizsze-kozienice",
       "icon": "map",
       "tone": "blue",
       "title": {
-        "pl": "Sklep i najbliższe punkty",
-        "en": "Shop and nearby points",
-        "ua": "Магазин і найближчі місця",
-        "ru": "Магазин и ближайшие места",
-        "az": "Mağaza və yaxın yerlər",
-        "es": "Tienda y puntos cercanos",
-        "fil": "Tindahan at malapit na lugar",
-        "id": "Toko dan tempat terdekat",
-        "ne": "पसल र नजिकका ठाउँहरू"
+        "pl": "Sklep, apteka, najbliższe punkty",
+        "en": "Shop, pharmacy, nearby points",
+        "ua": "Магазин, аптека, найближчі місця",
+        "ru": "Магазин, аптека, ближайшие места",
+        "az": "Mağaza, aptek, yaxın yerlər",
+        "es": "Tienda, farmacia, puntos cercanos",
+        "fil": "Tindahan, botika, malapit na lugar",
+        "id": "Toko, apotek, tempat terdekat",
+        "ne": "पसल, फार्मेसी, नजिकका ठाउँहरू"
       },
       "address": {
-        "pl": "Mapa do podstawowych miejsc w pobliżu.",
-        "en": "Map to basic nearby places.",
-        "ua": "Карта до основних місць поруч.",
-        "ru": "Карта к основным местам рядом.",
-        "az": "Yaxın əsas yerlərə xəritə.",
-        "es": "Mapa a lugares básicos cercanos.",
-        "fil": "Mapa sa basic nearby places.",
-        "id": "Peta ke tempat dasar terdekat.",
-        "ne": "नजिकका आधारभूत ठाउँहरूको नक्सा।"
+        "pl": "Mapa do podstawowych miejsc w Ryczywole i Kozienicach.",
+        "en": "Map to basic places in Ryczywół and Kozienice.",
+        "ua": "Карта до основних місць у Ryczywole і Kozienicach.",
+        "ru": "Карта к основным местам в Ryczywole и Kozienicach.",
+        "az": "Ryczywół və Kozienice-də əsas yerlərə xəritə.",
+        "es": "Mapa a lugares básicos en Ryczywół y Kozienice.",
+        "fil": "Mapa sa basic places sa Ryczywół at Kozienice.",
+        "id": "Peta ke tempat dasar di Ryczywół dan Kozienice.",
+        "ne": "Ryczywół र Kozienice का आधारभूत ठाउँहरूको नक्सा।"
       },
       "note": {
         "pl": "Użyj, jeśli jesteś nowy i nie wiesz, gdzie kupić podstawowe rzeczy.",
@@ -1976,7 +1978,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82",
+          "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82%20Kozienice",
           "tone": "blue"
         }
       ]
@@ -2009,8 +2011,9 @@
         "ne": "कार्यालय ठेगाना, बसोबास कार्ड, PESEL र कागजात।"
       },
       "items": [
-        "urzad-ryczywol",
-        "wuw-poznan",
+        "urzad-kozienice",
+        "muw-warszawa",
+        "muw-radom",
         "mos-profil"
       ]
     },
@@ -2040,8 +2043,8 @@
         "ne": "पहिले नक्सामा खुल्ने समय हेर्नुहोस् वा फोन गर्नुहोस्।"
       },
       "items": [
-        "bank-ryczywol",
-        "poczta-ryczywol"
+        "bank-kozienice",
+        "poczta-kozienice"
       ]
     },
     {
@@ -2070,8 +2073,8 @@
         "ne": "नक्सा, स्टप र यात्रा एपहरू।"
       },
       "items": [
-        "transport-ryczywol",
-        "najblizsze-ryczywol"
+        "transport-kozienice",
+        "najblizsze-kozienice"
       ]
     }
   ]
