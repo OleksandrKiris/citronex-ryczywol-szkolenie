@@ -4141,3 +4141,164 @@ body.orientation-modal-open {
     display: none;
   }
 }
+
+/* Location hardening: keep Ryczywol cards readable on small phones. */
+.page,
+.card,
+.tile,
+.step-card,
+.notice,
+.person,
+.city-simple-item,
+.reader-panel,
+.reader-section,
+.tablet-step,
+.speech-card,
+.glossary-card,
+.ban-card,
+.medical-card,
+.module-grid,
+.card-grid,
+.btn-row {
+  min-width: 0;
+}
+
+.card,
+.tile,
+.step-card,
+.notice,
+.person,
+.city-simple-item,
+.reader-step,
+.tablet-step,
+.speech-card,
+.glossary-card,
+.ban-card,
+.medical-card {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.btn,
+.top-nav-link,
+.city-links .btn,
+.person-actions .btn {
+  min-height: 54px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.18;
+}
+
+.btn-row,
+.city-links,
+.person-actions {
+  align-items: stretch;
+}
+
+.city-simple-item {
+  align-items: start;
+}
+
+.city-simple-text {
+  min-width: 0;
+}
+
+.city-simple-item h3,
+.medical-card h2,
+.card h2 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.city-meta,
+.card p,
+.notice p,
+.medical-card p,
+.reader-section-lead,
+.tablet-step p {
+  color: var(--muted);
+}
+
+.icon-box,
+.city-card-icon,
+.top-nav-icon {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 430px) {
+  .page {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .module-grid,
+  .card-grid,
+  .city-simple-list,
+  .steps,
+  .tablet-steps,
+  .reader-panel,
+  .reader-section,
+  .contact-group,
+  .ban-list {
+    gap: 12px;
+  }
+
+  .card,
+  .step-card,
+  .notice,
+  .city-simple-item,
+  .tablet-step > summary,
+  .reader-panel,
+  .reader-section,
+  .person {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .btn-row,
+  .city-links,
+  .person-actions {
+    grid-template-columns: 1fr !important;
+    gap: 9px;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 13px;
+    font-size: 14px;
+  }
+
+  .city-simple-item {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .city-simple-item .city-links {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .brand {
+    grid-template-columns: minmax(76px, 96px) minmax(0, 1fr);
+  }
+
+  .brand img {
+    max-width: 96px;
+    height: 28px;
+  }
+
+  .lang-select {
+    width: 78px;
+    max-width: 78px;
+  }
+
+  .top-nav-link {
+    min-width: 82px;
+    font-size: 11.5px;
+  }
+
+  .btn {
+    font-size: 13.5px;
+  }
+}

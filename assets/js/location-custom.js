@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-clean1",
+    "version": "20260713-ryczywol-medmaps1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -98,15 +98,15 @@
         "ne": "गोदाम - Ryczywół"
       },
       "lead": {
-        "pl": "Osobny ekran magazynu: mapa, wejście, zasady i tablet. Bez readera, dopóki lokalne zasady nie powiedzą inaczej.",
-        "en": "Separate warehouse screen: map, entrance, rules and tablet. No reader unless local rules say otherwise.",
-        "ua": "Окремий екран складу: карта, вхід, правила і планшет. Без reader, якщо місцеві правила не скажуть інакше.",
-        "ru": "Отдельный экран склада: карта, вход, правила и планшет. Без reader, если местные правила не скажут иначе.",
-        "az": "Anbar üçün ayrı ekran: xəritə, giriş, qaydalar və planşet. Yerli qaydalar başqa cür demirsə reader yoxdur.",
-        "es": "Pantalla separada para almacén: mapa, entrada, reglas y tablet. Sin reader salvo regla local.",
-        "fil": "Hiwalay na screen ng bodega: mapa, pasukan, patakaran at tablet. Walang reader maliban kung lokal na patakaran.",
-        "id": "Layar gudang terpisah: peta, pintu masuk, aturan dan tablet. Tanpa reader kecuali aturan lokal berbeda.",
-        "ne": "गोदामको अलग स्क्रिन: नक्सा, प्रवेश, नियम र ट्याबलेट। स्थानीय नियमले नभनेसम्म reader छैन।"
+        "pl": "Magazyn ma osobny ekran: mapa, zasady i tablet. Na magazynie nie ma readerów. Tablet działa tak samo jak na szklarni, bo to jeden system PRIVA.",
+        "en": "Warehouse has a separate screen: map, rules and tablet. There are no readers in the warehouse. The tablet works the same as in the greenhouse because it is one PRIVA system.",
+        "ua": "Склад має окремий екран: карта, правила і планшет. На складі немає reader. Планшет працює так само, як у теплиці, бо це одна система PRIVA.",
+        "ru": "Склад имеет отдельный экран: карта, правила и планшет. На складе нет reader. Планшет работает так же, как в теплице, потому что это одна система PRIVA.",
+        "az": "Anbar üçün ayrıca ekran var: xəritə, qaydalar və planşet. Anbarda reader yoxdur. Planşet istixanadakı kimi işləyir, çünki bu bir PRIVA sistemidir.",
+        "es": "El almacén tiene una pantalla separada: mapa, reglas y tablet. En el almacén no hay reader. La tablet funciona igual que en el invernadero porque es un solo sistema PRIVA.",
+        "fil": "May hiwalay na screen ang bodega: mapa, patakaran at tablet. Walang reader sa bodega. Pareho ang tablet sa greenhouse dahil iisang PRIVA system ito.",
+        "id": "Gudang punya layar terpisah: peta, aturan, dan tablet. Di gudang tidak ada reader. Tablet bekerja sama seperti di greenhouse karena ini satu sistem PRIVA.",
+        "ne": "गोदामको अलग स्क्रिन छ: नक्सा, नियम र ट्याबलेट। गोदाममा reader छैन। ट्याबलेट ग्रीनहाउसमा जस्तै चल्छ, किनकि यो एउटै PRIVA प्रणाली हो।"
       }
     },
     "lekarz": {
@@ -203,6 +203,54 @@
         "fil": "Tile para sa Viber, Telegram at Telegram AZ. Shared ang links maliban kung may ibang ibibigay.",
         "id": "Tile untuk Viber, Telegram dan Telegram AZ. Link tetap umum kecuali ada link lain.",
         "ne": "Viber, Telegram र Telegram AZ का लागि टाइल। फरक लिंक नदिएसम्म साझा लिंक रहनेछ।"
+      }
+    },
+    "tablet": {
+      "title": {
+        "pl": "Tablet PRIVA",
+        "en": "PRIVA tablet",
+        "ua": "Планшет PRIVA",
+        "ru": "Планшет PRIVA",
+        "az": "PRIVA planşeti",
+        "es": "Tablet PRIVA",
+        "fil": "PRIVA tablet",
+        "id": "Tablet PRIVA",
+        "ne": "PRIVA ट्याबलेट"
+      },
+      "lead": {
+        "pl": "Tablet działa tak samo na szklarni i na magazynie, bo to jeden system PRIVA. Postępuj według tej samej instrukcji krok po kroku.",
+        "en": "The tablet works the same in the greenhouse and warehouse because it is one PRIVA system. Follow the same step-by-step instruction.",
+        "ua": "Планшет працює однаково в теплиці і на складі, бо це одна система PRIVA. Виконуй ту саму інструкцію крок за кроком.",
+        "ru": "Планшет работает одинаково в теплице и на складе, потому что это одна система PRIVA. Выполняй одну и ту же инструкцию шаг за шагом.",
+        "az": "Planşet istixanada və anbarda eyni işləyir, çünki bu bir PRIVA sistemidir. Eyni addım-addım təlimata əməl et.",
+        "es": "La tablet funciona igual en el invernadero y en el almacén porque es un solo sistema PRIVA. Sigue la misma instrucción paso a paso.",
+        "fil": "Pareho ang tablet sa greenhouse at bodega dahil iisang PRIVA system ito. Sundin ang parehong step-by-step na instruksyon.",
+        "id": "Tablet bekerja sama di greenhouse dan gudang karena ini satu sistem PRIVA. Ikuti instruksi langkah demi langkah yang sama.",
+        "ne": "ट्याबलेट ग्रीनहाउस र गोदाममा उस्तै चल्छ, किनकि यो एउटै PRIVA प्रणाली हो। एउटै चरणबद्ध निर्देशन पालना गर्नुहोस्।"
+      }
+    },
+    "reader": {
+      "title": {
+        "pl": "Reader PRIVA",
+        "en": "PRIVA reader",
+        "ua": "Reader PRIVA",
+        "ru": "Reader PRIVA",
+        "az": "PRIVA reader",
+        "es": "Reader PRIVA",
+        "fil": "PRIVA reader",
+        "id": "Reader PRIVA",
+        "ne": "PRIVA reader"
+      },
+      "lead": {
+        "pl": "Reader działa tak samo jak w Siechnicach, bo to jeden system PRIVA. Dotyczy pracy na szklarni; magazyn nie używa readerów.",
+        "en": "The reader works the same as in Siechnice because it is one PRIVA system. It applies to greenhouse work; the warehouse does not use readers.",
+        "ua": "Reader працює так само, як у Siechnice, бо це одна система PRIVA. Він стосується роботи в теплиці; склад не використовує reader.",
+        "ru": "Reader работает так же, как в Siechnice, потому что это одна система PRIVA. Он относится к работе в теплице; склад не использует reader.",
+        "az": "Reader Siechnice-də olduğu kimi işləyir, çünki bu bir PRIVA sistemidir. Bu istixana işi üçündür; anbarda reader istifadə olunmur.",
+        "es": "El reader funciona igual que en Siechnice porque es un solo sistema PRIVA. Es para el trabajo en invernadero; el almacén no usa readers.",
+        "fil": "Pareho ang reader tulad sa Siechnice dahil iisang PRIVA system ito. Para ito sa greenhouse work; walang reader sa bodega.",
+        "id": "Reader bekerja sama seperti di Siechnice karena ini satu sistem PRIVA. Ini untuk kerja greenhouse; gudang tidak memakai reader.",
+        "ne": "Reader Siechnice मा जस्तै चल्छ, किनकि यो एउटै PRIVA प्रणाली हो। यो ग्रीनहाउसको कामका लागि हो; गोदाममा reader प्रयोग हुँदैन।"
       }
     }
   },
@@ -495,48 +543,48 @@
   "mapPhotos": [],
   "warehouseRules": [
     {
-      "pl": "Magazyn ma osobny ekran: mapa, wejście, tablet i zasady.",
-      "en": "Warehouse has a separate screen: map, entrance, tablet and rules.",
-      "ua": "Склад має окремий екран: карта, вхід, планшет і правила.",
-      "ru": "Склад имеет отдельный экран: карта, вход, планшет и правила.",
-      "az": "Anbarın ayrıca ekranı var: xəritə, giriş, planşet və qaydalar.",
-      "es": "El almacén tiene pantalla separada: mapa, entrada, tablet y reglas.",
-      "fil": "May hiwalay na screen ang bodega: mapa, pasukan, tablet at patakaran.",
-      "id": "Gudang punya layar terpisah: peta, pintu masuk, tablet dan aturan.",
-      "ne": "गोदामको अलग स्क्रिन छ: नक्सा, प्रवेश, ट्याबलेट र नियम।"
+      "pl": "Magazyn ma osobny ekran: mapa, zasady i tablet.",
+      "en": "Warehouse has a separate screen: map, rules and tablet.",
+      "ua": "Склад має окремий екран: карта, правила і планшет.",
+      "ru": "Склад имеет отдельный экран: карта, правила и планшет.",
+      "az": "Anbar üçün ayrıca ekran var: xəritə, qaydalar və planşet.",
+      "es": "El almacén tiene una pantalla separada: mapa, reglas y tablet.",
+      "fil": "May hiwalay na screen ang bodega: mapa, patakaran at tablet.",
+      "id": "Gudang punya layar terpisah: peta, aturan dan tablet.",
+      "ne": "गोदामको अलग स्क्रिन छ: नक्सा, नियम र ट्याबलेट।"
     },
     {
-      "pl": "Na magazynie nie pokazujemy readera, dopóki lokalne zasady nie powiedzą inaczej.",
-      "en": "In the warehouse we do not show the reader unless local rules say otherwise.",
-      "ua": "На складі не показуємо reader, якщо місцеві правила не скажуть інакше.",
-      "ru": "На складе не показываем reader, если местные правила не скажут иначе.",
-      "az": "Anbarda yerli qaydalar başqa cür demirsə reader göstərmirik.",
-      "es": "En almacén no mostramos reader salvo regla local.",
-      "fil": "Sa bodega walang reader maliban kung lokal na patakaran.",
-      "id": "Di gudang tidak ada reader kecuali aturan lokal berbeda.",
-      "ne": "स्थानीय नियम फरक नभएसम्म गोदाममा reader देखाउँदैनौं।"
+      "pl": "Na magazynie nie ma readerów.",
+      "en": "There are no readers in the warehouse.",
+      "ua": "На складі немає reader.",
+      "ru": "На складе нет reader.",
+      "az": "Anbarda reader yoxdur.",
+      "es": "En el almacén no hay readers.",
+      "fil": "Walang reader sa bodega.",
+      "id": "Di gudang tidak ada reader.",
+      "ne": "गोदाममा reader छैन।"
     },
     {
-      "pl": "Tablet działa jako wspólny temat dla szklarni i magazynu.",
-      "en": "Tablet is a shared topic for greenhouse and warehouse.",
-      "ua": "Планшет є спільною темою для теплиці і складу.",
-      "ru": "Планшет является общей темой для теплицы и склада.",
-      "az": "Planşet istixana və anbar üçün ümumi mövzudur.",
-      "es": "La tablet es tema común para invernadero y almacén.",
-      "fil": "Ang tablet ay pareho para sa greenhouse at bodega.",
-      "id": "Tablet adalah topik bersama untuk greenhouse dan gudang.",
-      "ne": "ट्याबलेट ग्रीनहाउस र गोदाम दुवैका लागि साझा विषय हो।"
+      "pl": "Tablet działa tak samo na szklarni i magazynie, bo to jeden system PRIVA.",
+      "en": "The tablet works the same in the greenhouse and warehouse because it is one PRIVA system.",
+      "ua": "Планшет працює однаково в теплиці і на складі, бо це одна система PRIVA.",
+      "ru": "Планшет работает одинаково в теплице и на складе, потому что это одна система PRIVA.",
+      "az": "Planşet istixanada və anbarda eyni işləyir, çünki bu bir PRIVA sistemidir.",
+      "es": "La tablet funciona igual en invernadero y almacén porque es un solo sistema PRIVA.",
+      "fil": "Pareho ang tablet sa greenhouse at bodega dahil iisang PRIVA system ito.",
+      "id": "Tablet bekerja sama di greenhouse dan gudang karena ini satu sistem PRIVA.",
+      "ne": "ट्याबलेट ग्रीनहाउस र गोदाममा उस्तै चल्छ, किनकि यो एउटै PRIVA प्रणाली हो।"
     },
     {
-      "pl": "Kontakty magazynu są w module Kontakty. Wybierz zakładkę Magazyn.",
-      "en": "Warehouse contacts are in the Contacts module. Choose the Warehouse tab.",
-      "ua": "Контакти складу є в модулі Контакти. Оберіть вкладку Склад.",
-      "ru": "Контакты склада есть в модуле Контакты. Выберите вкладку Склад.",
-      "az": "Anbar kontaktları Kontaktlar modulundadır. Anbar bölməsini seçin.",
-      "es": "Los contactos del almacén están en Contactos. Elige la pestaña Almacén.",
-      "fil": "Ang contacts ng warehouse ay nasa Contacts module. Piliin ang Warehouse tab.",
-      "id": "Kontak gudang ada di modul Kontak. Pilih tab Gudang.",
-      "ne": "गोदामका सम्पर्कहरू सम्पर्क मोड्युलमा छन्। गोदाम ट्याब छान्नुहोस्।"
+      "pl": "Zasady są takie same jak w Siechnicach. Różnią się tylko lokalne mapy; zdjęć lokalizacji tutaj nie dodajemy.",
+      "en": "The rules are the same as in Siechnice. Only local maps are different; location photos are not added here.",
+      "ua": "Правила такі самі, як у Siechnice. Відрізняються тільки місцеві карти; фото локацій тут не додаємо.",
+      "ru": "Правила такие же, как в Siechnice. Отличаются только местные карты; фото локаций здесь не добавляем.",
+      "az": "Qaydalar Siechnice-də olduğu kimidir. Yalnız yerli xəritələr fərqlidir; burada məkan şəkilləri əlavə edilmir.",
+      "es": "Las reglas son iguales que en Siechnice. Solo cambian los mapas locales; aquí no añadimos fotos de lugares.",
+      "fil": "Pareho ang rules tulad sa Siechnice. Local maps lang ang iba; hindi naglalagay ng location photos dito.",
+      "id": "Aturannya sama seperti di Siechnice. Hanya peta lokal yang berbeda; foto lokasi tidak ditambahkan di sini.",
+      "ne": "नियम Siechnice मा जस्तै छन्। फरक केवल स्थानीय नक्सा हो; यहाँ स्थानका फोटोहरू थपिँदैन।"
     }
   ],
   "contacts": {
@@ -850,263 +898,266 @@
     {
       "tone": "blue",
       "title": {
-        "pl": "Kozienice - lekarz rodzinny (POZ)",
-        "en": "Kozienice - family doctor (POZ)",
-        "ua": "Kozienice - сімейний лікар (POZ)",
-        "ru": "Kozienice - семейный врач (POZ)",
-        "az": "Kozienice - ailə həkimi (POZ)",
-        "es": "Kozienice - médico de familia (POZ)",
-        "fil": "Kozienice - family doctor (POZ)",
-        "id": "Kozienice - dokter keluarga (POZ)",
-        "ne": "Kozienice - परिवार डाक्टर (POZ)"
+        "pl": "Najbliższy lekarz rodzinny (POZ) - Świerże Górne",
+        "en": "Nearest family doctor (POZ) - Świerże Górne",
+        "ua": "Найближчий сімейний лікар (POZ) - Świerże Górne",
+        "ru": "Ближайший семейный врач (POZ) - Świerże Górne",
+        "az": "Ən yaxın ailə həkimi (POZ) - Świerże Górne",
+        "es": "Médico de familia más cercano (POZ) - Świerże Górne",
+        "fil": "Pinakamalapit na family doctor (POZ) - Świerże Górne",
+        "id": "Dokter keluarga terdekat (POZ) - Świerże Górne",
+        "ne": "सबैभन्दा नजिकको परिवार डाक्टर (POZ) - Świerże Górne"
       },
       "body": [
         {
-          "pl": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "en": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "ua": "SPZOZ Przychodnie Kozienickie, вул. Sienkiewicza 28, 26-900 Kozienice.",
-          "ru": "SPZOZ Przychodnie Kozienickie, ул. Sienkiewicza 28, 26-900 Kozienice.",
-          "az": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "es": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "fil": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "id": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "ne": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice।"
+          "pl": "Przychodnia Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
+          "en": "Vital-Med clinic, Świerże Górne 55, 26-900 Kozienice.",
+          "ua": "Поліклініка Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
+          "ru": "Поликлиника Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
+          "az": "Vital-Med poliklinikası, Świerże Górne 55, 26-900 Kozienice.",
+          "es": "Clínica Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
+          "fil": "Vital-Med clinic, Świerże Górne 55, 26-900 Kozienice.",
+          "id": "Klinik Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
+          "ne": "Vital-Med क्लिनिक, Świerże Górne 55, 26-900 Kozienice।"
         },
         {
-          "pl": "Przychodnia podaje pracę od poniedziałku do piątku w godzinach 8:00-18:00.",
-          "en": "The clinic states it works Monday-Friday 8:00-18:00.",
-          "ua": "Поліклініка вказує роботу з понеділка до п'ятниці 8:00-18:00.",
-          "ru": "Поликлиника указывает работу с понедельника по пятницу 8:00-18:00.",
-          "az": "Poliklinika bazar ertəsi-cümə 8:00-18:00 işlədiyini göstərir.",
-          "es": "La clínica indica lunes-viernes 8:00-18:00.",
-          "fil": "Clinic hours: Lunes-Biyernes 8:00-18:00.",
-          "id": "Klinik menyatakan Senin-Jumat 8:00-18:00.",
-          "ne": "क्लिनिक सोमबार-शुक्रबार 8:00-18:00 खुल्ने बताउँछ।"
-        },
-        {
-          "pl": "POZ: zwykła choroba, recepta, kontrola, skierowanie. W zagrożeniu życia dzwoń 112.",
-          "en": "POZ: ordinary illness, prescription, check-up, referral. In life danger call 112.",
-          "ua": "POZ: звичайна хвороба, рецепт, контроль, направлення. При загрозі життю телефонуй 112.",
-          "ru": "POZ: обычная болезнь, рецепт, контроль, направление. При угрозе жизни звони 112.",
-          "az": "POZ: adi xəstəlik, resept, yoxlama, yönləndirmə. Həyat təhlükəsində 112-yə zəng edin.",
-          "es": "POZ: enfermedad normal, receta, control, derivación. En peligro de vida llama 112.",
-          "fil": "POZ: karaniwang sakit, reseta, check-up, referral. Kung delikado ang buhay tumawag 112.",
-          "id": "POZ: sakit biasa, resep, kontrol, rujukan. Jika mengancam nyawa hubungi 112.",
-          "ne": "POZ: सामान्य बिरामी, औषधि, जाँच, रेफरल। जीवन जोखिममा 112 मा फोन गर्नुहोस्।"
+          "pl": "POZ: zwykła choroba, recepta, kontrola, skierowanie. Najpierw zadzwoń i potwierdź rejestrację.",
+          "en": "POZ: regular illness, prescription, check-up, referral. Call first and confirm registration.",
+          "ua": "POZ: звичайна хвороба, рецепт, контроль, направлення. Спочатку подзвони і підтвердь реєстрацію.",
+          "ru": "POZ: обычная болезнь, рецепт, контроль, направление. Сначала позвони и подтверди регистрацию.",
+          "az": "POZ: adi xəstəlik, resept, yoxlama, göndəriş. Əvvəl zəng et və qeydiyyatı təsdiqlə.",
+          "es": "POZ: enfermedad normal, receta, control, derivación. Primero llama y confirma el registro.",
+          "fil": "POZ: karaniwang sakit, reseta, check-up, referral. Tumawag muna at kumpirmahin ang registration.",
+          "id": "POZ: sakit biasa, resep, kontrol, rujukan. Telepon dulu dan konfirmasi pendaftaran.",
+          "ne": "POZ: सामान्य बिरामी, औषधि, जाँच, रेफरल। पहिले फोन गरेर दर्ता पुष्टि गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Przychodnie Kozienickie - Sienkiewicza 28",
-            "en": "Kozienice clinics - Sienkiewicza 28",
-            "ua": "Przychodnie Kozienickie - Sienkiewicza 28",
-            "ru": "Przychodnie Kozienickie - Sienkiewicza 28",
-            "az": "Kozienice poliklinikası - Sienkiewicza 28",
-            "es": "Clínicas Kozienice - Sienkiewicza 28",
-            "fil": "Kozienice clinics - Sienkiewicza 28",
-            "id": "Klinik Kozienice - Sienkiewicza 28",
-            "ne": "Kozienice क्लिनिक - Sienkiewicza 28"
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Przychodnie%20Kozienickie%20Sienkiewicza%2028"
+          "url": "https://www.google.com/maps/place/Przychodnia+Vital-Med,+%C5%9Awier%C5%BCe+G%C3%B3rne+55,+26-900+Kozienice"
         }
       ],
       "phones": [
         {
           "label": {
             "pl": "Rejestracja",
-            "en": "Registration",
-            "ua": "Реєстрація",
-            "ru": "Регистрация",
-            "az": "Qeydiyyat",
-            "es": "Registro",
-            "fil": "Registration",
-            "id": "Pendaftaran",
-            "ne": "दर्ता"
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
-          "phone": "+48 48 614 30 54"
-        },
-        {
-          "label": {
-            "pl": "Rejestracja",
-            "en": "Registration",
-            "ua": "Реєстрація",
-            "ru": "Регистрация",
-            "az": "Qeydiyyat",
-            "es": "Registro",
-            "fil": "Registration",
-            "id": "Pendaftaran",
-            "ne": "दर्ता"
-          },
-          "phone": "+48 48 614 30 56"
-        },
-        {
-          "label": {
-            "pl": "Komórkowy",
-            "en": "Mobile",
-            "ua": "Мобільний",
-            "ru": "Мобильный",
-            "az": "Mobil",
-            "es": "Móvil",
-            "fil": "Mobile",
-            "id": "Seluler",
-            "ne": "मोबाइल"
-          },
-          "phone": "+48 509 006 633"
+          "phone": "+48 48 614 75 18"
         }
       ]
     },
     {
       "tone": "blue",
       "title": {
-        "pl": "Kozienice - przychodnia Warszawska 55",
-        "en": "Kozienice - clinic Warszawska 55",
-        "ua": "Kozienice - поліклініка Warszawska 55",
-        "ru": "Kozienice - поликлиника Warszawska 55",
-        "az": "Kozienice - Warszawska 55 poliklinika",
-        "es": "Kozienice - clínica Warszawska 55",
-        "fil": "Kozienice - clinic Warszawska 55",
-        "id": "Kozienice - klinik Warszawska 55",
-        "ne": "Kozienice - Warszawska 55 क्लिनिक"
+        "pl": "Przychodnie Kozienickie - lekarz rodzinny (POZ)",
+        "en": "Kozienice clinics - family doctor (POZ)",
+        "ua": "Przychodnie Kozienickie - сімейний лікар (POZ)",
+        "ru": "Przychodnie Kozienickie - семейный врач (POZ)",
+        "az": "Kozienice poliklinikaları - ailə həkimi (POZ)",
+        "es": "Clínicas Kozienice - médico de familia (POZ)",
+        "fil": "Kozienice clinics - family doctor (POZ)",
+        "id": "Klinik Kozienice - dokter keluarga (POZ)",
+        "ne": "Kozienice क्लिनिक - परिवार डाक्टर (POZ)"
       },
       "body": [
         {
-          "pl": "Druga lokalizacja Przychodni Kozienickich: ul. Warszawska 55, 26-900 Kozienice.",
-          "en": "Second Kozienice clinic location: ul. Warszawska 55, 26-900 Kozienice.",
-          "ua": "Друга локація Przychodni Kozienickich: вул. Warszawska 55, 26-900 Kozienice.",
-          "ru": "Вторая локация Przychodni Kozienickich: ул. Warszawska 55, 26-900 Kozienice.",
-          "az": "Kozienice poliklinikasının ikinci yeri: ul. Warszawska 55, 26-900 Kozienice.",
-          "es": "Segunda ubicación: ul. Warszawska 55, 26-900 Kozienice.",
-          "fil": "Second location: ul. Warszawska 55, 26-900 Kozienice.",
-          "id": "Lokasi kedua: ul. Warszawska 55, 26-900 Kozienice.",
-          "ne": "दोस्रो स्थान: ul. Warszawska 55, 26-900 Kozienice।"
+          "pl": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
+          "en": "SPZOZ Kozienice clinics, Sienkiewicza 28, 26-900 Kozienice.",
+          "ua": "SPZOZ Przychodnie Kozienickie, вул. Sienkiewicza 28, 26-900 Kozienice.",
+          "ru": "SPZOZ Przychodnie Kozienickie, ул. Sienkiewicza 28, 26-900 Kozienice.",
+          "az": "SPZOZ Kozienice poliklinikaları, Sienkiewicza 28, 26-900 Kozienice.",
+          "es": "SPZOZ Clínicas Kozienice, Sienkiewicza 28, 26-900 Kozienice.",
+          "fil": "SPZOZ Kozienice clinics, Sienkiewicza 28, 26-900 Kozienice.",
+          "id": "SPZOZ Klinik Kozienice, Sienkiewicza 28, 26-900 Kozienice.",
+          "ne": "SPZOZ Kozienice क्लिनिक, Sienkiewicza 28, 26-900 Kozienice।"
         },
         {
-          "pl": "Użyj, jeśli rejestracja lub koordynator wskaże tę przychodnię.",
-          "en": "Use it if registration or coordinator points to this clinic.",
-          "ua": "Використай, якщо реєстрація або координатор вкаже цю поліклініку.",
-          "ru": "Используй, если регистрация или координатор укажет эту поликлинику.",
-          "az": "Qeydiyyat və ya koordinator bu poliklinikanı göstərsə istifadə edin.",
-          "es": "Úsala si registro o coordinador indica esta clínica.",
-          "fil": "Gamitin kung registration o coordinator ang nagsabi.",
-          "id": "Gunakan jika pendaftaran atau koordinator menunjuk klinik ini.",
-          "ne": "दर्ता वा कोर्डिनेटरले यो क्लिनिक भनेमा प्रयोग गर्नुहोस्।"
+          "pl": "Użyj tej przychodni, jeśli koordynator albo rejestracja wskaże Kozienice.",
+          "en": "Use this clinic if the coordinator or registration points you to Kozienice.",
+          "ua": "Використай цю поліклініку, якщо координатор або реєстрація направить до Kozienice.",
+          "ru": "Используй эту поликлинику, если координатор или регистратура направит в Kozienice.",
+          "az": "Koordinator və ya qeydiyyat Kozienice-ni göstərsə, bu poliklinikadan istifadə et.",
+          "es": "Usa esta clínica si el coordinador o el registro te indica Kozienice.",
+          "fil": "Gamitin ang clinic na ito kung coordinator o registration ang nagturo sa Kozienice.",
+          "id": "Gunakan klinik ini jika koordinator atau pendaftaran menunjuk Kozienice.",
+          "ne": "कोर्डिनेटर वा दर्ताले Kozienice देखाएमा यो क्लिनिक प्रयोग गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Przychodnie Kozienickie - Warszawska 55",
-            "en": "Kozienice clinics - Warszawska 55",
-            "ua": "Przychodnie Kozienickie - Warszawska 55",
-            "ru": "Przychodnie Kozienickie - Warszawska 55",
-            "az": "Kozienice poliklinikası - Warszawska 55",
-            "es": "Clínicas Kozienice - Warszawska 55",
-            "fil": "Kozienice clinics - Warszawska 55",
-            "id": "Klinik Kozienice - Warszawska 55",
-            "ne": "Kozienice क्लिनिक - Warszawska 55"
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Przychodnie%20Kozienickie%20Warszawska%2055"
+          "url": "https://www.google.com/maps/place/SPZOZ+Przychodnie+Kozienickie,+Sienkiewicza+28,+26-900+Kozienice"
         }
       ],
       "phones": [
         {
           "label": {
             "pl": "Rejestracja",
-            "en": "Registration",
-            "ua": "Реєстрація",
-            "ru": "Регистрация",
-            "az": "Qeydiyyat",
-            "es": "Registro",
-            "fil": "Registration",
-            "id": "Pendaftaran",
-            "ne": "दर्ता"
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
-          "phone": "+48 509 006 644"
+          "phone": "+48 48 614 30 54"
         },
         {
           "label": {
             "pl": "Rejestracja",
-            "en": "Registration",
-            "ua": "Реєстрація",
-            "ru": "Регистрация",
-            "az": "Qeydiyyat",
-            "es": "Registro",
-            "fil": "Registration",
-            "id": "Pendaftaran",
-            "ne": "दर्ता"
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
-          "phone": "+48 505 238 522"
+          "phone": "+48 48 614 30 56"
+        },
+        {
+          "label": {
+            "pl": "Komórkowy",
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
+          },
+          "phone": "+48 509 006 633"
         }
       ]
     },
     {
       "tone": "red",
       "title": {
-        "pl": "Szpital Kozienice / nagły przypadek",
-        "en": "Kozienice hospital / emergency",
-        "ua": "Лікарня Kozienice / невідкладний випадок",
-        "ru": "Больница Kozienice / срочный случай",
-        "az": "Kozienice xəstəxanası / təcili hal",
-        "es": "Hospital Kozienice / urgencia",
-        "fil": "Kozienice hospital / emergency",
-        "id": "Rumah sakit Kozienice / darurat",
-        "ne": "Kozienice अस्पताल / आपतकालीन"
+        "pl": "SOR / Szpital Kozienice - nagły przypadek",
+        "en": "Emergency room / Kozienice hospital",
+        "ua": "SOR / лікарня Kozienice - невідкладний випадок",
+        "ru": "SOR / больница Kozienice - срочный случай",
+        "az": "SOR / Kozienice xəstəxanası - təcili hal",
+        "es": "Urgencias / Hospital Kozienice",
+        "fil": "Emergency / Kozienice hospital",
+        "id": "IGD / Rumah sakit Kozienice",
+        "ne": "आपतकालीन / Kozienice अस्पताल"
       },
       "body": [
         {
-          "pl": "SP ZZOZ w Kozienicach: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "en": "SP ZZOZ in Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ua": "SP ZZOZ у Kozienicach: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ru": "SP ZZOZ в Kozienicach: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "az": "Kozienice SP ZZOZ: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "es": "SP ZZOZ en Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "fil": "SP ZZOZ in Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "id": "SP ZZOZ Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ne": "SP ZZOZ Kozienice: Al. Władysława Sikorskiego 10, 26-900 Kozienice।"
+          "pl": "SPZZOZ w Kozienicach, al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "en": "SPZZOZ in Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ua": "SPZZOZ у Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ru": "SPZZOZ в Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "az": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "es": "SPZZOZ en Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "fil": "SPZZOZ sa Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "id": "SPZZOZ di Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
+          "ne": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice।"
         },
         {
-          "pl": "Jedź do szpitala albo dzwoń 112 przy urazie, silnym bólu, problemach z oddychaniem, omdleniu lub poważnym pogorszeniu stanu zdrowia.",
-          "en": "Go to hospital or call 112 for injury, strong pain, breathing problems, fainting or serious health deterioration.",
-          "ua": "Їдь до лікарні або телефонуй 112 при травмі, сильному болю, проблемах з диханням, втраті свідомості або сильному погіршенні стану.",
-          "ru": "Езжай в больницу или звони 112 при травме, сильной боли, проблемах с дыханием, обмороке или серьёзном ухудшении.",
-          "az": "Zədə, güclü ağrı, nəfəs problemi, huş itirmə və ya ciddi pisləşmədə xəstəxanaya gedin və ya 112-yə zəng edin.",
-          "es": "Ve al hospital o llama 112 por lesión, dolor fuerte, problemas para respirar, desmayo o empeoramiento grave.",
-          "fil": "Pumunta sa hospital o tumawag 112 kapag may injury, matinding sakit, hirap huminga, nahimatay o seryosong paglala.",
-          "id": "Pergi ke rumah sakit atau hubungi 112 untuk cedera, nyeri kuat, sulit bernapas, pingsan atau kondisi memburuk serius.",
-          "ne": "चोट, धेरै दुखाइ, सास फेर्न समस्या, बेहोस वा अवस्था धेरै बिग्रिएमा अस्पताल जानुहोस् वा 112 मा फोन गर्नुहोस्।"
+          "pl": "Jedź na SOR przy urazie, silnym bólu, problemach z oddychaniem, omdleniu lub poważnym pogorszeniu stanu. W zagrożeniu życia dzwoń 112.",
+          "en": "Go to the emergency room for injury, strong pain, breathing problems, fainting or serious deterioration. In life danger call 112.",
+          "ua": "Їдь на SOR при травмі, сильному болю, проблемах з диханням, втраті свідомості або сильному погіршенні стану. При загрозі життю дзвони 112.",
+          "ru": "Езжай в SOR при травме, сильной боли, проблемах с дыханием, обмороке или серьезном ухудшении состояния. При угрозе жизни звони 112.",
+          "az": "Zədə, güclü ağrı, nəfəs problemi, huş itirmə və ya ciddi pisləşmə olduqda SOR-a get. Həyat təhlükəsində 112-yə zəng et.",
+          "es": "Ve a urgencias por lesión, dolor fuerte, problemas para respirar, desmayo o empeoramiento grave. Si hay peligro de vida llama 112.",
+          "fil": "Pumunta sa emergency kapag may injury, matinding sakit, hirap huminga, nahimatay o seryosong paglala. Kung delikado ang buhay tumawag 112.",
+          "id": "Pergi ke IGD jika cedera, nyeri kuat, sulit bernapas, pingsan atau kondisi memburuk serius. Jika mengancam nyawa hubungi 112.",
+          "ne": "चोट, धेरै दुखाइ, सास फेर्न समस्या, बेहोस हुने वा अवस्था गम्भीर बिग्रिएमा आपतकालीनमा जानुहोस्। जीवन जोखिममा भए 112 मा फोन गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Szpital Kozienice",
-            "en": "Kozienice hospital",
-            "ua": "Лікарня Kozienice",
-            "ru": "Больница Kozienice",
-            "az": "Kozienice xəstəxanası",
-            "es": "Hospital Kozienice",
-            "fil": "Kozienice hospital",
-            "id": "Rumah sakit Kozienice",
-            "ne": "Kozienice अस्पताल"
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Szpital%20Powiatowy%20Kozienice%20Al.%20W%C5%82adys%C5%82awa%20Sikorskiego%2010"
+          "url": "https://www.google.com/maps/place/SPZZOZ+w+Kozienicach,+Aleja+W%C5%82adys%C5%82awa+Sikorskiego+10,+26-900+Kozienice"
         }
       ],
       "phones": [
         {
           "label": {
+            "pl": "SOR",
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
+          },
+          "phone": "+48 48 614 82 34"
+        },
+        {
+          "label": {
             "pl": "Centrala szpitala",
-            "en": "Hospital main line",
-            "ua": "Центральний номер лікарні",
-            "ru": "Центральный номер больницы",
-            "az": "Xəstəxana mərkəzi xətti",
-            "es": "Central del hospital",
-            "fil": "Hospital main line",
-            "id": "Pusat rumah sakit",
-            "ne": "अस्पताल मुख्य फोन"
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
           "phone": "+48 48 679 71 00"
+        },
+        {
+          "label": {
+            "pl": "Telefon szpitala",
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
+          },
+          "phone": "+48 509 212 226"
         }
       ]
     },
@@ -1114,92 +1165,70 @@
       "tone": "red",
       "title": {
         "pl": "Nocna i świąteczna opieka - Kozienice",
-        "en": "Night and holiday care - Kozienice",
-        "ua": "Нічна і святкова допомога - Kozienice",
-        "ru": "Ночная и праздничная помощь - Kozienice",
-        "az": "Gecə və bayram yardımı - Kozienice",
-        "es": "Atención nocturna y festiva - Kozienice",
-        "fil": "Night and holiday care - Kozienice",
-        "id": "Layanan malam dan libur - Kozienice",
-        "ne": "रात र बिदाको सेवा - Kozienice"
+        "en": "Night and holiday medical care - Kozienice",
+        "ua": "Нічна і святкова медична допомога - Kozienice",
+        "ru": "Ночная и праздничная медицинская помощь - Kozienice",
+        "az": "Gecə və bayram tibbi yardımı - Kozienice",
+        "es": "Atención médica nocturna y festiva - Kozienice",
+        "fil": "Night and holiday medical care - Kozienice",
+        "id": "Layanan malam dan hari libur - Kozienice",
+        "ne": "राति र बिदाको स्वास्थ्य सेवा - Kozienice"
       },
       "body": [
         {
-          "pl": "Adres: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "en": "Address: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ua": "Адреса: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ru": "Адрес: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "az": "Ünvan: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "es": "Dirección: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "fil": "Address: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "id": "Alamat: Al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ne": "ठेगाना: Al. Władysława Sikorskiego 10, 26-900 Kozienice।"
-        },
-        {
-          "pl": "Gdy przychodnia jest zamknięta, ale nie ma bezpośredniego zagrożenia życia.",
-          "en": "When the clinic is closed, but there is no direct life threat.",
-          "ua": "Коли поліклініка закрита, але немає прямої загрози життю.",
-          "ru": "Когда поликлиника закрыта, но нет прямой угрозы жизни.",
-          "az": "Poliklinika bağlıdırsa, amma birbaşa həyat təhlükəsi yoxdursa.",
-          "es": "Cuando la clínica está cerrada, pero no hay peligro directo de vida.",
-          "fil": "Kapag sarado ang clinic pero walang direct life threat.",
-          "id": "Saat klinik tutup tetapi tidak mengancam nyawa langsung.",
-          "ne": "क्लिनिक बन्द छ तर सीधा जीवन जोखिम छैन भने।"
-        },
-        {
-          "pl": "Nocna opieka działa zwykle po 18:00 oraz w weekendy i święta.",
-          "en": "Night care usually works after 18:00 and on weekends/holidays.",
-          "ua": "Нічна допомога зазвичай працює після 18:00, у вихідні і свята.",
-          "ru": "Ночная помощь обычно работает после 18:00, в выходные и праздники.",
-          "az": "Gecə yardımı adətən 18:00-dan sonra və həftəsonu/bayramlarda işləyir.",
-          "es": "Atención nocturna normalmente después de 18:00 y fines/festivos.",
-          "fil": "Night care karaniwang after 18:00 at weekends/holidays.",
-          "id": "Layanan malam biasanya setelah 18:00 dan akhir pekan/libur.",
-          "ne": "रातको सेवा सामान्यतया 18:00 पछि र सप्ताहन्त/बिदामा हुन्छ।"
+          "pl": "Dla choroby po godzinach pracy przychodni, gdy nie jest to zagrożenie życia.",
+          "en": "For illness after clinic hours when it is not life-threatening.",
+          "ua": "Для хвороби після роботи поліклініки, якщо немає загрози життю.",
+          "ru": "Для болезни после работы поликлиники, если нет угрозы жизни.",
+          "az": "Poliklinika saatlarından sonra, həyat təhlükəsi olmayan xəstəlik üçün.",
+          "es": "Para enfermedad fuera del horario de la clínica, si no hay peligro de vida.",
+          "fil": "Para sa sakit pagkatapos ng clinic hours kung hindi delikado ang buhay.",
+          "id": "Untuk sakit setelah jam klinik jika tidak mengancam nyawa.",
+          "ne": "क्लिनिक बन्द भएपछि तर जीवन जोखिम नभएको बिरामीका लागि।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Nocna opieka Kozienice",
-            "en": "Night care Kozienice",
-            "ua": "Нічна допомога Kozienice",
-            "ru": "Ночная помощь Kozienice",
-            "az": "Gecə yardımı Kozienice",
-            "es": "Atención nocturna Kozienice",
-            "fil": "Night care Kozienice",
-            "id": "Layanan malam Kozienice",
-            "ne": "रातको सेवा Kozienice"
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Nocna%20i%20%C5%9Bwi%C4%85teczna%20opieka%20zdrowotna%20Kozienice%20Sikorskiego%2010"
+          "url": "https://www.google.com/maps/place/SPZZOZ+w+Kozienicach,+Aleja+W%C5%82adys%C5%82awa+Sikorskiego+10,+26-900+Kozienice"
         }
       ],
       "phones": [
         {
           "label": {
             "pl": "Nocna opieka",
-            "en": "Night care",
-            "ua": "Нічна допомога",
-            "ru": "Ночная помощь",
-            "az": "Gecə yardımı",
-            "es": "Atención nocturna",
-            "fil": "Night care",
-            "id": "Layanan malam",
-            "ne": "रातको सेवा"
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
           "phone": "+48 48 679 59 32"
         },
         {
           "label": {
-            "pl": "Nocna opieka",
-            "en": "Night care",
-            "ua": "Нічна допомога",
-            "ru": "Ночная помощь",
-            "az": "Gecə yardımı",
-            "es": "Atención nocturna",
-            "fil": "Night care",
-            "id": "Layanan malam",
-            "ne": "रातको सेवा"
+            "pl": "Telefon szpitala",
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
           "phone": "+48 509 212 226"
         }
@@ -1210,138 +1239,127 @@
       "title": {
         "pl": "Dentysta / ból zęba - Kozienice",
         "en": "Dentist / toothache - Kozienice",
-        "ua": "Стоматолог / зубний біль - Kozienice",
+        "ua": "Стоматолог / біль зуба - Kozienice",
         "ru": "Стоматолог / зубная боль - Kozienice",
         "az": "Diş həkimi / diş ağrısı - Kozienice",
-        "es": "Dentista / dolor de muela - Kozienice",
+        "es": "Dentista / dolor de muelas - Kozienice",
         "fil": "Dentista / sakit ng ngipin - Kozienice",
         "id": "Dokter gigi / sakit gigi - Kozienice",
         "ne": "दन्त चिकित्सक / दाँत दुखाइ - Kozienice"
       },
       "body": [
         {
-          "pl": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "en": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "ua": "NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice.",
-          "ru": "NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice.",
-          "az": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "es": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "fil": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "id": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "ne": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice।"
-        },
-        {
-          "pl": "Doraźna pomoc stomatologiczna NFZ działa zwykle w dni robocze 19:00-7:00, a w weekendy i święta całodobowo. Najpierw zadzwoń.",
-          "en": "NFZ emergency dental care usually works on weekdays 19:00-7:00 and weekends/holidays 24h. Call first.",
-          "ua": "Невідкладна стоматологічна допомога NFZ зазвичай працює в робочі дні 19:00-7:00, а у вихідні і свята цілодобово. Спочатку подзвони.",
-          "ru": "Срочная стоматологическая помощь NFZ обычно работает в рабочие дни 19:00-7:00, а в выходные и праздники круглосуточно. Сначала позвони.",
-          "az": "NFZ təcili diş yardımı adətən iş günləri 19:00-7:00, həftəsonu/bayram 24 saat işləyir. Əvvəl zəng edin.",
-          "es": "La ayuda dental urgente NFZ suele funcionar laborables 19:00-7:00 y fines/festivos 24h. Primero llama.",
-          "fil": "NFZ emergency dental care karaniwang weekdays 19:00-7:00, weekends/holidays 24h. Tumawag muna.",
-          "id": "Layanan gigi darurat NFZ biasanya hari kerja 19:00-7:00, akhir pekan/libur 24 jam. Telepon dulu.",
-          "ne": "NFZ आपतकालीन दन्त सेवा सामान्यतया कामका दिन 19:00-7:00, सप्ताहन्त/बिदामा 24 घण्टा हुन्छ। पहिले फोन गर्नुहोस्।"
+          "pl": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice. Najpierw zadzwoń.",
+          "en": "NZOZ Dentistry, Sienkiewicza 28, 26-900 Kozienice. Call first.",
+          "ua": "NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice. Спочатку подзвони.",
+          "ru": "NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice. Сначала позвони.",
+          "az": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Əvvəl zəng et.",
+          "es": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Primero llama.",
+          "fil": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Tumawag muna.",
+          "id": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Telepon dulu.",
+          "ne": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice। पहिले फोन गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Dentysta Kozienice",
-            "en": "Dentist Kozienice",
-            "ua": "Стоматолог Kozienice",
-            "ru": "Стоматолог Kozienice",
-            "az": "Diş həkimi Kozienice",
-            "es": "Dentista Kozienice",
-            "fil": "Dentista Kozienice",
-            "id": "Dokter gigi Kozienice",
-            "ne": "दन्त चिकित्सक Kozienice"
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=NZOZ%20Stomatologia%20Sienkiewicza%2028%20Kozienice"
+          "url": "https://www.google.com/maps/place/NZOZ+Stomatologia,+Henryka+Sienkiewicza+28,+26-900+Kozienice"
         }
       ],
       "phones": [
         {
           "label": {
-            "pl": "Stomatologia",
-            "en": "Dentistry",
-            "ua": "Стоматологія",
-            "ru": "Стоматология",
-            "az": "Stomatologiya",
-            "es": "Odontología",
-            "fil": "Dentistry",
-            "id": "Dokter gigi",
-            "ne": "दन्त सेवा"
+            "pl": "Rejestracja",
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
           "phone": "+48 48 614 43 00"
         }
       ]
     },
     {
-      "tone": "blue",
+      "tone": "green",
       "title": {
-        "pl": "Apteki - Ryczywół / Kozienice",
-        "en": "Pharmacies - Ryczywół / Kozienice",
-        "ua": "Аптеки - Ryczywół / Kozienice",
-        "ru": "Аптеки - Ryczywół / Kozienice",
-        "az": "Apteklər - Ryczywół / Kozienice",
-        "es": "Farmacias - Ryczywół / Kozienice",
-        "fil": "Botika - Ryczywół / Kozienice",
-        "id": "Apotek - Ryczywół / Kozienice",
-        "ne": "फार्मेसी - Ryczywół / Kozienice"
+        "pl": "Najbliższa apteka - Punkt Apteczny Świerże Górne",
+        "en": "Nearest pharmacy - Świerże Górne pharmacy point",
+        "ua": "Найближча аптека - аптечний пункт Świerże Górne",
+        "ru": "Ближайшая аптека - аптечный пункт Świerże Górne",
+        "az": "Ən yaxın aptek - Świerże Górne aptek məntəqəsi",
+        "es": "Farmacia más cercana - Punto farmacéutico Świerże Górne",
+        "fil": "Pinakamalapit na botika - Świerże Górne pharmacy point",
+        "id": "Apotek terdekat - Punkt Apteczny Świerże Górne",
+        "ne": "सबैभन्दा नजिकको फार्मेसी - Świerże Górne"
       },
       "body": [
         {
-          "pl": "Najbliższy punkt apteczny dla Ryczywołu k. Kozienic: Świerże Górne 55 lok. 2.",
-          "en": "Nearest pharmacy point for Ryczywół near Kozienice: Świerże Górne 55 unit 2.",
-          "ua": "Найближчий аптечний пункт для Ryczywołu біля Kozienic: Świerże Górne 55 lok. 2.",
-          "ru": "Ближайший аптечный пункт для Ryczywołu возле Kozienic: Świerże Górne 55 lok. 2.",
-          "az": "Kozienice yaxınlığında Ryczywół üçün ən yaxın aptek məntəqəsi: Świerże Górne 55 lok. 2.",
-          "es": "Punto de farmacia más cercano a Ryczywół cerca de Kozienice: Świerże Górne 55 lok. 2.",
-          "fil": "Pinakamalapit na pharmacy point para sa Ryczywół near Kozienice: Świerże Górne 55 lok. 2.",
-          "id": "Titik apotek terdekat untuk Ryczywół dekat Kozienice: Świerże Górne 55 lok. 2.",
-          "ne": "Kozienice नजिक Ryczywół का लागि नजिकको फार्मेसी बिन्दु: Świerże Górne 55 lok. 2।"
+          "pl": "Punkt Apteczny, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
+          "en": "Pharmacy point, Świerże Górne 55 unit 2, 26-900 Kozienice.",
+          "ua": "Аптечний пункт, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
+          "ru": "Аптечный пункт, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
+          "az": "Aptek məntəqəsi, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
+          "es": "Punto farmacéutico, Świerże Górne 55 local 2, 26-900 Kozienice.",
+          "fil": "Pharmacy point, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
+          "id": "Punkt apotek, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
+          "ne": "फार्मेसी पोइन्ट, Świerże Górne 55 lok. 2, 26-900 Kozienice।"
         },
         {
-          "pl": "Godziny mogą się zmieniać, dlatego sprawdź w Google Maps albo zadzwoń przed wyjściem.",
-          "en": "Hours may change, so check Google Maps or call before leaving.",
-          "ua": "Години можуть змінюватися, тому перевір Google Maps або подзвони перед виходом.",
-          "ru": "Часы могут меняться, поэтому проверь Google Maps или позвони перед выходом.",
-          "az": "Saatlar dəyişə bilər, çıxmazdan əvvəl Google Maps-də yoxlayın və ya zəng edin.",
-          "es": "Los horarios pueden cambiar; revisa Google Maps o llama antes de salir.",
-          "fil": "Maaaring magbago ang oras; tingnan Google Maps o tumawag bago umalis.",
-          "id": "Jam bisa berubah; cek Google Maps atau telepon sebelum berangkat.",
-          "ne": "समय बदलिन सक्छ, निस्कनुअघि Google Maps हेर्नुहोस् वा फोन गर्नुहोस्।"
+          "pl": "Najpierw zadzwoń i sprawdź, czy apteka jest otwarta.",
+          "en": "Call first and check if the pharmacy is open.",
+          "ua": "Спочатку подзвони і перевір, чи аптека відкрита.",
+          "ru": "Сначала позвони и проверь, открыта ли аптека.",
+          "az": "Əvvəl zəng et və aptekin açıq olub-olmadığını yoxla.",
+          "es": "Primero llama y comprueba si la farmacia está abierta.",
+          "fil": "Tumawag muna at tingnan kung bukas ang botika.",
+          "id": "Telepon dulu dan cek apakah apotek buka.",
+          "ne": "पहिले फोन गरेर फार्मेसी खुलेको छ कि छैन जाँच गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Punkt Apteczny - Świerże Górne",
-            "en": "Pharmacy point - Świerże Górne",
-            "ua": "Аптечний пункт - Świerże Górne",
-            "ru": "Аптечный пункт - Świerże Górne",
-            "az": "Aptek məntəqəsi - Świerże Górne",
-            "es": "Punto de farmacia - Świerże Górne",
-            "fil": "Pharmacy point - Świerże Górne",
-            "id": "Titik apotek - Świerże Górne",
-            "ne": "फार्मेसी बिन्दु - Świerże Górne"
+            "pl": "Otwórz mapę",
+            "en": "Open map",
+            "ua": "Відкрити карту",
+            "ru": "Открыть карту",
+            "az": "Xəritəni aç",
+            "es": "Abrir mapa",
+            "fil": "Buksan ang mapa",
+            "id": "Buka peta",
+            "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20%C5%9Awier%C5%BCe%20G%C3%B3rne%2055%20Lok.%202"
+          "url": "https://www.google.com/maps/place/Punkt+Apteczny,+%C5%9Awier%C5%BCe+G%C3%B3rne+55+lok.+2,+26-900+Kozienice"
         }
       ],
       "phones": [
         {
           "label": {
-            "pl": "Punkt Apteczny Świerże Górne",
-            "en": "Pharmacy point Świerże Górne",
-            "ua": "Аптечний пункт Świerże Górne",
-            "ru": "Аптечный пункт Świerże Górne",
-            "az": "Świerże Górne aptek məntəqəsi",
-            "es": "Punto de farmacia Świerże Górne",
-            "fil": "Pharmacy point Świerże Górne",
-            "id": "Titik apotek Świerże Górne",
-            "ne": "Świerże Górne फार्मेसी बिन्दु"
+            "pl": "Apteka",
+            "en": "Phone",
+            "ua": "Телефон",
+            "ru": "Телефон",
+            "az": "Telefon",
+            "es": "Teléfono",
+            "fil": "Telepono",
+            "id": "Telepon",
+            "ne": "फोन"
           },
-          "phone": "+48483604296"
+          "phone": "+48 48 360 42 96"
         }
       ]
     }
@@ -1387,7 +1405,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Miejski%20w%20Kozienicach%20Parkowa%205",
+          "url": "https://www.google.com/maps/place/Urz%C4%85d+Miejski+w+Kozienicach,+Parkowa+5,+26-900+Kozienice",
           "tone": "blue"
         },
         {
@@ -1487,7 +1505,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Skarbowy%20w%20Kozienicach%20Parkowa%205",
+          "url": "https://www.google.com/maps/place/Urz%C4%85d+Skarbowy+w+Kozienicach,+Parkowa+5,+26-900+Kozienice",
           "tone": "yellow"
         },
         {
@@ -1521,7 +1539,7 @@
           "tone": "yellow"
         }
       ],
-      "phone": "+48223300330",
+      "phone": "+48 22 330 03 30",
       "list": []
     },
     {
@@ -1564,7 +1582,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=ZUS%20Kozienice%20Radomska%2043",
+          "url": "https://www.google.com/maps/place/ZUS+Inspektorat+w+Kozienicach,+Radomska+43,+26-900+Kozienice",
           "tone": "yellow"
         },
         {
@@ -1598,7 +1616,7 @@
           "tone": "yellow"
         }
       ],
-      "phone": "+48225601600",
+      "phone": "+48 22 560 16 00",
       "list": []
     },
     {
@@ -1641,7 +1659,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Starostwo%20Powiatowe%20w%20Kozienicach%20Kochanowskiego%2028",
+          "url": "https://www.google.com/maps/place/Starostwo+Powiatowe+w+Kozienicach,+Kochanowskiego+28,+26-900+Kozienice",
           "tone": "blue"
         },
         {
@@ -1703,7 +1721,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Powiatowy%20Urz%C4%85d%20Pracy%20w%20Kozienicach%20Zdzicz%C3%B3w%201",
+          "url": "https://www.google.com/maps/place/Powiatowy+Urz%C4%85d+Pracy+w+Kozienicach,+Zdzicz%C3%B3w+1,+26-900+Kozienice",
           "tone": "blue"
         },
         {
@@ -1737,7 +1755,7 @@
           "tone": "blue"
         }
       ],
-      "phone": "+48486146699",
+      "phone": "+48 48 614 66 99",
       "list": []
     },
     {
@@ -1780,7 +1798,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Mazowiecki%20Urz%C4%85d%20Wojew%C3%B3dzki%20Wydzia%C5%82%20Spraw%20Cudzoziemc%C3%B3w%20Marsza%C5%82kowska%203%2F5%20Warszawa",
+          "url": "https://www.google.com/maps/place/Mazowiecki+Urz%C4%85d+Wojew%C3%B3dzki,+Marsza%C5%82kowska+3%2F5,+00-624+Warszawa",
           "tone": "red"
         },
         {
@@ -1872,7 +1890,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Mazowiecki%20Urz%C4%85d%20Wojew%C3%B3dzki%20Delegatura%20Radom%20%C5%BBeromskiego%2053",
+          "url": "https://www.google.com/maps/place/Mazowiecki+Urz%C4%85d+Wojew%C3%B3dzki+Delegatura+w+Radomiu,+%C5%BBeromskiego+53,+26-600+Radom",
           "tone": "yellow"
         },
         {
@@ -1976,14 +1994,14 @@
       "tone": "yellow",
       "title": {
         "pl": "Banki i bankomaty Kozienice",
-        "en": "Banks and ATMs Kozienice",
+        "en": "Banks and ATMs in Kozienice",
         "ua": "Банки і банкомати Kozienice",
         "ru": "Банки и банкоматы Kozienice",
-        "az": "Kozienice banklar və bankomatlar",
-        "es": "Bancos y cajeros Kozienice",
-        "fil": "Bangko at ATM Kozienice",
-        "id": "Bank dan ATM Kozienice",
-        "ne": "Kozienice बैंक र ATM"
+        "az": "Kozienice bankları və bankomatları",
+        "es": "Bancos y cajeros en Kozienice",
+        "fil": "Mga bangko at ATM sa Kozienice",
+        "id": "Bank dan ATM di Kozienice",
+        "ne": "Kozienice का बैंक र ATM"
       },
       "address": "Kozienice",
       "note": {
@@ -2000,51 +2018,74 @@
       "links": [
         {
           "label": {
-            "pl": "Banki i bankomaty",
-            "en": "Banks and ATMs",
-            "ua": "Банки і банкомати",
-            "ru": "Банки и банкоматы",
-            "az": "Banklar və bankomatlar",
-            "es": "Bancos y cajeros",
-            "fil": "Bangko at ATM",
-            "id": "Bank dan ATM",
-            "ne": "बैंक र ATM"
+            "pl": "PKO BP - Kochanowskiego 28",
+            "en": "PKO BP - Kochanowskiego 28",
+            "ua": "PKO BP - Kochanowskiego 28",
+            "ru": "PKO BP - Kochanowskiego 28",
+            "az": "PKO BP - Kochanowskiego 28",
+            "es": "PKO BP - Kochanowskiego 28",
+            "fil": "PKO BP - Kochanowskiego 28",
+            "id": "PKO BP - Kochanowskiego 28",
+            "ne": "PKO BP - Kochanowskiego 28"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Kozienice",
-          "tone": "yellow"
+          "url": "https://www.google.com/maps/place/PKO+Bank+Polski,+Kochanowskiego+28,+26-900+Kozienice",
+          "tone": "blue"
         },
         {
           "label": {
-            "pl": "PKO BP Kozienice",
-            "en": "PKO BP Kozienice",
-            "ua": "PKO BP Kozienice",
-            "ru": "PKO BP Kozienice",
-            "az": "PKO BP Kozienice",
-            "es": "PKO BP Kozienice",
-            "fil": "PKO BP Kozienice",
-            "id": "PKO BP Kozienice",
-            "ne": "PKO BP Kozienice"
+            "pl": "Pekao SA - Batalionów Chłopskich 32/34",
+            "en": "Pekao SA - Batalionów Chłopskich 32/34",
+            "ua": "Pekao SA - Batalionów Chłopskich 32/34",
+            "ru": "Pekao SA - Batalionów Chłopskich 32/34",
+            "az": "Pekao SA - Batalionów Chłopskich 32/34",
+            "es": "Pekao SA - Batalionów Chłopskich 32/34",
+            "fil": "Pekao SA - Batalionów Chłopskich 32/34",
+            "id": "Pekao SA - Batalionów Chłopskich 32/34",
+            "ne": "Pekao SA - Batalionów Chłopskich 32/34"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=PKO%20BP%20Kozienice%20Kochanowskiego%2028",
-          "tone": "yellow"
+          "url": "https://www.google.com/maps/place/Bank+Pekao+SA,+Batalion%C3%B3w+Ch%C5%82opskich+32%2F34,+26-900+Kozienice",
+          "tone": "blue"
         },
         {
           "label": {
-            "pl": "Kantor / wymiana walut",
-            "en": "Currency exchange",
-            "ua": "Обмін валют",
-            "ru": "Обмен валют",
-            "az": "Valyuta mübadiləsi",
-            "es": "Cambio de moneda",
-            "fil": "Palitan ng pera",
-            "id": "Penukaran uang",
-            "ne": "मुद्रा सटही"
+            "pl": "Kantor - Konstytucji 3 Maja 9",
+            "en": "Exchange office - Konstytucji 3 Maja 9",
+            "ua": "Обмін валют - Konstytucji 3 Maja 9",
+            "ru": "Обмен валют - Konstytucji 3 Maja 9",
+            "az": "Valyuta dəyişmə - Konstytucji 3 Maja 9",
+            "es": "Cambio de moneda - Konstytucji 3 Maja 9",
+            "fil": "Money exchange - Konstytucji 3 Maja 9",
+            "id": "Penukaran uang - Konstytucji 3 Maja 9",
+            "ne": "मुद्रा सटही - Konstytucji 3 Maja 9"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=kantor%20wymiany%20walut%20Kozienice",
+          "url": "https://www.google.com/maps/place/Kantor+Grosik,+Konstytucji+3+Maja+9,+26-900+Kozienice",
           "tone": "yellow"
         }
       ],
-      "list": []
+      "list": [
+        {
+          "pl": "PKO BP: tel. +48 48 611 33 70.",
+          "en": "PKO BP: phone +48 48 611 33 70.",
+          "ua": "PKO BP: тел. +48 48 611 33 70.",
+          "ru": "PKO BP: тел. +48 48 611 33 70.",
+          "az": "PKO BP: tel. +48 48 611 33 70.",
+          "es": "PKO BP: tel. +48 48 611 33 70.",
+          "fil": "PKO BP: tel. +48 48 611 33 70.",
+          "id": "PKO BP: tel. +48 48 611 33 70.",
+          "ne": "PKO BP: फोन +48 48 611 33 70।"
+        },
+        {
+          "pl": "Pekao SA: tel. +48 48 611 74 31.",
+          "en": "Pekao SA: phone +48 48 611 74 31.",
+          "ua": "Pekao SA: тел. +48 48 611 74 31.",
+          "ru": "Pekao SA: тел. +48 48 611 74 31.",
+          "az": "Pekao SA: tel. +48 48 611 74 31.",
+          "es": "Pekao SA: tel. +48 48 611 74 31.",
+          "fil": "Pekao SA: tel. +48 48 611 74 31.",
+          "id": "Pekao SA: tel. +48 48 611 74 31.",
+          "ne": "Pekao SA: फोन +48 48 611 74 31।"
+        }
+      ]
     },
     {
       "id": "poczta-kozienice",
@@ -2061,7 +2102,7 @@
         "id": "Kantor pos Kozienice",
         "ne": "Kozienice हुलाक"
       },
-      "address": "Kozienice",
+      "address": "ul. Mikołaja Kopernika 8, 26-901 Kozienice",
       "note": {
         "pl": "Do listów, przesyłek, awizo i odbioru paczek. Sprawdź najbliższą placówkę w mapie.",
         "en": "For letters, parcels, pickup notice and package pickup. Check nearest office on map.",
@@ -2086,7 +2127,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Poczta%20Polska%20Kozienice",
+          "url": "https://www.google.com/maps/place/Poczta+Polska,+Miko%C5%82aja+Kopernika+8,+26-901+Kozienice",
           "tone": "yellow"
         },
         {
@@ -2105,7 +2146,8 @@
           "tone": "yellow"
         }
       ],
-      "list": []
+      "list": [],
+      "phone": "+48 48 614 61 19"
     },
     {
       "id": "transport-kozienice",
@@ -2147,7 +2189,7 @@
             "id": "Cek rute",
             "ne": "यात्रा जाँच्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20przystanek",
+          "url": "https://www.google.com/maps/place/Ryczyw%C3%B3%C5%82,+gmina+Kozienice,+przystanek",
           "tone": "blue"
         },
         {
@@ -2213,48 +2255,18 @@
       "links": [
         {
           "label": {
-            "pl": "Sklep",
-            "en": "Shop",
-            "ua": "Магазин",
-            "ru": "Магазин",
-            "az": "Mağaza",
-            "es": "Tienda",
-            "fil": "Tindahan",
-            "id": "Toko",
-            "ne": "पसल"
+            "pl": "Punkt Apteczny Świerże Górne",
+            "en": "Świerże Górne pharmacy point",
+            "ua": "Аптечний пункт Świerże Górne",
+            "ru": "Аптечный пункт Świerże Górne",
+            "az": "Świerże Górne aptek məntəqəsi",
+            "es": "Punto farmacéutico Świerże Górne",
+            "fil": "Świerże Górne pharmacy point",
+            "id": "Punkt Apteczny Świerże Górne",
+            "ne": "Świerże Górne फार्मेसी"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=sklep%20Ryczyw%C3%B3%C5%82%20Kozienice",
-          "tone": "blue"
-        },
-        {
-          "label": {
-            "pl": "Apteka",
-            "en": "Pharmacy",
-            "ua": "Аптека",
-            "ru": "Аптека",
-            "az": "Aptek",
-            "es": "Farmacia",
-            "fil": "Botika",
-            "id": "Apotek",
-            "ne": "फार्मेसी"
-          },
-          "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20%C5%9Awier%C5%BCe%20G%C3%B3rne%2055%20Lok.%202",
-          "tone": "blue"
-        },
-        {
-          "label": {
-            "pl": "Punkt telefoniczny / SIM",
-            "en": "Phone / SIM point",
-            "ua": "Телефон / SIM",
-            "ru": "Телефон / SIM",
-            "az": "Telefon / SIM",
-            "es": "Teléfono / SIM",
-            "fil": "Phone / SIM",
-            "id": "Telepon / SIM",
-            "ne": "फोन / SIM"
-          },
-          "url": "https://www.google.com/maps/search/?api=1&query=telefon%20kom%C3%B3rkowy%20SIM%20Kozienice",
-          "tone": "blue"
+          "url": "https://www.google.com/maps/place/Punkt+Apteczny,+%C5%9Awier%C5%BCe+G%C3%B3rne+55+lok.+2,+26-900+Kozienice",
+          "tone": "green"
         }
       ],
       "list": []
