@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-data1",
+    "version": "20260713-ryczywol-data2",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -74,15 +74,15 @@
         "ne": "नक्सा र बाटो - Ryczywół"
       },
       "lead": {
-        "pl": "Tu są najważniejsze mapy: hotel, szklarnia, magazyn, parking, biuro, przystanek i sprawy miejskie.",
-        "en": "Here are key maps: hotel, greenhouse, warehouse, parking, office, stop and city matters.",
-        "ua": "Тут головні карти: готель, теплиця, склад, парковка, офіс, зупинка і міські справи.",
-        "ru": "Здесь главные карты: отель, теплица, склад, парковка, офис, остановка и городские дела.",
-        "az": "Burada əsas xəritələr var: hotel, istixana, anbar, park, ofis, dayanacaq və şəhər işləri.",
-        "es": "Aquí están los mapas principales: hotel, invernadero, almacén, parking, oficina, parada y ciudad.",
-        "fil": "Narito ang mahahalagang mapa: hotel, greenhouse, warehouse, parking, opisina, stop at city matters.",
-        "id": "Di sini peta utama: hotel, greenhouse, gudang, parkir, kantor, halte dan urusan kota.",
-        "ne": "यहाँ मुख्य नक्साहरू छन्: होटल, ग्रीनहाउस, गोदाम, पार्किङ, कार्यालय, स्टप र शहरका काम।"
+        "pl": "Tu są tylko mapy do pracy: hotel, szklarnia, magazyn, parking, biuro i przystanek.",
+        "en": "Here are only work maps: hotel, greenhouse, warehouse, parking, office and stop.",
+        "ua": "Тут тільки карти до роботи: готель, теплиця, склад, парковка, офіс і зупинка.",
+        "ru": "Здесь только карты для работы: отель, теплица, склад, парковка, офис и остановка.",
+        "az": "Burada yalnız iş xəritələri var: hotel, istixana, anbar, park, ofis və dayanacaq.",
+        "es": "Aquí solo están los mapas de trabajo: hotel, invernadero, almacén, parking, oficina y parada.",
+        "fil": "Narito lang ang work maps: hotel, greenhouse, warehouse, parking, opisina at stop.",
+        "id": "Di sini hanya peta kerja: hotel, greenhouse, gudang, parkir, kantor dan halte.",
+        "ne": "यहाँ कामका नक्सा मात्र छन्: होटल, ग्रीनहाउस, गोदाम, पार्किङ, कार्यालय र स्टप।"
       }
     },
     "magazyn": {
@@ -411,60 +411,6 @@
       "url": "https://maps.app.goo.gl/9rjeF4db2RHh3opj6"
     },
     {
-      "key": "oldWarehouse",
-      "tone": "yellow",
-      "title": {
-        "pl": "Stary magazyn - jeśli dotyczy",
-        "en": "Old warehouse - if applicable",
-        "ua": "Старий склад - якщо стосується",
-        "ru": "Старый склад - если относится",
-        "az": "Köhnə anbar - aid olarsa",
-        "es": "Almacén viejo - si aplica",
-        "fil": "Old warehouse - if applicable",
-        "id": "Gudang lama - jika berlaku",
-        "ne": "पुरानो गोदाम - यदि लागू हुन्छ"
-      },
-      "note": {
-        "pl": "Zostawione jako miejsce na drugi magazyn lub punkt zapasowy.",
-        "en": "Kept as a place for a second warehouse or backup point.",
-        "ua": "Залишено як місце для другого складу або запасного пункту.",
-        "ru": "Оставлено как место для второго склада или запасной точки.",
-        "az": "İkinci anbar və ya ehtiyat nöqtə üçün saxlanıb.",
-        "es": "Reservado para segundo almacén o punto auxiliar.",
-        "fil": "Para sa ikalawang bodega o backup point.",
-        "id": "Untuk gudang kedua atau titik cadangan.",
-        "ne": "दोस्रो गोदाम वा वैकल्पिक बिन्दुको लागि राखिएको।"
-      },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20stary%20magazyn"
-    },
-    {
-      "key": "staffEntrance",
-      "tone": "blue",
-      "title": {
-        "pl": "Wejście dla personelu - Ryczywół",
-        "en": "Staff entrance - Ryczywół",
-        "ua": "Вхід для персоналу - Ryczywół",
-        "ru": "Вход для персонала - Ryczywół",
-        "az": "Personal girişi - Ryczywół",
-        "es": "Entrada de personal - Ryczywół",
-        "fil": "Staff entrance - Ryczywół",
-        "id": "Pintu masuk staf - Ryczywół",
-        "ne": "कर्मचारी प्रवेश - Ryczywół"
-      },
-      "note": {
-        "pl": "Tu dodamy dokładne wejście i zdjęcie drzwi.",
-        "en": "Here we will add the exact entrance point on the map.",
-        "ua": "Тут додамо точний вхід і фото дверей.",
-        "ru": "Здесь добавим точный вход и фото двери.",
-        "az": "Burada dəqiq giriş və qapı şəkli əlavə olunacaq.",
-        "es": "Aquí añadiremos entrada exacta y foto de puerta.",
-        "fil": "Dito idadagdag ang eksaktong punto ng pasukan sa mapa.",
-        "id": "Di sini akan ditambahkan titik pintu masuk yang tepat di peta.",
-        "ne": "यहाँ सही प्रवेश र ढोकाको फोटो थपिनेछ।"
-      },
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20wej%C5%9Bcie%20dla%20personelu"
-    },
-    {
       "key": "parking",
       "tone": "blue",
       "title": {
@@ -544,87 +490,6 @@
         "ne": "आउनका लागि स्टप / यातायात बिन्दु।"
       },
       "url": "https://maps.app.goo.gl/VCB2sWNeCbuZKUE28"
-    },
-    {
-      "key": "localOffice",
-      "tone": "blue",
-      "title": {
-        "pl": "Urząd Miejski w Kozienicach",
-        "en": "Kozienice Town Office",
-        "ua": "Міська рада Kozienice",
-        "ru": "Городская администрация Kozienice",
-        "az": "Kozienice şəhər idarəsi",
-        "es": "Ayuntamiento de Kozienice",
-        "fil": "Kozienice Town Office",
-        "id": "Kantor Kota Kozienice",
-        "ne": "Kozienice नगर कार्यालय"
-      },
-      "note": {
-        "pl": "Przycisk do urzędu w okolicy. Dokładny link do uzupełnienia.",
-        "en": "Button to a local office. Exact link to be added.",
-        "ua": "Кнопка до місцевої установи. Точне посилання потрібно додати.",
-        "ru": "Кнопка к местному учреждению. Точную ссылку нужно добавить.",
-        "az": "Yerli idarəyə düymə. Dəqiq link əlavə ediləcək.",
-        "es": "Botón a la oficina local. Enlace exacto por añadir.",
-        "fil": "Button papunta sa lokal na opisina. Link idaragdag.",
-        "id": "Tombol ke kantor lokal. Link tepat akan ditambah.",
-        "ne": "स्थानीय कार्यालयको बटन। सही लिंक थप्नु पर्ने।"
-      },
-      "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Miejski%20w%20Kozienicach%20Parkowa%205"
-    },
-    {
-      "key": "banks",
-      "tone": "yellow",
-      "title": {
-        "pl": "Banki i bankomaty - Kozienice",
-        "en": "Banks and ATMs - Kozienice",
-        "ua": "Банки і банкомати - Kozienice",
-        "ru": "Банки и банкоматы - Kozienice",
-        "az": "Banklar və bankomatlar - Kozienice",
-        "es": "Bancos y cajeros - Kozienice",
-        "fil": "Bangko at ATM - Kozienice",
-        "id": "Bank dan ATM - Kozienice",
-        "ne": "बैंक र ATM - Kozienice"
-      },
-      "note": {
-        "pl": "Przycisk do najbliższych banków i bankomatów.",
-        "en": "Button to nearby banks and ATMs.",
-        "ua": "Кнопка до найближчих банків і банкоматів.",
-        "ru": "Кнопка к ближайшим банкам и банкоматам.",
-        "az": "Yaxın bank və bankomatlar üçün düymə.",
-        "es": "Botón a bancos y cajeros cercanos.",
-        "fil": "Button para sa malapit na bangko at ATM.",
-        "id": "Tombol ke bank dan ATM terdekat.",
-        "ne": "नजिकका बैंक र ATM को बटन।"
-      },
-      "url": "https://www.google.com/maps/search/?api=1&query=bank%20bankomat%20Kozienice"
-    },
-    {
-      "key": "shopPharmacy",
-      "tone": "blue",
-      "title": {
-        "pl": "Sklep / apteka - Ryczywół / Kozienice",
-        "en": "Shop / pharmacy - Ryczywół / Kozienice",
-        "ua": "Магазин / аптека - Ryczywół / Kozienice",
-        "ru": "Магазин / аптека - Ryczywół / Kozienice",
-        "az": "Mağaza / aptek - Ryczywół / Kozienice",
-        "es": "Tienda / farmacia - Ryczywół / Kozienice",
-        "fil": "Tindahan / botika - Ryczywół / Kozienice",
-        "id": "Toko / apotek - Ryczywół / Kozienice",
-        "ne": "पसल / फार्मेसी - Ryczywół / Kozienice"
-      },
-      "note": {
-        "pl": "Przydatne miejsce dla nowych osób. Dokładne punkty do ustalenia.",
-        "en": "Useful place for new people. Exact points to be decided.",
-        "ua": "Корисне місце для нових людей. Точні пункти потрібно визначити.",
-        "ru": "Полезное место для новых людей. Точные точки нужно определить.",
-        "az": "Yeni insanlar üçün faydalı yer. Dəqiq nöqtələr müəyyən ediləcək.",
-        "es": "Lugar útil para personas nuevas. Puntos exactos por definir.",
-        "fil": "Kapaki-pakinabang sa bagong tao. Eksaktong lugar aalamin.",
-        "id": "Berguna untuk orang baru. Titik tepat akan ditentukan.",
-        "ne": "नयाँ मान्छेका लागि उपयोगी ठाउँ। सही ठाउँ तय गर्न बाँकी।"
-      },
-      "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20%C5%9Awier%C5%BCe%20G%C3%B3rne%2055%20Lok.%202"
     }
   ],
   "mapPhotos": [],
