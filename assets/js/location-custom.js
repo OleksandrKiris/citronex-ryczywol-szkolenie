@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-data3",
+    "version": "20260713-ryczywol-data4",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -604,7 +604,7 @@
         "phone": "+48 797 066 987"
       },
       {
-        "name": "Serhii Melnyk",
+        "name": "Fariz Injaev",
         "role": {
           "pl": "Koordynator",
           "en": "Coordinator",
@@ -617,21 +617,6 @@
           "ne": "समन्वयक"
         },
         "phone": "+48 504 165 739"
-      },
-      {
-        "name": "Vladyslav Denysenko",
-        "role": {
-          "pl": "Koordynator",
-          "en": "Coordinator",
-          "ua": "Координатор",
-          "ru": "Координатор",
-          "az": "Koordinator",
-          "es": "Coordinador",
-          "fil": "Coordinator",
-          "id": "Koordinator",
-          "ne": "समन्वयक"
-        },
-        "phone": "+48 504 724 605"
       },
       {
         "name": "Oleksandr Kiris",
