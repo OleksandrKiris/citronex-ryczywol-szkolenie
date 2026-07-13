@@ -820,6 +820,8 @@
       const notes = item.body.map((note) => `<li>${esc(text(note))}</li>`).join("");
       const maps = (item.maps || []).map((map) => action(map.url, `${ui("openMap")} - ${text(map.label)}`, item.tone)).join("");
       const oneMap = item.map ? action(item.map, ui("openMap"), item.tone) : "";
+      const addressLabel = text(tx("Adres", "Address", "Адреса", "Адрес", "Ünvan", "Dirección", "Address", "Alamat", "ठेगाना"));
+      const address = item.address ? `<p class="medical-address"><strong>${esc(addressLabel)}:</strong> ${esc(text(item.address))}</p>` : "";
       const phones = (item.phones || []).map((phone) => `
         <article class="person">
           <div class="person-name">${esc(text(phone.label))}</div>
@@ -829,6 +831,7 @@
       return `
         <section class="${cardClass(item.tone)}">
           <h2>${esc(text(item.title))}</h2>
+          ${address}
           <ul class="list">${notes}</ul>
           ${maps || oneMap ? `<div class="btn-row">${oneMap}${maps}</div>` : ""}
           ${phones ? `<div class="section contact-group">${phones}</div>` : ""}

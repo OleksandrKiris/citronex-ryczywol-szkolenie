@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-noparking1",
+    "version": "20260713-ryczywol-doctoraddresses1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -883,17 +883,6 @@
       },
       "body": [
         {
-          "pl": "Przychodnia Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
-          "en": "Vital-Med clinic, Świerże Górne 55, 26-900 Kozienice.",
-          "ua": "Поліклініка Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
-          "ru": "Поликлиника Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
-          "az": "Vital-Med poliklinikası, Świerże Górne 55, 26-900 Kozienice.",
-          "es": "Clínica Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
-          "fil": "Vital-Med clinic, Świerże Górne 55, 26-900 Kozienice.",
-          "id": "Klinik Vital-Med, Świerże Górne 55, 26-900 Kozienice.",
-          "ne": "Vital-Med क्लिनिक, Świerże Górne 55, 26-900 Kozienice।"
-        },
-        {
           "pl": "POZ: zwykła choroba, recepta, kontrola, skierowanie. Najpierw zadzwoń i potwierdź rejestrację.",
           "en": "POZ: regular illness, prescription, check-up, referral. Call first and confirm registration.",
           "ua": "POZ: звичайна хвороба, рецепт, контроль, направлення. Спочатку подзвони і підтвердь реєстрацію.",
@@ -908,29 +897,29 @@
       "maps": [
         {
           "label": {
-            "pl": "Mapa",
-            "en": "Map",
-            "ua": "Карта",
-            "ru": "Карта",
-            "az": "Xəritə",
-            "es": "Mapa",
-            "fil": "Mapa",
-            "id": "Peta",
-            "ne": "नक्सा"
+            "pl": "Mapa: Świerże Górne 55, 26-900 Kozienice",
+            "en": "Map: Świerże Górne 55, 26-900 Kozienice",
+            "ua": "Карта: Świerże Górne 55, 26-900 Kozienice",
+            "ru": "Карта: Świerże Górne 55, 26-900 Kozienice",
+            "az": "Xəritə: Świerże Górne 55, 26-900 Kozienice",
+            "es": "Mapa: Świerże Górne 55, 26-900 Kozienice",
+            "fil": "Mapa: Świerże Górne 55, 26-900 Kozienice",
+            "id": "Peta: Świerże Górne 55, 26-900 Kozienice",
+            "ne": "नक्सा: Świerże Górne 55, 26-900 Kozienice"
           },
           "url": "https://maps.google.com/?q=51.6551122,21.4833356"
         },
         {
           "label": {
-            "pl": "Trasa",
-            "en": "Route",
-            "ua": "Маршрут",
-            "ru": "Маршрут",
-            "az": "Marşrut",
-            "es": "Ruta",
-            "fil": "Ruta",
-            "id": "Rute",
-            "ne": "बाटो"
+            "pl": "Trasa do adresu",
+            "en": "Route to address",
+            "ua": "Маршрут до адреси",
+            "ru": "Маршрут до адреса",
+            "az": "Ünvana marşrut",
+            "es": "Ruta a la dirección",
+            "fil": "Ruta papunta sa address",
+            "id": "Rute ke alamat",
+            "ne": "ठेगानासम्म बाटो"
           },
           "url": "https://www.google.com/maps/dir/?api=1&destination=51.6551122,21.4833356&travelmode=driving"
         }
@@ -950,7 +939,18 @@
           },
           "phone": "+48 48 614 75 18"
         }
-      ]
+      ],
+      "address": {
+        "pl": "Przychodnia Vital-Med, Świerże Górne 55, 26-900 Kozienice",
+        "en": "Vital-Med clinic, Świerże Górne 55, 26-900 Kozienice",
+        "ua": "Поліклініка Vital-Med, Świerże Górne 55, 26-900 Kozienice",
+        "ru": "Поликлиника Vital-Med, Świerże Górne 55, 26-900 Kozienice",
+        "az": "Vital-Med poliklinikası, Świerże Górne 55, 26-900 Kozienice",
+        "es": "Clínica Vital-Med, Świerże Górne 55, 26-900 Kozienice",
+        "fil": "Vital-Med clinic, Świerże Górne 55, 26-900 Kozienice",
+        "id": "Klinik Vital-Med, Świerże Górne 55, 26-900 Kozienice",
+        "ne": "Vital-Med क्लिनिक, Świerże Górne 55, 26-900 Kozienice"
+      }
     },
     {
       "tone": "blue",
@@ -967,17 +967,6 @@
       },
       "body": [
         {
-          "pl": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice.",
-          "en": "SPZOZ Kozienice clinics, Sienkiewicza 28, 26-900 Kozienice.",
-          "ua": "SPZOZ Przychodnie Kozienickie, вул. Sienkiewicza 28, 26-900 Kozienice.",
-          "ru": "SPZOZ Przychodnie Kozienickie, ул. Sienkiewicza 28, 26-900 Kozienice.",
-          "az": "SPZOZ Kozienice poliklinikaları, Sienkiewicza 28, 26-900 Kozienice.",
-          "es": "SPZOZ Clínicas Kozienice, Sienkiewicza 28, 26-900 Kozienice.",
-          "fil": "SPZOZ Kozienice clinics, Sienkiewicza 28, 26-900 Kozienice.",
-          "id": "SPZOZ Klinik Kozienice, Sienkiewicza 28, 26-900 Kozienice.",
-          "ne": "SPZOZ Kozienice क्लिनिक, Sienkiewicza 28, 26-900 Kozienice।"
-        },
-        {
           "pl": "Użyj tej przychodni, jeśli koordynator albo rejestracja wskaże Kozienice.",
           "en": "Use this clinic if the coordinator or registration points you to Kozienice.",
           "ua": "Використай цю поліклініку, якщо координатор або реєстрація направить до Kozienice.",
@@ -992,29 +981,29 @@
       "maps": [
         {
           "label": {
-            "pl": "Mapa",
-            "en": "Map",
-            "ua": "Карта",
-            "ru": "Карта",
-            "az": "Xəritə",
-            "es": "Mapa",
-            "fil": "Mapa",
-            "id": "Peta",
-            "ne": "नक्सा"
+            "pl": "Mapa: ul. Sienkiewicza 28, 26-900 Kozienice",
+            "en": "Map: Sienkiewicza 28, 26-900 Kozienice",
+            "ua": "Карта: SPZOZ Przychodnie Kozienickie, вул. Sienkiewicza 28, 26-900 Kozienice",
+            "ru": "Карта: SPZOZ Przychodnie Kozienickie, ул. Sienkiewicza 28, 26-900 Kozienice",
+            "az": "Xəritə: SPZOZ Kozienice poliklinikaları, Sienkiewicza 28, 26-900 Kozienice",
+            "es": "Mapa: SPZOZ Clínicas Kozienice, Sienkiewicza 28, 26-900 Kozienice",
+            "fil": "Mapa: SPZOZ Kozienice clinics, Sienkiewicza 28, 26-900 Kozienice",
+            "id": "Peta: SPZOZ Klinik Kozienice, Sienkiewicza 28, 26-900 Kozienice",
+            "ne": "नक्सा: SPZOZ Kozienice क्लिनिक, Sienkiewicza 28, 26-900 Kozienice"
           },
           "url": "https://maps.google.com/?q=51.5864205,21.5473368"
         },
         {
           "label": {
-            "pl": "Trasa",
-            "en": "Route",
-            "ua": "Маршрут",
-            "ru": "Маршрут",
-            "az": "Marşrut",
-            "es": "Ruta",
-            "fil": "Ruta",
-            "id": "Rute",
-            "ne": "बाटो"
+            "pl": "Trasa do adresu",
+            "en": "Route to address",
+            "ua": "Маршрут до адреси",
+            "ru": "Маршрут до адреса",
+            "az": "Ünvana marşrut",
+            "es": "Ruta a la dirección",
+            "fil": "Ruta papunta sa address",
+            "id": "Rute ke alamat",
+            "ne": "ठेगानासम्म बाटो"
           },
           "url": "https://www.google.com/maps/dir/?api=1&destination=51.5864205,21.5473368&travelmode=driving"
         }
@@ -1062,7 +1051,18 @@
           },
           "phone": "+48 509 006 633"
         }
-      ]
+      ],
+      "address": {
+        "pl": "SPZOZ Przychodnie Kozienickie, ul. Sienkiewicza 28, 26-900 Kozienice",
+        "en": "SPZOZ Kozienice clinics, Sienkiewicza 28, 26-900 Kozienice",
+        "ua": "SPZOZ Przychodnie Kozienickie, вул. Sienkiewicza 28, 26-900 Kozienice",
+        "ru": "SPZOZ Przychodnie Kozienickie, ул. Sienkiewicza 28, 26-900 Kozienice",
+        "az": "SPZOZ Kozienice poliklinikaları, Sienkiewicza 28, 26-900 Kozienice",
+        "es": "SPZOZ Clínicas Kozienice, Sienkiewicza 28, 26-900 Kozienice",
+        "fil": "SPZOZ Kozienice clinics, Sienkiewicza 28, 26-900 Kozienice",
+        "id": "SPZOZ Klinik Kozienice, Sienkiewicza 28, 26-900 Kozienice",
+        "ne": "SPZOZ Kozienice क्लिनिक, Sienkiewicza 28, 26-900 Kozienice"
+      }
     },
     {
       "tone": "red",
@@ -1079,17 +1079,6 @@
       },
       "body": [
         {
-          "pl": "SPZZOZ w Kozienicach, al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "en": "SPZZOZ in Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ua": "SPZZOZ у Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ru": "SPZZOZ в Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "az": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "es": "SPZZOZ en Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "fil": "SPZZOZ sa Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "id": "SPZZOZ di Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice.",
-          "ne": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice।"
-        },
-        {
           "pl": "Jedź na SOR przy urazie, silnym bólu, problemach z oddychaniem, omdleniu lub poważnym pogorszeniu stanu. W zagrożeniu życia dzwoń 112.",
           "en": "Go to the emergency room for injury, strong pain, breathing problems, fainting or serious deterioration. In life danger call 112.",
           "ua": "Їдь на SOR при травмі, сильному болю, проблемах з диханням, втраті свідомості або сильному погіршенні стану. При загрозі життю дзвони 112.",
@@ -1104,29 +1093,29 @@
       "maps": [
         {
           "label": {
-            "pl": "Mapa",
-            "en": "Map",
-            "ua": "Карта",
-            "ru": "Карта",
-            "az": "Xəritə",
-            "es": "Mapa",
-            "fil": "Mapa",
-            "id": "Peta",
-            "ne": "नक्सा"
+            "pl": "Mapa: al. Władysława Sikorskiego 10, 26-900 Kozienice",
+            "en": "Map: Władysława Sikorskiego 10, 26-900 Kozienice",
+            "ua": "Карта: SPZZOZ у Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+            "ru": "Карта: SPZZOZ в Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+            "az": "Xəritə: Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "es": "Mapa: SPZZOZ en Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "fil": "Mapa: SPZZOZ sa Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "id": "Peta: SPZZOZ di Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "ne": "नक्सा: Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice"
           },
           "url": "https://maps.google.com/?q=51.5918996,21.5257911"
         },
         {
           "label": {
-            "pl": "Trasa",
-            "en": "Route",
-            "ua": "Маршрут",
-            "ru": "Маршрут",
-            "az": "Marşrut",
-            "es": "Ruta",
-            "fil": "Ruta",
-            "id": "Rute",
-            "ne": "बाटो"
+            "pl": "Trasa do adresu",
+            "en": "Route to address",
+            "ua": "Маршрут до адреси",
+            "ru": "Маршрут до адреса",
+            "az": "Ünvana marşrut",
+            "es": "Ruta a la dirección",
+            "fil": "Ruta papunta sa address",
+            "id": "Rute ke alamat",
+            "ne": "ठेगानासम्म बाटो"
           },
           "url": "https://www.google.com/maps/dir/?api=1&destination=51.5918996,21.5257911&travelmode=driving"
         }
@@ -1174,7 +1163,18 @@
           },
           "phone": "+48 509 212 226"
         }
-      ]
+      ],
+      "address": {
+        "pl": "SPZZOZ w Kozienicach, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+        "en": "SPZZOZ in Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "ua": "SPZZOZ у Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+        "ru": "SPZZOZ в Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+        "az": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "es": "SPZZOZ en Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "fil": "SPZZOZ sa Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "id": "SPZZOZ di Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "ne": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice"
+      }
     },
     {
       "tone": "red",
@@ -1205,29 +1205,29 @@
       "maps": [
         {
           "label": {
-            "pl": "Mapa",
-            "en": "Map",
-            "ua": "Карта",
-            "ru": "Карта",
-            "az": "Xəritə",
-            "es": "Mapa",
-            "fil": "Mapa",
-            "id": "Peta",
-            "ne": "नक्सा"
+            "pl": "Mapa: al. Władysława Sikorskiego 10, 26-900 Kozienice",
+            "en": "Map: Władysława Sikorskiego 10, 26-900 Kozienice",
+            "ua": "Карта: SPZZOZ у Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+            "ru": "Карта: SPZZOZ в Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+            "az": "Xəritə: Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "es": "Mapa: SPZZOZ en Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "fil": "Mapa: SPZZOZ sa Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "id": "Peta: SPZZOZ di Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+            "ne": "नक्सा: Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice"
           },
           "url": "https://maps.google.com/?q=51.5918996,21.5257911"
         },
         {
           "label": {
-            "pl": "Trasa",
-            "en": "Route",
-            "ua": "Маршрут",
-            "ru": "Маршрут",
-            "az": "Marşrut",
-            "es": "Ruta",
-            "fil": "Ruta",
-            "id": "Rute",
-            "ne": "बाटो"
+            "pl": "Trasa do adresu",
+            "en": "Route to address",
+            "ua": "Маршрут до адреси",
+            "ru": "Маршрут до адреса",
+            "az": "Ünvana marşrut",
+            "es": "Ruta a la dirección",
+            "fil": "Ruta papunta sa address",
+            "id": "Rute ke alamat",
+            "ne": "ठेगानासम्म बाटो"
           },
           "url": "https://www.google.com/maps/dir/?api=1&destination=51.5918996,21.5257911&travelmode=driving"
         }
@@ -1261,7 +1261,18 @@
           },
           "phone": "+48 509 212 226"
         }
-      ]
+      ],
+      "address": {
+        "pl": "SPZZOZ w Kozienicach, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+        "en": "SPZZOZ in Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "ua": "SPZZOZ у Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+        "ru": "SPZZOZ в Kozienice, al. Władysława Sikorskiego 10, 26-900 Kozienice",
+        "az": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "es": "SPZZOZ en Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "fil": "SPZZOZ sa Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "id": "SPZZOZ di Kozienice, Władysława Sikorskiego 10, 26-900 Kozienice",
+        "ne": "Kozienice SPZZOZ, Władysława Sikorskiego 10, 26-900 Kozienice"
+      }
     },
     {
       "tone": "yellow",
@@ -1278,43 +1289,43 @@
       },
       "body": [
         {
-          "pl": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice. Najpierw zadzwoń.",
-          "en": "NZOZ Dentistry, Sienkiewicza 28, 26-900 Kozienice. Call first.",
-          "ua": "NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice. Спочатку подзвони.",
-          "ru": "NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice. Сначала позвони.",
-          "az": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Əvvəl zəng et.",
-          "es": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Primero llama.",
-          "fil": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Tumawag muna.",
-          "id": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice. Telepon dulu.",
-          "ne": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice। पहिले फोन गर्नुहोस्।"
+          "pl": "Najpierw zadzwoń i potwierdź przyjęcie.",
+          "en": "Call first and confirm they can receive you.",
+          "ua": "Спочатку подзвони і підтвердь прийом.",
+          "ru": "Сначала позвони и подтверди прием.",
+          "az": "Əvvəl zəng et və qəbul edəcəklərini təsdiqlə.",
+          "es": "Primero llama y confirma la visita.",
+          "fil": "Tumawag muna at kumpirmahin kung matatanggap ka.",
+          "id": "Telepon dulu dan konfirmasi bisa diterima.",
+          "ne": "पहिले फोन गरेर स्वीकार गर्ने/नगर्ने पुष्टि गर्नुहोस्।"
         }
       ],
       "maps": [
         {
           "label": {
-            "pl": "Mapa",
-            "en": "Map",
-            "ua": "Карта",
-            "ru": "Карта",
-            "az": "Xəritə",
-            "es": "Mapa",
-            "fil": "Mapa",
-            "id": "Peta",
-            "ne": "नक्सा"
+            "pl": "Mapa: ul. Sienkiewicza 28, 26-900 Kozienice",
+            "en": "Map: Sienkiewicza 28, 26-900 Kozienice",
+            "ua": "Карта: NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice",
+            "ru": "Карта: NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice",
+            "az": "Xəritə: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+            "es": "Mapa: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+            "fil": "Mapa: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+            "id": "Peta: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+            "ne": "नक्सा: NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice"
           },
           "url": "https://maps.google.com/?q=51.5864205,21.5473368"
         },
         {
           "label": {
-            "pl": "Trasa",
-            "en": "Route",
-            "ua": "Маршрут",
-            "ru": "Маршрут",
-            "az": "Marşrut",
-            "es": "Ruta",
-            "fil": "Ruta",
-            "id": "Rute",
-            "ne": "बाटो"
+            "pl": "Trasa do adresu",
+            "en": "Route to address",
+            "ua": "Маршрут до адреси",
+            "ru": "Маршрут до адреса",
+            "az": "Ünvana marşrut",
+            "es": "Ruta a la dirección",
+            "fil": "Ruta papunta sa address",
+            "id": "Rute ke alamat",
+            "ne": "ठेगानासम्म बाटो"
           },
           "url": "https://www.google.com/maps/dir/?api=1&destination=51.5864205,21.5473368&travelmode=driving"
         }
@@ -1334,7 +1345,18 @@
           },
           "phone": "+48 48 614 43 00"
         }
-      ]
+      ],
+      "address": {
+        "pl": "NZOZ Stomatologia, ul. Sienkiewicza 28, 26-900 Kozienice",
+        "en": "NZOZ Dentistry, Sienkiewicza 28, 26-900 Kozienice",
+        "ua": "NZOZ Stomatologia, вул. Sienkiewicza 28, 26-900 Kozienice",
+        "ru": "NZOZ Stomatologia, ул. Sienkiewicza 28, 26-900 Kozienice",
+        "az": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+        "es": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+        "fil": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+        "id": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice",
+        "ne": "NZOZ Stomatologia, Sienkiewicza 28, 26-900 Kozienice"
+      }
     },
     {
       "tone": "green",
@@ -1351,17 +1373,6 @@
       },
       "body": [
         {
-          "pl": "Punkt Apteczny, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
-          "en": "Pharmacy point, Świerże Górne 55 unit 2, 26-900 Kozienice.",
-          "ua": "Аптечний пункт, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
-          "ru": "Аптечный пункт, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
-          "az": "Aptek məntəqəsi, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
-          "es": "Punto farmacéutico, Świerże Górne 55 local 2, 26-900 Kozienice.",
-          "fil": "Pharmacy point, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
-          "id": "Punkt apotek, Świerże Górne 55 lok. 2, 26-900 Kozienice.",
-          "ne": "फार्मेसी पोइन्ट, Świerże Górne 55 lok. 2, 26-900 Kozienice।"
-        },
-        {
           "pl": "Najpierw zadzwoń i sprawdź, czy apteka jest otwarta.",
           "en": "Call first and check if the pharmacy is open.",
           "ua": "Спочатку подзвони і перевір, чи аптека відкрита.",
@@ -1376,29 +1387,29 @@
       "maps": [
         {
           "label": {
-            "pl": "Mapa",
-            "en": "Map",
-            "ua": "Карта",
-            "ru": "Карта",
-            "az": "Xəritə",
-            "es": "Mapa",
-            "fil": "Mapa",
-            "id": "Peta",
-            "ne": "नक्सा"
+            "pl": "Mapa: Świerże Górne 55 lok. 2, 26-900 Kozienice",
+            "en": "Map: Świerże Górne 55 unit 2, 26-900 Kozienice",
+            "ua": "Карта: Świerże Górne 55 lok. 2, 26-900 Kozienice",
+            "ru": "Карта: Świerże Górne 55 lok. 2, 26-900 Kozienice",
+            "az": "Xəritə: Świerże Górne 55 lok. 2, 26-900 Kozienice",
+            "es": "Mapa: Świerże Górne 55 local 2, 26-900 Kozienice",
+            "fil": "Mapa: Świerże Górne 55 lok. 2, 26-900 Kozienice",
+            "id": "Peta: Świerże Górne 55 lok. 2, 26-900 Kozienice",
+            "ne": "नक्सा: Świerże Górne 55 lok. 2, 26-900 Kozienice"
           },
           "url": "https://maps.google.com/?q=51.6550956,21.4833950"
         },
         {
           "label": {
-            "pl": "Trasa",
-            "en": "Route",
-            "ua": "Маршрут",
-            "ru": "Маршрут",
-            "az": "Marşrut",
-            "es": "Ruta",
-            "fil": "Ruta",
-            "id": "Rute",
-            "ne": "बाटो"
+            "pl": "Trasa do adresu",
+            "en": "Route to address",
+            "ua": "Маршрут до адреси",
+            "ru": "Маршрут до адреса",
+            "az": "Ünvana marşrut",
+            "es": "Ruta a la dirección",
+            "fil": "Ruta papunta sa address",
+            "id": "Rute ke alamat",
+            "ne": "ठेगानासम्म बाटो"
           },
           "url": "https://www.google.com/maps/dir/?api=1&destination=51.6550956,21.4833950&travelmode=driving"
         }
@@ -1418,7 +1429,18 @@
           },
           "phone": "+48 48 360 42 96"
         }
-      ]
+      ],
+      "address": {
+        "pl": "Punkt Apteczny, Świerże Górne 55 lok. 2, 26-900 Kozienice",
+        "en": "Pharmacy point, Świerże Górne 55 unit 2, 26-900 Kozienice",
+        "ua": "Аптечний пункт, Świerże Górne 55 lok. 2, 26-900 Kozienice",
+        "ru": "Аптечный пункт, Świerże Górne 55 lok. 2, 26-900 Kozienice",
+        "az": "Aptek məntəqəsi, Świerże Górne 55 lok. 2, 26-900 Kozienice",
+        "es": "Punto farmacéutico, Świerże Górne 55 local 2, 26-900 Kozienice",
+        "fil": "Pharmacy point, Świerże Górne 55 lok. 2, 26-900 Kozienice",
+        "id": "Punkt apotek, Świerże Górne 55 lok. 2, 26-900 Kozienice",
+        "ne": "फार्मेसी पोइन्ट, Świerże Górne 55 lok. 2, 26-900 Kozienice"
+      }
     }
   ],
   "city": [

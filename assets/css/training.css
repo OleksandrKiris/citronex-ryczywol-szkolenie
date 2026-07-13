@@ -4219,6 +4219,22 @@ body.orientation-modal-open {
   color: var(--muted);
 }
 
+.medical-address {
+  margin: 10px 0 12px;
+  padding: 11px 12px;
+  border: 1px solid var(--accent-line);
+  border-radius: 14px;
+  background: var(--accent-soft);
+  color: var(--text) !important;
+  font-weight: 800;
+  line-height: 1.28;
+}
+
+.medical-address strong {
+  color: var(--accent);
+  font-weight: 950;
+}
+
 .icon-box,
 .city-card-icon,
 .top-nav-icon {
