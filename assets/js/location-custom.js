@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-doctorlinks1",
+    "version": "20260713-ryczywol-noparking1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -74,15 +74,15 @@
         "ne": "नक्सा र बाटो - Ryczywół"
       },
       "lead": {
-        "pl": "Tu są tylko mapy do pracy: hotel, szklarnia, magazyn, parking, biuro i przystanek.",
-        "en": "Here are only work maps: hotel, greenhouse, warehouse, parking, office and stop.",
-        "ua": "Тут тільки карти до роботи: готель, теплиця, склад, парковка, офіс і зупинка.",
-        "ru": "Здесь только карты для работы: отель, теплица, склад, парковка, офис и остановка.",
-        "az": "Burada yalnız iş xəritələri var: hotel, istixana, anbar, park, ofis və dayanacaq.",
-        "es": "Aquí solo están los mapas de trabajo: hotel, invernadero, almacén, parking, oficina y parada.",
-        "fil": "Narito lang ang work maps: hotel, greenhouse, warehouse, parking, opisina at stop.",
-        "id": "Di sini hanya peta kerja: hotel, greenhouse, gudang, parkir, kantor dan halte.",
-        "ne": "यहाँ कामका नक्सा मात्र छन्: होटल, ग्रीनहाउस, गोदाम, पार्किङ, कार्यालय र स्टप।"
+        "pl": "Tu są tylko mapy do pracy: hotel, szklarnia, magazyn, biuro i przystanek.",
+        "en": "Here are only work maps: hotel, greenhouse, warehouse, office and stop.",
+        "ua": "Тут тільки карти до роботи: готель, теплиця, склад, офіс і зупинка.",
+        "ru": "Здесь только карты для работы: отель, теплица, склад, офис и остановка.",
+        "az": "Burada yalnız iş xəritələri var: hotel, istixana, anbar, ofis və dayanacaq.",
+        "es": "Aquí solo están los mapas de trabajo: hotel, invernadero, almacén, oficina y parada.",
+        "fil": "Narito lang ang work maps: hotel, greenhouse, warehouse, opisina at stop.",
+        "id": "Di sini hanya peta kerja: hotel, greenhouse, gudang, kantor dan halte.",
+        "ne": "यहाँ कामका नक्सा मात्र छन्: होटल, ग्रीनहाउस, गोदाम, कार्यालय र स्टप।"
       }
     },
     "magazyn": {
@@ -392,15 +392,15 @@
         "ne": "होटल / भेट्ने ठाउँ - Ryczywół"
       },
       "note": {
-        "pl": "Hotel i punkt spotkania / wysiadki dla pracownika.",
-        "en": "Hotel and meeting / drop-off point for the worker.",
-        "ua": "Готель і місце зустрічі / висадки для працівника.",
-        "ru": "Отель и место встречи / высадки для работника.",
-        "az": "İşçi üçün hotel və görüş / düşmə nöqtəsi.",
-        "es": "Hotel y punto de encuentro / bajada para el trabajador.",
-        "fil": "Hotel at meeting / drop-off point para sa worker.",
-        "id": "Hotel dan titik temu / turun untuk pekerja.",
-        "ne": "कामदारका लागि होटल र भेट्ने / ओर्लने ठाउँ।"
+        "pl": "Hotel i punkt spotkania dla pracownika.",
+        "en": "Hotel and meeting point for the worker.",
+        "ua": "Готель і місце зустрічі для працівника.",
+        "ru": "Отель и место встречи для работника.",
+        "az": "İşçi üçün hotel və görüş yeri.",
+        "es": "Hotel y punto de encuentro para el trabajador.",
+        "fil": "Hotel at meeting point para sa worker.",
+        "id": "Hotel dan titik temu untuk pekerja.",
+        "ne": "कामदारका लागि होटल र भेट्ने ठाउँ।"
       },
       "url": "https://maps.app.goo.gl/tf8716DeyKfwsJsc6"
     },
@@ -457,33 +457,6 @@
         "ne": "गोदामको अलग स्थान। यहाँ reader देखाउँदैनौं।"
       },
       "url": "https://maps.app.goo.gl/9rjeF4db2RHh3opj6"
-    },
-    {
-      "key": "parking",
-      "tone": "blue",
-      "title": {
-        "pl": "Parking / wysiadka - Ryczywół",
-        "en": "Parking / drop-off - Ryczywół",
-        "ua": "Паркінг / висадка - Ryczywół",
-        "ru": "Парковка / высадка - Ryczywół",
-        "az": "Parkinq / düşmə - Ryczywół",
-        "es": "Parking / bajada - Ryczywół",
-        "fil": "Parking / drop-off - Ryczywół",
-        "id": "Parkir / turun - Ryczywół",
-        "ne": "पार्किङ / ओर्लने ठाउँ - Ryczywół"
-      },
-      "note": {
-        "pl": "Miejsce, gdzie można przyjechać albo wysiąść z auta.",
-        "en": "Place to arrive or get out of a car.",
-        "ua": "Місце, де можна приїхати або вийти з авто.",
-        "ru": "Место, где можно приехать или выйти из машины.",
-        "az": "Gəlmək və ya maşından düşmək üçün yer.",
-        "es": "Lugar para llegar o bajar del coche.",
-        "fil": "Lugar para bumaba sa kotse.",
-        "id": "Tempat datang atau turun dari mobil.",
-        "ne": "आउन वा गाडीबाट झर्न सकिने ठाउँ।"
-      },
-      "url": "https://maps.app.goo.gl/tf8716DeyKfwsJsc6"
     },
     {
       "key": "office",
