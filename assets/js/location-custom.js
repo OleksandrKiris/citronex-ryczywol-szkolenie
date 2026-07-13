@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-no-location-photos1-ryczywol",
+    "version": "20260713-contacts1-ryczywol",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
     "repo": "citronex-ryczywol-szkolenie",
@@ -676,16 +676,94 @@
   "contacts": {
     "coordinators": [
       {
-        "name": "Koordynator 1",
-        "role": "Ryczywół - do uzupełnienia"
+        "name": "Julia Kornienko",
+        "role": {
+          "pl": "Rekrutacja",
+          "en": "Recruitment",
+          "ua": "Рекрутація",
+          "ru": "Рекрутация",
+          "az": "İşə qəbul",
+          "es": "Reclutamiento",
+          "fil": "Recruitment",
+          "id": "Rekrutmen",
+          "ne": "भर्ना"
+        },
+        "phone": "+48 506 845 667"
       },
       {
-        "name": "Koordynator 2",
-        "role": "Ryczywół - do uzupełnienia"
+        "name": "Yana Radushynska",
+        "role": {
+          "pl": "Rekrutacja",
+          "en": "Recruitment",
+          "ua": "Рекрутація",
+          "ru": "Рекрутация",
+          "az": "İşə qəbul",
+          "es": "Reclutamiento",
+          "fil": "Recruitment",
+          "id": "Rekrutmen",
+          "ne": "भर्ना"
+        },
+        "phone": "+48 797 066 987"
       },
       {
-        "name": "Koordynator 3",
-        "role": "Ryczywół - do uzupełnienia"
+        "name": "Serhii Melnyk",
+        "role": {
+          "pl": "Koordynator",
+          "en": "Coordinator",
+          "ua": "Координатор",
+          "ru": "Координатор",
+          "az": "Koordinator",
+          "es": "Coordinador",
+          "fil": "Coordinator",
+          "id": "Koordinator",
+          "ne": "समन्वयक"
+        },
+        "phone": "+48 504 165 739"
+      },
+      {
+        "name": "Vladyslav Denysenko",
+        "role": {
+          "pl": "Koordynator",
+          "en": "Coordinator",
+          "ua": "Координатор",
+          "ru": "Координатор",
+          "az": "Koordinator",
+          "es": "Coordinador",
+          "fil": "Coordinator",
+          "id": "Koordinator",
+          "ne": "समन्वयक"
+        },
+        "phone": "+48 504 724 605"
+      },
+      {
+        "name": "Oleksandr Kiris",
+        "role": {
+          "pl": "Koordynator",
+          "en": "Coordinator",
+          "ua": "Координатор",
+          "ru": "Координатор",
+          "az": "Koordinator",
+          "es": "Coordinador",
+          "fil": "Coordinator",
+          "id": "Koordinator",
+          "ne": "समन्वयक"
+        },
+        "phone": "+48 502 251 384"
+      },
+      {
+        "name": "Maksym Saliuk",
+        "role": {
+          "pl": "Ryczywół - rekrutacja i koordynacja",
+          "en": "Ryczywół - recruitment and coordination",
+          "ua": "Ryczywół - рекрутація і координація",
+          "ru": "Ryczywół - рекрутация и координация",
+          "az": "Ryczywół - işə qəbul və koordinasiya",
+          "es": "Ryczywół - reclutamiento y coordinación",
+          "fil": "Ryczywół - recruitment at coordination",
+          "id": "Ryczywół - rekrutmen dan koordinasi",
+          "ne": "Ryczywół - भर्ना र समन्वय"
+        },
+        "phone": "+48 506 845 637"
       }
     ],
     "warehouse": [
