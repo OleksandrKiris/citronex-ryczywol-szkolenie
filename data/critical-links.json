@@ -1,6 +1,4 @@
 {
-  "version": "20260713-ryczywol-base1",
-  "description": "Krytyczne linki map dla lokalizacji. Uzupełnić stałymi linkami po potwierdzeniu adresów.",
   "links": [
     {
       "id": "spotkanie",
@@ -10,12 +8,17 @@
     {
       "id": "warehouse",
       "label": "Magazyn / miejsce pracy - Ryczywół",
-      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82+magazyn"
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20magazyn"
+    },
+    {
+      "id": "oldWarehouse",
+      "label": "Stary magazyn",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20stary%20magazyn"
     },
     {
       "id": "office",
       "label": "Urząd / centrum - Ryczywół",
-      "url": "https://www.google.com/maps/search/?api=1&query=urz%C4%85d+Ryczyw%C3%B3%C5%82"
+      "url": "https://www.google.com/maps/search/?api=1&query=urz%C4%85d%20Ryczyw%C3%B3%C5%82"
     }
   ]
 }
