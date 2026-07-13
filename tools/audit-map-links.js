@@ -76,6 +76,10 @@ function classifyMapUrl(url) {
     };
   }
 
+  if (pathname.includes("/maps/dir") && destination && isCoordinate(destination)) {
+    return { status: "ok", reason: "Trasa Google Maps do dokladnych wspolrzednych." };
+  }
+
   if (host === "maps.app.goo.gl") {
     return { status: "ok", reason: "Staly krotki link Google Maps." };
   }

@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-zusfix1",
+    "version": "20260713-ryczywol-doctorlinks1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -935,17 +935,31 @@
       "maps": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa",
+            "en": "Map",
+            "ua": "Карта",
+            "ru": "Карта",
+            "az": "Xəritə",
+            "es": "Mapa",
+            "fil": "Mapa",
+            "id": "Peta",
+            "ne": "नक्सा"
           },
-          "url": "https://www.google.com/maps/place/Przychodnia+Vital-Med,+%C5%9Awier%C5%BCe+G%C3%B3rne+55,+26-900+Kozienice"
+          "url": "https://maps.google.com/?q=51.6551122,21.4833356"
+        },
+        {
+          "label": {
+            "pl": "Trasa",
+            "en": "Route",
+            "ua": "Маршрут",
+            "ru": "Маршрут",
+            "az": "Marşrut",
+            "es": "Ruta",
+            "fil": "Ruta",
+            "id": "Rute",
+            "ne": "बाटो"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.6551122,21.4833356&travelmode=driving"
         }
       ],
       "phones": [
@@ -1005,17 +1019,31 @@
       "maps": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa",
+            "en": "Map",
+            "ua": "Карта",
+            "ru": "Карта",
+            "az": "Xəritə",
+            "es": "Mapa",
+            "fil": "Mapa",
+            "id": "Peta",
+            "ne": "नक्सा"
           },
-          "url": "https://www.google.com/maps/place/SPZOZ+Przychodnie+Kozienickie,+Sienkiewicza+28,+26-900+Kozienice"
+          "url": "https://maps.google.com/?q=51.5864205,21.5473368"
+        },
+        {
+          "label": {
+            "pl": "Trasa",
+            "en": "Route",
+            "ua": "Маршрут",
+            "ru": "Маршрут",
+            "az": "Marşrut",
+            "es": "Ruta",
+            "fil": "Ruta",
+            "id": "Rute",
+            "ne": "बाटो"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5864205,21.5473368&travelmode=driving"
         }
       ],
       "phones": [
@@ -1103,17 +1131,31 @@
       "maps": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa",
+            "en": "Map",
+            "ua": "Карта",
+            "ru": "Карта",
+            "az": "Xəritə",
+            "es": "Mapa",
+            "fil": "Mapa",
+            "id": "Peta",
+            "ne": "नक्सा"
           },
-          "url": "https://www.google.com/maps/place/SPZZOZ+w+Kozienicach,+Aleja+W%C5%82adys%C5%82awa+Sikorskiego+10,+26-900+Kozienice"
+          "url": "https://maps.google.com/?q=51.5918996,21.5257911"
+        },
+        {
+          "label": {
+            "pl": "Trasa",
+            "en": "Route",
+            "ua": "Маршрут",
+            "ru": "Маршрут",
+            "az": "Marşrut",
+            "es": "Ruta",
+            "fil": "Ruta",
+            "id": "Rute",
+            "ne": "बाटो"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5918996,21.5257911&travelmode=driving"
         }
       ],
       "phones": [
@@ -1190,17 +1232,31 @@
       "maps": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa",
+            "en": "Map",
+            "ua": "Карта",
+            "ru": "Карта",
+            "az": "Xəritə",
+            "es": "Mapa",
+            "fil": "Mapa",
+            "id": "Peta",
+            "ne": "नक्सा"
           },
-          "url": "https://www.google.com/maps/place/SPZZOZ+w+Kozienicach,+Aleja+W%C5%82adys%C5%82awa+Sikorskiego+10,+26-900+Kozienice"
+          "url": "https://maps.google.com/?q=51.5918996,21.5257911"
+        },
+        {
+          "label": {
+            "pl": "Trasa",
+            "en": "Route",
+            "ua": "Маршрут",
+            "ru": "Маршрут",
+            "az": "Marşrut",
+            "es": "Ruta",
+            "fil": "Ruta",
+            "id": "Rute",
+            "ne": "बाटो"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5918996,21.5257911&travelmode=driving"
         }
       ],
       "phones": [
@@ -1263,17 +1319,31 @@
       "maps": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa",
+            "en": "Map",
+            "ua": "Карта",
+            "ru": "Карта",
+            "az": "Xəritə",
+            "es": "Mapa",
+            "fil": "Mapa",
+            "id": "Peta",
+            "ne": "नक्सा"
           },
-          "url": "https://www.google.com/maps/place/NZOZ+Stomatologia,+Henryka+Sienkiewicza+28,+26-900+Kozienice"
+          "url": "https://maps.google.com/?q=51.5864205,21.5473368"
+        },
+        {
+          "label": {
+            "pl": "Trasa",
+            "en": "Route",
+            "ua": "Маршрут",
+            "ru": "Маршрут",
+            "az": "Marşrut",
+            "es": "Ruta",
+            "fil": "Ruta",
+            "id": "Rute",
+            "ne": "बाटो"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5864205,21.5473368&travelmode=driving"
         }
       ],
       "phones": [
@@ -1333,17 +1403,31 @@
       "maps": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa",
+            "en": "Map",
+            "ua": "Карта",
+            "ru": "Карта",
+            "az": "Xəritə",
+            "es": "Mapa",
+            "fil": "Mapa",
+            "id": "Peta",
+            "ne": "नक्सा"
           },
-          "url": "https://www.google.com/maps/place/Punkt+Apteczny,+%C5%9Awier%C5%BCe+G%C3%B3rne+55+lok.+2,+26-900+Kozienice"
+          "url": "https://maps.google.com/?q=51.6550956,21.4833950"
+        },
+        {
+          "label": {
+            "pl": "Trasa",
+            "en": "Route",
+            "ua": "Маршрут",
+            "ru": "Маршрут",
+            "az": "Marşrut",
+            "es": "Ruta",
+            "fil": "Ruta",
+            "id": "Rute",
+            "ne": "बाटो"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.6550956,21.4833950&travelmode=driving"
         }
       ],
       "phones": [
