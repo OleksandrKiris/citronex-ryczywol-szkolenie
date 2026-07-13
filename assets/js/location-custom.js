@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-city-office-full1-ryczywol",
+    "version": "20260713-no-location-photos1-ryczywol",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
     "repo": "citronex-ryczywol-szkolenie",
@@ -279,26 +279,26 @@
       },
       {
         "title": {
-          "pl": "Sprawdź zdjęcie wejścia",
-          "en": "Check entrance photo",
-          "ua": "Перевірте фото входу",
-          "ru": "Проверьте фото входа",
-          "az": "Giriş şəklini yoxlayın",
-          "es": "Mira foto de entrada",
-          "fil": "Tingnan ang larawan ng pasukan",
-          "id": "Cek foto pintu masuk",
-          "ne": "प्रवेश फोटो जाँच गर्नुहोस्"
+          "pl": "Sprawdź punkt na mapie",
+          "en": "Check the map point",
+          "ua": "Перевірте пункт на карті",
+          "ru": "Проверьте точку на карте",
+          "az": "Xəritədə nöqtəni yoxlayın",
+          "es": "Revisa el punto en el mapa",
+          "fil": "Tingnan ang punto sa mapa",
+          "id": "Cek titik di peta",
+          "ne": "नक्साको बिन्दु जाँच गर्नुहोस्"
         },
         "note": {
-          "pl": "Zdjęcie jest teraz zastępcze. Później dodamy prawdziwe zdjęcia Ryczywołu.",
-          "en": "The photo is temporary. Later we will add real Ryczywół photos.",
-          "ua": "Фото тимчасове. Пізніше додамо справжні фото Ryczywołu.",
-          "ru": "Фото временное. Позже добавим настоящие фото Ryczywołu.",
-          "az": "Şəkil müvəqqətidir. Sonra Ryczywół üçün real şəkillər əlavə edəcəyik.",
-          "es": "La foto es temporal. Luego añadiremos fotos reales de Ryczywół.",
-          "fil": "Temporary ang larawan. Mamaya idadagdag ang tunay na larawan ng Ryczywół.",
-          "id": "Foto sementara. Nanti ditambah foto asli Ryczywół.",
-          "ne": "फोटो अस्थायी हो। पछि Ryczywół का वास्तविक फोटो थपिनेछ।"
+          "pl": "Upewnij się, że wybrana jest właściwa lokalizacja.",
+          "en": "Make sure the selected location is correct.",
+          "ua": "Переконайтеся, що вибрана правильна локація.",
+          "ru": "Убедитесь, что выбрана правильная локация.",
+          "az": "Seçilən məkanın düzgün olduğuna əmin olun.",
+          "es": "Asegúrate de que la ubicación elegida sea correcta.",
+          "fil": "Siguraduhin na tama ang napiling lokasyon.",
+          "id": "Pastikan lokasi yang dipilih benar.",
+          "ne": "छानिएको स्थान सही छ कि छैन पक्का गर्नुहोस्।"
         }
       },
       {
@@ -452,13 +452,13 @@
       },
       "note": {
         "pl": "Tu dodamy dokładne wejście i zdjęcie drzwi.",
-        "en": "Here we will add the exact entrance and door photo.",
+        "en": "Here we will add the exact entrance point on the map.",
         "ua": "Тут додамо точний вхід і фото дверей.",
         "ru": "Здесь добавим точный вход и фото двери.",
         "az": "Burada dəqiq giriş və qapı şəkli əlavə olunacaq.",
         "es": "Aquí añadiremos entrada exacta y foto de puerta.",
-        "fil": "Dito idadagdag ang eksaktong pasukan at larawan.",
-        "id": "Di sini akan ditambah pintu masuk tepat dan foto.",
+        "fil": "Dito idadagdag ang eksaktong punto ng pasukan sa mapa.",
+        "id": "Di sini akan ditambahkan titik pintu masuk yang tepat di peta.",
         "ne": "यहाँ सही प्रवेश र ढोकाको फोटो थपिनेछ।"
       },
       "url": "https://www.google.com/maps/search/?api=1&query=Ryczyw%C3%B3%C5%82%20gmina%20Kozienice%20wej%C5%9Bcie%20dla%20personelu"
@@ -626,131 +626,18 @@
       "url": "https://www.google.com/maps/search/?api=1&query=sklep%20apteka%20Ryczyw%C3%B3%C5%82%20Kozienice"
     }
   ],
-  "mapPhotos": [
-    {
-      "title": {
-        "pl": "Punkt spotkania - zdjęcie",
-        "en": "Meeting point - photo",
-        "ua": "Місце зустрічі - фото",
-        "ru": "Место встречи - фото",
-        "az": "Görüş yeri - şəkil",
-        "es": "Punto de encuentro - foto",
-        "fil": "Meeting point - larawan",
-        "id": "Titik kumpul - foto",
-        "ne": "भेट्ने ठाउँ - फोटो"
-      },
-      "note": {
-        "pl": "Tu wstawimy prawdziwe zdjęcie punktu spotkania.",
-        "en": "Here we will place the real meeting point photo.",
-        "ua": "Тут вставимо справжнє фото місця зустрічі.",
-        "ru": "Здесь вставим настоящее фото места встречи.",
-        "az": "Burada real görüş yerinin şəkli olacaq.",
-        "es": "Aquí pondremos la foto real del punto.",
-        "fil": "Dito ilalagay ang tunay na larawan.",
-        "id": "Di sini akan dimasukkan foto asli.",
-        "ne": "यहाँ वास्तविक फोटो राखिनेछ।"
-      },
-      "tone": "blue",
-      "photos": [
-        "assets/location/entry-placeholder.svg"
-      ]
-    },
-    {
-      "title": {
-        "pl": "Wejście dla personelu - zdjęcie",
-        "en": "Staff entrance - photo",
-        "ua": "Вхід для персоналу - фото",
-        "ru": "Вход для персонала - фото",
-        "az": "Personal girişi - şəkil",
-        "es": "Entrada de personal - foto",
-        "fil": "Staff entrance - larawan",
-        "id": "Pintu masuk staf - foto",
-        "ne": "कर्मचारी प्रवेश - फोटो"
-      },
-      "note": {
-        "pl": "Tu dodamy zdjęcie drzwi wejściowych.",
-        "en": "Here we will add the door photo.",
-        "ua": "Тут додамо фото вхідних дверей.",
-        "ru": "Здесь добавим фото входной двери.",
-        "az": "Burada giriş qapısının şəkli əlavə olunacaq.",
-        "es": "Aquí añadiremos foto de la puerta.",
-        "fil": "Dito idadagdag ang larawan ng pinto.",
-        "id": "Di sini akan ditambah foto pintu.",
-        "ne": "यहाँ ढोकाको फोटो थपिनेछ।"
-      },
-      "tone": "blue",
-      "photos": [
-        "assets/location/entry-placeholder.svg"
-      ]
-    },
-    {
-      "title": {
-        "pl": "Magazyn - zdjęcie wejścia",
-        "en": "Warehouse - entrance photo",
-        "ua": "Склад - фото входу",
-        "ru": "Склад - фото входа",
-        "az": "Anbar - giriş şəkli",
-        "es": "Almacén - foto de entrada",
-        "fil": "Bodega - larawan ng pasukan",
-        "id": "Gudang - foto pintu masuk",
-        "ne": "गोदाम - प्रवेश फोटो"
-      },
-      "note": {
-        "pl": "Tu dodamy zdjęcie magazynu.",
-        "en": "Here we will add warehouse photo.",
-        "ua": "Тут додамо фото складу.",
-        "ru": "Здесь добавим фото склада.",
-        "az": "Burada anbar şəkli əlavə olunacaq.",
-        "es": "Aquí añadiremos foto del almacén.",
-        "fil": "Dito idadagdag ang larawan ng bodega.",
-        "id": "Di sini akan ditambah foto gudang.",
-        "ne": "यहाँ गोदामको फोटो थपिनेछ।"
-      },
-      "tone": "yellow",
-      "photos": [
-        "assets/location/entry-placeholder.svg"
-      ]
-    },
-    {
-      "title": {
-        "pl": "Parking / przystanek - zdjęcie",
-        "en": "Parking / stop - photo",
-        "ua": "Парковка / зупинка - фото",
-        "ru": "Парковка / остановка - фото",
-        "az": "Dayanacaq - şəkil",
-        "es": "Parking / parada - foto",
-        "fil": "Parking / hintuan - larawan",
-        "id": "Parkir / halte - foto",
-        "ne": "पार्किङ / स्टप - फोटो"
-      },
-      "note": {
-        "pl": "Tu dodamy zdjęcie miejsca, gdzie osoba może wysiąść.",
-        "en": "Here we will add a photo of the drop-off place.",
-        "ua": "Тут додамо фото місця висадки.",
-        "ru": "Здесь добавим фото места высадки.",
-        "az": "Burada düşmə yerinin şəkli olacaq.",
-        "es": "Aquí añadiremos foto del lugar de bajada.",
-        "fil": "Dito ilalagay ang larawan ng babaan.",
-        "id": "Di sini akan ditambah foto tempat turun.",
-        "ne": "यहाँ झर्ने ठाउँको फोटो थपिनेछ।"
-      },
-      "tone": "blue",
-      "photos": [
-        "assets/location/entry-placeholder.svg"
-      ]
-    }
-  ],
+  "mapPhotos": [],
   "warehouseRules": [
     {
-      "pl": "Magazyn ma osobny ekran: mapa, wejście, zdjęcie, tablet i zasady.",
-      "en": "Warehouse has a separate screen: map, entrance, photo, tablet and rules.",
-      "ua": "Склад має окремий екран: карта, вхід, фото, планшет і правила.",
-      "ru": "Склад имеет отдельный экран: карта, вход, фото, планшет и правила.",
-      "az": "Anbarın ayrıca ekranı var: xəritə, giriş, şəkil, planşet və qaydalar.",
-      "es": "El almacén tiene pantalla separada: mapa, entrada, foto, tablet y reglas.",
-      "fil": "May hiwalay na screen ang bodega: mapa, pasukan, larawan, tablet at patakaran.",
-      "id": "Gudang punya layar terpisah: peta, pintu masuk, foto, tablet dan aturan.",
-      "ne": "गोदामको अलग स्क्रिन छ: नक्सा, प्रवेश, फोटो, ट्याबलेट र नियम।"
+      "pl": "Magazyn ma osobny ekran: mapa, wejście, tablet i zasady.",
+      "en": "Warehouse has a separate screen: map, entrance, tablet and rules.",
+      "ua": "Склад має окремий екран: карта, вхід, планшет і правила.",
+      "ru": "Склад имеет отдельный экран: карта, вход, планшет и правила.",
+      "az": "Anbarın ayrıca ekranı var: xəritə, giriş, planşet və qaydalar.",
+      "es": "El almacén tiene pantalla separada: mapa, entrada, tablet y reglas.",
+      "fil": "May hiwalay na screen ang bodega: mapa, pasukan, tablet at patakaran.",
+      "id": "Gudang punya layar terpisah: peta, pintu masuk, tablet dan aturan.",
+      "ne": "गोदामको अलग स्क्रिन छ: नक्सा, प्रवेश, ट्याबलेट र नियम।"
     },
     {
       "pl": "Na magazynie nie pokazujemy readera, dopóki lokalne zasady nie powiedzą inaczej.",
@@ -775,15 +662,15 @@
       "ne": "ट्याबलेट ग्रीनहाउस र गोदाम दुवैका लागि साझा विषय हो।"
     },
     {
-      "pl": "Dane magazynu, zdjęcia i telefony dodamy po otrzymaniu tabeli.",
-      "en": "Warehouse data, photos and phones will be added after receiving the table.",
-      "ua": "Дані складу, фото і телефони додамо після отримання таблиці.",
-      "ru": "Данные склада, фото и телефоны добавим после получения таблицы.",
-      "az": "Anbar məlumatı, şəkillər və telefonlar cədvəldən sonra əlavə olunacaq.",
-      "es": "Datos, fotos y teléfonos del almacén se añadirán al recibir la tabla.",
-      "fil": "Data, larawan at telepono ng bodega idadagdag kapag may table.",
-      "id": "Data, foto dan telepon gudang ditambah setelah menerima tabel.",
-      "ne": "तालिका पाएपछि गोदाम डेटा, फोटो र फोन थपिनेछ।"
+      "pl": "Dane magazynu i telefony dodamy po otrzymaniu tabeli.",
+      "en": "Warehouse data and phones will be added after receiving the table.",
+      "ua": "Дані складу і телефони додамо після отримання таблиці.",
+      "ru": "Данные склада и телефоны добавим после получения таблицы.",
+      "az": "Anbar məlumatı və telefonlar cədvəldən sonra əlavə olunacaq.",
+      "es": "Datos y teléfonos del almacén se añadirán al recibir la tabla.",
+      "fil": "Data at telepono ng bodega idadagdag kapag may table.",
+      "id": "Data dan telepon gudang ditambah setelah menerima tabel.",
+      "ne": "तालिका पाएपछि गोदाम डेटा र फोन थपिनेछ।"
     }
   ],
   "contacts": {
