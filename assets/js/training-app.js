@@ -447,10 +447,15 @@
       }
     ];
     const workCardsHtml = workCards.map((card) => `
-      <article class="${cardClass(card.tone)}">
-        <h3>${esc(text(card.title))}</h3>
-        <ul class="list">${card.items.map((item) => `<li>${esc(text(item))}</li>`).join("")}</ul>
-      </article>
+      <details class="${cardClass(card.tone)} greenhouse-work-card">
+        <summary>
+          <span class="city-card-icon">${iconMap.greenhouse}</span>
+          <span>${esc(text(card.title))}</span>
+        </summary>
+        <div class="details-body">
+          <ul class="list">${card.items.map((item) => `<li>${esc(text(item))}</li>`).join("")}</ul>
+        </div>
+      </details>
     `).join("");
     const orient = {
       back: tx("pierwsze nawy za plecami", "first naves behind your back", "перші нави за спиною", "первые навы за спиной", "ilk navalar arxanızdadır", "primeras naves detrás de ti", "unang mga nave nasa likod mo", "nave pertama di belakang Anda", "पहिलो नावा तपाईंको पछाडि"),
@@ -829,19 +834,31 @@
         </article>
       `).join("");
       return `
-        <section class="${cardClass(item.tone)}">
-          <h2>${esc(text(item.title))}</h2>
-          ${address}
-          <ul class="list">${notes}</ul>
-          ${maps || oneMap ? `<div class="btn-row">${oneMap}${maps}</div>` : ""}
-          ${phones ? `<div class="section contact-group">${phones}</div>` : ""}
-        </section>
+        <details class="${cardClass(item.tone)} medical-card medical-accordion">
+          <summary>
+            <span class="city-card-icon">${iconMap.medical}</span>
+            <span>${esc(text(item.title))}</span>
+          </summary>
+          <div class="details-body medical-body">
+            ${address}
+            <ul class="list">${notes}</ul>
+            ${maps || oneMap ? `<div class="btn-row">${oneMap}${maps}</div>` : ""}
+            ${phones ? `<div class="section contact-group">${phones}</div>` : ""}
+          </div>
+        </details>
       `;
     }).join("");
 
     app.innerHTML = `<main class="page">${pageHero()}<div class="module-grid">${cards}</div><section class="card red section"><h2>112</h2><p>${esc(text(tx("W sytuacji zagrożenia życia dzwoń pod numer 112.", "In a life-threatening situation call 112.", "У ситуації загрози життю телефонуйте 112.", "В ситуации угрозы жизни звоните 112.", "Həyat təhlükəsi olduqda 112-yə zəng edin.", "En peligro de vida llama al 112.", "Kung buhay ay nasa panganib, tumawag sa 112.", "Jika mengancam nyawa, hubungi 112.", "जीवन जोखिममा भए 112 मा फोन गर्नुहोस्।")))}</p><div class="btn-row"><a class="btn red" href="tel:112">112</a></div></section></main>`;
+    app.querySelectorAll(".medical-accordion").forEach((group) => {
+      group.addEventListener("toggle", () => {
+        if (!group.open) return;
+        app.querySelectorAll(".medical-accordion[open]").forEach((other) => {
+          if (other !== group) other.open = false;
+        });
+      });
+    });
   }
-
   function renderContacts(activeGroup = "coordinators") {
     function personCard(person, groupLabel = "") {
       const name = text(person.name);
@@ -1082,7 +1099,7 @@
       const cards = groupEntries.map(entryCard).join("");
       if (!cards) return "";
       return `
-        <details class="${cardClass(group.tone)} glossary-group" data-glossary-group data-first="${index === 0 ? "true" : "false"}"${index === 0 ? " open" : ""}>
+        <details class="${cardClass(group.tone)} glossary-group" data-glossary-group>
           <summary class="glossary-summary">
             <span class="city-card-icon">${iconMap.document}</span>
             <h2>${esc(text(group.title))}</h2>
@@ -1129,12 +1146,20 @@
           if (query && hasVisibleCard) {
             group.open = true;
           } else if (!query) {
-            group.open = group.dataset.first === "true";
+            group.open = false;
           }
         });
         if (empty) empty.classList.toggle("is-hidden", visible !== 0);
       });
     }
+    groupNodes.forEach((group) => {
+      group.addEventListener("toggle", () => {
+        if (!group.open) return;
+        groupNodes.forEach((other) => {
+          if (other !== group) other.open = false;
+        });
+      });
+    });
   }
 
   function renderSpeech() {
@@ -1175,7 +1200,7 @@
       const cards = groupPhrases.map(phraseCard).join("");
       if (!cards) return "";
       return `
-        <details class="${cardClass(group.tone)} speech-group"${index === 0 ? " open" : ""} data-speech-group>
+        <details class="${cardClass(group.tone)} speech-group" data-speech-group>
           <summary>
             <span class="city-card-icon">${iconMap[group.icon] || iconMap.speech}</span>
             <span>${esc(text(group.title))}</span>
@@ -1250,12 +1275,23 @@
           if (match) groupVisible += 1;
         });
         group.hidden = groupVisible === 0;
-        if (groupVisible > 0) {
+        if (query && groupVisible > 0) {
           group.open = true;
+          visibleTotal += groupVisible;
+        } else if (!query) {
+          group.open = false;
           visibleTotal += groupVisible;
         }
       });
       if (empty) empty.hidden = visibleTotal > 0;
+    });
+    app.querySelectorAll("[data-speech-group]").forEach((group) => {
+      group.addEventListener("toggle", () => {
+        if (!group.open) return;
+        app.querySelectorAll("[data-speech-group][open]").forEach((other) => {
+          if (other !== group) other.open = false;
+        });
+      });
     });
   }
 
@@ -1299,7 +1335,7 @@
       `).join("");
 
       return `
-        <details class="${cardClass(group.tone)} ban-section ban-group-panel"${index === 0 ? " open" : ""}>
+        <details class="${cardClass(group.tone)} ban-section ban-group-panel" data-ban-group>
           <summary>
             <span class="city-card-icon">${iconMap[group.icon] || iconMap.ban}</span>
             <span>${esc(text(group.title))}</span>
@@ -1336,6 +1372,14 @@
         <section class="ban-groups">${groupsHtml}</section>
       </main>
     `;
+    app.querySelectorAll("[data-ban-group]").forEach((group) => {
+      group.addEventListener("toggle", () => {
+        if (!group.open) return;
+        app.querySelectorAll("[data-ban-group][open]").forEach((other) => {
+          if (other !== group) other.open = false;
+        });
+      });
+    });
   }
 
   function renderTest() {

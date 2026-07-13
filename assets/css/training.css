@@ -2424,6 +2424,19 @@ details.ban-section .ban-section-head {
 }
 
 @media (max-width: 430px) {
+  .top-nav-scroll {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    overflow-x: visible;
+    scroll-snap-type: none;
+  }
+
+  .top-nav-link {
+    min-width: 0;
+    width: 100%;
+    white-space: nowrap;
+  }
+
   .header-inner {
     grid-template-columns: auto minmax(0, 1fr) auto;
     gap: 8px;
@@ -4235,6 +4248,164 @@ body.orientation-modal-open {
   font-weight: 950;
 }
 
+.medical-accordion {
+  padding: 0;
+  overflow: hidden;
+}
+
+.medical-accordion > summary {
+  position: relative;
+  min-height: 62px;
+  padding: 12px 58px 12px 12px;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 11px;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 950;
+  line-height: 1.14;
+}
+
+.medical-accordion > summary::-webkit-details-marker {
+  display: none;
+}
+
+.medical-accordion > summary::after {
+  content: "+";
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(255,255,255,.82);
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 950;
+  box-shadow: inset 0 0 0 1px rgba(15,23,42,.08);
+}
+
+.medical-accordion[open] > summary::after {
+  content: "-";
+}
+
+.medical-body {
+  padding: 0 12px 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.medical-body .contact-group,
+.medical-body .section {
+  margin: 0;
+}
+
+.medical-body .person {
+  padding: 11px;
+}
+
+.emergency-card {
+  border-width: 2px;
+}
+
+.greenhouse-work-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.greenhouse-work-card > summary {
+  position: relative;
+  min-height: 58px;
+  padding: 12px 54px 12px 12px;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 950;
+  line-height: 1.15;
+}
+
+.greenhouse-work-card > summary::-webkit-details-marker {
+  display: none;
+}
+
+.greenhouse-work-card > summary::after {
+  content: "+";
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  width: 28px;
+  height: 28px;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(255,255,255,.82);
+  color: var(--text);
+  font-size: 19px;
+  font-weight: 950;
+}
+
+.greenhouse-work-card[open] > summary::after {
+  content: "-";
+}
+
+.greenhouse-steps .step-card {
+  cursor: pointer;
+}
+
+.greenhouse-steps .step-card .schema {
+  max-height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.greenhouse-steps .step-card .schema::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 42px;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(255,255,255,0), rgba(255,255,255,.94));
+}
+
+.greenhouse-steps .step-card > div > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.greenhouse-steps .step-card > div > .btn-row {
+  display: none;
+}
+
+.orientation-modal-content .step-card .schema {
+  max-height: none;
+  overflow: visible;
+}
+
+.orientation-modal-content .step-card .schema::after {
+  display: none;
+}
+
+.orientation-modal-content .step-card > div > p {
+  display: block;
+  overflow: visible;
+}
+
+.orientation-modal-content .step-card > div > .btn-row {
+  display: grid;
+}
+
 .icon-box,
 .city-card-icon,
 .top-nav-icon {
@@ -4247,6 +4418,58 @@ body.orientation-modal-open {
     overflow-x: hidden;
   }
 
+  .header-inner {
+    padding-top: 6px;
+    padding-bottom: 5px;
+  }
+
+  .back-link,
+  .lang-select {
+    min-height: 38px;
+  }
+
+  .brand img {
+    max-height: 30px;
+  }
+
+  .brand-title {
+    font-size: 11px;
+    line-height: 1.06;
+  }
+
+  .brand-subtitle {
+    display: none;
+  }
+
+  .top-nav-scroll {
+    padding-top: 5px;
+    padding-bottom: 6px;
+    gap: 6px;
+  }
+
+  .top-nav-link {
+    min-width: 0;
+    width: 100%;
+    min-height: 36px;
+    padding: 6px 8px;
+    gap: 5px;
+    font-size: 11.5px;
+  }
+
+  .top-nav-icon {
+    width: 17px;
+    height: 17px;
+  }
+
+  .top-nav-icon svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .hero {
+    margin-bottom: 10px;
+  }
+
   .module-grid,
   .card-grid,
   .city-simple-list,
@@ -4255,8 +4478,15 @@ body.orientation-modal-open {
   .reader-panel,
   .reader-section,
   .contact-group,
-  .ban-list {
+    .ban-list {
     gap: 12px;
+  }
+
+  .module-grid,
+  .card-grid,
+  .ban-groups,
+  .speech-groups {
+    gap: 10px;
   }
 
   .card,
@@ -4269,6 +4499,63 @@ body.orientation-modal-open {
   .person {
     padding-left: 12px;
     padding-right: 12px;
+  }
+
+  body[data-page="home"] .tile {
+    min-height: 96px;
+    padding: 12px;
+    border-radius: 15px;
+  }
+
+  body[data-page="home"] .tile-title {
+    font-size: 17px;
+  }
+
+  body[data-page="home"] .tile-text {
+    font-size: 13.5px;
+    line-height: 1.25;
+  }
+
+  body[data-page="home"] .icon-box {
+    width: 38px;
+    height: 38px;
+    flex-basis: 38px;
+  }
+
+  .pill-row {
+    overflow-x: visible;
+    flex-wrap: wrap;
+    padding-bottom: 6px;
+  }
+
+  .pill {
+    min-height: 40px;
+    flex: 1 1 calc(50% - 6px);
+    padding: 9px 10px;
+    font-size: 13.5px;
+  }
+
+  .city-simple-group > summary,
+  .medical-accordion > summary,
+  .greenhouse-work-card > summary,
+  .speech-group summary,
+  .ban-group-panel > summary,
+  .glossary-summary {
+    min-height: 56px;
+  }
+
+  .glossary-help,
+  .speech-intro,
+  .ban-alert,
+  .ban-before-card,
+  .emergency-card {
+    padding: 12px;
+  }
+
+  .speech-card,
+  .glossary-card,
+  .ban-card {
+    padding: 12px;
   }
 
   .btn-row,
