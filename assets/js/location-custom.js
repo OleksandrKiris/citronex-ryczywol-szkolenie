@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-makieta1",
+    "version": "20260713-ryczywol-lekarz3",
     "location": "Ryczywół",
     "appTitle": "Polskie Pomidory Ryczywół",
     "repo": "citronex-ryczywol-szkolenie",
@@ -110,26 +110,26 @@
     },
     "lekarz": {
       "title": {
-        "pl": "Lekarz i pomoc medyczna",
-        "en": "Doctor and medical help",
-        "ua": "Лікар і медична допомога",
-        "ru": "Врач и медицинская помощь",
-        "az": "Həkim və tibbi yardım",
-        "es": "Médico y ayuda médica",
-        "fil": "Doktor at medical help",
-        "id": "Dokter dan bantuan medis",
-        "ne": "डाक्टर र स्वास्थ्य सहयोग"
+        "pl": "Lekarz - Ryczywół",
+        "en": "Doctor - Ryczywół",
+        "ua": "Лікар - Ryczywół",
+        "ru": "Врач - Ryczywół",
+        "az": "Həkim - Ryczywół",
+        "es": "Médico - Ryczywół",
+        "fil": "Doktor - Ryczywół",
+        "id": "Dokter - Ryczywół",
+        "ne": "डाक्टर - Ryczywół"
       },
       "lead": {
-        "pl": "Makieta miejsc: przychodnia, SOR, dentysta, apteka. Linki i telefony do uzupełnienia.",
-        "en": "Mockup of places: clinic, ER, dentist, pharmacy. Links and phones to be added.",
-        "ua": "Макет місць: поліклініка, SOR, стоматолог, аптека. Посилання і телефони потрібно додати.",
-        "ru": "Макет мест: поликлиника, SOR, стоматолог, аптека. Ссылки и телефоны нужно добавить.",
-        "az": "Məkan maketi: poliklinika, təcili yardım, diş həkimi, aptek. Link və telefonlar əlavə ediləcək.",
-        "es": "Maqueta de lugares: clínica, urgencias, dentista, farmacia. Enlaces y teléfonos por añadir.",
-        "fil": "Mockup ng lugar: klinika, ER, dentista, botika. Link at telepono ay idaragdag.",
-        "id": "Mockup tempat: klinik, IGD, dokter gigi, apotek. Link dan telepon akan ditambahkan.",
-        "ne": "स्थानहरूको नमुना: क्लिनिक, आपतकालीन, दन्त चिकित्सक, फार्मेसी। लिंक र फोन थप्नु पर्ने।"
+        "pl": "Najpierw wybierz sytuację. W nagłym zagrożeniu życia dzwoń 112.",
+        "en": "First choose the situation. In life-threatening emergency call 112.",
+        "ua": "Спочатку оберіть ситуацію. При загрозі життю телефонуйте 112.",
+        "ru": "Сначала выберите ситуацию. При угрозе жизни звоните 112.",
+        "az": "Əvvəl vəziyyəti seçin. Həyat təhlükəsində 112-yə zəng edin.",
+        "es": "Primero elige la situación. En peligro de vida llama 112.",
+        "fil": "Piliin muna ang sitwasyon. Kung delikado ang buhay, tumawag 112.",
+        "id": "Pilih situasi dulu. Jika mengancam nyawa hubungi 112.",
+        "ne": "पहिले अवस्था छान्नुहोस्। जीवन जोखिममा 112 मा फोन गर्नुहोस्।"
       }
     },
     "kontakty": {
@@ -169,15 +169,15 @@
         "ne": "शहर, कार्यालय र बैंक"
       },
       "lead": {
-        "pl": "Proste kafelki do map: urząd, DUW, banki, transport i najważniejsze sprawy obcokrajowca.",
-        "en": "Simple map buttons: office, DUW, banks, transport and key things for a foreign worker.",
-        "ua": "Прості кнопки карт: установа, DUW, банки, транспорт і важливі справи іноземця.",
-        "ru": "Простые кнопки карт: учреждение, DUW, банки, транспорт и важные дела иностранца.",
-        "az": "Sadə xəritə düymələri: idarə, DUW, banklar, nəqliyyat və əcnəbi üçün vacib işlər.",
-        "es": "Botones simples de mapa: oficina, DUW, bancos, transporte y asuntos importantes para extranjeros.",
-        "fil": "Simpleng map buttons: opisina, DUW, bangko, transport at mahalagang bagay para sa dayuhan.",
-        "id": "Tombol peta sederhana: kantor, DUW, bank, transportasi dan hal penting untuk orang asing.",
-        "ne": "सरल नक्सा बटन: कार्यालय, DUW, बैंक, यातायात र विदेशीका मुख्य काम।"
+        "pl": "Najważniejsze miejsca dla pracownika: Urząd Gminy Ryczywół, urząd wojewódzki do karty pobytu, banki, transport i aplikacje.",
+        "en": "Key places for a worker: Ryczywół Commune Office, voivodeship office for residence card, banks, transport and apps.",
+        "ua": "Найважливіші місця для працівника: Гміна Ryczywół, воєводське управління для карти побиту, банки, транспорт і додатки.",
+        "ru": "Самые важные места для работника: гмина Ryczywół, воеводское управление для карты побыту, банки, транспорт и приложения.",
+        "az": "İşçi üçün əsas yerlər: Ryczywół bələdiyyə idarəsi, yaşayış kartı üçün voyevodalıq idarəsi, banklar, nəqliyyat və tətbiqlər.",
+        "es": "Lugares clave para el trabajador: oficina municipal de Ryczywół, oficina regional para tarjeta de residencia, bancos, transporte y apps.",
+        "fil": "Mahahalagang lugar para sa worker: Ryczywół Commune Office, voivodeship office para sa residence card, bangko, transport at apps.",
+        "id": "Tempat penting untuk pekerja: Kantor Gmina Ryczywół, kantor provinsi untuk kartu tinggal, bank, transportasi dan aplikasi.",
+        "ne": "कामदारका लागि मुख्य ठाउँहरू: Ryczywół ग्मिना कार्यालय, बसोबास कार्डका लागि प्रान्तीय कार्यालय, बैंक, यातायात र एपहरू।"
       }
     },
     "grupy": {
@@ -934,147 +934,546 @@
   ],
   "medical": [
     {
-      "tone": "red",
+      "tone": "blue",
       "title": {
-        "pl": "Przychodnia - do uzupełnienia",
-        "en": "Clinic - to be added",
-        "ua": "Поліклініка - потрібно додати",
-        "ru": "Поликлиника - нужно добавить",
-        "az": "Poliklinika - əlavə ediləcək",
-        "es": "Clínica - por añadir",
-        "fil": "Klinika - idaragdag",
-        "id": "Klinik - akan ditambahkan",
-        "ne": "क्लिनिक - थप्नु पर्ने"
+        "pl": "Ryczywół - lekarz rodzinny (POZ)",
+        "en": "Ryczywół - family doctor (POZ)",
+        "ua": "Ryczywół - сімейний лікар (POZ)",
+        "ru": "Ryczywół - семейный врач (POZ)",
+        "az": "Ryczywół - ailə həkimi (POZ)",
+        "es": "Ryczywół - médico de familia (POZ)",
+        "fil": "Ryczywół - family doctor (POZ)",
+        "id": "Ryczywół - dokter keluarga (POZ)",
+        "ne": "Ryczywół - परिवार डाक्टर (POZ)"
       },
       "body": [
         {
-          "pl": "Tu wpiszemy najbliższą przychodnię i godziny zapisów.",
-          "en": "Here we will enter the nearest clinic and registration hours.",
-          "ua": "Тут додамо найближчу поліклініку і години запису.",
-          "ru": "Здесь добавим ближайшую поликлинику и часы записи.",
-          "az": "Burada ən yaxın poliklinika və qeydiyyat saatları yazılacaq.",
-          "es": "Aquí pondremos la clínica cercana y horario de registro.",
-          "fil": "Dito ilalagay ang pinakamalapit na klinika at oras ng registration.",
-          "id": "Di sini akan dimasukkan klinik terdekat dan jam daftar.",
-          "ne": "यहाँ नजिकको क्लिनिक र दर्ता समय थपिनेछ।"
+          "pl": "Adres: ul. Nowa 1, 64-630 Ryczywół.",
+          "en": "Address: ul. Nowa 1, 64-630 Ryczywół.",
+          "ua": "Адреса: вул. Nowa 1, 64-630 Ryczywół.",
+          "ru": "Адрес: ул. Nowa 1, 64-630 Ryczywół.",
+          "az": "Ünvan: ul. Nowa 1, 64-630 Ryczywół.",
+          "es": "Dirección: ul. Nowa 1, 64-630 Ryczywół.",
+          "fil": "Address: ul. Nowa 1, 64-630 Ryczywół.",
+          "id": "Alamat: ul. Nowa 1, 64-630 Ryczywół.",
+          "ne": "ठेगाना: ul. Nowa 1, 64-630 Ryczywół।"
         },
         {
-          "pl": "Przygotuj PESEL, paszport i telefon.",
-          "en": "Prepare PESEL, passport and phone.",
-          "ua": "Підготуйте PESEL, паспорт і телефон.",
-          "ru": "Подготовьте PESEL, паспорт и телефон.",
-          "az": "PESEL, pasport və telefon hazırlayın.",
-          "es": "Prepara PESEL, pasaporte y teléfono.",
-          "fil": "Ihanda ang PESEL, pasaporte at telepono.",
-          "id": "Siapkan PESEL, paspor dan telepon.",
-          "ne": "PESEL, पासपोर्ट र फोन तयार गर्नुहोस्।"
-        }
-      ],
-      "map": "https://www.google.com/maps/search/?api=1&query=przychodnia%20Ryczyw%C3%B3%C5%82"
-    },
-    {
-      "tone": "red",
-      "title": {
-        "pl": "SOR / nagłe przypadki",
-        "en": "ER / emergencies",
-        "ua": "SOR / невідкладні випадки",
-        "ru": "SOR / срочные случаи",
-        "az": "Təcili yardım",
-        "es": "Urgencias",
-        "fil": "ER / emergency",
-        "id": "IGD / darurat",
-        "ne": "आपतकालीन"
-      },
-      "body": [
-        {
-          "pl": "Miejsca SOR dodamy po uzupełnieniu danych lokalizacji.",
-          "en": "ER locations will be added after location data is filled in.",
-          "ua": "Місця SOR додамо після заповнення даних.",
-          "ru": "Места SOR добавим после заполнения данных.",
-          "az": "Təcili yardım yerləri məlumatdan sonra əlavə olunacaq.",
-          "es": "Añadiremos urgencias tras completar datos.",
-          "fil": "Idadagdag ang ER kapag kumpleto ang data.",
-          "id": "Lokasi IGD ditambahkan setelah data lengkap.",
-          "ne": "डेटा पूरा भएपछि आपतकालीन ठाउँ थपिनेछ।"
+          "pl": "Przychodnia POZ: zwykle poniedziałek-piątek 8:00-18:00. Przed wyjściem zadzwoń do rejestracji.",
+          "en": "POZ clinic: usually Monday-Friday 8:00-18:00. Call registration before leaving.",
+          "ua": "Поліклініка POZ: зазвичай понеділок-п'ятниця 8:00-18:00. Перед виходом зателефонуйте до реєстрації.",
+          "ru": "Поликлиника POZ: обычно понедельник-пятница 8:00-18:00. Перед выходом позвоните в регистрацию.",
+          "az": "POZ poliklinikası: adətən bazar ertəsi-cümə 8:00-18:00. Çıxmazdan əvvəl qeydiyyata zəng edin.",
+          "es": "Clínica POZ: normalmente lunes-viernes 8:00-18:00. Antes de salir llama a registro.",
+          "fil": "POZ clinic: karaniwang Lunes-Biyernes 8:00-18:00. Tumawag muna sa registration.",
+          "id": "Klinik POZ: biasanya Senin-Jumat 8:00-18:00. Telepon pendaftaran sebelum berangkat.",
+          "ne": "POZ क्लिनिक: सामान्यतया सोमबार-शुक्रबार 8:00-18:00। निस्कनुअघि दर्तामा फोन गर्नुहोस्।"
         },
         {
-          "pl": "W zagrożeniu życia dzwoń 112.",
-          "en": "In life danger call 112.",
-          "ua": "При загрозі життю телефонуйте 112.",
-          "ru": "При угрозе жизни звоните 112.",
-          "az": "Həyat təhlükəsində 112-yə zəng edin.",
-          "es": "En peligro de vida llama 112.",
-          "fil": "Kung delikado ang buhay, tumawag sa 112.",
-          "id": "Jika mengancam nyawa, hubungi 112.",
-          "ne": "जीवन जोखिममा भए 112 मा फोन गर्नुहोस्।"
+          "pl": "POZ: zwykła choroba, recepta, kontrola, skierowanie. W zagrożeniu życia dzwoń 112.",
+          "en": "POZ: ordinary illness, prescription, check-up, referral. In life danger call 112.",
+          "ua": "POZ: звичайна хвороба, рецепт, контроль, направлення. При загрозі життю телефонуйте 112.",
+          "ru": "POZ: обычная болезнь, рецепт, контроль, направление. При угрозе жизни звоните 112.",
+          "az": "POZ: adi xəstəlik, resept, yoxlama, yönləndirmə. Həyat təhlükəsində 112-yə zəng edin.",
+          "es": "POZ: enfermedad normal, receta, control, derivación. En peligro de vida llama 112.",
+          "fil": "POZ: karaniwang sakit, reseta, check-up, referral. Kung delikado ang buhay tumawag 112.",
+          "id": "POZ: sakit biasa, resep, kontrol, rujukan. Jika mengancam nyawa hubungi 112.",
+          "ne": "POZ: साधारण बिरामी, औषधि, जाँच, रेफरल। जीवन जोखिममा 112 मा फोन गर्नुहोस्।"
+        },
+        {
+          "pl": "Weź: PESEL, paszport/dokument tożsamości i telefon.",
+          "en": "Take: PESEL, passport/ID document and phone.",
+          "ua": "Візьміть: PESEL, паспорт/документ і телефон.",
+          "ru": "Возьмите: PESEL, паспорт/документ и телефон.",
+          "az": "Götürün: PESEL, pasport/şəxsiyyət sənədi və telefon.",
+          "es": "Lleva: PESEL, pasaporte/documento y teléfono.",
+          "fil": "Dalhin: PESEL, passport/ID at telepono.",
+          "id": "Bawa: PESEL, paspor/ID dan telepon.",
+          "ne": "लैजानुहोस्: PESEL, पासपोर्ट/ID र फोन।"
         }
       ],
       "maps": [
         {
-          "label": "SOR 1",
-          "url": "https://www.google.com/maps/search/?api=1&query=SOR%20Ryczyw%C3%B3%C5%82%20okolica"
+          "label": {
+            "pl": "POZ Ryczywół",
+            "en": "POZ Ryczywół",
+            "ua": "POZ Ryczywół",
+            "ru": "POZ Ryczywół",
+            "az": "POZ Ryczywół",
+            "es": "POZ Ryczywół",
+            "fil": "POZ Ryczywół",
+            "id": "POZ Ryczywół",
+            "ne": "POZ Ryczywół"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Przychodnia%20Zespo%C5%82u%20Lekarza%20Rodzinnego%20Nowa%201%20Ryczyw%C3%B3%C5%82"
+        }
+      ],
+      "phones": [
+        {
+          "label": {
+            "pl": "Rejestracja",
+            "en": "Registration",
+            "ua": "Реєстрація",
+            "ru": "Регистрация",
+            "az": "Qeydiyyat",
+            "es": "Registro",
+            "fil": "Registration",
+            "id": "Pendaftaran",
+            "ne": "दर्ता"
+          },
+          "phone": "+48 67 343 11 75"
+        }
+      ]
+    },
+    {
+      "tone": "blue",
+      "title": {
+        "pl": "Ludomy - LEXMED lekarz rodzinny",
+        "en": "Ludomy - LEXMED family doctor",
+        "ua": "Ludomy - LEXMED сімейний лікар",
+        "ru": "Ludomy - LEXMED семейный врач",
+        "az": "Ludomy - LEXMED ailə həkimi",
+        "es": "Ludomy - LEXMED médico de familia",
+        "fil": "Ludomy - LEXMED family doctor",
+        "id": "Ludomy - LEXMED dokter keluarga",
+        "ne": "Ludomy - LEXMED परिवार डाक्टर"
+      },
+      "body": [
+        {
+          "pl": "Adres: Ludomy 1c, 64-603 Ludomy.",
+          "en": "Address: Ludomy 1c, 64-603 Ludomy.",
+          "ua": "Адреса: Ludomy 1c, 64-603 Ludomy.",
+          "ru": "Адрес: Ludomy 1c, 64-603 Ludomy.",
+          "az": "Ünvan: Ludomy 1c, 64-603 Ludomy.",
+          "es": "Dirección: Ludomy 1c, 64-603 Ludomy.",
+          "fil": "Address: Ludomy 1c, 64-603 Ludomy.",
+          "id": "Alamat: Ludomy 1c, 64-603 Ludomy.",
+          "ne": "ठेगाना: Ludomy 1c, 64-603 Ludomy।"
         },
         {
-          "label": "SOR 2",
-          "url": "https://www.google.com/maps/search/?api=1&query=szpital%20SOR%20Ryczyw%C3%B3%C5%82%20okolica"
+          "pl": "Drugi punkt POZ z listy gminy. Użyj, jeśli koordynator lub firma wskaże tę przychodnię.",
+          "en": "Second POZ point from the commune list. Use it if the coordinator or company indicates this clinic.",
+          "ua": "Другий пункт POZ зі списку гміни. Використовуйте, якщо координатор або фірма вкаже цю поліклініку.",
+          "ru": "Второй пункт POZ из списка гмины. Используйте, если координатор или фирма укажет эту поликлинику.",
+          "az": "Bələdiyyə siyahısından ikinci POZ nöqtəsi. Koordinator və ya şirkət bu poliklinikanı göstərsə istifadə edin.",
+          "es": "Segundo punto POZ de la lista municipal. Úsalo si el coordinador o la empresa indica esta clínica.",
+          "fil": "Ikalawang POZ mula sa listahan ng gmina. Gamitin kung sinabi ng coordinator o kumpanya.",
+          "id": "Titik POZ kedua dari daftar gmina. Gunakan jika koordinator atau perusahaan menunjuk klinik ini.",
+          "ne": "ग्मिना सूचीको दोस्रो POZ। कोर्डिनेटर वा कम्पनीले भने प्रयोग गर्नुहोस्।"
+        },
+        {
+          "pl": "Najpierw zadzwoń i zapytaj, czy można przyjść oraz jakie dokumenty zabrać.",
+          "en": "Call first and ask if you can come and which documents to take.",
+          "ua": "Спочатку зателефонуйте і запитайте, чи можна прийти та які документи взяти.",
+          "ru": "Сначала позвоните и спросите, можно ли прийти и какие документы взять.",
+          "az": "Əvvəl zəng edin və gəlib-gəlməmək, hansı sənədləri götürmək lazım olduğunu soruşun.",
+          "es": "Primero llama y pregunta si puedes ir y qué documentos llevar.",
+          "fil": "Tumawag muna at itanong kung puwedeng pumunta at anong dokumento ang dalhin.",
+          "id": "Telepon dulu dan tanyakan apakah bisa datang dan dokumen apa yang dibawa.",
+          "ne": "पहिले फोन गरेर आउन मिल्छ कि र कुन कागज लैजाने सोध्नुहोस्।"
+        },
+        {
+          "pl": "Weź: PESEL, paszport/dokument tożsamości i telefon.",
+          "en": "Take: PESEL, passport/ID document and phone.",
+          "ua": "Візьміть: PESEL, паспорт/документ і телефон.",
+          "ru": "Возьмите: PESEL, паспорт/документ и телефон.",
+          "az": "Götürün: PESEL, pasport/şəxsiyyət sənədi və telefon.",
+          "es": "Lleva: PESEL, pasaporte/documento y teléfono.",
+          "fil": "Dalhin: PESEL, passport/ID at telepono.",
+          "id": "Bawa: PESEL, paspor/ID dan telepon.",
+          "ne": "लैजानुहोस्: PESEL, पासपोर्ट/ID र फोन।"
+        }
+      ],
+      "maps": [
+        {
+          "label": {
+            "pl": "LEXMED Ludomy",
+            "en": "LEXMED Ludomy",
+            "ua": "LEXMED Ludomy",
+            "ru": "LEXMED Ludomy",
+            "az": "LEXMED Ludomy",
+            "es": "LEXMED Ludomy",
+            "fil": "LEXMED Ludomy",
+            "id": "LEXMED Ludomy",
+            "ne": "LEXMED Ludomy"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=LEXMED%20Ludomy%201c"
+        }
+      ],
+      "phones": [
+        {
+          "label": {
+            "pl": "Rejestracja",
+            "en": "Registration",
+            "ua": "Реєстрація",
+            "ru": "Регистрация",
+            "az": "Qeydiyyat",
+            "es": "Registro",
+            "fil": "Registration",
+            "id": "Pendaftaran",
+            "ne": "दर्ता"
+          },
+          "phone": "+48 67 348 83 09"
+        }
+      ]
+    },
+    {
+      "tone": "red",
+      "title": {
+        "pl": "Oborniki - szpital / nagły przypadek",
+        "en": "Oborniki - hospital / emergency",
+        "ua": "Oborniki - лікарня / невідкладний випадок",
+        "ru": "Oborniki - больница / срочный случай",
+        "az": "Oborniki - xəstəxana / təcili hal",
+        "es": "Oborniki - hospital / urgencia",
+        "fil": "Oborniki - hospital / emergency",
+        "id": "Oborniki - rumah sakit / darurat",
+        "ne": "Oborniki - अस्पताल / आपतकालीन"
+      },
+      "body": [
+        {
+          "pl": "Adres: ul. Szpitalna 2, 64-600 Oborniki.",
+          "en": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
+          "ua": "Адреса: вул. Szpitalna 2, 64-600 Oborniki.",
+          "ru": "Адрес: ул. Szpitalna 2, 64-600 Oborniki.",
+          "az": "Ünvan: ul. Szpitalna 2, 64-600 Oborniki.",
+          "es": "Dirección: ul. Szpitalna 2, 64-600 Oborniki.",
+          "fil": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
+          "id": "Alamat: ul. Szpitalna 2, 64-600 Oborniki.",
+          "ne": "ठेगाना: ul. Szpitalna 2, 64-600 Oborniki।"
+        },
+        {
+          "pl": "Jedź do szpitala albo dzwoń 112 przy urazie, silnym bólu, problemach z oddychaniem, omdleniu lub poważnym pogorszeniu stanu zdrowia.",
+          "en": "Go to hospital or call 112 for injury, strong pain, breathing problems, fainting or serious health deterioration.",
+          "ua": "Їдьте до лікарні або телефонуйте 112 при травмі, сильному болю, проблемах з диханням, втраті свідомості або серйозному погіршенні стану.",
+          "ru": "Езжайте в больницу или звоните 112 при травме, сильной боли, проблемах с дыханием, обмороке или серьёзном ухудшении состояния.",
+          "az": "Zədə, güclü ağrı, nəfəs problemi, huş itirmə və ya ciddi pisləşmədə xəstəxanaya gedin və ya 112-yə zəng edin.",
+          "es": "Ve al hospital o llama 112 por lesión, dolor fuerte, problemas para respirar, desmayo o empeoramiento grave.",
+          "fil": "Pumunta sa hospital o tumawag 112 kapag may injury, matinding sakit, hirap huminga, nahimatay o seryosong paglala.",
+          "id": "Pergi ke rumah sakit atau hubungi 112 untuk cedera, nyeri kuat, sulit bernapas, pingsan atau kondisi memburuk serius.",
+          "ne": "चोट, धेरै दुखाइ, सास फेर्न समस्या, बेहोस वा स्वास्थ्य धेरै बिग्रिए अस्पताल जानुहोस् वा 112 मा फोन गर्नुहोस्।"
+        },
+        {
+          "pl": "Najpierw zadzwoń i zapytaj, czy można przyjść oraz jakie dokumenty zabrać.",
+          "en": "Call first and ask if you can come and which documents to take.",
+          "ua": "Спочатку зателефонуйте і запитайте, чи можна прийти та які документи взяти.",
+          "ru": "Сначала позвоните и спросите, можно ли прийти и какие документы взять.",
+          "az": "Əvvəl zəng edin və gəlib-gəlməmək, hansı sənədləri götürmək lazım olduğunu soruşun.",
+          "es": "Primero llama y pregunta si puedes ir y qué documentos llevar.",
+          "fil": "Tumawag muna at itanong kung puwedeng pumunta at anong dokumento ang dalhin.",
+          "id": "Telepon dulu dan tanyakan apakah bisa datang dan dokumen apa yang dibawa.",
+          "ne": "पहिले फोन गरेर आउन मिल्छ कि र कुन कागज लैजाने सोध्नुहोस्।"
+        }
+      ],
+      "maps": [
+        {
+          "label": {
+            "pl": "Szpital Oborniki",
+            "en": "Hospital Oborniki",
+            "ua": "Лікарня Oborniki",
+            "ru": "Больница Oborniki",
+            "az": "Oborniki xəstəxanası",
+            "es": "Hospital Oborniki",
+            "fil": "Hospital Oborniki",
+            "id": "Rumah sakit Oborniki",
+            "ne": "Oborniki अस्पताल"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Oborniki%20Szpitalna%202"
+        }
+      ],
+      "phones": [
+        {
+          "label": {
+            "pl": "Centrala / informacja",
+            "en": "Main line / information",
+            "ua": "Централа / інформація",
+            "ru": "Центральный номер / информация",
+            "az": "Mərkəz / məlumat",
+            "es": "Central / información",
+            "fil": "Main line / impormasyon",
+            "id": "Pusat / informasi",
+            "ne": "मुख्य लाइन / जानकारी"
+          },
+          "phone": "+48 61 297 36 00"
+        }
+      ]
+    },
+    {
+      "tone": "red",
+      "title": {
+        "pl": "Oborniki - nocna i świąteczna opieka",
+        "en": "Oborniki - night and holiday care",
+        "ua": "Oborniki - нічна і святкова допомога",
+        "ru": "Oborniki - ночная и праздничная помощь",
+        "az": "Oborniki - gecə və bayram yardımı",
+        "es": "Oborniki - atención nocturna y festiva",
+        "fil": "Oborniki - night and holiday care",
+        "id": "Oborniki - layanan malam dan libur",
+        "ne": "Oborniki - रात र बिदाको सेवा"
+      },
+      "body": [
+        {
+          "pl": "Nocna i świąteczna opieka: gdy przychodnia jest zamknięta, ale to nie jest zagrożenie życia.",
+          "en": "Night and holiday care: when the clinic is closed, but it is not life-threatening.",
+          "ua": "Нічна і святкова допомога: коли поліклініка закрита, але немає загрози життю.",
+          "ru": "Ночная и праздничная помощь: когда поликлиника закрыта, но нет угрозы жизни.",
+          "az": "Gecə və bayram yardımı: poliklinika bağlıdırsa, amma həyat təhlükəsi yoxdursa.",
+          "es": "Atención nocturna y festiva: cuando la clínica está cerrada, pero no hay peligro de vida.",
+          "fil": "Night/holiday care: kapag sarado ang clinic pero hindi life-threatening.",
+          "id": "Layanan malam/libur: saat klinik tutup tetapi tidak mengancam nyawa.",
+          "ne": "रात/बिदाको सेवा: क्लिनिक बन्द हुँदा, तर जीवन जोखिम नभए।"
+        },
+        {
+          "pl": "Według wykazu NFZ: SPZOZ Oborniki, ul. Szpitalna 2. Telefon lekarza POZ: 662 290 702, pielęgniarki POZ: 734 409 318.",
+          "en": "According to the NFZ list: SPZOZ Oborniki, ul. Szpitalna 2. POZ doctor phone: 662 290 702, POZ nurse: 734 409 318.",
+          "ua": "За списком NFZ: SPZOZ Oborniki, вул. Szpitalna 2. Телефон лікаря POZ: 662 290 702, медсестри POZ: 734 409 318.",
+          "ru": "По списку NFZ: SPZOZ Oborniki, ул. Szpitalna 2. Телефон врача POZ: 662 290 702, медсестры POZ: 734 409 318.",
+          "az": "NFZ siyahısına görə: SPZOZ Oborniki, ul. Szpitalna 2. POZ həkimi: 662 290 702, POZ tibb bacısı: 734 409 318.",
+          "es": "Según la lista NFZ: SPZOZ Oborniki, ul. Szpitalna 2. Médico POZ: 662 290 702, enfermera POZ: 734 409 318.",
+          "fil": "Ayon sa NFZ list: SPZOZ Oborniki, ul. Szpitalna 2. POZ doctor: 662 290 702, POZ nurse: 734 409 318.",
+          "id": "Menurut daftar NFZ: SPZOZ Oborniki, ul. Szpitalna 2. Dokter POZ: 662 290 702, perawat POZ: 734 409 318.",
+          "ne": "NFZ सूची अनुसार: SPZOZ Oborniki, ul. Szpitalna 2। POZ डाक्टर: 662 290 702, POZ नर्स: 734 409 318।"
+        },
+        {
+          "pl": "Adres: ul. Szpitalna 2, 64-600 Oborniki.",
+          "en": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
+          "ua": "Адреса: вул. Szpitalna 2, 64-600 Oborniki.",
+          "ru": "Адрес: ул. Szpitalna 2, 64-600 Oborniki.",
+          "az": "Ünvan: ul. Szpitalna 2, 64-600 Oborniki.",
+          "es": "Dirección: ul. Szpitalna 2, 64-600 Oborniki.",
+          "fil": "Address: ul. Szpitalna 2, 64-600 Oborniki.",
+          "id": "Alamat: ul. Szpitalna 2, 64-600 Oborniki.",
+          "ne": "ठेगाना: ul. Szpitalna 2, 64-600 Oborniki।"
+        }
+      ],
+      "maps": [
+        {
+          "label": {
+            "pl": "Nocna pomoc Oborniki",
+            "en": "Night care Oborniki",
+            "ua": "Нічна допомога Oborniki",
+            "ru": "Ночная помощь Oborniki",
+            "az": "Gecə yardımı Oborniki",
+            "es": "Atención nocturna Oborniki",
+            "fil": "Night care Oborniki",
+            "id": "Layanan malam Oborniki",
+            "ne": "रातको सेवा Oborniki"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=SPZOZ%20Oborniki%20Szpitalna%202%20nocna%20%C5%9Bwi%C4%85teczna%20opieka"
+        }
+      ],
+      "phones": [
+        {
+          "label": {
+            "pl": "Lekarz nocnej pomocy",
+            "en": "Night care doctor",
+            "ua": "Лікар нічної допомоги",
+            "ru": "Врач ночной помощи",
+            "az": "Gecə yardımı həkimi",
+            "es": "Médico de atención nocturna",
+            "fil": "Night care doctor",
+            "id": "Dokter layanan malam",
+            "ne": "रातको सेवाको डाक्टर"
+          },
+          "phone": "+48 662 290 702"
+        },
+        {
+          "label": {
+            "pl": "Pielęgniarka nocnej pomocy",
+            "en": "Night care nurse",
+            "ua": "Медсестра нічної допомоги",
+            "ru": "Медсестра ночной помощи",
+            "az": "Gecə yardımı tibb bacısı",
+            "es": "Enfermera de atención nocturna",
+            "fil": "Night care nurse",
+            "id": "Perawat layanan malam",
+            "ne": "रातको सेवाको नर्स"
+          },
+          "phone": "+48 734 409 318"
         }
       ]
     },
     {
       "tone": "yellow",
       "title": {
-        "pl": "Dentysta / ostry dyżur",
-        "en": "Dentist / emergency duty",
-        "ua": "Стоматолог / чергування",
-        "ru": "Стоматолог / дежурство",
-        "az": "Diş həkimi / növbə",
-        "es": "Dentista / guardia",
-        "fil": "Dentista / emergency",
-        "id": "Dokter gigi / darurat",
-        "ne": "दन्त चिकित्सक / आपतकालीन"
+        "pl": "Ryczywół - dentysta i ból zęba",
+        "en": "Ryczywół - dentist and toothache",
+        "ua": "Ryczywół - стоматолог і зубний біль",
+        "ru": "Ryczywół - стоматолог и зубная боль",
+        "az": "Ryczywół - diş həkimi və diş ağrısı",
+        "es": "Ryczywół - dentista y dolor de muela",
+        "fil": "Ryczywół - dentista at sakit ng ngipin",
+        "id": "Ryczywół - dokter gigi dan sakit gigi",
+        "ne": "Ryczywół - दन्त चिकित्सक र दाँत दुखाइ"
       },
       "body": [
         {
-          "pl": "Tu dodamy gabinety i telefony po uzupełnieniu danych.",
-          "en": "Here we will add clinics and phones after data is filled in.",
-          "ua": "Тут додамо кабінети і телефони після заповнення даних.",
-          "ru": "Здесь добавим кабинеты и телефоны после заполнения данных.",
-          "az": "Burada kabinet və telefonlar məlumatdan sonra əlavə olunacaq.",
-          "es": "Aquí añadiremos clínicas y teléfonos al completar datos.",
-          "fil": "Dito idadagdag ang clinics at telepono kapag may data.",
-          "id": "Di sini akan ditambah klinik dan telepon setelah data lengkap.",
-          "ne": "डेटा पछि क्लिनिक र फोन थपिनेछ।"
+          "pl": "Adres: ul. Nowa 1, Ryczywół. Rejestracja telefoniczna zwykle 10:00-14:00.",
+          "en": "Address: ul. Nowa 1, Ryczywół. Phone registration usually 10:00-14:00.",
+          "ua": "Адреса: вул. Nowa 1, Ryczywół. Реєстрація телефоном зазвичай 10:00-14:00.",
+          "ru": "Адрес: ул. Nowa 1, Ryczywół. Регистрация по телефону обычно 10:00-14:00.",
+          "az": "Ünvan: ul. Nowa 1, Ryczywół. Telefon qeydiyyatı adətən 10:00-14:00.",
+          "es": "Dirección: ul. Nowa 1, Ryczywół. Registro telefónico normalmente 10:00-14:00.",
+          "fil": "Address: ul. Nowa 1, Ryczywół. Phone registration karaniwang 10:00-14:00.",
+          "id": "Alamat: ul. Nowa 1, Ryczywół. Pendaftaran telepon biasanya 10:00-14:00.",
+          "ne": "ठेगाना: ul. Nowa 1, Ryczywół। फोन दर्ता सामान्यतया 10:00-14:00।"
+        },
+        {
+          "pl": "Doraźna pomoc stomatologiczna NFZ zwykle działa w dni robocze 19:00-7:00, a w weekendy i święta całodobowo. Najpierw zadzwoń lub sprawdź pacjent.gov.pl.",
+          "en": "NFZ emergency dental care usually works on weekdays 19:00-7:00 and on weekends/holidays 24h. Call first or check pacjent.gov.pl.",
+          "ua": "Невідкладна стоматологічна допомога NFZ зазвичай працює в робочі дні 19:00-7:00, а у вихідні і свята цілодобово. Спочатку дзвоніть або перевірте pacjent.gov.pl.",
+          "ru": "Срочная стоматологическая помощь NFZ обычно работает в рабочие дни 19:00-7:00, а в выходные и праздники круглосуточно. Сначала звоните или проверьте pacjent.gov.pl.",
+          "az": "NFZ təcili diş yardımı adətən iş günləri 19:00-7:00, həftəsonu/bayram 24 saat işləyir. Əvvəl zəng edin və ya pacjent.gov.pl yoxlayın.",
+          "es": "La ayuda dental urgente NFZ suele funcionar laborables 19:00-7:00 y fines/festivos 24h. Primero llama o revisa pacjent.gov.pl.",
+          "fil": "NFZ emergency dental care karaniwang weekdays 19:00-7:00, weekends/holidays 24h. Tumawag muna o tingnan pacjent.gov.pl.",
+          "id": "Layanan gigi darurat NFZ biasanya hari kerja 19:00-7:00, akhir pekan/libur 24 jam. Telepon dulu atau cek pacjent.gov.pl.",
+          "ne": "NFZ आपतकालीन दन्त सेवा सामान्यतया कामका दिन 19:00-7:00, सप्ताहन्त/बिदा 24 घण्टा। पहिले फोन गर्नुहोस् वा pacjent.gov.pl हेर्नुहोस्।"
+        },
+        {
+          "pl": "Najpierw zadzwoń i zapytaj, czy można przyjść oraz jakie dokumenty zabrać.",
+          "en": "Call first and ask if you can come and which documents to take.",
+          "ua": "Спочатку зателефонуйте і запитайте, чи можна прийти та які документи взяти.",
+          "ru": "Сначала позвоните и спросите, можно ли прийти и какие документы взять.",
+          "az": "Əvvəl zəng edin və gəlib-gəlməmək, hansı sənədləri götürmək lazım olduğunu soruşun.",
+          "es": "Primero llama y pregunta si puedes ir y qué documentos llevar.",
+          "fil": "Tumawag muna at itanong kung puwedeng pumunta at anong dokumento ang dalhin.",
+          "id": "Telepon dulu dan tanyakan apakah bisa datang dan dokumen apa yang dibawa.",
+          "ne": "पहिले फोन गरेर आउन मिल्छ कि र कुन कागज लैजाने सोध्नुहोस्।"
         }
       ],
-      "map": "https://www.google.com/maps/search/?api=1&query=pogotowie%20stomatologiczne%20Ryczyw%C3%B3%C5%82%20okolica"
+      "maps": [
+        {
+          "label": {
+            "pl": "Dentysta Ryczywół",
+            "en": "Dentist Ryczywół",
+            "ua": "Стоматолог Ryczywół",
+            "ru": "Стоматолог Ryczywół",
+            "az": "Diş həkimi Ryczywół",
+            "es": "Dentista Ryczywół",
+            "fil": "Dentista Ryczywół",
+            "id": "Dokter gigi Ryczywół",
+            "ne": "दन्त चिकित्सक Ryczywół"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Dentysta%20Nowa%201%20Ryczyw%C3%B3%C5%82"
+        }
+      ],
+      "phones": [
+        {
+          "label": {
+            "pl": "Rejestracja dentysty",
+            "en": "Dentist registration",
+            "ua": "Реєстрація стоматолога",
+            "ru": "Регистрация стоматолога",
+            "az": "Diş həkimi qeydiyyatı",
+            "es": "Registro dentista",
+            "fil": "Dentist registration",
+            "id": "Pendaftaran dokter gigi",
+            "ne": "दन्त चिकित्सक दर्ता"
+          },
+          "phone": "+48 663 938 080"
+        },
+        {
+          "label": {
+            "pl": "Telefoniczna Informacja Pacjenta NFZ",
+            "en": "NFZ Patient Phone Information",
+            "ua": "Телефонна інформація пацієнта NFZ",
+            "ru": "Телефонная информация пациента NFZ",
+            "az": "NFZ pasiyent məlumat xətti",
+            "es": "Información telefónica NFZ",
+            "fil": "NFZ Patient Info",
+            "id": "Informasi Pasien NFZ",
+            "ne": "NFZ बिरामी सूचना फोन"
+          },
+          "phone": "800 190 590"
+        }
+      ]
     },
     {
       "tone": "blue",
       "title": {
-        "pl": "Apteka",
-        "en": "Pharmacy",
-        "ua": "Аптека",
-        "ru": "Аптека",
-        "az": "Aptek",
-        "es": "Farmacia",
-        "fil": "Botika",
-        "id": "Apotek",
-        "ne": "फार्मेसी"
+        "pl": "Ryczywół - apteki",
+        "en": "Ryczywół - pharmacies",
+        "ua": "Ryczywół - аптеки",
+        "ru": "Ryczywół - аптеки",
+        "az": "Ryczywół - apteklər",
+        "es": "Ryczywół - farmacias",
+        "fil": "Ryczywół - botika",
+        "id": "Ryczywół - apotek",
+        "ne": "Ryczywół - फार्मेसी"
       },
       "body": [
         {
-          "pl": "Przycisk do apteki w okolicy.",
-          "en": "Button to a nearby pharmacy.",
-          "ua": "Кнопка до аптеки в околиці.",
-          "ru": "Кнопка к аптеке поблизости.",
-          "az": "Yaxın aptek üçün düymə.",
-          "es": "Botón a farmacia cercana.",
-          "fil": "Button papuntang botika.",
-          "id": "Tombol ke apotek dekat.",
-          "ne": "नजिकको फार्मेसीको बटन।"
+          "pl": "Mapa pokazuje apteki w Ryczywole. Godziny mogą się zmieniać, dlatego sprawdź w Google Maps lub zadzwoń przed wyjściem.",
+          "en": "The map shows pharmacies in Ryczywół. Hours may change, so check Google Maps or call before leaving.",
+          "ua": "Карта показує аптеки в Ryczywole. Години можуть змінюватися, тому перевірте Google Maps або зателефонуйте перед виходом.",
+          "ru": "Карта показывает аптеки в Ryczywole. Часы могут меняться, поэтому проверьте Google Maps или позвоните перед выходом.",
+          "az": "Xəritə Ryczywół apteklərini göstərir. Saatlar dəyişə bilər, çıxmazdan əvvəl Google Maps-də yoxlayın və ya zəng edin.",
+          "es": "El mapa muestra farmacias en Ryczywół. Los horarios pueden cambiar, revisa Google Maps o llama antes de salir.",
+          "fil": "Ipinapakita ng mapa ang botika sa Ryczywół. Maaaring magbago ang oras, tingnan sa Google Maps o tumawag bago umalis.",
+          "id": "Peta menampilkan apotek di Ryczywół. Jam bisa berubah, cek Google Maps atau telepon sebelum berangkat.",
+          "ne": "नक्साले Ryczywół का फार्मेसी देखाउँछ। समय बदलिन सक्छ, निस्कनुअघि Google Maps जाँच गर्नुहोस् वा फोन गर्नुहोस्।"
         }
       ],
-      "map": "https://www.google.com/maps/search/?api=1&query=apteka%20Ryczyw%C3%B3%C5%82"
+      "maps": [
+        {
+          "label": {
+            "pl": "Apteka Nowa",
+            "en": "Apteka Nowa",
+            "ua": "Apteka Nowa",
+            "ru": "Apteka Nowa",
+            "az": "Apteka Nowa",
+            "es": "Apteka Nowa",
+            "fil": "Apteka Nowa",
+            "id": "Apteka Nowa",
+            "ne": "Apteka Nowa"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Apteka%20Nowa%20Kolejowa%208a%20Ryczyw%C3%B3%C5%82"
+        },
+        {
+          "label": {
+            "pl": "Punkt Apteczny Sanitas",
+            "en": "Sanitas pharmacy point",
+            "ua": "Аптечний пункт Sanitas",
+            "ru": "Аптечный пункт Sanitas",
+            "az": "Sanitas aptek məntəqəsi",
+            "es": "Punto farmacéutico Sanitas",
+            "fil": "Sanitas pharmacy point",
+            "id": "Punkt apotek Sanitas",
+            "ne": "Sanitas फार्मेसी पोइन्ट"
+          },
+          "url": "https://www.google.com/maps/search/?api=1&query=Punkt%20Apteczny%20Sanitas%20Kolejowa%2011%20Ryczyw%C3%B3%C5%82"
+        }
+      ],
+      "phones": [
+        {
+          "label": {
+            "pl": "Apteka Nowa",
+            "en": "Apteka Nowa",
+            "ua": "Apteka Nowa",
+            "ru": "Apteka Nowa",
+            "az": "Apteka Nowa",
+            "es": "Apteka Nowa",
+            "fil": "Apteka Nowa",
+            "id": "Apteka Nowa",
+            "ne": "Apteka Nowa"
+          },
+          "phone": "+48 67 215 24 98"
+        },
+        {
+          "label": {
+            "pl": "Punkt Apteczny Sanitas",
+            "en": "Sanitas pharmacy point",
+            "ua": "Аптечний пункт Sanitas",
+            "ru": "Аптечный пункт Sanitas",
+            "az": "Sanitas aptek məntəqəsi",
+            "es": "Punto farmacéutico Sanitas",
+            "fil": "Sanitas pharmacy point",
+            "id": "Punkt apotek Sanitas",
+            "ne": "Sanitas फार्मेसी पोइन्ट"
+          },
+          "phone": "+48 604 221 413"
+        }
+      ]
     }
   ],
   "city": [
@@ -1082,37 +1481,37 @@
       "icon": "city",
       "tone": "blue",
       "title": {
-        "pl": "Urząd lokalny",
-        "en": "Local office",
-        "ua": "Місцева установа",
-        "ru": "Местное учреждение",
-        "az": "Yerli idarə",
-        "es": "Oficina local",
-        "fil": "Lokal na opisina",
-        "id": "Kantor lokal",
-        "ne": "स्थानीय कार्यालय"
+        "pl": "Urząd Gminy Ryczywół",
+        "en": "Ryczywół Commune Office",
+        "ua": "Гміна Ryczywół",
+        "ru": "Гмина Ryczywół",
+        "az": "Ryczywół bələdiyyə idarəsi",
+        "es": "Oficina municipal de Ryczywół",
+        "fil": "Ryczywół Commune Office",
+        "id": "Kantor Gmina Ryczywół",
+        "ne": "Ryczywół ग्मिना कार्यालय"
       },
       "body": {
-        "pl": "Miejsce na urząd miasta/gminy albo ważny punkt administracyjny.",
-        "en": "Place for city/municipal office or an important administration point.",
-        "ua": "Місце для міської/гмінної установи або важливого адміністративного пункту.",
-        "ru": "Место для городской/гминной администрации или важного пункта.",
-        "az": "Şəhər/bələdiyyə idarəsi və ya vacib inzibati nöqtə.",
-        "es": "Lugar para oficina municipal o punto administrativo importante.",
-        "fil": "Lugar para city/municipal office o importanteng punto.",
-        "id": "Tempat untuk kantor kota/desa atau titik administrasi penting.",
-        "ne": "नगर/पालिका कार्यालय वा महत्त्वपूर्ण प्रशासनिक बिन्दु।"
+        "pl": "Tu załatwia się lokalne sprawy urzędowe w Ryczywole.",
+        "en": "This is where local office matters in Ryczywół are handled.",
+        "ua": "Тут вирішують місцеві адміністративні справи в Ryczywole.",
+        "ru": "Здесь решают местные административные вопросы в Ryczywole.",
+        "az": "Ryczywół-da yerli rəsmi işlər burada həll olunur.",
+        "es": "Aquí se gestionan asuntos municipales locales en Ryczywół.",
+        "fil": "Dito inaasikaso ang local office matters sa Ryczywół.",
+        "id": "Di sini mengurus urusan kantor lokal di Ryczywół.",
+        "ne": "Ryczywół का स्थानीय सरकारी काम यहाँ गरिन्छ।"
       },
       "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
+        "pl": "Adres: ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
+        "en": "Address: ul. Mickiewicza 10, 64-630 Ryczywół. Phone: 67 283 70 02.",
+        "ua": "Адреса: вул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
+        "ru": "Адрес: ул. Mickiewicza 10, 64-630 Ryczywół. Телефон: 67 283 70 02.",
+        "az": "Ünvan: ul. Mickiewicza 10, 64-630 Ryczywół. Telefon: 67 283 70 02.",
+        "es": "Dirección: ul. Mickiewicza 10, 64-630 Ryczywół. Teléfono: 67 283 70 02.",
+        "fil": "Address: ul. Mickiewicza 10, 64-630 Ryczywół. Telepono: 67 283 70 02.",
+        "id": "Alamat: ul. Mickiewicza 10, 64-630 Ryczywół. Telepon: 67 283 70 02.",
+        "ne": "ठेगाना: ul. Mickiewicza 10, 64-630 Ryczywół। फोन: 67 283 70 02।"
       },
       "list": [],
       "buttons": [
@@ -1128,7 +1527,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=urz%C4%85d%20Ryczyw%C3%B3%C5%82"
+          "url": "https://www.google.com/maps/search/?api=1&query=Urz%C4%85d%20Gminy%20Ryczyw%C3%B3%C5%82%20Mickiewicza%2010"
         }
       ]
     },
@@ -1136,37 +1535,37 @@
       "icon": "document",
       "tone": "blue",
       "title": {
-        "pl": "DUW / karta pobytu",
-        "en": "DUW / residence card",
-        "ua": "DUW / карта побиту",
-        "ru": "DUW / карта побыту",
-        "az": "DUW / yaşayış kartı",
-        "es": "DUW / tarjeta de residencia",
-        "fil": "DUW / residence card",
-        "id": "DUW / kartu tinggal",
-        "ne": "DUW / residence card"
+        "pl": "WUW Poznań / karta pobytu",
+        "en": "WUW Poznań / residence card",
+        "ua": "WUW Познань / карта побиту",
+        "ru": "WUW Познань / карта побыту",
+        "az": "WUW Poznań / yaşayış kartı",
+        "es": "WUW Poznań / tarjeta de residencia",
+        "fil": "WUW Poznań / residence card",
+        "id": "WUW Poznań / kartu tinggal",
+        "ne": "WUW Poznań / बसोबास कार्ड"
       },
       "body": {
-        "pl": "Kafelka na sprawy karty pobytu i urzędu wojewódzkiego.",
-        "en": "Tile for residence card and voivodeship office matters.",
-        "ua": "Кафель для карти побиту і воєводського управління.",
-        "ru": "Плитка для карты побыту и воеводского управления.",
-        "az": "Yaşayış kartı və voyevodalıq idarəsi üçün kafel.",
-        "es": "Kafel para residencia y oficina regional.",
-        "fil": "Tile para sa residence card at regional office.",
-        "id": "Tile untuk kartu tinggal dan kantor provinsi.",
-        "ne": "रेसिडेन्स कार्ड र प्रान्तीय कार्यालयका लागि टाइल।"
+        "pl": "Sprawy karty pobytu dla Wielkopolski prowadzi Wielkopolski Urząd Wojewódzki w Poznaniu, Wydział Spraw Cudzoziemców.",
+        "en": "Residence card matters for Wielkopolska are handled by the Wielkopolska Voivodeship Office in Poznań, Foreigners Affairs Department.",
+        "ua": "Питання карти побиту у Великопольському воєводстві веде Wielkopolski Urząd Wojewódzki w Poznaniu, відділ справ іноземців.",
+        "ru": "Вопросы карты побыту в Великопольском воеводстве ведёт Wielkopolski Urząd Wojewódzki w Poznaniu, отдел по делам иностранцев.",
+        "az": "Wielkopolska bölgəsində yaşayış kartı işlərinə Poznań Wielkopolska voyevodalıq idarəsinin əcnəbilər şöbəsi baxır.",
+        "es": "Los asuntos de tarjeta de residencia en Wielkopolska los lleva la oficina regional de Poznań, departamento de extranjeros.",
+        "fil": "Ang residence card matters para sa Wielkopolska ay nasa Wielkopolska Voivodeship Office sa Poznań, Foreigners Affairs Department.",
+        "id": "Urusan kartu tinggal untuk Wielkopolska ditangani Kantor Provinsi Wielkopolska di Poznań, bagian orang asing.",
+        "ne": "Wielkopolska को बसोबास कार्डको काम Poznań को प्रान्तीय कार्यालय, विदेशी विभागले हेर्छ।"
       },
       "address": {
-        "pl": "Adres / szczegóły: do uzupełnienia.",
-        "en": "Address / details: to be added.",
-        "ua": "Адреса / деталі: потрібно додати.",
-        "ru": "Адрес / детали: нужно добавить.",
-        "az": "Ünvan / məlumat: əlavə ediləcək.",
-        "es": "Dirección / detalles: por añadir.",
-        "fil": "Address / detalye: idaragdag.",
-        "id": "Alamat / detail: akan ditambahkan.",
-        "ne": "ठेगाना / विवरण: थप्नु पर्ने।"
+        "pl": "Adres: pl. Wolności 17, 61-739 Poznań. Infolinia dla cudzoziemców WUW: 61 850 87 77.",
+        "en": "Address: pl. Wolności 17, 61-739 Poznań. WUW foreigners helpline: 61 850 87 77.",
+        "ua": "Адреса: pl. Wolności 17, 61-739 Poznań. Інфолінія WUW для іноземців: 61 850 87 77.",
+        "ru": "Адрес: pl. Wolności 17, 61-739 Poznań. Инфолиния WUW для иностранцев: 61 850 87 77.",
+        "az": "Ünvan: pl. Wolności 17, 61-739 Poznań. WUW əcnəbilər xətti: 61 850 87 77.",
+        "es": "Dirección: pl. Wolności 17, 61-739 Poznań. Línea WUW para extranjeros: 61 850 87 77.",
+        "fil": "Address: pl. Wolności 17, 61-739 Poznań. WUW foreigners helpline: 61 850 87 77.",
+        "id": "Alamat: pl. Wolności 17, 61-739 Poznań. Hotline WUW untuk orang asing: 61 850 87 77.",
+        "ne": "ठेगाना: pl. Wolności 17, 61-739 Poznań। विदेशीका लागि WUW फोन: 61 850 87 77।"
       },
       "list": [],
       "buttons": [
@@ -1182,7 +1581,7 @@
             "id": "Buka peta",
             "ne": "नक्सा खोल्नुहोस्"
           },
-          "url": "https://www.google.com/maps/search/?api=1&query=Dolno%C5%9Bl%C4%85ski%20Urz%C4%85d%20Wojew%C3%B3dzki"
+          "url": "https://www.google.com/maps/search/?api=1&query=Wielkopolski%20Urz%C4%85d%20Wojew%C3%B3dzki%20Wydzia%C5%82%20Spraw%20Cudzoziemc%C3%B3w%20pl.%20Wolno%C5%9Bci%2017%20Pozna%C5%84"
         }
       ]
     },
