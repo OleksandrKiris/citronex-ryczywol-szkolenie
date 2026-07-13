@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260713-ryczywol-doctoraddresses1",
+    "version": "20260713-ryczywol-citylinks1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -1474,17 +1474,32 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: Urząd Miejski, Parkowa 5",
+            "en": "Map: Town Office, Parkowa 5",
+            "ua": "Карта: Urząd Miejski, Parkowa 5",
+            "ru": "Карта: Urząd Miejski, Parkowa 5",
+            "az": "Xəritə: Urząd Miejski, Parkowa 5",
+            "es": "Mapa: Urząd Miejski, Parkowa 5",
+            "fil": "Mapa: Urząd Miejski, Parkowa 5",
+            "id": "Peta: Urząd Miejski, Parkowa 5",
+            "ne": "नक्सा: Urząd Miejski, Parkowa 5"
           },
-          "url": "https://www.google.com/maps/place/Urz%C4%85d+Miejski+w+Kozienicach,+Parkowa+5,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.5889172,21.5550629",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Urząd Miejski, Parkowa 5",
+            "en": "Route: Town Office, Parkowa 5",
+            "ua": "Маршрут: Urząd Miejski, Parkowa 5",
+            "ru": "Маршрут: Urząd Miejski, Parkowa 5",
+            "az": "Marşrut: Urząd Miejski, Parkowa 5",
+            "es": "Ruta: Urząd Miejski, Parkowa 5",
+            "fil": "Ruta: Urząd Miejski, Parkowa 5",
+            "id": "Rute: Urząd Miejski, Parkowa 5",
+            "ne": "बाटो: Urząd Miejski, Parkowa 5"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5889172,21.5550629&travelmode=driving",
           "tone": "blue"
         },
         {
@@ -1574,17 +1589,32 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: Urząd Skarbowy, Parkowa 5",
+            "en": "Map: Tax Office, Parkowa 5",
+            "ua": "Карта: Urząd Skarbowy, Parkowa 5",
+            "ru": "Карта: Urząd Skarbowy, Parkowa 5",
+            "az": "Xəritə: Urząd Skarbowy, Parkowa 5",
+            "es": "Mapa: Urząd Skarbowy, Parkowa 5",
+            "fil": "Mapa: Urząd Skarbowy, Parkowa 5",
+            "id": "Peta: Urząd Skarbowy, Parkowa 5",
+            "ne": "नक्सा: Urząd Skarbowy, Parkowa 5"
           },
-          "url": "https://www.google.com/maps/place/Urz%C4%85d+Skarbowy+w+Kozienicach,+Parkowa+5,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.5889172,21.5550629",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Urząd Skarbowy, Parkowa 5",
+            "en": "Route: Tax Office, Parkowa 5",
+            "ua": "Маршрут: Urząd Skarbowy, Parkowa 5",
+            "ru": "Маршрут: Urząd Skarbowy, Parkowa 5",
+            "az": "Marşrut: Urząd Skarbowy, Parkowa 5",
+            "es": "Ruta: Urząd Skarbowy, Parkowa 5",
+            "fil": "Ruta: Urząd Skarbowy, Parkowa 5",
+            "id": "Rute: Urząd Skarbowy, Parkowa 5",
+            "ne": "बाटो: Urząd Skarbowy, Parkowa 5"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5889172,21.5550629&travelmode=driving",
           "tone": "yellow"
         },
         {
@@ -1651,17 +1681,32 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: ZUS, Radomska 43",
+            "en": "Map: ZUS, Radomska 43",
+            "ua": "Карта: ZUS, Radomska 43",
+            "ru": "Карта: ZUS, Radomska 43",
+            "az": "Xəritə: ZUS, Radomska 43",
+            "es": "Mapa: ZUS, Radomska 43",
+            "fil": "Mapa: ZUS, Radomska 43",
+            "id": "Peta: ZUS, Radomska 43",
+            "ne": "नक्सा: ZUS, Radomska 43"
           },
-          "url": "https://www.google.com/maps/place/ZUS+Inspektorat+w+Kozienicach,+Radomska+43,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.5837217,21.5488969",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Trasa: ZUS, Radomska 43",
+            "en": "Route: ZUS, Radomska 43",
+            "ua": "Маршрут: ZUS, Radomska 43",
+            "ru": "Маршрут: ZUS, Radomska 43",
+            "az": "Marşrut: ZUS, Radomska 43",
+            "es": "Ruta: ZUS, Radomska 43",
+            "fil": "Ruta: ZUS, Radomska 43",
+            "id": "Rute: ZUS, Radomska 43",
+            "ne": "बाटो: ZUS, Radomska 43"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5837217,21.5488969&travelmode=driving",
           "tone": "yellow"
         },
         {
@@ -1728,17 +1773,32 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: Starostwo, Kochanowskiego 28",
+            "en": "Map: County Office, Kochanowskiego 28",
+            "ua": "Карта: Starostwo, Kochanowskiego 28",
+            "ru": "Карта: Starostwo, Kochanowskiego 28",
+            "az": "Xəritə: Starostwo, Kochanowskiego 28",
+            "es": "Mapa: Starostwo, Kochanowskiego 28",
+            "fil": "Mapa: Starostwo, Kochanowskiego 28",
+            "id": "Peta: Starostwo, Kochanowskiego 28",
+            "ne": "नक्सा: Starostwo, Kochanowskiego 28"
           },
-          "url": "https://www.google.com/maps/place/Starostwo+Powiatowe+w+Kozienicach,+Kochanowskiego+28,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.5858189,21.5476344",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Starostwo, Kochanowskiego 28",
+            "en": "Route: County Office, Kochanowskiego 28",
+            "ua": "Маршрут: Starostwo, Kochanowskiego 28",
+            "ru": "Маршрут: Starostwo, Kochanowskiego 28",
+            "az": "Marşrut: Starostwo, Kochanowskiego 28",
+            "es": "Ruta: Starostwo, Kochanowskiego 28",
+            "fil": "Ruta: Starostwo, Kochanowskiego 28",
+            "id": "Rute: Starostwo, Kochanowskiego 28",
+            "ne": "बाटो: Starostwo, Kochanowskiego 28"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5858189,21.5476344&travelmode=driving",
           "tone": "blue"
         },
         {
@@ -1790,17 +1850,32 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: PUP, Zdziczów 1",
+            "en": "Map: Job Office, Zdziczow 1",
+            "ua": "Карта: PUP, Zdziczów 1",
+            "ru": "Карта: PUP, Zdziczów 1",
+            "az": "Xəritə: PUP, Zdziczów 1",
+            "es": "Mapa: PUP, Zdziczów 1",
+            "fil": "Mapa: PUP, Zdziczów 1",
+            "id": "Peta: PUP, Zdziczów 1",
+            "ne": "नक्सा: PUP, Zdziczów 1"
           },
-          "url": "https://www.google.com/maps/place/Powiatowy+Urz%C4%85d+Pracy+w+Kozienicach,+Zdzicz%C3%B3w+1,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.5963856,21.5376007",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: PUP, Zdziczów 1",
+            "en": "Route: Job Office, Zdziczow 1",
+            "ua": "Маршрут: PUP, Zdziczów 1",
+            "ru": "Маршрут: PUP, Zdziczów 1",
+            "az": "Marşrut: PUP, Zdziczów 1",
+            "es": "Ruta: PUP, Zdziczów 1",
+            "fil": "Ruta: PUP, Zdziczów 1",
+            "id": "Rute: PUP, Zdziczów 1",
+            "ne": "बाटो: PUP, Zdziczów 1"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5963856,21.5376007&travelmode=driving",
           "tone": "blue"
         },
         {
@@ -1867,18 +1942,33 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: MUW Warszawa, Marszałkowska 3/5",
+            "en": "Map: MUW Warsaw, Marszalkowska 3/5",
+            "ua": "Карта: MUW Warszawa, Marszałkowska 3/5",
+            "ru": "Карта: MUW Warszawa, Marszałkowska 3/5",
+            "az": "Xəritə: MUW Warszawa, Marszałkowska 3/5",
+            "es": "Mapa: MUW Warszawa, Marszałkowska 3/5",
+            "fil": "Mapa: MUW Warszawa, Marszałkowska 3/5",
+            "id": "Peta: MUW Warszawa, Marszałkowska 3/5",
+            "ne": "नक्सा: MUW Warszawa, Marszałkowska 3/5"
           },
-          "url": "https://www.google.com/maps/place/Mazowiecki+Urz%C4%85d+Wojew%C3%B3dzki,+Marsza%C5%82kowska+3%2F5,+00-624+Warszawa",
-          "tone": "red"
+          "url": "https://maps.google.com/?q=52.2147215,21.0206839",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: MUW Warszawa, Marszałkowska 3/5",
+            "en": "Route: MUW Warsaw, Marszalkowska 3/5",
+            "ua": "Маршрут: MUW Warszawa, Marszałkowska 3/5",
+            "ru": "Маршрут: MUW Warszawa, Marszałkowska 3/5",
+            "az": "Marşrut: MUW Warszawa, Marszałkowska 3/5",
+            "es": "Ruta: MUW Warszawa, Marszałkowska 3/5",
+            "fil": "Ruta: MUW Warszawa, Marszałkowska 3/5",
+            "id": "Rute: MUW Warszawa, Marszałkowska 3/5",
+            "ne": "बाटो: MUW Warszawa, Marszałkowska 3/5"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=52.2147215,21.0206839&travelmode=driving",
+          "tone": "blue"
         },
         {
           "label": {
@@ -1959,18 +2049,33 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: MUW Radom, Żeromskiego 53",
+            "en": "Map: MUW Radom, Zeromskiego 53",
+            "ua": "Карта: MUW Radom, Żeromskiego 53",
+            "ru": "Карта: MUW Radom, Żeromskiego 53",
+            "az": "Xəritə: MUW Radom, Żeromskiego 53",
+            "es": "Mapa: MUW Radom, Żeromskiego 53",
+            "fil": "Mapa: MUW Radom, Żeromskiego 53",
+            "id": "Peta: MUW Radom, Żeromskiego 53",
+            "ne": "नक्सा: MUW Radom, Żeromskiego 53"
           },
-          "url": "https://www.google.com/maps/place/Mazowiecki+Urz%C4%85d+Wojew%C3%B3dzki+Delegatura+w+Radomiu,+%C5%BBeromskiego+53,+26-600+Radom",
-          "tone": "yellow"
+          "url": "https://maps.google.com/?q=51.4012445,21.1580032",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: MUW Radom, Żeromskiego 53",
+            "en": "Route: MUW Radom, Zeromskiego 53",
+            "ua": "Маршрут: MUW Radom, Żeromskiego 53",
+            "ru": "Маршрут: MUW Radom, Żeromskiego 53",
+            "az": "Marşrut: MUW Radom, Żeromskiego 53",
+            "es": "Ruta: MUW Radom, Żeromskiego 53",
+            "fil": "Ruta: MUW Radom, Żeromskiego 53",
+            "id": "Rute: MUW Radom, Żeromskiego 53",
+            "ne": "बाटो: MUW Radom, Żeromskiego 53"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.4012445,21.1580032&travelmode=driving",
+          "tone": "blue"
         },
         {
           "label": {
@@ -2097,47 +2202,92 @@
       "links": [
         {
           "label": {
-            "pl": "PKO BP - Kochanowskiego 28",
-            "en": "PKO BP - Kochanowskiego 28",
-            "ua": "PKO BP - Kochanowskiego 28",
-            "ru": "PKO BP - Kochanowskiego 28",
-            "az": "PKO BP - Kochanowskiego 28",
-            "es": "PKO BP - Kochanowskiego 28",
-            "fil": "PKO BP - Kochanowskiego 28",
-            "id": "PKO BP - Kochanowskiego 28",
-            "ne": "PKO BP - Kochanowskiego 28"
+            "pl": "Mapa: PKO BP, Kochanowskiego 28",
+            "en": "Map: PKO BP, Kochanowskiego 28",
+            "ua": "Карта: PKO BP, Kochanowskiego 28",
+            "ru": "Карта: PKO BP, Kochanowskiego 28",
+            "az": "Xəritə: PKO BP, Kochanowskiego 28",
+            "es": "Mapa: PKO BP, Kochanowskiego 28",
+            "fil": "Mapa: PKO BP, Kochanowskiego 28",
+            "id": "Peta: PKO BP, Kochanowskiego 28",
+            "ne": "नक्सा: PKO BP, Kochanowskiego 28"
           },
-          "url": "https://www.google.com/maps/place/PKO+Bank+Polski,+Kochanowskiego+28,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.5858189,21.5476344",
           "tone": "blue"
         },
         {
           "label": {
-            "pl": "Pekao SA - Batalionów Chłopskich 32/34",
-            "en": "Pekao SA - Batalionów Chłopskich 32/34",
-            "ua": "Pekao SA - Batalionów Chłopskich 32/34",
-            "ru": "Pekao SA - Batalionów Chłopskich 32/34",
-            "az": "Pekao SA - Batalionów Chłopskich 32/34",
-            "es": "Pekao SA - Batalionów Chłopskich 32/34",
-            "fil": "Pekao SA - Batalionów Chłopskich 32/34",
-            "id": "Pekao SA - Batalionów Chłopskich 32/34",
-            "ne": "Pekao SA - Batalionów Chłopskich 32/34"
+            "pl": "Trasa: PKO BP, Kochanowskiego 28",
+            "en": "Route: PKO BP, Kochanowskiego 28",
+            "ua": "Маршрут: PKO BP, Kochanowskiego 28",
+            "ru": "Маршрут: PKO BP, Kochanowskiego 28",
+            "az": "Marşrut: PKO BP, Kochanowskiego 28",
+            "es": "Ruta: PKO BP, Kochanowskiego 28",
+            "fil": "Ruta: PKO BP, Kochanowskiego 28",
+            "id": "Rute: PKO BP, Kochanowskiego 28",
+            "ne": "बाटो: PKO BP, Kochanowskiego 28"
           },
-          "url": "https://www.google.com/maps/place/Bank+Pekao+SA,+Batalion%C3%B3w+Ch%C5%82opskich+32%2F34,+26-900+Kozienice",
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5858189,21.5476344&travelmode=driving",
           "tone": "blue"
         },
         {
           "label": {
-            "pl": "Kantor - Konstytucji 3 Maja 9",
-            "en": "Exchange office - Konstytucji 3 Maja 9",
-            "ua": "Обмін валют - Konstytucji 3 Maja 9",
-            "ru": "Обмен валют - Konstytucji 3 Maja 9",
-            "az": "Valyuta dəyişmə - Konstytucji 3 Maja 9",
-            "es": "Cambio de moneda - Konstytucji 3 Maja 9",
-            "fil": "Money exchange - Konstytucji 3 Maja 9",
-            "id": "Penukaran uang - Konstytucji 3 Maja 9",
-            "ne": "मुद्रा सटही - Konstytucji 3 Maja 9"
+            "pl": "Mapa: Pekao SA, Batalionów Chłopskich 32/34",
+            "en": "Map: Pekao SA, Batalionow Chlopskich 32/34",
+            "ua": "Карта: Pekao SA, Batalionów Chłopskich 32/34",
+            "ru": "Карта: Pekao SA, Batalionów Chłopskich 32/34",
+            "az": "Xəritə: Pekao SA, Batalionów Chłopskich 32/34",
+            "es": "Mapa: Pekao SA, Batalionów Chłopskich 32/34",
+            "fil": "Mapa: Pekao SA, Batalionów Chłopskich 32/34",
+            "id": "Peta: Pekao SA, Batalionów Chłopskich 32/34",
+            "ne": "नक्सा: Pekao SA, Batalionów Chłopskich 32/34"
           },
-          "url": "https://www.google.com/maps/place/Kantor+Grosik,+Konstytucji+3+Maja+9,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.5844952,21.5505854",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Pekao SA, Batalionów Chłopskich 32/34",
+            "en": "Route: Pekao SA, Batalionow Chlopskich 32/34",
+            "ua": "Маршрут: Pekao SA, Batalionów Chłopskich 32/34",
+            "ru": "Маршрут: Pekao SA, Batalionów Chłopskich 32/34",
+            "az": "Marşrut: Pekao SA, Batalionów Chłopskich 32/34",
+            "es": "Ruta: Pekao SA, Batalionów Chłopskich 32/34",
+            "fil": "Ruta: Pekao SA, Batalionów Chłopskich 32/34",
+            "id": "Rute: Pekao SA, Batalionów Chłopskich 32/34",
+            "ne": "बाटो: Pekao SA, Batalionów Chłopskich 32/34"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5844952,21.5505854&travelmode=driving",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Mapa: Kantor, Konstytucji 3 Maja",
+            "en": "Map: Exchange office, Konstytucji 3 Maja",
+            "ua": "Карта: Kantor, Konstytucji 3 Maja",
+            "ru": "Карта: Kantor, Konstytucji 3 Maja",
+            "az": "Xəritə: Kantor, Konstytucji 3 Maja",
+            "es": "Mapa: Kantor, Konstytucji 3 Maja",
+            "fil": "Mapa: Kantor, Konstytucji 3 Maja",
+            "id": "Peta: Kantor, Konstytucji 3 Maja",
+            "ne": "नक्सा: Kantor, Konstytucji 3 Maja"
+          },
+          "url": "https://maps.google.com/?q=51.5834980,21.5501489",
+          "tone": "yellow"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Kantor, Konstytucji 3 Maja",
+            "en": "Route: Exchange office, Konstytucji 3 Maja",
+            "ua": "Маршрут: Kantor, Konstytucji 3 Maja",
+            "ru": "Маршрут: Kantor, Konstytucji 3 Maja",
+            "az": "Marşrut: Kantor, Konstytucji 3 Maja",
+            "es": "Ruta: Kantor, Konstytucji 3 Maja",
+            "fil": "Ruta: Kantor, Konstytucji 3 Maja",
+            "id": "Rute: Kantor, Konstytucji 3 Maja",
+            "ne": "बाटो: Kantor, Konstytucji 3 Maja"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5834980,21.5501489&travelmode=driving",
           "tone": "yellow"
         }
       ],
@@ -2196,18 +2346,33 @@
       "links": [
         {
           "label": {
-            "pl": "Otwórz mapę",
-            "en": "Open map",
-            "ua": "Відкрити карту",
-            "ru": "Открыть карту",
-            "az": "Xəritəni aç",
-            "es": "Abrir mapa",
-            "fil": "Buksan ang mapa",
-            "id": "Buka peta",
-            "ne": "नक्सा खोल्नुहोस्"
+            "pl": "Mapa: Poczta, Kopernika 8",
+            "en": "Map: Post office, Kopernika 8",
+            "ua": "Карта: Poczta, Kopernika 8",
+            "ru": "Карта: Poczta, Kopernika 8",
+            "az": "Xəritə: Poczta, Kopernika 8",
+            "es": "Mapa: Poczta, Kopernika 8",
+            "fil": "Mapa: Poczta, Kopernika 8",
+            "id": "Peta: Poczta, Kopernika 8",
+            "ne": "नक्सा: Poczta, Kopernika 8"
           },
-          "url": "https://www.google.com/maps/place/Poczta+Polska,+Miko%C5%82aja+Kopernika+8,+26-901+Kozienice",
-          "tone": "yellow"
+          "url": "https://maps.google.com/?q=51.5911518,21.5387409",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Poczta, Kopernika 8",
+            "en": "Route: Post office, Kopernika 8",
+            "ua": "Маршрут: Poczta, Kopernika 8",
+            "ru": "Маршрут: Poczta, Kopernika 8",
+            "az": "Marşrut: Poczta, Kopernika 8",
+            "es": "Ruta: Poczta, Kopernika 8",
+            "fil": "Ruta: Poczta, Kopernika 8",
+            "id": "Rute: Poczta, Kopernika 8",
+            "ne": "बाटो: Poczta, Kopernika 8"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.5911518,21.5387409&travelmode=driving",
+          "tone": "blue"
         },
         {
           "label": {
@@ -2258,17 +2423,32 @@
       "links": [
         {
           "label": {
-            "pl": "Sprawdź dojazd",
-            "en": "Check route",
-            "ua": "Перевірити доїзд",
-            "ru": "Проверить дорогу",
-            "az": "Yolu yoxla",
-            "es": "Ver ruta",
-            "fil": "Tingnan ang biyahe",
-            "id": "Cek rute",
-            "ne": "यात्रा जाँच्नुहोस्"
+            "pl": "Mapa: Ryczywół",
+            "en": "Map: Ryczywol",
+            "ua": "Карта: Ryczywół",
+            "ru": "Карта: Ryczywół",
+            "az": "Xəritə: Ryczywół",
+            "es": "Mapa: Ryczywół",
+            "fil": "Mapa: Ryczywół",
+            "id": "Peta: Ryczywół",
+            "ne": "नक्सा: Ryczywół"
           },
-          "url": "https://www.google.com/maps/place/Ryczyw%C3%B3%C5%82,+gmina+Kozienice,+przystanek",
+          "url": "https://maps.google.com/?q=51.6897600,21.4215200",
+          "tone": "blue"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Ryczywół",
+            "en": "Route: Ryczywol",
+            "ua": "Маршрут: Ryczywół",
+            "ru": "Маршрут: Ryczywół",
+            "az": "Marşrut: Ryczywół",
+            "es": "Ruta: Ryczywół",
+            "fil": "Ruta: Ryczywół",
+            "id": "Rute: Ryczywół",
+            "ne": "बाटो: Ryczywół"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.6897600,21.4215200&travelmode=driving",
           "tone": "blue"
         },
         {
@@ -2334,17 +2514,32 @@
       "links": [
         {
           "label": {
-            "pl": "Punkt Apteczny Świerże Górne",
-            "en": "Świerże Górne pharmacy point",
-            "ua": "Аптечний пункт Świerże Górne",
-            "ru": "Аптечный пункт Świerże Górne",
-            "az": "Świerże Górne aptek məntəqəsi",
-            "es": "Punto farmacéutico Świerże Górne",
-            "fil": "Świerże Górne pharmacy point",
-            "id": "Punkt Apteczny Świerże Górne",
-            "ne": "Świerże Górne फार्मेसी"
+            "pl": "Mapa: Punkt Apteczny, Świerże Górne 55",
+            "en": "Map: Pharmacy point, Swierze Gorne 55",
+            "ua": "Карта: Punkt Apteczny, Świerże Górne 55",
+            "ru": "Карта: Punkt Apteczny, Świerże Górne 55",
+            "az": "Xəritə: Punkt Apteczny, Świerże Górne 55",
+            "es": "Mapa: Punkt Apteczny, Świerże Górne 55",
+            "fil": "Mapa: Punkt Apteczny, Świerże Górne 55",
+            "id": "Peta: Punkt Apteczny, Świerże Górne 55",
+            "ne": "नक्सा: Punkt Apteczny, Świerże Górne 55"
           },
-          "url": "https://www.google.com/maps/place/Punkt+Apteczny,+%C5%9Awier%C5%BCe+G%C3%B3rne+55+lok.+2,+26-900+Kozienice",
+          "url": "https://maps.google.com/?q=51.6550956,21.4833950",
+          "tone": "green"
+        },
+        {
+          "label": {
+            "pl": "Trasa: Punkt Apteczny, Świerże Górne 55",
+            "en": "Route: Pharmacy point, Swierze Gorne 55",
+            "ua": "Маршрут: Punkt Apteczny, Świerże Górne 55",
+            "ru": "Маршрут: Punkt Apteczny, Świerże Górne 55",
+            "az": "Marşrut: Punkt Apteczny, Świerże Górne 55",
+            "es": "Ruta: Punkt Apteczny, Świerże Górne 55",
+            "fil": "Ruta: Punkt Apteczny, Świerże Górne 55",
+            "id": "Rute: Punkt Apteczny, Świerże Górne 55",
+            "ne": "बाटो: Punkt Apteczny, Świerże Górne 55"
+          },
+          "url": "https://www.google.com/maps/dir/?api=1&destination=51.6550956,21.4833950&travelmode=driving",
           "tone": "green"
         }
       ],
