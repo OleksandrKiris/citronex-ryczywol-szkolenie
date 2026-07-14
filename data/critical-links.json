@@ -2,27 +2,27 @@
   "links": [
     {
       "id": "spotkanie",
-      "label": "Hotel / punkt spotkania - Ryczyw??",
+      "label": "Hotel / punkt spotkania - Ryczywół",
       "url": "https://maps.app.goo.gl/tf8716DeyKfwsJsc6"
     },
     {
       "id": "workplace",
-      "label": "Miejsce pracy / szklarnia - Ryczyw??",
+      "label": "Miejsce pracy / szklarnia - Ryczywół",
       "url": "https://maps.app.goo.gl/Gn1wZw7Zkf36qXt3A"
     },
     {
       "id": "warehouse",
-      "label": "Magazyn - Ryczyw??",
+      "label": "Magazyn - Ryczywół",
       "url": "https://maps.app.goo.gl/9rjeF4db2RHh3opj6"
     },
     {
       "id": "office",
-      "label": "Biuro - Ryczyw??",
+      "label": "Biuro - Ryczywół",
       "url": "https://maps.app.goo.gl/ABHNgLziERQf7eEs8"
     },
     {
       "id": "busStop",
-      "label": "Przystanek - Ryczyw??",
+      "label": "Przystanek - Ryczywół",
       "url": "https://maps.app.goo.gl/VCB2sWNeCbuZKUE28"
     }
   ]
