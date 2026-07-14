@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260714-ryczywol-phonefit2",
+    "version": "20260714-ryczywol-telegram-groups1",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -837,7 +837,7 @@
         "id": "Kanal informasi.",
         "ne": "सूचना च्यानल।"
       },
-      "url": "https://t.me/robota_citronex",
+      "url": "https://telegram.me/robota_citronex",
       "tone": "blue"
     },
     {
@@ -863,7 +863,7 @@
         "id": "Kanal untuk penutur Azerbaijan.",
         "ne": "अजरबैजानी भाषीका लागि च्यानल।"
       },
-      "url": "https://t.me/poloniawork_citronex",
+      "url": "https://telegram.me/poloniawork_citronex",
       "tone": "blue"
     }
   ],
