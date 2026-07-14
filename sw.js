@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "citronex-ryczywol-";
-const CACHE_NAME = CACHE_PREFIX + "20260714-ryczywol-greenhouse-view3";
+const CACHE_NAME = CACHE_PREFIX + "20260714-ryczywol-phonefit2";
 
 const CORE_ASSETS = [
   "./",
@@ -18,10 +18,10 @@ const CORE_ASSETS = [
   "./zakazy.html",
   "./test.html",
   "./manifest.webmanifest",
-  "./assets/css/training.css?v=20260714-ryczywol-greenhouse-view3",
-  "./assets/js/training-data.js?v=20260714-ryczywol-greenhouse-view3",
-  "./assets/js/location-custom.js?v=20260714-ryczywol-greenhouse-view3",
-  "./assets/js/training-app.js?v=20260714-ryczywol-greenhouse-view3",
+  "./assets/css/training.css?v=20260714-ryczywol-phonefit2",
+  "./assets/js/training-data.js?v=20260714-ryczywol-phonefit2",
+  "./assets/js/location-custom.js?v=20260714-ryczywol-phonefit2",
+  "./assets/js/training-app.js?v=20260714-ryczywol-phonefit2",
   "./assets/brand/polskie-pomidory-logo.png",
   "./assets/brand/polskie-pomidory-icon.png",
   "./assets/orientation/sklarnia-etap-excel.png"
