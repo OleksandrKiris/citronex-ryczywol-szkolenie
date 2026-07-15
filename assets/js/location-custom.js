@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260714-ryczywol-telegram-groups1",
+    "version": "20260715-release-img1-ryczywol",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -1105,7 +1105,7 @@
             "id": "SOR / nagły przypadek",
             "ne": "SOR / nagły przypadek"
           },
-          "phone": "+48 48 614 82 34"
+          "phone": "+48 48 679 72 64"
         }
       ],
       "address": {
