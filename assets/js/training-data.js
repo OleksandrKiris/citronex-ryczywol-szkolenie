@@ -5,7 +5,7 @@
 
   window.CX_DATA = {
     meta: {
-      version: "20260715-release-img1-ryczywol"
+      version: "20260716-hardening1-ryczywol"
     },
 
     languages: [

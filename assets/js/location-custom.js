@@ -3,13 +3,14 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260715-release-img1-ryczywol",
+    "version": "20260716-hardening1-ryczywol",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
     "repo": "citronex-ryczywol-szkolenie",
     "publicUrl": "https://oleksandrkiris.github.io/citronex-ryczywol-szkolenie/",
     "logo": "assets/brand/polskie-pomidory-logo.png",
+    "headerLogo": "assets/brand/polskie-pomidory-icon.png",
     "logoAlt": "Polskie Pomidory"
   },
   "ui": {
