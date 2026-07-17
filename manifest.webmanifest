@@ -1,7 +1,7 @@
 {
-  "name": "Polskie Pomidory Ryczywół k. Kozienic",
-  "short_name": "Ryczywół Kozienice",
-  "description": "System informacyjno-uczący Polskie Pomidory Ryczywół",
+  "name": "CITRONEX hydra S.R.Z.B. - Ryczywół",
+  "short_name": "CITRONEX hydra",
+  "description": "Szkolenie CITRONEX hydra S.R.Z.B. dla Ryczywołu",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
