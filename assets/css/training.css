@@ -8802,6 +8802,7 @@ body[data-page="home"] .tile-text {
 body[data-page="home"] .hero .lead { -webkit-line-clamp: 2; }
 body[data-page="home"] .tile-text { -webkit-line-clamp: 2; }
 body[data-page="home"] .tile-title { overflow-wrap: anywhere; }
+body .brand-title { text-transform: none !important; }
 .more-modules { padding: 0 !important; overflow: hidden; }
 .more-modules > summary { min-height: 52px; padding: 15px 16px; display: flex; align-items: center; font-weight: 800; color: var(--text); cursor: pointer; }
 .more-modules[open] > summary { border-bottom: 1px solid var(--line); }
