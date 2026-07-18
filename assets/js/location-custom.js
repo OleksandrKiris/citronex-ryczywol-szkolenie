@@ -3,7 +3,7 @@
   if (!D) return;
   const T = {
   "meta": {
-    "version": "20260716-hardening1-ryczywol",
+    "version": "20260716-data-audit1-ryczywol",
     "displayVersion": "2026-07-13",
     "location": "Ryczywół k. Kozienic",
     "appTitle": "Polskie Pomidory Ryczywół k. Kozienic",
@@ -654,21 +654,6 @@
           "ne": "समन्वयक"
         },
         "phone": "+48 502 251 384"
-      },
-      {
-        "name": "Maksym Saliuk",
-        "role": {
-          "pl": "Ryczywół - rekrutacja i koordynacja",
-          "en": "Ryczywół - recruitment and coordination",
-          "ua": "Ryczywół - рекрутація і координація",
-          "ru": "Ryczywół - рекрутация и координация",
-          "az": "Ryczywół - işə qəbul və koordinasiya",
-          "es": "Ryczywół - reclutamiento y coordinación",
-          "fil": "Ryczywół - recruitment at coordination",
-          "id": "Ryczywół - rekrutmen dan koordinasi",
-          "ne": "Ryczywół - भर्ना र समन्वय"
-        },
-        "phone": "+48 506 845 637"
       }
     ],
     "warehouse": [
@@ -768,23 +753,6 @@
             "ne": "उत्पादन - ग्रीनहाउस सम्पर्क"
           }
         }
-      ],
-      "Zakwaterowanie": [
-        {
-          "name": "Liudmyla / Людмила",
-          "phone": "+48536110591",
-          "role": {
-            "pl": "Zakwaterowanie - Ryczywół",
-            "en": "Accommodation - Ryczywół",
-            "ua": "Житло - Ryczywół",
-            "ru": "Жильё - Ryczywół",
-            "az": "Yaşayış yeri - Ryczywół",
-            "es": "Alojamiento - Ryczywół",
-            "fil": "Tirahan - Ryczywół",
-            "id": "Akomodasi - Ryczywół",
-            "ne": "बसोबास - Ryczywół"
-          }
-        }
       ]
     }
   },
@@ -838,7 +806,7 @@
         "id": "Kanal informasi.",
         "ne": "सूचना च्यानल।"
       },
-      "url": "https://telegram.me/robota_citronex",
+      "url": "https://t.me/robota_citronex",
       "tone": "blue"
     },
     {
@@ -864,7 +832,7 @@
         "id": "Kanal untuk penutur Azerbaijan.",
         "ne": "अजरबैजानी भाषीका लागि च्यानल।"
       },
-      "url": "https://telegram.me/poloniawork_citronex",
+      "url": "https://t.me/poloniawork_citronex",
       "tone": "blue"
     }
   ],
@@ -929,14 +897,14 @@
         {
           "label": {
             "pl": "Rejestracja",
-            "en": "Rejestracja",
-            "ua": "Rejestracja",
-            "ru": "Rejestracja",
-            "az": "Rejestracja",
-            "es": "Rejestracja",
-            "fil": "Rejestracja",
-            "id": "Rejestracja",
-            "ne": "Rejestracja"
+            "en": "Registration",
+            "ua": "Реєстрація",
+            "ru": "Регистрация",
+            "az": "Qeydiyyat",
+            "es": "Registro",
+            "fil": "Registration",
+            "id": "Pendaftaran",
+            "ne": "दर्ता"
           },
           "phone": "+48 48 614 75 18"
         }
@@ -1013,14 +981,14 @@
         {
           "label": {
             "pl": "Rejestracja",
-            "en": "Rejestracja",
-            "ua": "Rejestracja",
-            "ru": "Rejestracja",
-            "az": "Rejestracja",
-            "es": "Rejestracja",
-            "fil": "Rejestracja",
-            "id": "Rejestracja",
-            "ne": "Rejestracja"
+            "en": "Registration",
+            "ua": "Реєстрація",
+            "ru": "Регистрация",
+            "az": "Qeydiyyat",
+            "es": "Registro",
+            "fil": "Registration",
+            "id": "Pendaftaran",
+            "ne": "दर्ता"
           },
           "phone": "+48 509 006 633"
         }
@@ -1097,14 +1065,14 @@
         {
           "label": {
             "pl": "SOR / nagły przypadek",
-            "en": "SOR / nagły przypadek",
-            "ua": "SOR / nagły przypadek",
-            "ru": "SOR / nagły przypadek",
-            "az": "SOR / nagły przypadek",
-            "es": "SOR / nagły przypadek",
-            "fil": "SOR / nagły przypadek",
-            "id": "SOR / nagły przypadek",
-            "ne": "SOR / nagły przypadek"
+            "en": "ER / emergency",
+            "ua": "SOR / невідкладний випадок",
+            "ru": "SOR / срочный случай",
+            "az": "SOR / təcili hal",
+            "es": "Urgencias / emergencia",
+            "fil": "ER / emergency",
+            "id": "IGD / keadaan darurat",
+            "ne": "आपतकालीन / आकस्मिक अवस्था"
           },
           "phone": "+48 48 679 72 64"
         }
@@ -1181,14 +1149,14 @@
         {
           "label": {
             "pl": "Nocna opieka",
-            "en": "Nocna opieka",
-            "ua": "Nocna opieka",
-            "ru": "Nocna opieka",
-            "az": "Nocna opieka",
-            "es": "Nocna opieka",
-            "fil": "Nocna opieka",
-            "id": "Nocna opieka",
-            "ne": "Nocna opieka"
+            "en": "Night care",
+            "ua": "Нічна допомога",
+            "ru": "Ночная помощь",
+            "az": "Gecə yardımı",
+            "es": "Atención nocturna",
+            "fil": "Night care",
+            "id": "Layanan malam",
+            "ne": "रातको सेवा"
           },
           "phone": "+48 48 679 59 32"
         }
@@ -1208,27 +1176,27 @@
     {
       "tone": "yellow",
       "title": {
-        "pl": "Stomatologiczna pomoc doraźna NFZ - Kozienice",
-        "en": "Emergency dental care NFZ - Kozienice",
-        "ua": "Невідкладна стоматологічна допомога NFZ - Kozienice",
-        "ru": "Неотложная стоматологическая помощь NFZ - Kozienice",
-        "az": "Təcili stomatoloji yardım NFZ - Kozienice",
-        "es": "Ayuda dental urgente NFZ - Kozienice",
-        "fil": "Emergency dental care NFZ - Kozienice",
-        "id": "Layanan gigi darurat NFZ - Kozienice",
-        "ne": "आपतकालीन दन्त सेवा NFZ - Kozienice"
+        "pl": "Dentysta NFZ - Kozienice",
+        "en": "NFZ dentist - Kozienice",
+        "ua": "Стоматолог NFZ - Kozienice",
+        "ru": "Стоматолог NFZ - Kozienice",
+        "az": "NFZ diş həkimi - Kozienice",
+        "es": "Dentista NFZ - Kozienice",
+        "fil": "NFZ dentist - Kozienice",
+        "id": "Dokter gigi NFZ - Kozienice",
+        "ne": "NFZ दन्त चिकित्सक - Kozienice"
       },
       "body": [
         {
-          "pl": "Według wykazu NFZ obowiązującego od 1 lipca 2025 jest to doraźna pomoc stomatologiczna dla powiatu kozienickiego.",
-          "en": "According to the NFZ list valid from 1 July 2025, this is emergency dental care for Kozienice county.",
-          "ua": "За списком NFZ, чинним від 1 липня 2025, це невідкладна стоматологічна допомога для повіту Kozienice.",
-          "ru": "По списку NFZ, действующему с 1 июля 2025, это неотложная стоматологическая помощь для повята Kozienice.",
-          "az": "1 iyul 2025-dən qüvvədə olan NFZ siyahısına görə bu Kozienice rayonu üçün təcili stomatoloji yardımdır.",
-          "es": "Según la lista NFZ válida desde el 1 de julio de 2025, es ayuda dental urgente para el distrito de Kozienice.",
-          "fil": "Ayon sa NFZ list na valid mula 1 July 2025, ito ang emergency dental care para sa Kozienice county.",
-          "id": "Menurut daftar NFZ yang berlaku sejak 1 Juli 2025, ini layanan gigi darurat untuk wilayah Kozienice.",
-          "ne": "NFZ को १ जुलाई २०२५ देखि लागू सूची अनुसार यो Kozienice जिल्लाको आपतकालीन दन्त सेवा हो।"
+          "pl": "SAL-MEDICO przy ul. Sienkiewicza 28 przyjmuje jako poradnia stomatologiczna NFZ. To nie jest stały nocny dyżur.",
+          "en": "SAL-MEDICO at Sienkiewicza 28 provides NFZ dental care. It is not a permanent night emergency clinic.",
+          "ua": "SAL-MEDICO на вул. Sienkiewicza 28 приймає як стоматологічна поліклініка NFZ. Це не постійний нічний черговий пункт.",
+          "ru": "SAL-MEDICO на ул. Sienkiewicza 28 принимает как стоматологическая клиника NFZ. Это не постоянный ночной дежурный пункт.",
+          "az": "Sienkiewicza 28 ünvanındakı SAL-MEDICO NFZ diş klinikası kimi qəbul edir. Bu daimi gecə növbətçi məntəqəsi deyil.",
+          "es": "SAL-MEDICO en Sienkiewicza 28 atiende como clínica dental NFZ. No es un centro nocturno permanente.",
+          "fil": "Ang SAL-MEDICO sa Sienkiewicza 28 ay NFZ dental clinic. Hindi ito permanenteng night emergency clinic.",
+          "id": "SAL-MEDICO di Sienkiewicza 28 melayani sebagai klinik gigi NFZ. Ini bukan klinik darurat malam permanen.",
+          "ne": "Sienkiewicza 28 को SAL-MEDICO NFZ दन्त क्लिनिक हो। यो स्थायी रातको आकस्मिक क्लिनिक होइन।"
         },
         {
           "pl": "Najpierw zadzwoń i potwierdź przyjęcie.",
@@ -1275,17 +1243,31 @@
       "phones": [
         {
           "label": {
-            "pl": "Dyżur stomatologiczny",
-            "en": "Dental emergency",
-            "ua": "Dyżur stomatologiczny",
-            "ru": "Dyżur stomatologiczny",
-            "az": "Dyżur stomatologiczny",
-            "es": "Dyżur stomatologiczny",
-            "fil": "Dyżur stomatologiczny",
-            "id": "Dyżur stomatologiczny",
-            "ne": "Dyżur stomatologiczny"
+            "pl": "Rejestracja dentysty NFZ",
+            "en": "NFZ dentist registration",
+            "ua": "Реєстрація стоматолога NFZ",
+            "ru": "Регистрация стоматолога NFZ",
+            "az": "NFZ diş həkimi qeydiyyatı",
+            "es": "Registro dentista NFZ",
+            "fil": "NFZ dentist registration",
+            "id": "Pendaftaran dokter gigi NFZ",
+            "ne": "NFZ दन्त चिकित्सक दर्ता"
           },
           "phone": "+48 725 618 384"
+        },
+        {
+          "label": {
+            "pl": "Całodobowa informacja NFZ o aktualnym dyżurze",
+            "en": "24-hour NFZ information on the current duty clinic",
+            "ua": "Цілодобова інформація NFZ про актуальний черговий пункт",
+            "ru": "Круглосуточная информация NFZ об актуальном дежурном пункте",
+            "az": "Cari növbətçi məntəqə haqqında 24 saatlıq NFZ məlumatı",
+            "es": "Información NFZ 24 h sobre el centro de guardia actual",
+            "fil": "24-hour NFZ info tungkol sa kasalukuyang duty clinic",
+            "id": "Informasi NFZ 24 jam tentang klinik jaga saat ini",
+            "ne": "हालको ड्युटी क्लिनिकबारे २४ घण्टे NFZ जानकारी"
+          },
+          "phone": "800 190 590"
         }
       ],
       "address": {
@@ -1360,14 +1342,14 @@
         {
           "label": {
             "pl": "Apteka",
-            "en": "Apteka",
-            "ua": "Apteka",
-            "ru": "Apteka",
-            "az": "Apteka",
-            "es": "Apteka",
-            "fil": "Apteka",
-            "id": "Apteka",
-            "ne": "Apteka"
+            "en": "Pharmacy",
+            "ua": "Аптека",
+            "ru": "Аптека",
+            "az": "Aptek",
+            "es": "Farmacia",
+            "fil": "Botika",
+            "id": "Apotek",
+            "ne": "फार्मेसी"
           },
           "phone": "+48 48 360 42 96"
         }
@@ -2629,4 +2611,98 @@
   D.city = T.city;
   D.citySections = T.citySections || [];
   D.cityExtras = [];
+  const fixLocationTranslation = (target, lang, value) => {
+    if (target && typeof target === "object" && Object.prototype.hasOwnProperty.call(target, lang)) target[lang] = value;
+  };
+  fixLocationTranslation(D.firstDay.title, "fil", "Unang araw - Ryczywół malapit sa Kozienice");
+  ["Hotel / lugar ng pagkikita - Ryczywół", "Lugar ng trabaho / greenhouse - Ryczywół", "Bodega - Ryczywół / Kozienice", "Opisina / administrasyon - Ryczywół", "Hinto / biyahe - Ryczywół"].forEach((value, index) => fixLocationTranslation(D.maps[index].title, "fil", value));
+  ["Rekrutment", "Rekrutment", "Koordineytor", "Koordineytor"].forEach((value, index) => fixLocationTranslation(D.contacts.coordinators[index].role, "fil", value));
+  ["Bodega - pinuno ng pangkat", "Bodega - lider ng lugar", "Bodega - pinuno ng pangkat", "Bodega - lider ng lugar"].forEach((value, index) => fixLocationTranslation(D.contacts.warehouse[index].role, "fil", value));
+  fixLocationTranslation(D.contacts.greenhouse.Szklarnia[0].role, "fil", "Produksyon - pinuno ng greenhouse");
+  fixLocationTranslation(D.contacts.greenhouse.Szklarnia[1].role, "fil", "Produksyon - contact sa greenhouse");
+  fixLocationTranslation(D.medical[0].phones[0].label, "fil", "Pagpaparehistro");
+  fixLocationTranslation(D.medical[0].address, "fil", "Klinika Vital-Med, Świerże Górne 55, 26-900 Kozienice");
+  fixLocationTranslation(D.medical[1].title, "fil", "Mga klinika sa Kozienice - doktor ng pamilya (POZ)");
+  fixLocationTranslation(D.medical[1].phones[0].label, "fil", "Pagpaparehistro");
+  fixLocationTranslation(D.medical[1].address, "fil", "Mga klinika ng SPZOZ Kozienice, Sienkiewicza 28, 26-900 Kozienice");
+  fixLocationTranslation(D.medical[2].phones[0].label, "fil", "ER / emergency");
+  fixLocationTranslation(D.medical[3].title, "fil", "Pangangalagang medikal sa gabi at pista opisyal - Kozienice");
+  fixLocationTranslation(D.medical[3].phones[0].label, "fil", "Pangangalaga sa gabi");
+  fixLocationTranslation(D.medical[4].phones[0].label, "fil", "Pagpaparehistro sa dentista ng NFZ");
+  fixLocationTranslation(D.groups[1].note, "fil", "Channel ng impormasyon.");
+  fixLocationTranslation(D.city[0].title, "fil", "Tanggapan ng Bayan ng Kozienice");
+  fixLocationTranslation(D.city[5].title, "fil", "Tanggapan ng Mazowieckie / card ng paninirahan");
+  fixLocationTranslation(D.city[9].title, "fil", "Post office ng Kozienice");
+  fixLocationTranslation(D.city[10].title, "fil", "Transportasyon Ryczywół / Kozienice");
+  fixLocationTranslation(D.city[4].links[3].label, "fil", "Mga alok na trabaho");
+  fixLocationTranslation(D.cityRules[2].tag, "fil", "Mga pakete");
+  fixLocationTranslation(D.citySections[3].title, "fil", "Transportasyon");
+  const commonReplacements = {
+    fil: [
+      [/\bfirst day\b/gi, "unang araw"], [/\bwork maps\b/gi, "mga mapa ng trabaho"], [/\baddress registration\b/gi, "pagpaparehistro ng tirahan"],
+      [/\bnear\b/gi, "malapit sa"], [/\bworking\b/gi, "nagtatrabaho"], [/\boffices?\b/gi, "mga opisina"], [/\bshared\b/gi, "magkasanib"],
+      [/\bstep by step\b/gi, "sunod-sunod"], [/\bstop\b/gi, "hinto"], [/\bresident matters\b/gi, "mga usapin ng residente"],
+      [/\bdocuments?\b/gi, "mga dokumento"], [/\btaxes?\b/gi, "mga buwis"], [/\bphone\b/gi, "telepono"],
+      [/\bjob offers\b/gi, "mga alok na trabaho"], [/\bstaff entrance\b/gi, "pasukan ng staff"], [/\bmeeting point\b/gi, "lugar ng pagkikita"],
+      [/\bpost office\b/gi, "tanggapan ng koreo"], [/\bteam leader\b/gi, "pinuno ng pangkat"], [/\barea leader\b/gi, "lider ng lugar"],
+      [/\bgreenhouses?\b/gi, "bahay-taniman"], [/\bwarehouses?\b/gi, "bodega"], [/\bworkplace\b/gi, "lugar ng trabaho"],
+      [/\bwork\b/gi, "trabaho"], [/\brows\b/gi, "mga hanay"], [/\brow\b/gi, "hanay"], [/\bbreak\b/gi, "pahinga"],
+      [/\bactivity\b/gi, "gawain"], [/\bregistration\b/gi, "pagpaparehistro"], [/\baddress\b/gi, "tirahan"], [/\boffice\b/gi, "opisina"],
+      [/\bshop\b/gi, "tindahan"], [/\btransport\b/gi, "transportasyon"], [/\bheadphones\b/gi, "mga headphone"], [/\bscreen\b/gi, "ekran"],
+      [/\binstruction\b/gi, "instruksiyon"], [/\bbutton\b/gi, "pindutan"], [/\bpediatric\b/gi, "pambata"], [/\bsystem\b/gi, "sistema"],
+      [/\bcoordinators?\b/gi, "tagapag-ugnay"], [/\brecruitment\b/gi, "rekrutment"], [/\bemergency\b/gi, "emerhensiya"], [/\bcontact\b/gi, "ugnayan"]
+    ],
+    id: [
+      [/\bfirst day\b/gi, "hari pertama"], [/\bwork maps\b/gi, "peta kerja"], [/\baddress registration\b/gi, "pendaftaran alamat"],
+      [/\bnear\b/gi, "dekat"], [/\bworking\b/gi, "bekerja"], [/\boffices?\b/gi, "kantor"], [/\bshared\b/gi, "bersama"],
+      [/\bstep by step\b/gi, "langkah demi langkah"], [/\bstop\b/gi, "halte"], [/\bresident matters\b/gi, "urusan penduduk"],
+      [/\bdocuments?\b/gi, "dokumen"], [/\btaxes?\b/gi, "pajak"], [/\bphone\b/gi, "telepon"],
+      [/\bmeeting point\b/gi, "titik pertemuan"], [/\bstaff entrance\b/gi, "pintu masuk staf"], [/\bpost office\b/gi, "kantor pos"],
+      [/\bgreenhouses?\b/gi, "rumah kaca"], [/\bwarehouses?\b/gi, "gudang"], [/\bworkplace\b/gi, "tempat kerja"], [/\bwork\b/gi, "kerja"],
+      [/\brows?\b/gi, "baris"], [/\bbreak\b/gi, "istirahat"], [/\bactivity\b/gi, "aktivitas"], [/\bregistration\b/gi, "pendaftaran"],
+      [/\baddress\b/gi, "alamat"], [/\boffice\b/gi, "kantor"], [/\bshop\b/gi, "toko"], [/\btransport\b/gi, "transportasi"],
+      [/\bheadphones\b/gi, "headphone"], [/\bscreen\b/gi, "layar"], [/\binstruction\b/gi, "instruksi"], [/\bbutton\b/gi, "tombol"],
+      [/\bpediatric\b/gi, "anak"], [/\bsystem\b/gi, "sistem"], [/\bcoordinators?\b/gi, "koordinator"], [/\brecruitment\b/gi, "rekrutmen"],
+      [/\bemergency\b/gi, "darurat"], [/\bcontact\b/gi, "kontak"]
+    ]
+  };
+  const normalizeLocationTranslations = (value) => {
+    if (!value || typeof value !== "object") return;
+    if (Object.prototype.hasOwnProperty.call(value, "pl") && Object.prototype.hasOwnProperty.call(value, "en")) {
+      for (const [lang, replacements] of Object.entries(commonReplacements)) {
+        if (typeof value[lang] !== "string") continue;
+        replacements.forEach(([pattern, replacement]) => {
+          value[lang] = value[lang].replace(pattern, (match) => /^[A-ZĄĆĘŁŃÓŚŹŻ]/.test(match) ? replacement[0].toUpperCase() + replacement.slice(1) : replacement);
+        });
+      }
+    }
+    Object.values(value).forEach(normalizeLocationTranslations);
+  };
+  normalizeLocationTranslations(D);
+  fixLocationTranslation(D.medical[2].phones[0].label, "fil", "ER / emerhensiya");
+  fixLocationTranslation(D.medical[4].title, "fil", "Dentista NFZ - Kozienice");
+  fixLocationTranslation(D.city[0].links[0].label, "es", "Mapa: Ayuntamiento, Parkowa 5");
+  fixLocationTranslation(D.city[0].links[0].label, "fil", "Mapa: Tanggapan ng Bayan, Parkowa 5");
+  fixLocationTranslation(D.city[1].links[0].label, "es", "Mapa: Oficina de impuestos, Parkowa 5");
+  fixLocationTranslation(D.city[1].links[0].label, "fil", "Mapa: Tanggapan ng Buwis, Parkowa 5");
+  fixLocationTranslation(D.city[3].links[0].label, "es", "Mapa: Oficina del distrito, Kochanowskiego 28");
+  fixLocationTranslation(D.city[3].links[0].label, "fil", "Mapa: Tanggapan ng distrito, Kochanowskiego 28");
+  fixLocationTranslation(D.city[4].links[0].label, "es", "Mapa: Oficina de empleo, Zdziczów 1");
+  fixLocationTranslation(D.city[4].links[0].label, "fil", "Mapa: Tanggapan ng trabaho, Zdziczów 1");
+  fixLocationTranslation(D.city[5].links[0].label, "es", "Mapa: Oficina de Mazovia, Marszałkowska 3/5");
+  fixLocationTranslation(D.city[5].links[0].label, "fil", "Mapa: Tanggapan ng Mazowieckie, Marszałkowska 3/5");
+  fixLocationTranslation(D.city[6].links[0].label, "es", "Mapa: Oficina de Mazovia en Radom, Żeromskiego 53");
+  fixLocationTranslation(D.city[6].links[0].label, "fil", "Mapa: Tanggapan ng Mazowieckie sa Radom, Żeromskiego 53");
+  fixLocationTranslation(D.city[9].links[0].label, "es", "Mapa: Oficina de correos, Kopernika 8");
+  fixLocationTranslation(D.city[9].links[0].label, "fil", "Mapa: Post office, Kopernika 8");
+  fixLocationTranslation(D.city[11].links[0].label, "es", "Mapa: Punto de farmacia, Świerże Górne 55");
+  fixLocationTranslation(D.city[11].links[0].label, "fil", "Mapa: Punto ng botika, Świerże Górne 55");
+  fixLocationTranslation(D.city[8].list[0], "az", "PKO BP: telefon +48 48 611 33 70.");
+  fixLocationTranslation(D.city[8].list[0], "es", "PKO BP: teléfono +48 48 611 33 70.");
+  fixLocationTranslation(D.city[8].list[0], "fil", "PKO BP: telepono +48 48 611 33 70.");
+  fixLocationTranslation(D.city[8].list[0], "id", "PKO BP: telepon +48 48 611 33 70.");
+  fixLocationTranslation(D.city[8].list[1], "az", "Pekao SA: telefon +48 48 611 74 31.");
+  fixLocationTranslation(D.city[8].list[1], "es", "Pekao SA: teléfono +48 48 611 74 31.");
+  fixLocationTranslation(D.city[8].list[1], "fil", "Pekao SA: telepono +48 48 611 74 31.");
+  fixLocationTranslation(D.city[8].list[1], "id", "Pekao SA: telepon +48 48 611 74 31.");
 })();
