@@ -126,3 +126,107 @@ test("activation clears only old location caches", async () => {
   assert.deepEqual(w.deleted, ["citronex-ryczywol-older", "citronex-ryczywol-another"]);
   assert.ok(w.lifecycle.includes("claim"));
 });
+
+function timeoutHarness({ network = async () => new Response("fresh"), cached = () => undefined } = {}) {
+  const handlers = {}, timers = [], cleared = [], calls = [], writes = [], matches = [];
+  const origin = "https://oleksandrkiris.github.io";
+  const cache = {
+    async match(request, options) { matches.push({ request, options }); return cached(request); },
+    async put(request, response) { writes.push({ request, body: await response.text() }); }
+  };
+  vm.runInNewContext(worker, {
+    self: { addEventListener(name, handler) { handlers[name] = handler; } },
+    location: { origin }, URL, Response,
+    caches: { async open() { return cache; }, async match(request) { return cached(request); } },
+    fetch(request, options) { calls.push({ request, options }); return network(request); },
+    setTimeout(callback, delay) { assert.equal(delay, 1400); return timers.push(callback); },
+    clearTimeout(id) { cleared.push(id); }
+  });
+  return {
+    timers, cleared, calls, writes, matches,
+    request({ path = "assets/new.png", method = "GET", html = false } = {}) {
+      const request = { url: new URL(path, `${origin}/citronex-ryczywol-szkolenie/`).href, method,
+        mode: html ? "navigate" : "cors", headers: new Headers({ accept: html ? "text/html" : "image/png" }) };
+      let result;
+      handlers.fetch({ request, respondWith(value) { result = value; } });
+      return result;
+    }
+  };
+}
+
+for (const status of [200, 404, 503]) test(`worker HTTP ${status}: settled request clears its own unused timeout`, async () => {
+  const h = timeoutHarness({ network: async () => new Response("result", { status }) });
+  assert.equal((await h.request()).status, status);
+  await new Promise(setImmediate); // Existing cache.put is intentionally fire-and-forget.
+  assert.deepEqual(h.cleared, [1]);
+  assert.equal(h.calls.length, 1);
+  assert.equal(h.calls[0].options, undefined, "Request options and cancellation policy stay unchanged");
+  assert.equal(h.writes.length, status === 200 ? 1 : 0);
+});
+
+test("worker network rejection clears the timer and preserves the error fallback", async () => {
+  const h = timeoutHarness({ network: async () => { throw Error("offline"); } });
+  assert.equal((await h.request()).type, "error");
+  assert.deepEqual(h.cleared, [1]);
+  assert.equal(h.writes.length, 0);
+});
+
+test("worker timeout retains the cache fallback without aborting or caching a late response", async () => {
+  let resolveNetwork, expired = false;
+  const h = timeoutHarness({ network: () => new Promise(resolve => { resolveNetwork = resolve; }),
+    cached: () => expired ? new Response("available offline") : undefined });
+  const result = h.request();
+  await new Promise(setImmediate);
+  assert.equal(h.timers.length, 1);
+  expired = true;
+  h.timers[0]();
+  assert.equal(await (await result).text(), "available offline");
+  assert.deepEqual(h.cleared, [1]);
+  resolveNetwork(new Response("late"));
+  await new Promise(setImmediate);
+  assert.equal(h.calls.length, 1);
+  assert.equal(h.writes.length, 0);
+});
+
+test("worker concurrent requests do not clear each other's timeout", async () => {
+  const pending = [];
+  const h = timeoutHarness({ network: () => new Promise(resolve => pending.push(resolve)) });
+  const first = h.request(), second = h.request({ path: "assets/second.png" });
+  await new Promise(setImmediate);
+  pending[0](new Response("first"));
+  assert.equal(await (await first).text(), "first");
+  assert.deepEqual(h.cleared, [1]);
+  h.timers[1]();
+  assert.equal((await second).type, "error");
+  assert.deepEqual(h.cleared, [1, 2]);
+  pending[1](new Response("late"));
+  await new Promise(setImmediate);
+  assert.equal(h.writes.length, 1);
+});
+
+test("worker cached page returns immediately, refreshes in background and allocates no timer", async () => {
+  const h = timeoutHarness({ cached: () => new Response("cached") });
+  assert.equal(await (await h.request({ html: true })).text(), "cached");
+  await new Promise(setImmediate);
+  assert.equal(h.timers.length, 0);
+  assert.equal(h.calls.length, 1);
+  assert.equal(h.writes[0].body, "fresh");
+  assert.equal(h.matches[0].options.ignoreSearch, true);
+});
+
+test("worker offline navigation may use the existing HTML shell; assets may not", async () => {
+  for (const html of [true, false]) {
+    const h = timeoutHarness({ network: async () => { throw Error("offline"); },
+      cached: request => request === "./index.html" ? new Response("shell") : undefined });
+    const result = await h.request({ html });
+    assert.equal(html ? await result.text() : result.type, html ? "shell" : "error");
+  }
+});
+
+test("worker non-GET and cross-origin requests never allocate timers or network calls", () => {
+  const h = timeoutHarness();
+  assert.equal(h.request({ method: "POST" }), undefined);
+  assert.equal(h.request({ path: "https://www.primserv.pl/" }), undefined);
+  assert.equal(h.timers.length, 0);
+  assert.equal(h.calls.length, 0);
+});
