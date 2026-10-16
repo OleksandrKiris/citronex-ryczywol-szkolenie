@@ -128,6 +128,18 @@ function contactHarness({lang="en", group="", blocked=false, blockedHistory=fals
   });
 }
 
+test('confirmed Ryczywół accommodation contact renders direct call and WhatsApp actions in all languages', async () => {
+  for (const lang of ['pl','en','ua','ru','az','es','fil','id','ne']) {
+    const h = await contactHarness({lang});
+    assert.ok(h.app.html.includes('Dmytro (Dima)'));
+    assert.ok(h.app.html.includes('href="tel:+48511472583"'));
+    assert.ok(h.app.html.includes('https://wa.me/48511472583'));
+    assert.ok(!h.app.html.includes('536110591'));
+    assert.ok(!h.app.html.includes('Liudmyla'));
+    assert.ok(h.app.html.includes('Maksym Saliuk'));
+  }
+});
+
 for(const lang of ['pl','en','ua','ru','az','es','fil','id','ne'])test(`${lang}: contact selection survives language change and page return with focus intact`,async()=>{
   const h=await contactHarness({lang});
   const target=h.buttons.find(b=>b.dataset.contactGroup!=='coordinators').dataset.contactGroup;
@@ -248,7 +260,7 @@ function workerHarness() {
     self: { location: { origin }, addEventListener(name, handler) { handlers[name] = handler; }, skipWaiting() { lifecycle.push("skip"); }, clients: { claim() { lifecycle.push("claim"); } } },
     caches: {
       async open() { return { async add(request) { added.push(request.url); }, async put(request) { copied.push(request.url); } }; },
-      async match(request) { return (request.url.includes("primserv") || request.url.includes("20261016-reader-context1") || request.url.includes("20261016-language1") || request.url.includes("20261016-locationquiz1")) ? null : new Response("old valid asset"); },
+      async match(request) { return (request.url.includes("primserv") || request.url.includes("20261016-reader-context1") || request.url.includes("20261016-language1") || request.url.includes("20261016-housing-contact1")) ? null : new Response("old valid asset"); },
       async keys() { return ["unrelated", "citronex-ryczywol-older", "citronex-ryczywol-another", vm.runInContext("CACHE_NAME", context)]; },
       async delete(name) { deleted.push(name); }
     },
@@ -265,7 +277,7 @@ test("worker migrates exact unchanged cached assets but refreshes documents and 
   await w.run("install");
   assert.ok(w.copied.some(url => url.endsWith("/assets/orientation/sklarnia-etap-excel.png")));
   assert.ok(w.copied.some(url => url.endsWith("/assets/css/training.css?v=20260718-greenhouse-separate1")));
-  assert.ok(w.added.some(url => url.endsWith("/assets/js/location-custom.js?v=20261016-locationquiz1")));
+  assert.ok(w.added.some(url => url.endsWith("/assets/js/location-custom.js?v=20261016-housing-contact1")));
   assert.ok(w.added.some(url => url.endsWith("/index.html")));
   assert.ok(w.added.some(url => url.endsWith("/manifest.webmanifest")));
   assert.ok(w.added.some(url => url.endsWith("/assets/js/training-app.js?v=20261016-reader-context1")));
@@ -549,7 +561,7 @@ test('every production page loads the corrected location module before the rende
   for(const file of (await fs.readdir(root)).filter(p=>p.endsWith('.html'))) {
     const html=await fs.readFile(new URL(file,root),'utf8');
     if(!html.includes('training-app.js'))continue;
-    assert.ok(html.includes('location-custom.js?v=20261016-locationquiz1'),file);
+    assert.ok(html.includes('location-custom.js?v=20261016-housing-contact1'),file);
     assert.ok(html.indexOf('location-custom.js') < html.indexOf('training-app.js'),file);
   }
 });
