@@ -94,7 +94,7 @@ function workerHarness() {
     self: { location: { origin }, addEventListener(name, handler) { handlers[name] = handler; }, skipWaiting() { lifecycle.push("skip"); }, clients: { claim() { lifecycle.push("claim"); } } },
     caches: {
       async open() { return { async add(request) { added.push(request.url); }, async put(request) { copied.push(request.url); } }; },
-      async match(request) { return (request.url.includes("primserv") || request.url.includes("20261016-language1")) ? null : new Response("old valid asset"); },
+      async match(request) { return (request.url.includes("primserv") || request.url.includes("20261016-language1") || request.url.includes("20261016-locationquiz1")) ? null : new Response("old valid asset"); },
       async keys() { return ["unrelated", "citronex-ryczywol-older", "citronex-ryczywol-another", vm.runInContext("CACHE_NAME", context)]; },
       async delete(name) { deleted.push(name); }
     },
@@ -111,7 +111,7 @@ test("worker migrates exact unchanged cached assets but refreshes documents and 
   await w.run("install");
   assert.ok(w.copied.some(url => url.endsWith("/assets/orientation/sklarnia-etap-excel.png")));
   assert.ok(w.copied.some(url => url.endsWith("/assets/css/training.css?v=20260718-greenhouse-separate1")));
-  assert.ok(w.copied.some(url => url.endsWith("/assets/js/location-custom.js?v=20260718-greenhouse-separate1")));
+  assert.ok(w.added.some(url => url.endsWith("/assets/js/location-custom.js?v=20261016-locationquiz1")));
   assert.ok(w.added.some(url => url.endsWith("/index.html")));
   assert.ok(w.added.some(url => url.endsWith("/manifest.webmanifest")));
   assert.ok(w.added.some(url => url.endsWith("/assets/js/training-app.js?v=20261016-language1")));
@@ -370,3 +370,32 @@ langs.forEach((lang,index) => test(`${lang}: language picker and return control 
   assert.ok(h.html.includes(expectedReturnLabels[index]));
   assert.match(h.html,/<option value="id"[^>]*>Bahasa Indonesia<\/option>/);
 }));
+
+for (const lang of langs) test(`${lang}: quiz uses this location's medical section, not Siechnice clinic hours`, () => {
+  const {window} = header(lang,'test');
+  const D = window.CX_DATA;
+  const question = D.test[14];
+  assert.equal(question.ok,true);
+  assert.ok(question.text[lang].includes(D.pages.lekarz.title[lang]));
+  assert.ok(question.text[lang].includes('Ryczywół'));
+  assert.doesNotMatch(question.text[lang], /Siechnice|8:00|८:००/);
+});
+test('location correction preserves the other 29 questions, answer keys and original teaching data', () => {
+  const original = {window:{}}; vm.createContext(original); vm.runInContext(data, original);
+  const expected = JSON.parse(JSON.stringify(original.window.CX_DATA.test));
+  vm.runInContext(custom, original);
+  const actual = JSON.parse(JSON.stringify(original.window.CX_DATA.test));
+  assert.equal(actual.length,30);
+  actual.forEach((question,index)=>{
+    assert.equal(question.ok,expected[index].ok);
+    if(index !== 14) assert.deepEqual(question,expected[index]);
+  });
+});
+test('every production page loads the corrected location module before the renderer', async () => {
+  for(const file of (await fs.readdir(root)).filter(p=>p.endsWith('.html'))) {
+    const html=await fs.readFile(new URL(file,root),'utf8');
+    if(!html.includes('training-app.js'))continue;
+    assert.ok(html.includes('location-custom.js?v=20261016-locationquiz1'),file);
+    assert.ok(html.indexOf('location-custom.js') < html.indexOf('training-app.js'),file);
+  }
+});
