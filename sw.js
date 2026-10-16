@@ -58,10 +58,16 @@ self.addEventListener("activate", (event) => {
   })());
 });
 
-function networkTimeout(ms = 1400) {
-  return new Promise((resolve) => {
-    setTimeout(() => resolve(null), ms);
-  });
+async function fetchWithTimeout(request, ms = 1400) {
+  let timer;
+  try {
+    return await Promise.race([
+      fetch(request),
+      new Promise((resolve) => { timer = setTimeout(() => resolve(null), ms); })
+    ]);
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 async function cacheMatch(cache, request, fallback = null) {
@@ -88,7 +94,7 @@ self.addEventListener("fetch", (event) => {
       return cached;
     }
     try {
-      const response = await Promise.race([fetch(event.request), networkTimeout()]);
+      const response = await fetchWithTimeout(event.request);
       if (!response) return await cacheMatch(cache, event.request, fallback) || Response.error();
       if (response && response.ok) {
         cache.put(event.request, response.clone());
