@@ -579,8 +579,8 @@
         "phone": "+48 506 845 637"
       },
       {
-        "name": "Liudmyla / Людмила",
-        "phone": "+48536110591",
+        "name": "Dmytro (Dima)",
+        "phone": "+48511472583",
         "role": {
           "pl": "Zakwaterowanie - Ryczywół",
           "en": "Accommodation - Ryczywół",
