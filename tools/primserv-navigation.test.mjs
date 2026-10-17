@@ -243,7 +243,7 @@ test("official logo and every production page use the new worker/UI entry", asyn
     assert.match(html, /<title>[^<]*PrimServ<\/title>/, file);
     if (html.includes('data-standalone-tool=')) continue;
     assert.ok(html.includes('property="og:site_name"'), file);
-    assert.ok(html.includes("assets/js/training-app.js?v=20261016-glossary-context1"), file);
+    assert.ok(html.includes("assets/js/training-app.js?v=20261017-glossary-context2"), file);
     assert.ok(html.includes("assets/css/primserv.css?v=20261016-progress1"), file);
     assert.match(html, /assets\/js\/training-data\.js\?v=[^\"\s]+/, file);
   }
@@ -260,7 +260,7 @@ function workerHarness() {
     self: { location: { origin }, addEventListener(name, handler) { handlers[name] = handler; }, skipWaiting() { lifecycle.push("skip"); }, clients: { claim() { lifecycle.push("claim"); } } },
     caches: {
       async open() { return { async add(request) { added.push(request.url); }, async put(request) { copied.push(request.url); } }; },
-      async match(request) { return (request.url.includes("primserv") || request.url.includes("20261016-glossary-context1") || request.url.includes("20261016-language1") || request.url.includes("20261016-housing-contact1")) ? null : new Response("old valid asset"); },
+      async match(request) { return (request.url.includes("primserv") || request.url.includes("20261017-glossary-context2") || request.url.includes("20261016-language1") || request.url.includes("20261016-housing-contact1")) ? null : new Response("old valid asset"); },
       async keys() { return ["unrelated", "citronex-ryczywol-older", "citronex-ryczywol-another", vm.runInContext("CACHE_NAME", context)]; },
       async delete(name) { deleted.push(name); }
     },
@@ -280,7 +280,7 @@ test("worker migrates exact unchanged cached assets but refreshes documents and 
   assert.ok(w.added.some(url => url.endsWith("/assets/js/location-custom.js?v=20261016-housing-contact1")));
   assert.ok(w.added.some(url => url.endsWith("/index.html")));
   assert.ok(w.added.some(url => url.endsWith("/manifest.webmanifest")));
-  assert.ok(w.added.some(url => url.endsWith("/assets/js/training-app.js?v=20261016-glossary-context1")));
+  assert.ok(w.added.some(url => url.endsWith("/assets/js/training-app.js?v=20261017-glossary-context2")));
   assert.ok(w.added.some(url => url.endsWith("/assets/js/instruction-update.js?v=20261016-language1")));
   assert.ok(w.added.some(url => url.endsWith("/assets/primserv-logo.svg")));
   assert.equal(w.added.some(url => url.includes(".mp3")), false);
@@ -682,7 +682,7 @@ function glossaryHarness({lang='en', url='', blockedHistory=false, blockedStorag
     this.html=value; cards=[];
     groups=[...value.matchAll(/<details[^>]*data-glossary-group[^>]*>([\s\S]*?)<\/details>/g)].map(([,body])=>{
       const own=[...body.matchAll(/data-search="([^"]*)"/g)].map(([,key])=>({dataset:{search:key},classList:classes()}));cards.push(...own);
-      return {open:false,classList:classes(),addEventListener(){},querySelector(){return own.find(c=>!c.classList.hidden)||null;}};
+      return {open:false,classList:classes(),handlers:{},addEventListener(type,fn){this.handlers[type]=fn;},querySelector(){return own.find(c=>!c.classList.hidden)||null;}};
     });
   },get innerHTML(){return this.html;},querySelector(s){return s==='[data-glossary-search]'?search:s==='[data-glossary-empty]'?empty:null;},querySelectorAll(s){return s==='[data-glossary-card]'?cards:s==='[data-glossary-group]'?groups:[];}};
   document.getElementById = id => id==='app'?app:null;
@@ -697,6 +697,7 @@ function glossaryHarness({lang='en', url='', blockedHistory=false, blockedStorag
   assert.notEqual(instrumented,source);vm.runInContext(instrumented,context);
   window.glossaryTest.renderGlossary();
   return {app,search,empty,location,calls,document,api:window.glossaryTest,
+    get groups(){return groups;},
     get visible(){return cards.filter(c=>!c.classList.hidden);},
     type(value){document.activeElement=search;search.value=value;search.handlers.input();assert.equal(document.activeElement,search);assert.equal(JSON.stringify(window.CX_DATA),original);}};
 }
@@ -730,4 +731,16 @@ test('glossary query restores with unsupported language fallback and empty legac
  const h=glossaryHarness({url:'https://example.test/slownik.html?lang=ka&q=reader'});
  assert.equal(h.search.value,'reader');assert.ok(h.visible.length > 0 && h.visible.length < 54);assert.ok(h.visible.every(c=>c.dataset.search.includes('reader')));assert.match(h.app.html,/Search a word/);
  const legacy=glossaryHarness();assert.equal(legacy.search.value,'');assert.equal(legacy.visible.length,54);assert.equal(legacy.calls.length,0);
+});
+test('queued glossary toggle events keep all matching groups open during search',()=>{
+ const h=glossaryHarness();h.type('r');
+ const matching=h.groups.filter(g=>!g.classList.hidden);assert.ok(matching.length>1);
+ for(const g of matching)g.handlers.toggle();
+ assert.ok(matching.every(g=>g.open),'accordion must not collapse search matches');
+ h.type('reader');for(const g of h.groups)g.handlers.toggle();
+ assert.ok(h.groups.filter(g=>!g.classList.hidden).every(g=>g.open));
+ h.type('');assert.ok(h.groups.every(g=>!g.open));
+ h.groups[0].open=true;h.groups[1].open=true;h.groups[1].handlers.toggle();
+ assert.equal(h.groups[0].open,false,'normal accordion behaviour remains with empty search');
+ assert.equal(h.groups[1].open,true);
 });

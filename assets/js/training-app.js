@@ -1781,7 +1781,8 @@
     }
     groupNodes.forEach((group) => {
       group.addEventListener("toggle", () => {
-        if (!group.open) return;
+        // Search opens matching groups together; queued toggle events must not close them.
+        if (glossaryQuery.trim() || !group.open) return;
         groupNodes.forEach((other) => {
           if (other !== group) other.open = false;
         });

@@ -2,7 +2,32 @@
 
 Owner: task 6. Issue: https://github.com/OleksandrKiris/citronex-ryczywol-szkolenie/issues/14
 Base: `1ec6c4368fdea340e0b5e7b9b6516b4d0cf360b5`. PR12/PR13 already merged.
-Status: implemented/tested; draft until exact-version browser acceptance.
+Status: see PR15 for the latest exact-head CI/browser result; no independent deployment.
+
+## 17 October browser follow-up
+
+The user-authorized GitHub Actions Chromium acceptance is now in
+`.github/browser/glossary.mjs`, run by the existing PR workflow with pinned
+Playwright 1.56.1. The first run 39004464291 passed the full original CI/164 tests
+and desktop scenario, but reproduced a real narrow-screen search defect: queued
+details toggle events collapsed the matching group after typing `reader`.
+The search now leaves all matching groups expanded; normal exclusive accordion
+behaviour is retained when the query is empty. A regression test covers both.
+No instructional text, contact, media or question/answer data changed.
+
+Acceptance runs exact head assets at an ephemeral localhost HTTP origin inside CI,
+compares SHA256 to git head, exercises 1280x900 and 320x900, keyboard, nine languages,
+ka fallback, reload/Back, no-match/clear, corrupt/denied storage/history, real base
+to head service-worker update and legacy quiz progress. Offline tests disable the
+browser network AND stop the HTTP server. Only text/UI resources are served;
+photos/audio/PDF acceptance is outside this change. No external requests/actions
+are allowed. JSON hashes/results, screenshots and traces are retained for 7 days
+in the workflow artifact. Final result and exact head are recorded in PR15.
+No file:// claim; first successful HTTP load and ready cache are required.
+There is no package.json/npm test; use the existing workflow's Node test commands.
+No runtime dependencies, extra precache entries or new browser data formats.
+
+The original 16 October investigation below is historical, not the latest status.
 
 ## Confirmed problem and change
 
@@ -32,7 +57,7 @@ verified in an actual offline browser for this head. External links still requir
 network. No file:// service-worker support is claimed.
 
 Changed runtime JS: 202075 -> 202981 bytes (+906; gzip +194). UI script / worker
-cache version `20261016-glossary-context1`; all 14 HTML entries updated. No new
+cache version `20261017-glossary-context2`; all 14 HTML entries updated. No new
 cache entries. location-custom and all media keep their exact prior URLs/versions.
 
 ## Verification

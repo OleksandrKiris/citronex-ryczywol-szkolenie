@@ -85,6 +85,8 @@ async function retained(page) {
   await ready(page); assert.equal(await page.locator(input).inputValue(), 'reader');
   const matches = await page.locator('[data-glossary-card]:not(.is-hidden)').count();
   assert.ok(matches > 0 && matches < 54); assert.ok(await page.locator('[data-glossary-card]:visible').count() > 0);
+  await page.waitForTimeout(75); // Drain real asynchronous details toggle events.
+  assert.equal(await page.locator('[data-glossary-card]:visible').count(), matches, 'Every search match remains expanded');
 }
 async function keyboardFocus(page, selector) {
   for (let n = 0; n < 45; n++) {
@@ -170,7 +172,7 @@ try {
   oldVersion = false;
   await page.evaluate(async () => { const reg = await navigator.serviceWorker.ready; await reg.update(); });
   await page.waitForFunction(async () => {
-    const keys = await caches.keys(); return keys.includes('citronex-ryczywol-20261016-glossary-context1') && !keys.includes('citronex-ryczywol-20261016-housing-contact1');
+    const keys = await caches.keys(); return keys.includes('citronex-ryczywol-20261017-glossary-context2') && !keys.includes('citronex-ryczywol-20261016-housing-contact1');
   });
   await page.reload(); await retained(page); await controlled(page);
   for (const [key, value] of Object.entries(saved)) assert.equal(await page.evaluate(k => localStorage.getItem(k), key), value);
@@ -180,7 +182,7 @@ try {
   await page.goto(`${base}test.html?lang=ua`); await page.locator('#testResume').click();
   assert.match(await page.locator('#testProgressText').innerText(), /2\/30/);
   report.cache = await page.evaluate(async () => {
-    const c = await caches.open('citronex-ryczywol-20261016-glossary-context1'); const rows = [];
+    const c = await caches.open('citronex-ryczywol-20261017-glossary-context2'); const rows = [];
     for (const req of await c.keys()) { const res = await c.match(req); rows.push({ url: req.url, bytes: (await res.arrayBuffer()).byteLength }); }
     return rows;
   });
