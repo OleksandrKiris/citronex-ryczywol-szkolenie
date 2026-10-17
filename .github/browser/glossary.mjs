@@ -170,7 +170,13 @@ try {
   assert.equal(await page.locator(input).inputValue(), '', 'Base reproduces missing query restoration');
   await page.evaluate(async () => { localStorage.setItem('unrelated', 'keep'); await caches.open('unrelated-cache'); });
   oldVersion = false;
-  await page.evaluate(async () => { const reg = await navigator.serviceWorker.ready; await reg.update(); });
+  await page.evaluate(async () => {
+    const changed = new Promise((resolve, reject) => {
+      const timer = setTimeout(() => reject(Error('No new SW controller')), 12000);
+      navigator.serviceWorker.addEventListener('controllerchange', () => { clearTimeout(timer); resolve(); }, { once: true });
+    });
+    const reg = await navigator.serviceWorker.ready; await reg.update(); await changed;
+  });
   await page.waitForFunction(async () => {
     const keys = await caches.keys(); return keys.includes('citronex-ryczywol-20261017-glossary-context2') && !keys.includes('citronex-ryczywol-20261016-housing-contact1');
   });
