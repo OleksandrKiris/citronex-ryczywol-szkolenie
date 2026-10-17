@@ -60,6 +60,7 @@
   let lang = getLang();
   let readerTopic = "";
   let contactGroup = "";
+  let glossaryQuery = "";
   document.documentElement.lang = lang === "ua" ? "uk" : lang;
 
   const visibleTranslationFixes = {
@@ -455,6 +456,10 @@
     url.searchParams.set("lang", lang);
     if (page === "reader" && readerTopic) url.searchParams.set("topic", readerTopic);
     if (page === "kontakty" && contactGroup) url.searchParams.set("group", contactGroup);
+    if (page === "slownik") {
+      if (glossaryQuery) url.searchParams.set("q", glossaryQuery);
+      else url.searchParams.delete("q");
+    }
     url.searchParams.delete("welcome");
     location.href = url.toString();
   }
@@ -1675,6 +1680,7 @@
   }
 
   function renderGlossary() {
+    glossaryQuery = (new URLSearchParams(location.search).get("q") || "").slice(0, 160);
     const groups = DATA.glossaryGroups || [];
     const entries = DATA.glossary || [];
     const labels = {
@@ -1729,8 +1735,8 @@
           <strong class="glossary-count">${entries.length} ${esc(text(labels.count))}</strong>
         </section>
         <section class="glossary-search-box">
-          <input class="glossary-search" type="search" inputmode="search" autocomplete="off" placeholder="${esc(text(labels.search))}" aria-label="${esc(text(labels.search))}" data-glossary-search>
-          <div class="glossary-empty is-hidden" data-glossary-empty>${esc(text(labels.empty))}</div>
+          <input class="glossary-search" type="search" inputmode="search" autocomplete="off" placeholder="${esc(text(labels.search))}" aria-label="${esc(text(labels.search))}" maxlength="160" data-glossary-search>
+          <div class="glossary-empty is-hidden" role="status" data-glossary-empty>${esc(text(labels.empty))}</div>
         </section>
         <section class="stack section">${groupHtml}</section>
       </main>
@@ -1740,7 +1746,8 @@
     const groupNodes = Array.from(app.querySelectorAll("[data-glossary-group]"));
     const empty = app.querySelector("[data-glossary-empty]");
     if (search) {
-      search.addEventListener("input", () => {
+      search.value = glossaryQuery;
+      const applySearch = () => {
         const query = search.value.trim().toLowerCase();
         let visible = 0;
         cards.forEach((card) => {
@@ -1758,11 +1765,24 @@
           }
         });
         if (empty) empty.classList.toggle("is-hidden", visible !== 0);
+      };
+      search.addEventListener("input", () => {
+        glossaryQuery = search.value.slice(0, 160);
+        search.value = glossaryQuery;
+        applySearch();
+        // Replace the current entry: typing must not add steps to browser Back.
+        const url = new URL(location.href);
+        if (glossaryQuery) url.searchParams.set("q", glossaryQuery);
+        else url.searchParams.delete("q");
+        try { history.replaceState(history.state, "", url); }
+        catch { /* Filtering and language changes still use the in-memory query. */ }
       });
+      if (glossaryQuery) applySearch();
     }
     groupNodes.forEach((group) => {
       group.addEventListener("toggle", () => {
-        if (!group.open) return;
+        // Search opens matching groups together; queued toggle events must not close them.
+        if (glossaryQuery.trim() || !group.open) return;
         groupNodes.forEach((other) => {
           if (other !== group) other.open = false;
         });
