@@ -17,9 +17,11 @@ const report = { head: process.env.TESTED_HEAD, base: process.env.TESTED_BASE,
   checkout: git('rev-parse', 'HEAD').toString().trim(), started: new Date().toISOString(),
   files: {}, results: [], requests: [], blocked: [], errors: [],
   limits: ['Desktop Chromium; narrow viewport is not a physical phone.',
-    'Only glossary/text routes are accepted, not all training photos/audio/PDFs.',
+    'Glossary/text shell and 3D handoff href/focus; external 3D rendering, training media and physical phones are outside CI.',
     'No external navigation, messages, calls or submissions.',
     'First installation requires HTTP access; file:// and never-opened-device offline are not promised.'] };
+assert.equal(report.checkout,report.head,'Run exact PR head');
+report.threeD=[];report.aliases=[];report.denied3D=[];
 const current = new Map(), previous = new Map();
 const files = git('ls-tree', '-r', '--name-only', report.head).toString().trim().split('\n').filter(p =>
   /^(?:[^/]+\.html|sw\.js|manifest\.webmanifest|assets\/(?:js|css)\/[^/]+\.(?:js|css)|assets\/primserv-logo\.svg)$/.test(p));
@@ -29,6 +31,9 @@ for (const file of files) {
   current.set(file, bytes); previous.set(file, git('show', `${report.base}:${file}`));
   report.files[file] = { bytes: bytes.length, sha256: hash(bytes) };
 }
+const workerText=current.get('sw.js').toString();
+const headCacheName=workerText.match(/const CACHE_PREFIX = "([^"]+)"/)[1]+workerText.match(/const CACHE_NAME = CACHE_PREFIX \+ "([^"]+)"/)[1];
+const appVersion=current.get('index.html').toString().match(/training-app\.js\?v=([^"&]+)/)[1];
 let oldVersion = false;
 const prefix = '/citronex-ryczywol-szkolenie/';
 const types = { html: 'text/html', js: 'application/javascript', css: 'text/css', svg: 'image/svg+xml', webmanifest: 'application/manifest+json' };
@@ -108,6 +113,35 @@ async function language(page, lang) {
   await page.waitForURL(url => url.searchParams.get('lang') === lang);
   await retained(page); assert.equal(await page.locator('html').getAttribute('lang'), lang === 'ua' ? 'uk' : lang);
 }
+async function exactCachedShell(page) {
+  const files=[...current].filter(([file])=>file.endsWith('.html')||file==='assets/js/training-app.js').map(([file,bytes])=>({url:file+(file==='assets/js/training-app.js'?'?v='+appVersion:''),bytes:bytes.length,hash:hash(bytes)}));
+  await page.waitForFunction(async expected=>{
+    if(!(await caches.keys()).includes(expected.name))return false;
+    const cache=await caches.open(expected.name);
+    for(const item of expected.files){
+      const response=await cache.match(new URL(item.url,location.href).href);if(!response)return false;
+      const bytes=await response.arrayBuffer();const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(x=>x.toString(16).padStart(2,'0')).join('');
+      if(bytes.byteLength!==item.bytes||digest!==item.hash)return false;
+    }return true;
+  },{name:headCacheName,files});
+  await page.waitForFunction(async()=>{const r=await navigator.serviceWorker.ready;return r.active?.state==='activated'&&navigator.serviceWorker.controller===r.active;});
+  return files.length;
+}
+async function handoff(page,requested,entry,rows,width) {
+  const effective=requested==='uk'?'ua':['pl','en','ua','ru','az','es','fil','id','ne'].includes(requested.toLowerCase())?requested.toLowerCase():'en';
+  await page.goto(`${base}${entry}?lang=${requested}&from=fixture#instructions`);
+  await page.locator('h1').waitFor({state:'visible'});
+  await page.waitForFunction(lang=>document.documentElement.lang===(lang==='ua'?'uk':lang),effective);
+  const link=page.locator('a[href*="citronex-szklarnia-3d/"]');assert.equal(await link.count(),1);
+  const href=await link.getAttribute('href');assert.equal(href,'https://oleksandrkiris.github.io/citronex-szklarnia-3d/?lang='+effective);
+  const target=new URL(href);assert.deepEqual([...target.searchParams.keys()],['lang']);assert.equal(target.hash,'');
+  await keyboardFocus(page,'a[href*="citronex-szklarnia-3d/"]');assert.equal(await link.evaluate(el=>el===document.activeElement),true);
+  assert.equal(await page.locator('#langSelect').inputValue(),effective);
+  if(requested==='ka'||requested==='hy')assert.match(await page.locator('.primserv-language-fallback').innerText(),/English/);
+  await shot(page,`3d-${entry}-${requested}-${width}`);
+  await page.reload();assert.equal(await link.getAttribute('href'),href);
+  rows.push({requested,effective,entry,width,href,pass:true,keyboard:true,reload:true,externalTargetNotOpenedByCI:true});
+}
 try {
   browser = await chromium.launch({ headless: true });
   report.browser = `Chromium ${browser.version()} / Playwright 1.56.1`;
@@ -167,7 +201,15 @@ try {
   const saved = await page.evaluate(() => Object.fromEntries(Object.keys(localStorage).map(k => [k, localStorage.getItem(k)])));
   assert.ok(Object.keys(saved).some(k => k.startsWith('primserv:training-test:')), 'Real legacy quiz progress');
   await page.goto(`${base}slownik.html?lang=ua&q=reader`); await ready(page);
-  assert.equal(await page.locator(input).inputValue(), '', 'Base reproduces missing query restoration');
+  await retained(page); // Current published base already contains the glossary search fix.
+  report.base3D=[];
+  for(const entry of ['index.html','szklarnia.html']){
+    await page.goto(`${base}${entry}?lang=ua`);await page.locator('h1').waitFor();
+    const href=await page.locator('a[href*="citronex-szklarnia-3d/"]').getAttribute('href');
+    assert.equal(href,'https://oleksandrkiris.github.io/citronex-szklarnia-3d/','Actual base reproduces the lost language');
+    report.base3D.push({entry,href});
+  }
+  await page.goto(`${base}slownik.html?lang=ua&q=reader`);await retained(page);
   await page.evaluate(async () => { localStorage.setItem('unrelated', 'keep'); await caches.open('unrelated-cache'); });
   oldVersion = false;
   await page.evaluate(async () => {
@@ -177,22 +219,42 @@ try {
     });
     const reg = await navigator.serviceWorker.ready; await reg.update(); await changed;
   });
-  await page.waitForFunction(async () => {
-    const keys = await caches.keys(); return keys.includes('citronex-ryczywol-20261017-glossary-context2') && !keys.includes('citronex-ryczywol-20261016-housing-contact1');
-  });
+  report.exactCachedShellFiles=await exactCachedShell(page);
+  report.cacheNamesAfterUpgrade=await page.evaluate(()=>caches.keys());
   await page.reload(); await retained(page); await controlled(page);
   for (const [key, value] of Object.entries(saved)) assert.equal(await page.evaluate(k => localStorage.getItem(k), key), value);
   assert.equal(await page.evaluate(() => localStorage.getItem('unrelated')), 'keep');
   assert.ok((await page.evaluate(() => caches.keys())).includes('unrelated-cache'));
   await offline(ctx, true); await page.reload(); await retained(page); await shot(page, 'upgrade-offline');
+  for(const entry of ['index.html','szklarnia.html']){
+    await page.goto(`${base}${entry}?lang=ua`);await page.locator('h1').waitFor();
+    assert.equal(await page.locator('a[href*="citronex-szklarnia-3d/"]').getAttribute('href'),'https://oleksandrkiris.github.io/citronex-szklarnia-3d/?lang=ua');
+    await shot(page,'upgrade-offline-'+entry);
+  }
   await page.goto(`${base}test.html?lang=ua`); await page.locator('#testResume').click();
   assert.match(await page.locator('#testProgressText').innerText(), /2\/30/);
-  report.cache = await page.evaluate(async () => {
-    const c = await caches.open('citronex-ryczywol-20261017-glossary-context2'); const rows = [];
+  report.cache = await page.evaluate(async name => {
+    const c = await caches.open(name); const rows = [];
     for (const req of await c.keys()) { const res = await c.match(req); rows.push({ url: req.url, bytes: (await res.arrayBuffer()).byteLength }); }
     return rows;
-  });
-  report.results.push({ scenario: 'actual base → head SW, old defect reproduced, glossary restored, legacy quiz/unrelated storage and cache preserved, offline quiz resume', pass: true });
+  },headCacheName);
+  assert.ok(report.cache.some(row=>row.url.endsWith('assets/js/training-app.js?v='+appVersion)));
+  assert.ok(report.cache.length>=15);
+  report.results.push({ scenario: 'actual base → head SW, old3Dlanguage omission reproduced on both entries, exact15 current shell, glossary retained, legacy quiz/unrelated storage/cache preserved, offline3Dhandoff and quiz resume', pass: true });
+  await offline(ctx,false);await closeContext(ctx);
+  for(const width of [1280,320]){
+    const {ctx,page}=await context(width);
+    for(const lang of ['pl','en','ua','ru','az','es','fil','id','ne'])for(const entry of ['index.html','szklarnia.html'])await handoff(page,lang,entry,report.threeD,width);
+    if(width===320)for(const lang of ['uk','EN','ka','hy'])for(const entry of ['index.html','szklarnia.html'])await handoff(page,lang,entry,report.aliases,width);
+    report.results.push({scenario:'3D handoff: nine languages, two real entries, keyboard focus and reload',width,pass:true});await closeContext(ctx);
+  }
+  {
+    const {ctx,page}=await context(320,'denied');
+    for(const entry of ['index.html','szklarnia.html'])await handoff(page,'en',entry,report.denied3D,320);
+    report.results.push({scenario:'3D handoff with denied storage/history',pass:true});await closeContext(ctx);
+  }
+  assert.equal(report.threeD.length,36);assert.equal(report.aliases.length,8);assert.equal(report.denied3D.length,2);
+  assert.equal(report.base3D.length,2);assert.equal(report.exactCachedShellFiles,15);assert.equal(report.results.length,8);
   assert.deepEqual(report.errors, []); assert.deepEqual(report.blocked, []);
   report.pass = true;
 } catch (err) {

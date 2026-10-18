@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
@@ -18,7 +19,7 @@ jobs:
       - run: node tools/audit-project.js
       - run: node tools/audit-buttons.js
       - run: node tools/audit-map-links.js
-      - run: node --test tools/primserv-navigation.test.mjs tools/instruction-update.test.mjs tools/quiz-progress.test.mjs
+      - run: node --test tools/primserv-navigation.test.mjs tools/instruction-update.test.mjs tools/quiz-progress.test.mjs tools/three-d-language-link.test.mjs
       - name: Install pinned acceptance browser (CI only)
         run: |
           npm install --prefix "$RUNNER_TEMP/primserv-browser" --no-save --no-package-lock playwright@1.56.1
