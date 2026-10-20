@@ -24,6 +24,13 @@ jobs:
         run: |
           npm install --prefix "$RUNNER_TEMP/primserv-browser" --no-save --no-package-lock playwright@1.56.1
           "$RUNNER_TEMP/primserv-browser/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Exact-main tablet screen diagnostic
+        env:
+          PLAYWRIGHT_PACKAGE: ${{ runner.temp }}/primserv-browser/node_modules/playwright
+          BROWSER_REPORT: ${{ runner.temp }}/primserv-browser-report/tablet
+          TESTED_HEAD: ${{ github.event.pull_request.head.sha }}
+          TESTED_BASE: ${{ github.event.pull_request.base.sha }}
+        run: node .github/browser/tablet-layout.mjs
       - name: Exact-version glossary browser acceptance
         env:
           PLAYWRIGHT_PACKAGE: ${{ runner.temp }}/primserv-browser/node_modules/playwright
