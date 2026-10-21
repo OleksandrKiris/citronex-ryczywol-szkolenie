@@ -206,7 +206,7 @@ try {
   for(const entry of ['index.html','szklarnia.html']){
     await page.goto(`${base}${entry}?lang=ua`);await page.locator('h1').waitFor();
     const href=await page.locator('a[href*="citronex-szklarnia-3d/"]').getAttribute('href');
-    assert.equal(href,'https://oleksandrkiris.github.io/citronex-szklarnia-3d/','Actual base reproduces the lost language');
+    assert.equal(href,'https://oleksandrkiris.github.io/citronex-szklarnia-3d/?lang=ua','The current base already preserves the language');
     report.base3D.push({entry,href});
   }
   await page.goto(`${base}slownik.html?lang=ua&q=reader`);await retained(page);

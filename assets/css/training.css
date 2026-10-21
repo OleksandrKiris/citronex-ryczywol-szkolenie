@@ -7296,6 +7296,22 @@ summary {
   }
 }
 
+/* Keep the tablet disclosure titles clear of the fixed plus/minus control.
+   Rendering every step also prevents lazy containment from hiding its title
+   while keyboard navigation or a disclosure scrolls it into view. */
+.tablet-step {
+  content-visibility: visible;
+  contain-intrinsic-size: auto;
+}
+.tablet-step > summary {
+  padding-inline-end: 56px;
+}
+.tablet-step > summary > span:last-child {
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .btn:hover,
   .pill:hover,
