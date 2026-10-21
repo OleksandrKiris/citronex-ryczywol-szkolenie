@@ -34,7 +34,7 @@ await new Promise(done=>server.listen(0,'127.0.0.1',done));
 const origin=`http://127.0.0.1:${server.address().port}`,url=origin+prefix;
 const contexts=[];let browser,page;
 const twoFrames=p=>p.evaluate(()=>new Promise(done=>requestAnimationFrame(()=>requestAnimationFrame(done))));
-async function center(el){await el.evaluate(e=>e.scrollIntoView({block:'center',inline:'nearest'}));await twoFrames(el.page());}
+async function center(el){await el.evaluate(e=>e.scrollIntoView({block:'center',inline:'nearest',behavior:'instant'}));await twoFrames(el.page());}
 async function textGeometry(el){return el.evaluate(node=>{
  const range=document.createRange();range.selectNodeContents(node);
  const lines=[...range.getClientRects()].filter(r=>r.width&&r.height).map(r=>({left:r.left,right:r.right,top:r.top,bottom:r.bottom,exposed:[.05,.25,.5,.75,.95].every(t=>{const x=r.left+r.width*t,y=(r.top+r.bottom)/2;return x>=0&&x<document.documentElement.clientWidth&&y>=0&&y<innerHeight&&node.contains(document.elementFromPoint(x,y));})}));
