@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "citronex-ryczywol-";
-const CACHE_NAME = CACHE_PREFIX + "20261018-3d-language1";
+const CACHE_NAME = CACHE_PREFIX + "20261021-tablet-layout1";
 
 const CORE_ASSETS = [
   "./assets/js/instruction-update.js?v=20261016-language1",
@@ -19,7 +19,7 @@ const CORE_ASSETS = [
   "./zakazy.html",
   "./test.html",
   "./manifest.webmanifest",
-  "./assets/css/training.css?v=20260718-greenhouse-separate1",
+  "./assets/css/training.css?v=20261021-tablet-layout1",
   "./assets/js/training-data.js?v=20260718-greenhouse-separate1",
   "./assets/js/location-custom.js?v=20261016-housing-contact1",
   "./assets/js/training-app.js?v=20261018-3d-language1",

@@ -13,7 +13,7 @@ const output=resolve(process.env.BROWSER_REPORT);await mkdir(output,{recursive:t
 const git=(...a)=>execFileSync('git',a);const hash=b=>createHash('sha256').update(b).digest('hex');
 const head=process.env.TESTED_HEAD,base=process.env.TESTED_BASE;
 assert.equal(git('rev-parse','HEAD').toString().trim(),head);
-const report={head,base,diagnostic:true,acceptance:false,files:{},titles:[],notes:[],startup:[],errors:[],blocked:[],requests:[],limits:['Chromium screens; no physical iPhone or native-speaker approval.','Original operating text, maps, source photos/PDFs and stored answers must remain unchanged.']};
+const report={head,base,diagnostic:false,acceptance:false,files:{},titles:[],notes:[],startup:[],errors:[],blocked:[],requests:[],limits:['Chromium screens; no physical iPhone or native-speaker approval.','Original operating text, maps, source photos/PDFs and stored answers must remain unchanged.']};
 const tracked=new Set(git('ls-tree','-r','--name-only',head).toString().trim().split('\n'));
 const cache=new Map();
 function source(path){
@@ -70,8 +70,11 @@ try{
  }
  assert.equal(report.titles.length,52);assert.equal(report.notes.length,52);assert.deepEqual(report.errors,[]);assert.deepEqual(report.blocked,[]);
  report.diagnosticCompleted=true;report.unreserved=report.titles.filter(r=>!r.reserved).length;report.occluded=report.titles.filter(r=>!r.exposed).length;
+ assert.equal(report.unreserved,0,'Every title reserves space for its disclosure control');
+ assert.equal(report.occluded,0,'Every title is visible at phone and desktop widths');
+ report.acceptance=true;
 }catch(error){report.failure=error.stack;process.exitCode=1;if(page&&!page.isClosed())await page.screenshot({path:join(output,'failure.png'),fullPage:true}).catch(()=>{});}
 finally{
  await browser?.close();server.closeAllConnections();await new Promise(done=>server.close(done));report.finished=new Date().toISOString();await writeFile(join(output,'tablet-report.json'),JSON.stringify(report,null,2));
- console.log(JSON.stringify({head,diagnosticCompleted:report.diagnosticCompleted,unreserved:report.unreserved,occluded:report.occluded,failure:report.failure,acceptance:false}));
+ console.log(JSON.stringify({head,diagnosticCompleted:report.diagnosticCompleted,unreserved:report.unreserved,occluded:report.occluded,failure:report.failure,acceptance:report.acceptance}));
 }
