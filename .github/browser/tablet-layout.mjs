@@ -42,14 +42,18 @@ async function textGeometry(el){return el.evaluate(node=>{
 });}
 try{
  browser=await chromium.launch({headless:true});report.browser=browser.version();
- for(const width of [320,1280])for(const lang of ['en','ru']){
+ for(const width of [320,1280])for(const lang of ['pl','en','ua','ru','az','es','fil','id','ne']){
   const ctx=await browser.newContext({viewport:{width,height:900}});contexts.push(ctx);ctx.setDefaultTimeout(12000);await ctx.tracing.start({screenshots:true,snapshots:true});
   await ctx.route('**/*',route=>{const r=route.request();if(new URL(r.url()).origin!==origin||!['GET','HEAD'].includes(r.method())){report.blocked.push(r.url());return route.abort();}return route.continue();});
   page=await ctx.newPage();page.on('pageerror',e=>report.errors.push(e.message));
+  await page.goto(url+`test.html?lang=${lang}`);await page.locator('input[name="testAnswer"][value="1"]').check();await page.locator('#testNext').click();
   await page.goto(url+`tablet.html?lang=${lang}&mode=fixture`);await page.locator('#langSelect').waitFor();
-  await page.waitForFunction(lang=>document.documentElement.lang===lang,lang);
+  await page.waitForFunction(lang=>document.documentElement.lang===(lang==='ua'?'uk':lang),lang);
   assert.equal(await page.locator('#langSelect').inputValue(),lang);
   const saved=await page.evaluate(()=>Object.fromEntries(Object.keys(localStorage).filter(k=>k.startsWith('primserv:training-test:')).map(k=>[k,localStorage.getItem(k)])));
+  assert(Object.keys(saved).length>0,'Real saved quiz answers must exist');
+  const startup=page.locator('.reader-step');assert.equal(await startup.count(),3);
+  for(let i=0;i<3;i++){const para=startup.nth(i).locator('p');await center(para);const geometry=await textGeometry(para),item=D.tabletStartup.steps[i];assert.equal(geometry.text,(item.text||item)[lang]);assert(geometry.lines.length>0&&geometry.lines.every(line=>line.exposed));await para.screenshot({path:join(output,`${width}-${lang}-startup-${i}.png`)});report.startup.push({width,lang,index:i,geometry});}
   const expected=[...D.tabletGuide.steps,...D.tabletWorkshop.steps];const steps=page.locator('.tablet-step');assert.equal(await steps.count(),13);
   await page.screenshot({path:join(output,`${width}-${lang}-initial.png`)});
   for(let i=0;i<13;i++){
@@ -59,7 +63,7 @@ try{
    report.titles.push({width,lang,index:i,geometry,...box,exposed:geometry.lines.length>0&&geometry.lines.every(r=>r.exposed),reserved:box.paddingEnd>=52&&geometry.right<=box.iconLeft-8});
    await summary.screenshot({path:join(output,`${width}-${lang}-title-${i}.png`)});
    await summary.click();assert.equal(await step.getAttribute('open'),'');const note=step.locator('.tablet-step-body > p');await center(note);
-   assert.equal((await note.innerText()).trim(),expected[i].note[lang]);const noteGeometry=await textGeometry(note);const image=step.locator('img');await image.evaluate(el=>el.decode());assert(await image.evaluate(el=>el.naturalWidth>0));
+   assert.equal((await note.innerText()).trim(),expected[i].note[lang]);const noteGeometry=await textGeometry(note);assert(noteGeometry.lines.length>0&&noteGeometry.lines.every(line=>line.exposed)&&noteGeometry.left>=0&&noteGeometry.right<=noteGeometry.width&&noteGeometry.rootScroll<=noteGeometry.width);const image=step.locator('img');await image.evaluate(el=>el.decode());assert(await image.evaluate(el=>el.naturalWidth>0));
    report.notes.push({width,lang,index:i,image:await image.getAttribute('src'),geometry:noteGeometry});
    await note.screenshot({path:join(output,`${width}-${lang}-note-${i}.png`)});
    if(width===320&&lang==='en'&&i<8)await step.screenshot({path:join(output,`original-photo-${i}.png`)});
@@ -68,7 +72,7 @@ try{
   assert.deepEqual(await page.evaluate(()=>Object.fromEntries(Object.keys(localStorage).filter(k=>k.startsWith('primserv:training-test:')).map(k=>[k,localStorage.getItem(k)]))),saved);
   await ctx.tracing.stop({path:join(output,`${width}-${lang}-trace.zip`)});await ctx.close();
  }
- assert.equal(report.titles.length,52);assert.equal(report.notes.length,52);assert.deepEqual(report.errors,[]);assert.deepEqual(report.blocked,[]);
+ assert.equal(report.titles.length,234);assert.equal(report.notes.length,234);assert.equal(report.startup.length,54);assert.deepEqual(report.errors,[]);assert.deepEqual(report.blocked,[]);
  report.diagnosticCompleted=true;report.unreserved=report.titles.filter(r=>!r.reserved).length;report.occluded=report.titles.filter(r=>!r.exposed).length;
  assert.equal(report.unreserved,0,'Every title reserves space for its disclosure control');
  assert.equal(report.occluded,0,'Every title is visible at phone and desktop widths');

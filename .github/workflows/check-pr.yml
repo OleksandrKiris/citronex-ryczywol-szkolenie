@@ -19,12 +19,12 @@ jobs:
       - run: node tools/audit-project.js
       - run: node tools/audit-buttons.js
       - run: node tools/audit-map-links.js
-      - run: node --test tools/primserv-navigation.test.mjs tools/instruction-update.test.mjs tools/quiz-progress.test.mjs tools/three-d-language-link.test.mjs
+      - run: node --test tools/primserv-navigation.test.mjs tools/instruction-update.test.mjs tools/quiz-progress.test.mjs tools/three-d-language-link.test.mjs tools/source-lineage.test.mjs
       - name: Install pinned acceptance browser (CI only)
         run: |
           npm install --prefix "$RUNNER_TEMP/primserv-browser" --no-save --no-package-lock playwright@1.56.1
           "$RUNNER_TEMP/primserv-browser/node_modules/.bin/playwright" install --with-deps chromium
-      - name: Exact-main tablet screen diagnostic
+      - name: All-language tablet and startup screen acceptance
         env:
           PLAYWRIGHT_PACKAGE: ${{ runner.temp }}/primserv-browser/node_modules/playwright
           BROWSER_REPORT: ${{ runner.temp }}/primserv-browser-report/tablet
