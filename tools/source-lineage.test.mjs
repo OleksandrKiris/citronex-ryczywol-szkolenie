@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {historicalShell,chooseUpgrade,OLD_TABLET} from '../.github/browser/source-lineage.mjs';
+const base='0215794730a12eb79768ca0ee8359e9f6e2efbd4';
+const shell=(worker,body='same')=>new Map([['sw.js',Buffer.from(worker)],['tablet.html',Buffer.from(body)]]);
+test('quality-only source uses a labelled historical transition and retains fresh event base',()=>{const current=shell('new'),previous=shell('new'),old=shell('old');const r=chooseUpgrade(base,current,previous,old);assert.equal(r.ref,OLD_TABLET);assert.equal(r.eventBase,base);assert.equal(r.eventBaseRuntimeEqual,true);assert.equal(r.files,old);});
+test('runtime change uses exact fresh base instead of an invented historical replacement',()=>{const current=shell('new','changed'),previous=shell('old'),old=shell('older');const r=chooseUpgrade(base,current,previous,old);assert.equal(r.ref,base);assert.equal(r.eventBaseRuntimeEqual,false);assert.equal(r.files,previous);});
+test('a newly added runtime file also requires a fresh worker transition',()=>{const current=shell('new');current.set('style.css',Buffer.from('added'));const previous=shell('old');assert.equal(chooseUpgrade(base,current,previous,shell('older')).files,previous);});
+test('changed runtime with unchanged worker is rejected',()=>assert.throws(()=>chooseUpgrade(base,shell('same','changed'),shell('same'),shell('older')),/different original workers/));
+test('historical equivalent worker cannot be called an upgrade',()=>assert.throws(()=>chooseUpgrade(base,shell('same'),shell('same'),shell('same')),/different original workers/));
+test('missing original workers cannot silently pass',()=>assert.throws(()=>chooseUpgrade(base,new Map(),shell('same'),shell('old')),/workers required/));
+test('fresh event base cannot be substituted for a pinned historical failure',()=>assert.throws(()=>historicalShell(base,[],()=>Buffer.from('ignored')),/pinned historical source/));
+test('corrupt historical bytes fail before the browser starts',()=>assert.throws(()=>historicalShell(OLD_TABLET,[],()=>Buffer.from('corrupt')),/Pinned historical source/));

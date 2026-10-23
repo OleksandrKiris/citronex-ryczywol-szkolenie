@@ -1,5 +1,6 @@
 // User-authorized Actions browser acceptance, never a local browser substitute.
 import assert from 'node:assert/strict';
+import {historicalShell,chooseUpgrade,OLD_3D,OLD_TABLET,HISTORY} from './source-lineage.mjs';
 import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
@@ -22,26 +23,24 @@ const report = { head: process.env.TESTED_HEAD, base: process.env.TESTED_BASE,
     'First installation requires HTTP access; file:// and never-opened-device offline are not promised.'] };
 assert.equal(report.checkout,report.head,'Run exact PR head');
 report.threeD=[];report.aliases=[];report.denied3D=[];
-const current = new Map(), previous = new Map();
-const files = git('ls-tree', '-r', '--name-only', report.head).toString().trim().split('\n').filter(p =>
-  /^(?:[^/]+\.html|sw\.js|manifest\.webmanifest|assets\/(?:js|css)\/[^/]+\.(?:js|css)|assets\/primserv-logo\.svg)$/.test(p));
-for (const file of files) {
-  const bytes = await readFile(file);
-  assert.equal(hash(bytes), hash(git('show', `${report.head}:${file}`)), `Exact head: ${file}`);
-  current.set(file, bytes); previous.set(file, git('show', `${report.base}:${file}`));
-  report.files[file] = { bytes: bytes.length, sha256: hash(bytes) };
-}
+const shellPaths=ref=>git('ls-tree','-r','--name-only',ref).toString().trim().split('\n').filter(p=>/^(?:[^/]+\.html|sw\.js|manifest\.webmanifest|assets\/(?:js|css)\/[^/]+\.(?:js|css)|assets\/primserv-logo\.svg)$/.test(p));
+const current=new Map(),previous=new Map();
+for(const file of shellPaths(report.head)){const bytes=await readFile(file);assert.equal(hash(bytes),hash(git('show',`${report.head}:${file}`)));current.set(file,bytes);report.files[file]={bytes:bytes.length,sha256:hash(bytes)};}
+for(const file of shellPaths(report.base))previous.set(file,git('show',`${report.base}:${file}`));
+const readHistorical=(ref,path)=>git('show',`${ref}:${path}`);
+const old3D=historicalShell(OLD_3D,shellPaths(OLD_3D),readHistorical),oldTablet=historicalShell(OLD_TABLET,shellPaths(OLD_TABLET),readHistorical);
+const upgrade=chooseUpgrade(report.base,current,previous,oldTablet);report.upgradeLineage={ref:upgrade.ref,eventBase:report.base,eventBaseRuntimeEqual:upgrade.eventBaseRuntimeEqual,kind:upgrade.kind};report.pinnedSources=HISTORY;
 const workerText=current.get('sw.js').toString();
 const headCacheName=workerText.match(/const CACHE_PREFIX = "([^"]+)"/)[1]+workerText.match(/const CACHE_NAME = CACHE_PREFIX \+ "([^"]+)"/)[1];
 const appVersion=current.get('index.html').toString().match(/training-app\.js\?v=([^"&]+)/)[1];
-let oldVersion = false;
+let oldVersion = false, historical3D = false;
 const prefix = '/citronex-ryczywol-szkolenie/';
 const types = { html: 'text/html', js: 'application/javascript', css: 'text/css', svg: 'image/svg+xml', webmanifest: 'application/manifest+json' };
 const server = createServer((req, res) => {
   const url = new URL(req.url, 'http://localhost');
-  report.requests.push({ path: url.pathname, method: req.method, version: oldVersion ? 'base' : 'head' });
+  report.requests.push({ path: url.pathname, method: req.method, version: historical3D ? OLD_3D : oldVersion ? upgrade.ref : report.head });
   const file = url.pathname.startsWith(prefix) ? url.pathname.slice(prefix.length) || 'index.html' : '';
-  const bytes = (oldVersion ? previous : current).get(file);
+  const bytes = (historical3D ? old3D : oldVersion ? upgrade.files : current).get(file);
   if (!['GET', 'HEAD'].includes(req.method) || !bytes) { res.writeHead(404).end(); return; }
   res.writeHead(200, { 'Content-Type': types[file.split('.').at(-1)], 'Content-Length': bytes.length, 'Cache-Control': 'no-store' });
   res.end(req.method === 'HEAD' ? undefined : bytes);
@@ -114,7 +113,8 @@ async function language(page, lang) {
   await retained(page); assert.equal(await page.locator('html').getAttribute('lang'), lang === 'ua' ? 'uk' : lang);
 }
 async function exactCachedShell(page) {
-  const files=[...current].filter(([file])=>file.endsWith('.html')||file==='assets/js/training-app.js').map(([file,bytes])=>({url:file+(file==='assets/js/training-app.js'?'?v='+appVersion:''),bytes:bytes.length,hash:hash(bytes)}));
+  const css=new Map([...current.get('index.html').toString().matchAll(/href="(assets\/css\/[^"]+)"/g)].map(m=>[m[1].split('?')[0],m[1]]));
+  const files=[...current].filter(([file])=>file.endsWith('.html')||file==='assets/js/training-app.js'||css.has(file)).map(([file,bytes])=>({url:css.get(file)||file+(file==='assets/js/training-app.js'?'?v='+appVersion:''),bytes:bytes.length,hash:hash(bytes)}));
   await page.waitForFunction(async expected=>{
     if(!(await caches.keys()).includes(expected.name))return false;
     const cache=await caches.open(expected.name);
@@ -145,6 +145,10 @@ async function handoff(page,requested,entry,rows,width) {
 try {
   browser = await chromium.launch({ headless: true });
   report.browser = `Chromium ${browser.version()} / Playwright 1.56.1`;
+  report.historical3D=[];historical3D=true;
+  for(const width of [320,1280]){const {ctx,page}=await context(width);
+    for(const entry of ['index.html','szklarnia.html']){await page.goto(`${base}${entry}?lang=ua`);await page.locator('h1').waitFor();const href=await page.locator('a[href*="citronex-szklarnia-3d/"]').getAttribute('href');assert.equal(href,'https://oleksandrkiris.github.io/citronex-szklarnia-3d/','Pinned old3D source actually loses language');await shot(page,`historical3D-${width}-${entry}`);report.historical3D.push({width,entry,href,ref:OLD_3D});}await closeContext(ctx);
+  }historical3D=false;
   for (const width of [1280, 320]) {
     const { ctx, page } = await context(width);
     await page.goto(`${base}slownik.html?lang=ua&from=fixture#terms`); await ready(page); await controlled(page);
@@ -240,7 +244,7 @@ try {
   },headCacheName);
   assert.ok(report.cache.some(row=>row.url.endsWith('assets/js/training-app.js?v='+appVersion)));
   assert.ok(report.cache.length>=15);
-  report.results.push({ scenario: 'actual base → head SW, old3Dlanguage omission reproduced on both entries, exact15 current shell, glossary retained, legacy quiz/unrelated storage/cache preserved, offline3Dhandoff and quiz resume', pass: true });
+  report.results.push({ scenario: 'explicit upgrade source → head SW, separate pinned old3D regression, exact17 current shell, glossary retained, legacy quiz/unrelated storage/cache preserved, offline3Dhandoff and quiz resume', pass: true });
   await offline(ctx,false);await closeContext(ctx);
   for(const width of [1280,320]){
     const {ctx,page}=await context(width);
@@ -254,7 +258,7 @@ try {
     report.results.push({scenario:'3D handoff with denied storage/history',pass:true});await closeContext(ctx);
   }
   assert.equal(report.threeD.length,36);assert.equal(report.aliases.length,8);assert.equal(report.denied3D.length,2);
-  assert.equal(report.base3D.length,2);assert.equal(report.exactCachedShellFiles,15);assert.equal(report.results.length,8);
+  assert.equal(report.historical3D.length,4);assert.equal(report.base3D.length,2);assert.equal(report.exactCachedShellFiles,17);assert.equal(report.results.length,8);
   assert.deepEqual(report.errors, []); assert.deepEqual(report.blocked, []);
   report.pass = true;
 } catch (err) {
