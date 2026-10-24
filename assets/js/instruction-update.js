@@ -275,6 +275,9 @@
     "Check the connection after restarting. If the problem remains, replace the reader and report the faulty device to the foreman for repair.",
     "Після перезапуску перевірте з’єднання. Якщо проблема залишилася, замініть рідер і повідомте бригадира про несправний пристрій для ремонту.");
 
+  // The original-photo reminders must retain the same final check as the full procedure.
+  tabs.restart.imageSteps[6] = tabs.restart.steps[6];
+
   D.readerTabs.push({
     id: "prepare",
     title: source("Przed pracą", "Before work", "Перед роботою"),
