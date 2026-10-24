@@ -44,3 +44,32 @@ jobs:
           name: glossary-browser-${{ github.event.pull_request.head.sha }}
           path: ${{ runner.temp }}/primserv-browser-report
           retention-days: 7
+
+  restart-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install pinned photo acceptance browser (CI only)
+        run: |
+          npm install --prefix "$RUNNER_TEMP/primserv-photos" --no-save --no-package-lock playwright@1.56.1
+          "$RUNNER_TEMP/primserv-photos/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Restart original photo panel and real quiz return
+        env:
+          PLAYWRIGHT_PACKAGE: ${{ runner.temp }}/primserv-photos/node_modules/playwright
+          BROWSER_REPORT: ${{ runner.temp }}/primserv-photo-report
+          TESTED_HEAD: ${{ github.event.pull_request.head.sha }}
+          TESTED_BASE: ${{ github.event.pull_request.base.sha }}
+        run: node .github/browser/restart-photos.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: restart-photos-${{ github.event.pull_request.head.sha }}
+          path: ${{ runner.temp }}/primserv-photo-report
+          retention-days: 7
